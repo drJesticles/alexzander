@@ -1,0 +1,19 @@
+/* DaisyUI cupcake: pill everything, borderless rounded cards with shadow, bold headings, readable link color. */
+a{color:var(--daisy-link)}
+.wf-eyebrow{color:var(--daisy-link);font-weight:700;letter-spacing:.08em}
+h1,h2,h3,h4{font-weight:700}
+.wf-btn{min-height:3rem;text-transform:none}
+.wf-btn--sm{min-height:2rem}
+.wf-btn--lg{min-height:4rem}
+.wf-btn--outline{border-color:currentColor;color:var(--daisy-link)}
+.wf-btn--outline:hover{background:var(--wf-primary);color:var(--wf-on-primary);border-color:var(--wf-primary)}
+.wf-btn--ghost{color:var(--wf-text)}
+.wf-btn--ghost:hover{background:var(--wf-surface-2)}
+.wf-card{border-color:transparent;background:var(--wf-bg)}
+.wf-section--surface .wf-card{background:var(--wf-bg)}
+.wf-card--flat{background:var(--wf-surface)}
+.wf-badge{font-weight:600;padding:.3rem .75rem}
+.wf-input,.wf-select{min-height:3rem;padding:.75rem 1.25rem;border-color:var(--wf-border)}
+.wf-textarea{border-radius:1rem;padding:.75rem 1.25rem}
+.wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:2px solid var(--daisy-link);outline-offset:2px;border-color:var(--wf-border)}
+:focus-visible{outline:2px solid var(--daisy-link);outline-offset:2px}

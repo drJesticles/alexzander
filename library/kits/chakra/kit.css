@@ -1,0 +1,17 @@
+/* Chakra UI: 40px semibold buttons, teal.600 links, uppercase badges, blue.500 focus ring. */
+a{color:var(--chakra-link)}
+.wf-eyebrow{color:var(--chakra-link);font-weight:700}
+h1,h2,h3,h4{letter-spacing:-0.025em}
+.wf-btn{min-height:2.5rem;font-size:1rem}
+.wf-btn--sm{min-height:2rem}
+.wf-btn--lg{min-height:3rem}
+.wf-btn--outline{border-color:var(--wf-primary);color:var(--chakra-link)}
+.wf-btn--outline:hover{background:var(--wf-surface-2)}
+.wf-btn--ghost{color:var(--chakra-link)}
+.wf-card{background:var(--wf-bg);border-color:var(--wf-border)}
+.wf-badge{border-radius:var(--wf-radius-sm);text-transform:uppercase;font-weight:700;letter-spacing:.02em;padding:.15rem .4rem}
+.wf-label{font-weight:500}
+.wf-input,.wf-select,.wf-textarea{min-height:2.5rem;padding:.5rem 1rem}
+.wf-input:hover,.wf-select:hover,.wf-textarea:hover{border-color:var(--wf-text-muted)}
+.wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-color:var(--chakra-focus);box-shadow:0 0 0 1px var(--chakra-focus)}
+:focus-visible{outline:0;box-shadow:0 0 0 3px rgba(66,153,225,.6);border-radius:var(--wf-radius-md)}

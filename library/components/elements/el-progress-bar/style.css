@@ -1,0 +1,9 @@
+.c-el-progress-bar{padding:var(--wf-space-4);display:grid;gap:var(--wf-space-4);max-width:36rem}
+.c-el-progress-bar__item{--c-el-progress-bar-color:var(--wf-primary)}
+.c-el-progress-bar__item--accent{--c-el-progress-bar-color:var(--wf-accent)}
+.c-el-progress-bar__item--success{--c-el-progress-bar-color:var(--wf-success)}
+.c-el-progress-bar__meta{display:flex;justify-content:space-between;gap:var(--wf-space-3);font-size:var(--wf-text-sm);margin-bottom:var(--wf-space-2)}
+.c-el-progress-bar__label{font-weight:var(--wf-weight-medium)}
+.c-el-progress-bar__value{color:var(--wf-text-muted);font-variant-numeric:tabular-nums}
+.c-el-progress-bar__track{height:.6rem;border-radius:var(--wf-radius-full);background:var(--wf-surface-2);overflow:hidden}
+.c-el-progress-bar__fill{display:block;height:100%;width:var(--c-el-progress-bar-value,0%);border-radius:inherit;background:var(--c-el-progress-bar-color);transition:width var(--wf-dur-slow) var(--wf-ease)}

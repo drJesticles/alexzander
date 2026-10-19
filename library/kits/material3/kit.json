@@ -1,0 +1,12 @@
+{
+  "slug": "material3",
+  "name": "Material Design 3",
+  "family": "big-four",
+  "description": "Google's Material You system: baseline tonal palette, surface tints instead of heavy shadows, pill buttons, large radii, Roboto.",
+  "source": "https://m3.material.io",
+  "fonts": [{ "family": "Roboto", "weights": [400, 500, 700] }],
+  "dark": true,
+  "swatch": ["#6750A4", "#EADDFF", "#FFFBFE", "#1D1B20"],
+  "tags": ["google", "android", "material", "rounded", "tonal"],
+  "version": 1
+}

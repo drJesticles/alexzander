@@ -1,0 +1,11 @@
+{
+  "slug": "blog-cards-grid",
+  "name": "Blog: three post cards",
+  "category": "blog",
+  "description": "Section heading with a View all link, then three post cards: image, category badge, title, excerpt, date and read time.",
+  "tags": ["blog", "cards", "posts", "grid", "articles"],
+  "previewHeight": 720,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

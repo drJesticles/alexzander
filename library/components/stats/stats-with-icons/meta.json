@@ -1,0 +1,11 @@
+{
+  "slug": "stats-with-icons",
+  "name": "Stats: with icons",
+  "category": "stats",
+  "description": "Four stat tiles, each with a tinted icon badge, a big number and a one-line explanation. Two-by-two on tablet, single column on phone.",
+  "tags": ["stats", "icons", "tiles", "four-column", "proof"],
+  "previewHeight": 460,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

@@ -1,0 +1,42 @@
+<section class="wf-section wf-section--surface c-form-estimate-calculator" data-wf-component="form-estimate-calculator">
+  <div class="wf-container c-form-estimate-calculator__grid">
+    <div class="c-form-estimate-calculator__copy">
+      <span class="wf-eyebrow">Ballpark in 10 seconds</span>
+      <h2>Estimate your project.</h2>
+      <p class="wf-lead">Pick a service and enter the square footage. The number updates as you type. It is a starting point, not a contract; <span data-wf-field="business.name">AAA Home Specialists</span> confirms every price on site before work begins.</p>
+      <ul class="c-form-estimate-calculator__facts">
+        <li>Materials and labor included in the per-foot rate</li>
+        <li>Rounded up to the nearest $10, no hidden fees</li>
+        <li>Minimum visit charge applies on small jobs</li>
+      </ul>
+    </div>
+    <form class="c-form-estimate-calculator__form" data-wf-form="estimate-calculator" action="#" method="post">
+      <div class="wf-field">
+        <label class="wf-label" for="form-estimate-calculator-service">Service</label>
+        <select class="wf-select" id="form-estimate-calculator-service" name="service" data-wf-rate>
+          <option value="interior-paint" data-rate="3.25">Interior painting, $3.25 per sq ft</option>
+          <option value="lvp-floor" data-rate="6.50">Luxury vinyl plank flooring, $6.50 per sq ft</option>
+          <option value="tile-floor" data-rate="12.00">Tile flooring, $12.00 per sq ft</option>
+          <option value="deck-stain" data-rate="2.40">Deck cleaning and stain, $2.40 per sq ft</option>
+          <option value="drywall" data-rate="4.75">Drywall hang and finish, $4.75 per sq ft</option>
+        </select>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-estimate-calculator-sqft">Area in square feet</label>
+        <input class="wf-input" id="form-estimate-calculator-sqft" name="sqft" type="number" inputmode="numeric" min="0" step="1" value="400" data-wf-sqft>
+        <p class="c-form-estimate-calculator__hint">Length times width of the room or surface. A 12 by 14 bedroom is 168 sq ft.</p>
+      </div>
+      <div class="c-form-estimate-calculator__total" aria-live="polite">
+        <span class="c-form-estimate-calculator__total-label">Estimated total</span>
+        <span class="c-form-estimate-calculator__total-value" data-wf-total>$1,300</span>
+        <span class="c-form-estimate-calculator__total-detail" data-wf-breakdown>400 sq ft at $3.25</span>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-estimate-calculator-phone">Phone or email for a firm quote</label>
+        <input class="wf-input" id="form-estimate-calculator-phone" name="contact" type="text" autocomplete="tel" placeholder="(479) 555-0123">
+      </div>
+      <button class="wf-btn wf-btn--primary wf-btn--lg wf-btn--block" type="submit">Lock in a firm quote</button>
+      <p class="c-form-estimate-calculator__hint wf-center">Or call <a href="tel:+14795550100" data-wf-field="business.phone">(479) 555-0100</a> and we will run the numbers with you.</p>
+    </form>
+  </div>
+</section>

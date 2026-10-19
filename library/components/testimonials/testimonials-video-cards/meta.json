@@ -1,0 +1,11 @@
+{
+  "slug": "testimonials-video-cards",
+  "name": "Testimonials: video cards",
+  "category": "testimonials",
+  "description": "Three video-testimonial cards: poster image with play button, duration badge, one-line pull quote, name and town. Links point to the video page.",
+  "tags": ["testimonials", "video", "cards", "play", "three-column"],
+  "previewHeight": 620,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

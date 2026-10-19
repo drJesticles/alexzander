@@ -1,0 +1,11 @@
+{
+  "slug": "form-estimate-calculator",
+  "name": "Form: instant estimate calculator",
+  "category": "forms",
+  "description": "Square footage times a per-foot rate from a service select, with a live total rounded up to the nearest $10. Submit requests a firm quote.",
+  "tags": ["form", "calculator", "estimate", "pricing", "interactive"],
+  "previewHeight": 720,
+  "hasScript": true,
+  "fields": ["business.name", "business.phone"],
+  "version": 1
+}

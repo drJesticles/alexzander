@@ -1,0 +1,21 @@
+/* Material 3: tonal surfaces, pill buttons, regular-weight display type, outlined text fields. */
+h1,h2{font-weight:400}
+h3,h4{font-weight:500}
+.wf-eyebrow{text-transform:none;letter-spacing:.01em;font-weight:500}
+.wf-btn{font-size:.875rem;letter-spacing:.01em;min-height:2.5rem}
+.wf-btn--secondary{background:var(--m3-secondary-container);color:var(--m3-on-secondary-container)}
+.wf-btn--secondary:hover{box-shadow:var(--wf-shadow-sm)}
+.wf-btn--accent{background:var(--m3-primary-container);color:var(--m3-on-primary-container)}
+.wf-btn--outline{border-color:var(--m3-outline);color:var(--wf-primary)}
+.wf-btn--outline:hover{background:var(--wf-surface-2)}
+.wf-btn--ghost{color:var(--wf-primary)}
+.wf-btn--primary:hover{box-shadow:var(--wf-shadow-sm)}
+.wf-card{border-color:transparent;background:var(--wf-surface)}
+.wf-card--raised{background:var(--m3-surface-container-high);box-shadow:none}
+.wf-section--surface{background:var(--wf-surface)}
+.wf-badge{border-radius:.5rem;font-weight:500}
+.wf-badge--primary{background:var(--m3-primary-container);color:var(--m3-on-primary-container)}
+.wf-input,.wf-select,.wf-textarea{border-color:var(--m3-outline);padding:.9rem 1rem}
+.wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border:2px solid var(--wf-primary);padding:calc(.9rem - 1px) calc(1rem - 1px)}
+.wf-label{color:var(--wf-text-muted);font-size:.75rem}
+:focus-visible{outline:2px solid var(--wf-primary);outline-offset:2px}

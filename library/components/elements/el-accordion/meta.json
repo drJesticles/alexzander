@@ -1,0 +1,11 @@
+{
+  "slug": "el-accordion",
+  "name": "Element: accordion",
+  "category": "elements",
+  "description": "Stack of collapsible panels; opening one closes the others. Headers are real buttons with aria-expanded; arrow keys move between headers.",
+  "tags": ["element", "accordion", "collapse", "faq"],
+  "previewHeight": 300,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

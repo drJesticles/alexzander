@@ -1,0 +1,11 @@
+{
+  "slug": "form-login-signup",
+  "name": "Form: login / sign up tabs",
+  "category": "forms",
+  "description": "Centered card with two tabs: sign in (email, password, remember me) and create account (name, email, password, consent). Tabs switch panels; arrow keys move between tabs.",
+  "tags": ["form", "login", "signup", "account", "tabs"],
+  "previewHeight": 680,
+  "hasScript": true,
+  "fields": ["business.name"],
+  "version": 1
+}

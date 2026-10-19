@@ -1,0 +1,12 @@
+{
+  "slug": "apple-hig",
+  "name": "Apple HIG",
+  "family": "big-four",
+  "description": "Apple Human Interface Guidelines on the web: SF-like system stack, system blue, hairline borders, tight large headings, pill buttons.",
+  "source": "https://developer.apple.com/design/human-interface-guidelines",
+  "fonts": [{ "family": "Inter", "weights": [400, 500, 600, 700] }],
+  "dark": true,
+  "swatch": ["#0071E3", "#1D1D1F", "#F5F5F7", "#0A84FF"],
+  "tags": ["apple", "ios", "macos", "clean", "minimal"],
+  "version": 1
+}

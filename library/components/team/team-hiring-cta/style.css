@@ -1,0 +1,16 @@
+.c-team-hiring-cta__grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--wf-space-12);align-items:center}
+.c-team-hiring-cta__eyebrow{color:var(--wf-accent)}
+.c-team-hiring-cta h2{color:inherit}
+.c-team-hiring-cta__lead{font-size:var(--wf-text-lg);opacity:.85;max-width:50ch}
+.c-team-hiring-cta__perks{list-style:none;padding:0;margin:var(--wf-space-6) 0 0;display:grid;gap:var(--wf-space-3)}
+.c-team-hiring-cta__perks li{display:flex;align-items:center;gap:var(--wf-space-3)}
+.c-team-hiring-cta__perks .wf-icon{color:var(--wf-accent)}
+.c-team-hiring-cta__roles{display:flex;flex-direction:column;gap:var(--wf-space-4)}
+.c-team-hiring-cta__role{padding:var(--wf-space-5) var(--wf-space-6);border-radius:var(--wf-radius-lg);background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15)}
+.c-team-hiring-cta__role-title{color:inherit;font-size:var(--wf-text-lg);margin-bottom:var(--wf-space-1)}
+.c-team-hiring-cta__role-meta{font-size:var(--wf-text-sm);color:var(--wf-accent);margin-bottom:var(--wf-space-2);font-weight:var(--wf-weight-medium)}
+.c-team-hiring-cta__role-desc{margin:0;font-size:var(--wf-text-sm);opacity:.85}
+.c-team-hiring-cta__roles .wf-btn{align-self:flex-start;margin-top:var(--wf-space-2)}
+.c-team-hiring-cta__fine{margin:0;font-size:var(--wf-text-sm);opacity:.8}
+.c-team-hiring-cta__fine a{color:inherit;text-decoration:underline}
+@media (max-width:900px){.c-team-hiring-cta__grid{grid-template-columns:1fr;gap:var(--wf-space-8)}}

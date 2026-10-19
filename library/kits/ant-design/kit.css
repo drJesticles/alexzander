@@ -1,0 +1,18 @@
+/* Ant Design: 32px default buttons, white default (outline) button, light card borders, 2px soft focus halo. */
+h1,h2,h3,h4{font-weight:600}
+.wf-eyebrow{text-transform:none;letter-spacing:0;font-weight:500}
+.wf-btn{font-size:.875rem;line-height:1.5714;min-height:2rem}
+.wf-btn--lg{min-height:2.5rem;font-size:1rem}
+.wf-btn--sm{min-height:1.5rem}
+.wf-btn--primary{box-shadow:0 2px 0 rgba(5,145,255,.1)}
+.wf-btn--outline{background:var(--wf-bg);border-color:var(--wf-border);color:var(--wf-text);box-shadow:0 2px 0 rgba(0,0,0,.02)}
+.wf-btn--outline:hover{border-color:var(--wf-primary-hover);color:var(--wf-primary-hover)}
+.wf-btn--ghost{color:var(--wf-primary)}
+.wf-btn:focus-visible{outline:0;box-shadow:0 0 0 4px var(--ant-focus-ring)}
+.wf-card{background:var(--wf-bg);border-color:var(--ant-border-light)}
+.wf-card--raised{box-shadow:var(--wf-shadow-md)}
+.wf-badge{border-radius:var(--wf-radius-sm);border:1px solid var(--wf-border);background:var(--wf-surface);font-weight:400;padding:.1rem .45rem}
+.wf-badge--primary,.wf-badge--accent{border-color:transparent}
+.wf-input,.wf-select,.wf-textarea{padding:.3rem .7rem;line-height:1.5714;font-size:.875rem}
+.wf-input:hover,.wf-select:hover,.wf-textarea:hover{border-color:var(--wf-primary-hover)}
+.wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-color:var(--wf-primary);box-shadow:0 0 0 2px var(--ant-focus-ring)}

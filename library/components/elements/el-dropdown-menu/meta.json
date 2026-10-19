@@ -1,0 +1,11 @@
+{
+  "slug": "el-dropdown-menu",
+  "name": "Element: dropdown menu",
+  "category": "elements",
+  "description": "Button that toggles a menu of links. Closes on outside click or Escape; arrow keys move through items, Home and End jump.",
+  "tags": ["element", "dropdown", "menu", "navigation"],
+  "previewHeight": 280,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

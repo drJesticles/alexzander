@@ -1,0 +1,11 @@
+{
+  "slug": "commerce-category-tiles",
+  "name": "Commerce: category tiles",
+  "category": "commerce",
+  "description": "Four linked image tiles with a dark gradient and the category name and item count in the corner. Two across on tablet, one on phones.",
+  "tags": ["commerce", "categories", "tiles", "collections", "images"],
+  "previewHeight": 560,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

@@ -1,0 +1,19 @@
+.c-media-video-embed__head{margin-bottom:var(--wf-space-8)}
+.c-media-video-embed__lead{margin-inline:auto}
+.c-media-video-embed__frame{position:relative;max-width:60rem;margin-inline:auto;aspect-ratio:16/9;border-radius:var(--wf-radius-xl);overflow:hidden;background:var(--wf-secondary);box-shadow:var(--wf-shadow-lg)}
+.c-media-video-embed__frame iframe,.c-media-video-embed__frame video{position:absolute;inset:0;width:100%;height:100%;border:0}
+.c-media-video-embed__poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.c-media-video-embed__play{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--wf-space-3);color:rgba(255,255,255,.95);text-decoration:none;background:rgba(0,0,0,.25);transition:background var(--wf-dur-base) var(--wf-ease)}
+.c-media-video-embed__play:hover{background:rgba(0,0,0,.4);text-decoration:none}
+.c-media-video-embed__play:focus-visible{outline:3px solid var(--wf-primary);outline-offset:-6px}
+.c-media-video-embed__play-btn{display:grid;place-items:center;width:5rem;height:5rem;border-radius:var(--wf-radius-full);background:var(--wf-primary);color:var(--wf-on-primary);box-shadow:var(--wf-shadow-lg);transition:transform var(--wf-dur-base) var(--wf-ease)}
+.c-media-video-embed__play-btn .wf-icon{width:2.25rem;height:2.25rem;margin-left:.2rem}
+.c-media-video-embed__play:hover .c-media-video-embed__play-btn{transform:scale(1.06)}
+.c-media-video-embed__play-text{font-weight:var(--wf-weight-medium);display:flex;gap:var(--wf-space-2);align-items:center}
+.c-media-video-embed__duration{padding:.1rem .5rem;border-radius:var(--wf-radius-sm);background:rgba(0,0,0,.55);font-size:var(--wf-text-xs);font-variant-numeric:tabular-nums}
+.c-media-video-embed__caption{font-size:var(--wf-text-sm);margin:var(--wf-space-4) 0 0}
+@media (max-width:600px){
+  .c-media-video-embed__frame{border-radius:var(--wf-radius-lg)}
+  .c-media-video-embed__play-btn{width:3.75rem;height:3.75rem}
+  .c-media-video-embed__play-btn .wf-icon{width:1.75rem;height:1.75rem}
+}

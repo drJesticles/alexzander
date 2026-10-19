@@ -1,0 +1,11 @@
+{
+  "slug": "media-image-text-split",
+  "name": "Media: image and text split",
+  "category": "media",
+  "description": "Large image on the left with a small stat badge overlapping its corner; eyebrow, heading, two paragraphs, a checklist and a button on the right. Image stacks on top on mobile.",
+  "tags": ["media", "image", "text", "two-column", "about"],
+  "previewHeight": 640,
+  "hasScript": false,
+  "fields": ["business.name", "business.year"],
+  "version": 1
+}

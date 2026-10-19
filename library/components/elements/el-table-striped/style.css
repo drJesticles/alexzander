@@ -1,0 +1,11 @@
+.c-el-table-striped{padding:var(--wf-space-4)}
+.c-el-table-striped__scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-radius-md);background:var(--wf-bg)}
+.c-el-table-striped__table{width:100%;min-width:36rem;border-collapse:collapse;font-size:var(--wf-text-sm)}
+.c-el-table-striped__caption{caption-side:bottom;text-align:left;padding:var(--wf-space-3) var(--wf-space-4);color:var(--wf-text-muted);font-size:var(--wf-text-xs)}
+.c-el-table-striped__table th,.c-el-table-striped__table td{padding:var(--wf-space-3) var(--wf-space-4);text-align:left;vertical-align:top}
+.c-el-table-striped__table thead th{background:var(--wf-surface-2);font-weight:var(--wf-weight-medium);font-size:var(--wf-text-xs);letter-spacing:var(--wf-tracking-wide);text-transform:uppercase;color:var(--wf-text-muted);border-bottom:var(--wf-border-w) solid var(--wf-border)}
+.c-el-table-striped__table tbody th{font-weight:var(--wf-weight-medium)}
+.c-el-table-striped__table tbody tr:nth-child(even){background:var(--wf-surface)}
+.c-el-table-striped__table tbody tr:hover{background:color-mix(in srgb, var(--wf-primary) 6%, transparent)}
+.c-el-table-striped__num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.c-el-table-striped__table td.c-el-table-striped__num{font-weight:var(--wf-weight-bold)}

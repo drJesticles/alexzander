@@ -1,0 +1,11 @@
+{
+  "slug": "gallery-video-grid",
+  "name": "Gallery: video thumbnails grid",
+  "category": "gallery",
+  "description": "Three video cards with a poster image, play badge, duration chip and a short description. Each card carries data-wf-embed for the host to wire a video URL; nothing is hotlinked.",
+  "tags": ["gallery", "video", "grid", "thumbnails", "walkthrough"],
+  "previewHeight": 640,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

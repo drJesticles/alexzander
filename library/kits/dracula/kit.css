@@ -1,0 +1,22 @@
+body{background-color:var(--wf-bg)}
+h1,h2{letter-spacing:-.02em}
+.wf-eyebrow{color:var(--wf-accent)}
+.wf-btn--primary:hover{background:var(--wf-primary-hover)}
+.wf-btn--secondary:hover{background:#565a73}
+.wf-btn--accent:hover{background:#ff92d0}
+.wf-btn--outline{border-color:var(--wf-primary);color:var(--wf-primary)}
+.wf-btn--outline:hover{background:rgba(189,147,249,.15)}
+.wf-section--dark .wf-btn--outline,.wf-section--primary .wf-btn--outline{border-color:currentColor;color:currentColor}
+.wf-card{background:var(--wf-surface);border-color:var(--wf-border)}
+.wf-card:hover{border-color:#6272a4}
+.wf-card--raised{background:var(--wf-surface-2)}
+.wf-input,.wf-select,.wf-textarea{background:var(--wf-surface);border-color:var(--wf-border)}
+.wf-input::placeholder,.wf-textarea::placeholder{color:#6272a4}
+.wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-color:var(--wf-primary);box-shadow:0 0 0 3px rgba(189,147,249,.3)}
+.wf-badge{background:var(--wf-surface-2)}
+.wf-section--dark{background:#191a21;color:var(--wf-text)}
+.wf-section--primary{background:linear-gradient(135deg,var(--wf-primary),var(--wf-accent));color:var(--wf-on-primary)}
+a{color:#8be9fd}
+a:hover{color:#ff79c6}
+code,pre{color:#50fa7b;background:var(--wf-surface);border-radius:var(--wf-radius-sm);padding:.1em .35em}
+hr{border-top-color:var(--wf-border)}

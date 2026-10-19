@@ -1,0 +1,11 @@
+{
+  "slug": "el-countdown",
+  "name": "Element: countdown timer",
+  "category": "elements",
+  "description": "Days, hours, minutes and seconds until the date in data-wf-date on the root. Shows an 'ended' message once the date passes.",
+  "tags": ["element", "countdown", "timer", "sale", "event"],
+  "previewHeight": 200,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

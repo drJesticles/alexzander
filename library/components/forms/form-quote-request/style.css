@@ -1,0 +1,23 @@
+.c-form-quote-request__grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:var(--wf-space-12);align-items:start}
+.c-form-quote-request__aside{position:sticky;top:var(--wf-space-6)}
+.c-form-quote-request__steps{padding-left:0;margin:var(--wf-space-6) 0;list-style:none;counter-reset:c-form-quote-request-step;display:grid;gap:var(--wf-space-4)}
+.c-form-quote-request__steps li{position:relative;padding-left:2.75rem;color:var(--wf-text-muted)}
+.c-form-quote-request__steps li strong{color:var(--wf-text);display:block}
+.c-form-quote-request__steps li::before{counter-increment:c-form-quote-request-step;content:counter(c-form-quote-request-step);position:absolute;left:0;top:0;width:2rem;height:2rem;display:grid;place-items:center;border-radius:var(--wf-radius-full);background:var(--wf-primary);color:var(--wf-on-primary);font-weight:var(--wf-weight-bold);font-size:var(--wf-text-sm)}
+.c-form-quote-request__phone{font-weight:var(--wf-weight-medium)}
+.c-form-quote-request__form{background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);box-shadow:var(--wf-card-shadow);padding:var(--wf-space-8)}
+.c-form-quote-request__row{display:grid;grid-template-columns:1fr 1fr;gap:0 var(--wf-space-4)}
+.c-form-quote-request__file{padding:.5rem .9rem;cursor:pointer}
+.c-form-quote-request__file::file-selector-button{font:inherit;font-size:var(--wf-text-sm);font-weight:var(--wf-weight-medium);padding:.4rem .8rem;margin-right:var(--wf-space-3);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-radius-sm);background:var(--wf-surface);color:var(--wf-text);cursor:pointer}
+.c-form-quote-request__hint{font-size:var(--wf-text-sm);color:var(--wf-text-muted);margin:var(--wf-space-2) 0 0}
+.c-form-quote-request__actions{display:flex;flex-wrap:wrap;align-items:center;gap:var(--wf-space-4);margin-top:var(--wf-space-2)}
+.c-form-quote-request__actions .c-form-quote-request__hint{margin:0}
+@media (max-width:900px){
+  .c-form-quote-request__grid{grid-template-columns:1fr;gap:var(--wf-space-8)}
+  .c-form-quote-request__aside{position:static}
+}
+@media (max-width:600px){
+  .c-form-quote-request__row{grid-template-columns:1fr}
+  .c-form-quote-request__form{padding:var(--wf-space-5)}
+  .c-form-quote-request__actions .wf-btn{width:100%}
+}

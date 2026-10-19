@@ -1,0 +1,11 @@
+{
+  "slug": "pricing-toggle-monthly-yearly",
+  "name": "Pricing: monthly / yearly toggle",
+  "category": "pricing",
+  "description": "Three maintenance plans with a segmented monthly/yearly switch. Script swaps amounts from data attributes; yearly shows the savings badge.",
+  "tags": ["pricing", "toggle", "subscription", "plans", "interactive"],
+  "previewHeight": 820,
+  "hasScript": true,
+  "fields": ["business.name"],
+  "version": 1
+}

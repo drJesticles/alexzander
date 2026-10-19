@@ -1,0 +1,11 @@
+{
+  "slug": "features-alternating-rows",
+  "name": "Features: alternating rows",
+  "category": "features",
+  "description": "Three image-and-text rows that alternate sides on desktop (image left, right, left). Each row has an eyebrow, title, paragraph and text link. Images stack above text on mobile.",
+  "tags": ["features", "image", "alternating", "zigzag", "rows"],
+  "previewHeight": 1200,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

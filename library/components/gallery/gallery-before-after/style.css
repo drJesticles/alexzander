@@ -1,0 +1,18 @@
+.c-gallery-before-after__head{margin-bottom:var(--wf-space-8)}
+.c-gallery-before-after__lead{margin-inline:auto}
+.c-gallery-before-after__compare{--c-gallery-before-after-pos:50%;position:relative;max-width:60rem;margin-inline:auto;aspect-ratio:14/9;border-radius:var(--wf-radius-xl);overflow:hidden;box-shadow:var(--wf-shadow-lg);background:var(--wf-surface-2);user-select:none;touch-action:none}
+.c-gallery-before-after__after,.c-gallery-before-after__before{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.c-gallery-before-after__before-wrap{position:absolute;inset:0;clip-path:inset(0 calc(100% - var(--c-gallery-before-after-pos)) 0 0)}
+.c-gallery-before-after__compare.is-dragging{cursor:ew-resize}
+.c-gallery-before-after__label{position:absolute;top:var(--wf-space-4);padding:.3rem .7rem;border-radius:var(--wf-radius-full);font-size:var(--wf-text-xs);font-weight:var(--wf-weight-bold);letter-spacing:var(--wf-tracking-wide);text-transform:uppercase;background:rgba(0,0,0,.6);color:rgba(255,255,255,.95);pointer-events:none}
+.c-gallery-before-after__label--before{left:var(--wf-space-4)}
+.c-gallery-before-after__label--after{right:var(--wf-space-4)}
+.c-gallery-before-after__handle{position:absolute;top:0;bottom:0;left:var(--c-gallery-before-after-pos);width:2px;margin-left:-1px;background:rgba(255,255,255,.95);cursor:ew-resize;display:flex;align-items:center;justify-content:center}
+.c-gallery-before-after__handle:focus-visible{outline:none}
+.c-gallery-before-after__handle:focus-visible .c-gallery-before-after__grip{outline:3px solid var(--wf-primary);outline-offset:3px}
+.c-gallery-before-after__grip{display:grid;place-items:center;width:2.75rem;height:2.75rem;border-radius:var(--wf-radius-full);background:var(--wf-bg);color:var(--wf-text);box-shadow:var(--wf-shadow-md);flex:none}
+.c-gallery-before-after__caption{font-size:var(--wf-text-sm);margin:var(--wf-space-4) 0 0}
+@media (max-width:600px){
+  .c-gallery-before-after__compare{aspect-ratio:4/3;border-radius:var(--wf-radius-lg)}
+  .c-gallery-before-after__caption{display:none}
+}

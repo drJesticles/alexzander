@@ -1,0 +1,11 @@
+{
+  "slug": "el-modal",
+  "name": "Element: modal dialog",
+  "category": "elements",
+  "description": "Trigger button that opens a centered dialog over a dimmed overlay. Focus is trapped inside, Escape or the backdrop closes, focus returns to the trigger.",
+  "tags": ["element", "modal", "dialog", "overlay", "quote-form"],
+  "previewHeight": 160,
+  "hasScript": true,
+  "fields": ["business.name"],
+  "version": 1
+}

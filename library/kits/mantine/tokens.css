@@ -1,0 +1,73 @@
+/* Mantine v7 default theme (blue primary, gray + dark color arrays, radius md 8px, shadow xs/md/lg). */
+:root {
+  --wf-bg: #ffffff;
+  --wf-surface: #f8f9fa;
+  --wf-surface-2: #f1f3f5;
+  --wf-text: #212529;
+  --wf-text-muted: #495057;
+  --wf-primary: #228be6;
+  --wf-on-primary: #ffffff;
+  --wf-primary-hover: #1c7ed6;
+  --wf-secondary: #1a1b1e;
+  --wf-on-secondary: #ffffff;
+  --wf-accent: #fab005;
+  --wf-on-accent: #1a1b1e;
+  --wf-border: #dee2e6;
+  --wf-success: #2b8a3e;
+  --wf-warning: #e67700;
+  --wf-danger: #c92a2a;
+  --wf-info: #1864ab;
+  --wf-overlay: rgba(0, 0, 0, 0.6);
+  --mantine-primary-light: #e7f5ff;
+
+  --wf-font-sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --wf-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --wf-font-display: var(--wf-font-sans);
+  --wf-font-body: var(--wf-font-sans);
+  --wf-leading-tight: 1.2;
+  --wf-leading-normal: 1.55;
+  --wf-weight-bold: 700;
+  --wf-tracking-tight: -0.01em;
+  --wf-tracking-wide: 0.04em;
+
+  --wf-radius-sm: 0.25rem;
+  --wf-radius-md: 0.5rem;
+  --wf-radius-lg: 1rem;
+  --wf-radius-xl: 2rem;
+
+  --wf-shadow-sm: 0 1px 3px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.1);
+  --wf-shadow-md: 0 1px 3px rgba(0,0,0,.05), 0 20px 25px -5px rgba(0,0,0,.05), 0 10px 10px -5px rgba(0,0,0,.04);
+  --wf-shadow-lg: 0 1px 3px rgba(0,0,0,.05), 0 28px 23px -7px rgba(0,0,0,.05), 0 12px 12px -7px rgba(0,0,0,.04);
+
+  --wf-btn-radius: 0.5rem;
+  --wf-btn-py: 0.55rem;
+  --wf-btn-px: 1.125rem;
+  --wf-btn-weight: 600;
+  --wf-card-radius: 0.5rem;
+  --wf-card-shadow: var(--wf-shadow-sm);
+  --wf-input-radius: 0.5rem;
+}
+[data-theme="dark"] {
+  --wf-bg: #1a1b1e;
+  --wf-surface: #25262b;
+  --wf-surface-2: #2c2e33;
+  --wf-text: #c1c2c5;
+  --wf-text-muted: #909296;
+  --wf-primary: #339af0;
+  --wf-on-primary: #0b1a2b;
+  --wf-primary-hover: #4dabf7;
+  --wf-secondary: #c1c2c5;
+  --wf-on-secondary: #1a1b1e;
+  --wf-accent: #fcc419;
+  --wf-on-accent: #1a1b1e;
+  --wf-border: #373a40;
+  --wf-success: #51cf66;
+  --wf-warning: #fcc419;
+  --wf-danger: #ff6b6b;
+  --wf-info: #4dabf7;
+  --wf-overlay: rgba(0, 0, 0, 0.75);
+  --mantine-primary-light: #1c3a5c;
+  --wf-shadow-sm: 0 1px 3px rgba(0,0,0,.4), 0 1px 2px rgba(0,0,0,.5);
+  --wf-shadow-md: 0 1px 3px rgba(0,0,0,.4), 0 20px 25px -5px rgba(0,0,0,.5), 0 10px 10px -5px rgba(0,0,0,.4);
+  --wf-shadow-lg: 0 1px 3px rgba(0,0,0,.4), 0 28px 23px -7px rgba(0,0,0,.6), 0 12px 12px -7px rgba(0,0,0,.5);
+}

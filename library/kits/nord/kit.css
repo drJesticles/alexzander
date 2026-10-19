@@ -1,0 +1,15 @@
+body{background-color:var(--wf-bg)}
+h1,h2{font-weight:600;letter-spacing:-.02em}
+.wf-eyebrow{color:var(--wf-primary);font-weight:500}
+.wf-btn--primary:hover{background:var(--wf-primary-hover)}
+.wf-btn--outline{border-color:var(--wf-primary);color:var(--wf-primary)}
+.wf-btn--outline:hover{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-section--dark .wf-btn--outline,.wf-section--primary .wf-btn--outline{border-color:currentColor;color:currentColor}
+.wf-card{border-color:var(--wf-border);transition:box-shadow var(--wf-dur-base) var(--wf-ease),border-color var(--wf-dur-base) var(--wf-ease)}
+.wf-card:hover{box-shadow:var(--wf-shadow-md);border-color:var(--wf-primary)}
+.wf-input,.wf-select,.wf-textarea{background:var(--wf-surface)}
+.wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-color:var(--wf-primary);box-shadow:0 0 0 3px rgba(94,129,172,.25)}
+.wf-badge{background:var(--wf-surface-2)}
+.wf-badge--accent{background:var(--wf-accent);color:var(--wf-on-accent)}
+.wf-section--primary{background:linear-gradient(135deg,#5e81ac,#81a1c1)}
+a:hover{color:var(--wf-primary-hover)}

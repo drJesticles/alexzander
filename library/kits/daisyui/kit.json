@@ -1,0 +1,12 @@
+{
+  "slug": "daisyui",
+  "name": "DaisyUI Cupcake",
+  "family": "web-dev",
+  "description": "DaisyUI 'cupcake' playfulness: cream base, pastel teal primary with dark text, pink secondary, honey accent, pill buttons, big rounded boxes; Dracula-flavored dark scheme.",
+  "source": "https://daisyui.com/docs/themes/",
+  "fonts": [],
+  "dark": true,
+  "swatch": ["#65C3C8", "#EF9FBC", "#EEAF3A", "#291334"],
+  "tags": ["daisyui", "cupcake", "pastel", "playful", "dracula"],
+  "version": 1
+}

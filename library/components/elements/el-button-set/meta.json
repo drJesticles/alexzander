@@ -1,0 +1,11 @@
+{
+  "slug": "el-button-set",
+  "name": "Element: button palette",
+  "category": "elements",
+  "description": "Every .wf-btn variant (primary, secondary, accent, outline, ghost), the three sizes, and a full-width button, laid out as a palette.",
+  "tags": ["element", "button", "palette", "variants"],
+  "previewHeight": 300,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

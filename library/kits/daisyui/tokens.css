@@ -1,0 +1,72 @@
+/* DaisyUI "cupcake" (light) and "dracula" (dark) themes. rounded-btn 1.9rem, rounded-box 1rem. */
+:root {
+  --wf-bg: #faf7f5;
+  --wf-surface: #efeae6;
+  --wf-surface-2: #e7e2df;
+  --wf-text: #291334;
+  --wf-text-muted: #5c4b63;
+  --wf-primary: #65c3c8;
+  --wf-on-primary: #003133;
+  --wf-primary-hover: #4fb4ba;
+  --wf-secondary: #ef9fbc;
+  --wf-on-secondary: #46142b;
+  --wf-accent: #eeaf3a;
+  --wf-on-accent: #1e1500;
+  --wf-border: #dcd4cf;
+  --wf-success: #0d7d50;
+  --wf-warning: #9a5a00;
+  --wf-danger: #c62839;
+  --wf-info: #0a6fa8;
+  --wf-overlay: rgba(41, 19, 52, 0.5);
+  --daisy-link: #1f7a80;
+
+  --wf-font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --wf-font-display: var(--wf-font-sans);
+  --wf-font-body: var(--wf-font-sans);
+  --wf-leading-tight: 1.15;
+  --wf-leading-normal: 1.6;
+  --wf-weight-bold: 700;
+  --wf-tracking-tight: -0.02em;
+  --wf-tracking-wide: 0.04em;
+
+  --wf-radius-sm: 0.5rem;
+  --wf-radius-md: 1rem;
+  --wf-radius-lg: 1rem;
+  --wf-radius-xl: 1.5rem;
+
+  --wf-shadow-sm: 0 1px 3px rgba(41,19,52,.08);
+  --wf-shadow-md: 0 8px 20px rgba(41,19,52,.12);
+  --wf-shadow-lg: 0 20px 40px rgba(41,19,52,.18);
+
+  --wf-btn-radius: var(--wf-radius-full);
+  --wf-btn-py: 0.75rem;
+  --wf-btn-px: 1.5rem;
+  --wf-btn-weight: 600;
+  --wf-card-radius: 1rem;
+  --wf-card-shadow: var(--wf-shadow-md);
+  --wf-input-radius: var(--wf-radius-full);
+}
+[data-theme="dark"] {
+  --wf-bg: #282a36;
+  --wf-surface: #242631;
+  --wf-surface-2: #353849;
+  --wf-text: #f8f8f2;
+  --wf-text-muted: #b8b9c4;
+  --wf-primary: #ff79c6;
+  --wf-on-primary: #2a0f1e;
+  --wf-primary-hover: #ff92d0;
+  --wf-secondary: #bd93f9;
+  --wf-on-secondary: #1b1030;
+  --wf-accent: #ffb86c;
+  --wf-on-accent: #2a1a05;
+  --wf-border: #414558;
+  --wf-success: #50fa7b;
+  --wf-warning: #f1fa8c;
+  --wf-danger: #ff5555;
+  --wf-info: #8be9fd;
+  --wf-overlay: rgba(0, 0, 0, 0.65);
+  --daisy-link: #ff79c6;
+  --wf-shadow-sm: 0 1px 3px rgba(0,0,0,.4);
+  --wf-shadow-md: 0 8px 20px rgba(0,0,0,.5);
+  --wf-shadow-lg: 0 20px 40px rgba(0,0,0,.6);
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "media-map-embed",
+  "name": "Media: map with address card",
+  "category": "media",
+  "description": "Map placeholder box (data-wf-embed for the host to swap in a map) beside an address card with hours, phone and an Open in Google Maps link. Stacks on mobile.",
+  "tags": ["media", "map", "address", "directions", "location"],
+  "previewHeight": 560,
+  "hasScript": false,
+  "fields": ["business.name", "business.address", "business.city", "business.phone", "business.hours"],
+  "version": 1
+}

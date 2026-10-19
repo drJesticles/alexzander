@@ -1,0 +1,11 @@
+{
+  "slug": "stats-counter",
+  "name": "Stats: animated counters",
+  "category": "stats",
+  "description": "Three numbers that count up from zero when scrolled into view (IntersectionObserver). Honors prefers-reduced-motion and shows final values with no script.",
+  "tags": ["stats", "counter", "animated", "scroll", "interactive"],
+  "previewHeight": 420,
+  "hasScript": true,
+  "fields": ["business.name"],
+  "version": 1
+}

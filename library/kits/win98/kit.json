@@ -1,0 +1,12 @@
+{
+  "slug": "win98",
+  "name": "Windows 98",
+  "family": "off-the-wall",
+  "description": "Classic Windows 98 chrome: #c0c0c0 faces, navy title bars, beveled outset and inset borders, zero radius, no shadows, MS Sans Serif stack.",
+  "source": "https://jdan.github.io/98.css/",
+  "fonts": [],
+  "dark": false,
+  "swatch": ["#000080", "#008080", "#c0c0c0", "#000000"],
+  "tags": ["retro", "windows", "bevel", "90s"],
+  "version": 1
+}

@@ -1,0 +1,22 @@
+.c-media-map-embed__grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:var(--wf-space-8);align-items:stretch}
+.c-media-map-embed__map{position:relative;min-height:22rem;border-radius:var(--wf-radius-xl);overflow:hidden;border:var(--wf-border-w) solid var(--wf-border);background:var(--wf-surface-2);background-image:linear-gradient(color-mix(in srgb, var(--wf-text) 6%, transparent) 1px, transparent 1px),linear-gradient(90deg, color-mix(in srgb, var(--wf-text) 6%, transparent) 1px, transparent 1px);background-size:2.5rem 2.5rem}
+.c-media-map-embed__map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.c-media-map-embed__placeholder{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--wf-space-2);color:var(--wf-text-muted);font-size:var(--wf-text-sm);font-weight:var(--wf-weight-medium)}
+.c-media-map-embed__pin{display:grid;place-items:center;width:3.5rem;height:3.5rem;border-radius:var(--wf-radius-full);background:var(--wf-primary);color:var(--wf-on-primary);box-shadow:var(--wf-shadow-md);animation:c-media-map-embed-bob 2.4s var(--wf-ease) infinite}
+.c-media-map-embed__pin .wf-icon{width:1.75rem;height:1.75rem}
+.c-media-map-embed__card{display:flex;flex-direction:column;justify-content:center;padding:var(--wf-space-8);background:var(--wf-surface);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);box-shadow:var(--wf-card-shadow)}
+.c-media-map-embed__title{font-size:var(--wf-text-3xl);margin-bottom:var(--wf-space-3)}
+.c-media-map-embed__text{color:var(--wf-text-muted)}
+.c-media-map-embed__details{list-style:none;padding:0;margin:0 0 var(--wf-space-6);display:grid;gap:var(--wf-space-4)}
+.c-media-map-embed__details li{display:flex;align-items:flex-start;gap:var(--wf-space-3)}
+.c-media-map-embed__details .wf-icon{color:var(--wf-primary);margin-top:.1rem}
+.c-media-map-embed__card .wf-btn{align-self:flex-start}
+@keyframes c-media-map-embed-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media (max-width:900px){
+  .c-media-map-embed__grid{grid-template-columns:1fr}
+  .c-media-map-embed__map{min-height:16rem}
+}
+@media (max-width:600px){
+  .c-media-map-embed__card{padding:var(--wf-space-5)}
+  .c-media-map-embed__card .wf-btn{align-self:stretch}
+}

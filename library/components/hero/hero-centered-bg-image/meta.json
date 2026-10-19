@@ -1,0 +1,11 @@
+{
+  "slug": "hero-centered-bg-image",
+  "name": "Hero: centered on background image",
+  "category": "hero",
+  "description": "Full-bleed background image with a dark overlay, centered eyebrow, headline, lead and two buttons. Minimum height scales with the viewport.",
+  "tags": ["hero", "image", "overlay", "centered", "cta"],
+  "previewHeight": 640,
+  "hasScript": false,
+  "fields": ["business.name", "business.city"],
+  "version": 1
+}

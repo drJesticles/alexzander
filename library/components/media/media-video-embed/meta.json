@@ -1,0 +1,11 @@
+{
+  "slug": "media-video-embed",
+  "name": "Media: responsive video embed",
+  "category": "media",
+  "description": "16:9 video frame with a local poster image and a play button. The wrapper carries data-wf-embed for the host to swap in an iframe URL; nothing external loads by default.",
+  "tags": ["media", "video", "embed", "poster", "16:9"],
+  "previewHeight": 760,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

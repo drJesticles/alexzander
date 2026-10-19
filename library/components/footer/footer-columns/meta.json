@@ -1,0 +1,11 @@
+{
+  "slug": "footer-columns",
+  "name": "Footer: four columns",
+  "category": "footer",
+  "description": "Brand blurb, two link columns, contact column; copyright bar.",
+  "tags": ["footer", "links", "contact", "social"],
+  "previewHeight": 420,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone", "business.email", "business.address", "business.year"],
+  "version": 1
+}

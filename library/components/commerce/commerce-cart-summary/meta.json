@@ -1,0 +1,11 @@
+{
+  "slug": "commerce-cart-summary",
+  "name": "Commerce: cart summary",
+  "category": "commerce",
+  "description": "Three line items with thumbnail, variant, quantity stepper, price and remove button; totals card with promo code field and checkout button.",
+  "tags": ["commerce", "cart", "checkout", "totals", "line-items"],
+  "previewHeight": 620,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

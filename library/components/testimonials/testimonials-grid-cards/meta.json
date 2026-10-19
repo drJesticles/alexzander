@@ -1,0 +1,11 @@
+{
+  "slug": "testimonials-grid-cards",
+  "name": "Testimonials: three cards",
+  "category": "testimonials",
+  "description": "Three review cards with five-star rating, quote, name and town. Two columns on tablet, one on phone.",
+  "tags": ["testimonials", "reviews", "cards", "stars", "three-column"],
+  "previewHeight": 560,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

@@ -1,0 +1,25 @@
+.c-nav-topbar-contact{position:sticky;top:0;z-index:50;background:var(--wf-bg);border-bottom:var(--wf-border-w) solid var(--wf-border)}
+.c-nav-topbar-contact__topbar{background:var(--wf-secondary);color:var(--wf-on-secondary);font-size:var(--wf-text-sm)}
+.c-nav-topbar-contact__topbar-inner{display:flex;align-items:center;gap:var(--wf-space-6);min-height:2.25rem}
+.c-nav-topbar-contact__item{display:inline-flex;align-items:center;gap:var(--wf-space-2);color:inherit;text-decoration:none;opacity:.92}
+.c-nav-topbar-contact__item .wf-icon{width:1rem;height:1rem}
+.c-nav-topbar-contact__item:hover{opacity:1;text-decoration:none}
+.c-nav-topbar-contact__social{margin-left:auto;display:flex;gap:var(--wf-space-3)}
+.c-nav-topbar-contact__social a{color:inherit;opacity:.85;display:inline-flex}
+.c-nav-topbar-contact__social a:hover{opacity:1}
+.c-nav-topbar-contact__social .wf-icon{width:1.1rem;height:1.1rem}
+.c-nav-topbar-contact__bar{display:flex;align-items:center;gap:var(--wf-space-8);min-height:4.25rem}
+.c-nav-topbar-contact__brand{font-family:var(--wf-font-display);font-weight:var(--wf-weight-bold);font-size:var(--wf-text-xl);letter-spacing:var(--wf-tracking-tight);color:var(--wf-text);text-decoration:none;white-space:nowrap}
+.c-nav-topbar-contact__brand:hover{text-decoration:none;color:var(--wf-primary)}
+.c-nav-topbar-contact__menu{display:flex;align-items:center;gap:var(--wf-space-6);margin-left:auto}
+.c-nav-topbar-contact__menu a{color:var(--wf-text);font-weight:var(--wf-weight-medium);text-decoration:none}
+.c-nav-topbar-contact__menu a:hover{color:var(--wf-primary)}
+@media (max-width:900px){
+  .c-nav-topbar-contact__bar{flex-wrap:wrap;gap:var(--wf-space-3) var(--wf-space-5);padding-block:var(--wf-space-3)}
+  .c-nav-topbar-contact__cta{margin-left:auto}
+  .c-nav-topbar-contact__menu{order:3;width:100%;flex-wrap:wrap;gap:var(--wf-space-2) var(--wf-space-4);font-size:var(--wf-text-sm);margin-left:0}
+  .c-nav-topbar-contact__city{display:none}
+}
+@media (max-width:600px){
+  .c-nav-topbar-contact__hours{display:none}
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "_example",
+  "name": "Example (reference only)",
+  "vertical": "utility",
+  "description": "Minimal two-page template showing how pages compose library components. Hidden from the catalog (leading underscore).",
+  "kit": "base",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "contact.html", "title": "Contact", "path": "/contact" }
+  ],
+  "tags": ["example"],
+  "components": ["nav/nav-simple", "hero/hero-split-image", "footer/footer-columns"],
+  "version": 1
+}

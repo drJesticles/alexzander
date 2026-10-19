@@ -1,0 +1,11 @@
+{
+  "slug": "form-multistep",
+  "name": "Form: three-step wizard",
+  "category": "forms",
+  "description": "Three-step project request (job, home, contact) with a progress bar, next/back buttons and per-step validation. Client-side only; the final step submits the whole form.",
+  "tags": ["form", "multistep", "wizard", "progress", "interactive"],
+  "previewHeight": 760,
+  "hasScript": true,
+  "fields": ["business.name"],
+  "version": 1
+}

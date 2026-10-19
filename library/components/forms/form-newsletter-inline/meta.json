@@ -1,0 +1,11 @@
+{
+  "slug": "form-newsletter-inline",
+  "name": "Form: inline newsletter",
+  "category": "forms",
+  "description": "Compact band with a headline on the left and a single-line email signup on the right. Consent note under the field.",
+  "tags": ["form", "newsletter", "email", "signup", "inline"],
+  "previewHeight": 320,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

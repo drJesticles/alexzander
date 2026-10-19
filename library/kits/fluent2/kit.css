@@ -1,0 +1,15 @@
+/* Fluent 2: semibold type, compact 4px buttons, underlined inputs, high-contrast focus ring. */
+h1,h2,h3,h4{font-weight:600}
+.wf-eyebrow{text-transform:none;letter-spacing:0;font-weight:600;color:var(--wf-text-muted)}
+.wf-btn{font-size:.875rem;min-height:2rem}
+.wf-btn--outline{background:var(--wf-bg);border-color:var(--wf-border);color:var(--wf-text)}
+.wf-btn--outline:hover{background:var(--wf-surface-2)}
+.wf-btn--ghost{color:var(--wf-primary)}
+.wf-btn--ghost:hover{background:var(--wf-surface-2)}
+.wf-card{background:var(--wf-bg)}
+.wf-section--surface .wf-card{background:var(--wf-bg)}
+.wf-badge{border-radius:var(--wf-radius-full);font-weight:600;border:1px solid var(--wf-border)}
+.wf-badge--primary,.wf-badge--accent{border-color:transparent}
+.wf-input,.wf-select,.wf-textarea{padding:.45rem .75rem;border-bottom-color:var(--wf-text-muted);background:var(--wf-bg)}
+.wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-color:var(--wf-border);border-bottom:2px solid var(--wf-primary);padding-bottom:calc(.45rem - 1px)}
+:focus-visible{outline:2px solid var(--wf-text);outline-offset:1px;border-radius:var(--wf-radius-md)}

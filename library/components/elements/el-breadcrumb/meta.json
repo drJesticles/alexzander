@@ -1,0 +1,11 @@
+{
+  "slug": "el-breadcrumb",
+  "name": "Element: breadcrumb",
+  "category": "elements",
+  "description": "Home icon, two ancestor links and the current page, separated by chevrons. Wraps on narrow screens.",
+  "tags": ["element", "breadcrumb", "navigation"],
+  "previewHeight": 120,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "base",
+  "name": "Base (neutral)",
+  "family": "web-dev",
+  "description": "The contract defaults. Clean, neutral, system fonts. Every component must look finished here.",
+  "source": "library/kits/_contract/tokens.css",
+  "fonts": [],
+  "dark": true,
+  "swatch": ["#2457f5", "#f59e0b", "#ffffff", "#16181d"],
+  "tags": ["neutral", "system", "default"],
+  "version": 1
+}

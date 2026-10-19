@@ -1,0 +1,12 @@
+{
+  "slug": "cyberpunk",
+  "name": "Cyberpunk Neon",
+  "family": "off-the-wall",
+  "description": "Night-city neon: #0a0a12 background, cyan primary, magenta and yellow accents, clipped button corners, glow shadows, Orbitron display with Rajdhani body.",
+  "source": "https://www.cyberpunk.net",
+  "fonts": [{ "family": "Orbitron", "weights": [500, 700, 900] }, { "family": "Rajdhani", "weights": [400, 500, 600, 700] }],
+  "dark": false,
+  "swatch": ["#00f0ff", "#ff2bd6", "#fcee0a", "#0a0a12"],
+  "tags": ["neon", "dark", "futuristic", "glow", "clip-path"],
+  "version": 1
+}

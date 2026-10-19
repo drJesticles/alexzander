@@ -1,0 +1,11 @@
+{
+  "slug": "el-card-icon",
+  "name": "Element: icon card",
+  "category": "elements",
+  "description": "Card with an icon in a tinted circle, a title and a short description. The standard feature or service tile.",
+  "tags": ["element", "card", "icon", "feature"],
+  "previewHeight": 240,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

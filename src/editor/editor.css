@@ -1,0 +1,18 @@
+/* WebForge editor chrome overrides for GrapesJS */
+.wf-editor { display: flex; flex-direction: column; height: 100vh; background: var(--app-bg); color: var(--app-text); }
+.wf-editor__top { display: flex; align-items: center; gap: .5rem; padding: .4rem .6rem; border-bottom: 1px solid var(--app-border); background: var(--app-panel); font-size: .8rem; flex-wrap: wrap; }
+.wf-editor__body { flex: 1; min-height: 0; position: relative; }
+.wf-editor__gjs { height: 100% !important; }
+.wf-editor__drawer { position: absolute; right: 0; top: 0; bottom: 0; width: min(52vw, 760px); background: var(--app-panel); border-left: 1px solid var(--app-border); display: flex; flex-direction: column; z-index: 20; }
+.wf-editor__drawer-head { display: flex; gap: .5rem; align-items: center; padding: .4rem .6rem; border-bottom: 1px solid var(--app-border); font-size: .8rem; }
+.wf-editor__drawer-body { flex: 1; min-height: 0; overflow: auto; }
+.wf-editor__modal { position: fixed; inset: 0; background: rgba(0,0,0,.55); display: flex; align-items: center; justify-content: center; z-index: 50; }
+.wf-editor__modal > div { background: var(--app-panel); border: 1px solid var(--app-border); border-radius: .75rem; padding: 1rem; width: min(92vw, 640px); max-height: 85vh; overflow: auto; }
+.gjs-one-bg { background-color: var(--app-panel) !important; }
+.gjs-two-color { color: var(--app-text) !important; }
+.gjs-three-bg { background-color: var(--app-accent-2) !important; color: #0b1020 !important; }
+.gjs-four-color, .gjs-four-color-h:hover { color: var(--app-accent) !important; }
+.gjs-pn-panel, .gjs-block, .gjs-layer, .gjs-sm-sector, .gjs-trt-trait, .gjs-field { border-color: var(--app-border) !important; }
+.gjs-block { min-height: 70px; width: 45%; margin: 2.5%; font-size: .7rem; }
+.gjs-block-category .gjs-title { font-size: .72rem; letter-spacing: .04em; text-transform: uppercase; }
+.gjs-cv-canvas { background: #2b2f3a; }

@@ -1,0 +1,60 @@
+<section class="wf-section c-form-booking-appointment" data-wf-component="form-booking-appointment">
+  <div class="wf-container c-form-booking-appointment__grid">
+    <div class="c-form-booking-appointment__intro">
+      <span class="wf-eyebrow">Schedule a visit</span>
+      <h2>Pick a day that works for you.</h2>
+      <p class="wf-lead">Choose a date and a window. We confirm by text the same day and call 30 minutes before the tech arrives.</p>
+      <div class="wf-card c-form-booking-appointment__card">
+        <h3 class="c-form-booking-appointment__card-title">Service hours</h3>
+        <p data-wf-field="business.hours">Mon to Fri 7:30am to 5:30pm, Sat 8am to noon</p>
+        <p class="wf-muted">Emergency leaks and lockouts: call <a href="tel:+14795550100" data-wf-field="business.phone">(479) 555-0100</a> any time.</p>
+      </div>
+    </div>
+    <form class="c-form-booking-appointment__form" data-wf-form="booking" action="#" method="post">
+      <div class="c-form-booking-appointment__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-date">Preferred date</label>
+          <input class="wf-input" id="form-booking-appointment-date" name="date" type="date" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-slot">Time window</label>
+          <select class="wf-select" id="form-booking-appointment-slot" name="time_slot" required>
+            <option value="">Choose a window</option>
+            <option value="morning">Morning, 8am to 11am</option>
+            <option value="midday">Midday, 11am to 2pm</option>
+            <option value="afternoon">Afternoon, 2pm to 5pm</option>
+          </select>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-service">Service</label>
+        <select class="wf-select" id="form-booking-appointment-service" name="service" required>
+          <option value="">What do you need done?</option>
+          <option value="repair">General repair visit (2 hr minimum)</option>
+          <option value="estimate">In-home estimate for a larger project</option>
+          <option value="install">Fixture, appliance or smart device install</option>
+          <option value="inspection">Seasonal home check-up</option>
+        </select>
+      </div>
+      <div class="c-form-booking-appointment__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-name">Name</label>
+          <input class="wf-input" id="form-booking-appointment-name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-phone">Mobile number</label>
+          <input class="wf-input" id="form-booking-appointment-phone" name="phone" type="tel" autocomplete="tel" required>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-address">Service address</label>
+        <input class="wf-input" id="form-booking-appointment-address" name="address" type="text" autocomplete="street-address">
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-notes">Notes <span class="wf-muted">(gate codes, pets, parking)</span></label>
+        <textarea class="wf-textarea c-form-booking-appointment__notes" id="form-booking-appointment-notes" name="notes"></textarea>
+      </div>
+      <button class="wf-btn wf-btn--primary wf-btn--lg wf-btn--block" type="submit">Request this appointment</button>
+    </form>
+  </div>
+</section>

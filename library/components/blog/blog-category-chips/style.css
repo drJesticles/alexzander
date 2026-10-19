@@ -1,0 +1,18 @@
+.c-blog-category-chips__head{margin-bottom:var(--wf-space-6)}
+.c-blog-category-chips__chips{display:flex;flex-wrap:wrap;justify-content:center;gap:var(--wf-space-2);margin-bottom:var(--wf-space-10)}
+.c-blog-category-chips__chip{display:inline-flex;align-items:center;padding:.45rem 1rem;border-radius:var(--wf-radius-full);border:var(--wf-border-w) solid var(--wf-border);background:var(--wf-bg);color:var(--wf-text);font-size:var(--wf-text-sm);font-weight:var(--wf-weight-medium);transition:background var(--wf-dur-fast) var(--wf-ease),color var(--wf-dur-fast) var(--wf-ease),border-color var(--wf-dur-fast) var(--wf-ease)}
+.c-blog-category-chips__chip:hover{border-color:var(--wf-primary);color:var(--wf-primary);text-decoration:none}
+.c-blog-category-chips__chip.is-current{background:var(--wf-primary);border-color:var(--wf-primary);color:var(--wf-on-primary)}
+.c-blog-category-chips__card{background:var(--wf-surface);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);overflow:hidden;box-shadow:var(--wf-card-shadow)}
+.c-blog-category-chips__card img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.c-blog-category-chips__body{padding:var(--wf-space-4)}
+.c-blog-category-chips__cat{display:block;font-size:var(--wf-text-xs);font-weight:var(--wf-weight-medium);letter-spacing:var(--wf-tracking-wide);text-transform:uppercase;color:var(--wf-primary);margin-bottom:var(--wf-space-2)}
+.c-blog-category-chips__title{font-size:var(--wf-text-base);line-height:var(--wf-leading-normal);margin-bottom:var(--wf-space-2)}
+.c-blog-category-chips__title a{color:inherit}
+.c-blog-category-chips__title a:hover{color:var(--wf-primary);text-decoration:none}
+.c-blog-category-chips__meta{margin:0;font-size:var(--wf-text-xs);color:var(--wf-text-muted)}
+@media (max-width:600px){
+  .c-blog-category-chips__chips{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;padding-bottom:var(--wf-space-2);margin-inline:calc(var(--wf-gutter) * -1);padding-inline:var(--wf-gutter);scrollbar-width:none}
+  .c-blog-category-chips__chips::-webkit-scrollbar{display:none}
+  .c-blog-category-chips__chip{white-space:nowrap;flex:none}
+}

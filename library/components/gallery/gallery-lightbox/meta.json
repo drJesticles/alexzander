@@ -1,0 +1,11 @@
+{
+  "slug": "gallery-lightbox",
+  "name": "Gallery: grid with lightbox",
+  "category": "gallery",
+  "description": "Six thumbnails; clicking any opens a full-screen overlay with the large image, caption, previous/next arrows, a counter and a close button. Escape and arrow keys work, focus returns on close.",
+  "tags": ["gallery", "lightbox", "overlay", "modal", "interactive"],
+  "previewHeight": 820,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

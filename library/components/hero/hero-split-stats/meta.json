@@ -1,0 +1,11 @@
+{
+  "slug": "hero-split-stats",
+  "name": "Hero: split with stats",
+  "category": "hero",
+  "description": "Headline, lead and button on the left with three big numbers beneath them; framed image on the right. Image moves above the copy on mobile.",
+  "tags": ["hero", "stats", "image", "two-column", "social-proof"],
+  "previewHeight": 660,
+  "hasScript": false,
+  "fields": ["business.name", "business.year"],
+  "version": 1
+}

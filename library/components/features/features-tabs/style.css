@@ -1,0 +1,23 @@
+.c-features-tabs__head{text-align:center;max-width:var(--wf-container-narrow);margin:0 auto var(--wf-space-10)}
+.c-features-tabs__tablist{display:flex;justify-content:center;gap:var(--wf-space-2);padding:var(--wf-space-1);margin:0 auto var(--wf-space-10);width:fit-content;max-width:100%;background:var(--wf-surface);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-radius-full)}
+.c-features-tabs__tab{display:inline-flex;align-items:center;gap:var(--wf-space-2);padding:var(--wf-space-3) var(--wf-space-5);border:0;border-radius:var(--wf-radius-full);background:transparent;color:var(--wf-text-muted);font:inherit;font-weight:var(--wf-weight-medium);cursor:pointer;white-space:nowrap;transition:background var(--wf-dur-fast) var(--wf-ease),color var(--wf-dur-fast) var(--wf-ease)}
+.c-features-tabs__tab .wf-icon{width:1.1rem;height:1.1rem}
+.c-features-tabs__tab:hover{color:var(--wf-text)}
+.c-features-tabs__tab[aria-selected="true"]{background:var(--wf-primary);color:var(--wf-on-primary);box-shadow:var(--wf-shadow-sm)}
+.c-features-tabs__panel{display:grid;grid-template-columns:1fr 1fr;gap:var(--wf-space-12);align-items:center}
+.c-features-tabs__panel:focus-visible{outline-offset:var(--wf-space-2)}
+.c-features-tabs__media img{width:100%;aspect-ratio:10/7;object-fit:cover;border-radius:var(--wf-radius-xl);box-shadow:var(--wf-shadow-md)}
+.c-features-tabs__copy h3{font-size:var(--wf-text-3xl);margin-bottom:var(--wf-space-4)}
+.c-features-tabs__copy p{color:var(--wf-text-muted);font-size:var(--wf-text-lg)}
+.c-features-tabs__list{margin:0 0 var(--wf-space-6);padding-left:1.25rem;display:grid;gap:var(--wf-space-2)}
+.c-features-tabs__list li::marker{color:var(--wf-primary)}
+@media (max-width:900px){
+  .c-features-tabs__panel{grid-template-columns:1fr;gap:var(--wf-space-6)}
+  .c-features-tabs__copy h3{font-size:var(--wf-text-2xl)}
+}
+@media (max-width:600px){
+  .c-features-tabs__tablist{width:100%;overflow-x:auto;justify-content:flex-start;scrollbar-width:none}
+  .c-features-tabs__tablist::-webkit-scrollbar{display:none}
+  .c-features-tabs__tab{padding-inline:var(--wf-space-4);font-size:var(--wf-text-sm)}
+  .c-features-tabs__copy .wf-btn{width:100%}
+}

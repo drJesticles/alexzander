@@ -1,0 +1,11 @@
+{
+  "slug": "commerce-featured-product-split",
+  "name": "Commerce: featured product split",
+  "category": "commerce",
+  "description": "Large product photo on one side; staff-pick eyebrow, name, price, blurb, three selling points and Add to cart on the other. Image moves on top on mobile.",
+  "tags": ["commerce", "featured", "product", "split", "two-column"],
+  "previewHeight": 600,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

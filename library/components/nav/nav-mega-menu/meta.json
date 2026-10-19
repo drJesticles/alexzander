@@ -1,0 +1,11 @@
+{
+  "slug": "nav-mega-menu",
+  "name": "Nav: mega menu",
+  "category": "nav",
+  "description": "Logo, links and phone button; the Services item opens a three-column panel (Repairs, Remodels, Smart home) with a featured callout. Closes on outside click or Escape. Hamburger below 900px.",
+  "tags": ["nav", "header", "mega-menu", "dropdown", "services", "mobile-menu"],
+  "previewHeight": 420,
+  "hasScript": true,
+  "fields": ["business.name", "business.phone"],
+  "version": 1
+}

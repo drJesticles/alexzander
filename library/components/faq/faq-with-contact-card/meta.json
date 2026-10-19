@@ -1,0 +1,11 @@
+{
+  "slug": "faq-with-contact-card",
+  "name": "FAQ: accordion with contact card",
+  "category": "faq",
+  "description": "Accordion on the left, sticky \"Still have questions?\" card on the right with phone, email and hours. Card drops below the list on mobile.",
+  "tags": ["faq", "accordion", "contact", "sidebar", "interactive"],
+  "previewHeight": 640,
+  "hasScript": true,
+  "fields": ["business.phone", "business.email", "business.hours"],
+  "version": 1
+}

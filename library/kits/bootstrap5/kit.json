@@ -1,0 +1,12 @@
+{
+  "slug": "bootstrap5",
+  "name": "Bootstrap 5",
+  "family": "web-dev",
+  "description": "Bootstrap 5.3: system stack, primary #0d6efd, the classic secondary/success/warning/danger set, 6px radius, medium-weight headings, 5.3 dark mode.",
+  "source": "https://getbootstrap.com/docs/5.3/customize/color/",
+  "fonts": [],
+  "dark": true,
+  "swatch": ["#0D6EFD", "#6C757D", "#FFFFFF", "#212529"],
+  "tags": ["bootstrap", "classic", "system", "blue"],
+  "version": 1
+}

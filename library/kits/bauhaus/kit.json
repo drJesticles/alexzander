@@ -1,0 +1,12 @@
+{
+  "slug": "bauhaus",
+  "name": "Bauhaus",
+  "family": "off-the-wall",
+  "description": "Primary red, blue and yellow on cream and black. Geometric Jost type, chunky 3px borders, tricolor card stripes, zero radius.",
+  "source": "https://www.bauhaus-dessau.de",
+  "fonts": [{ "family": "Jost", "weights": [400, 500, 700] }],
+  "dark": true,
+  "swatch": ["#d02b27", "#1d4e9b", "#f2c230", "#f4efe6"],
+  "tags": ["geometric", "primary-colors", "bold", "retro", "1920s"],
+  "version": 1
+}

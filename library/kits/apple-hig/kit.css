@@ -1,0 +1,18 @@
+/* Apple HIG: tight 600-weight headlines, pill buttons, hairline rules, soft blue focus halo. */
+h1,h2{font-weight:600;letter-spacing:-0.03em}
+h3,h4{font-weight:600;letter-spacing:-0.015em}
+.wf-eyebrow{text-transform:none;letter-spacing:0;font-weight:600;color:var(--wf-text-muted)}
+.wf-lead{color:var(--wf-text);font-weight:400}
+.wf-btn{font-size:1.0625rem;min-height:2.75rem}
+.wf-btn--outline{border-color:var(--wf-primary);color:var(--wf-primary)}
+.wf-btn--outline:hover{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-btn--ghost{color:var(--wf-primary)}
+.wf-btn--sm{font-size:.875rem;min-height:2rem}
+.wf-card{border-color:transparent;background:var(--wf-surface)}
+.wf-card--raised{box-shadow:var(--wf-shadow-md);background:var(--wf-bg)}
+hr{border-top-width:1px}
+.wf-badge{background:var(--wf-surface-2);font-weight:600}
+.wf-input,.wf-select,.wf-textarea{padding:.8rem 1rem}
+.wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-color:var(--wf-primary);box-shadow:0 0 0 4px rgba(0,125,250,.35)}
+:focus-visible{outline:0;box-shadow:0 0 0 4px rgba(0,125,250,.5);border-radius:var(--wf-radius-sm)}
+.wf-btn:focus-visible{border-radius:var(--wf-btn-radius)}

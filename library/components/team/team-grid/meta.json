@@ -1,0 +1,11 @@
+{
+  "slug": "team-grid",
+  "name": "Team: four-up grid",
+  "category": "team",
+  "description": "Four team members with square photo, name, role and one line each. Two columns on tablet, one on phone.",
+  "tags": ["team", "staff", "grid", "photos", "four-column"],
+  "previewHeight": 640,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

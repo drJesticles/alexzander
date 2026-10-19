@@ -1,0 +1,12 @@
+{
+  "slug": "chakra",
+  "name": "Chakra UI",
+  "family": "web-dev",
+  "description": "Chakra UI: Inter, teal color scheme, gray.50-900 scale, 6px radii, semibold buttons, uppercase badges, blue focus ring.",
+  "source": "https://v2.chakra-ui.com/docs/styled-system/theme",
+  "fonts": [{ "family": "Inter", "weights": [400, 500, 600, 700] }],
+  "dark": true,
+  "swatch": ["#319795", "#1A202C", "#F7FAFC", "#4FD1C5"],
+  "tags": ["chakra", "teal", "react", "friendly"],
+  "version": 1
+}

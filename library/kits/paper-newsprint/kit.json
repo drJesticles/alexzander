@@ -1,0 +1,12 @@
+{
+  "slug": "paper-newsprint",
+  "name": "Paper / Newsprint",
+  "family": "off-the-wall",
+  "description": "Broadsheet newspaper: off-white stock, near-black ink, one dark-red accent, Playfair Display mastheads over Libre Baskerville body, double rules, no radius, no shadows.",
+  "source": "https://fonts.google.com/specimen/Playfair+Display",
+  "fonts": [{ "family": "Playfair Display", "weights": [700, 900] }, { "family": "Libre Baskerville", "weights": [400, 700] }],
+  "dark": false,
+  "swatch": ["#1a1a1a", "#8b0000", "#f7f4ea", "#e8e2d0"],
+  "tags": ["newspaper", "editorial", "serif", "print", "classic"],
+  "version": 1
+}

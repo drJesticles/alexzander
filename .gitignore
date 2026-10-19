@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+data/*
+!data/.gitkeep
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+test-results/
+playwright-report/

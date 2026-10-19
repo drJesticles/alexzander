@@ -1,0 +1,11 @@
+{
+  "slug": "hero-gradient-text",
+  "name": "Hero: gradient headline",
+  "category": "hero",
+  "description": "App-style centered hero: pill badge, headline with a primary-to-accent gradient clipped to the text, lead, two buttons and a framed product screenshot underneath.",
+  "tags": ["hero", "gradient", "centered", "app", "saas", "screenshot"],
+  "previewHeight": 760,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "mantine",
+  "name": "Mantine",
+  "family": "web-dev",
+  "description": "Mantine v7: Inter-ish type, blue #228be6, gray.0-3 surfaces, 8px radius, 600-weight buttons, uppercase pill badges, dark.7 dark scheme.",
+  "source": "https://mantine.dev/theming/colors/",
+  "fonts": [{ "family": "Inter", "weights": [400, 500, 600, 700] }],
+  "dark": true,
+  "swatch": ["#228BE6", "#1A1B1E", "#F8F9FA", "#FAB005"],
+  "tags": ["mantine", "blue", "react", "rounded"],
+  "version": 1
+}

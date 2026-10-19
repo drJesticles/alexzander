@@ -1,0 +1,12 @@
+{
+  "slug": "swiss-international",
+  "name": "Swiss / International Style",
+  "family": "off-the-wall",
+  "description": "International Typographic Style: white, black, one red. Inter/Helvetica, huge tight headlines, strict grid, thin rules, zero radius, no shadows.",
+  "source": "https://en.wikipedia.org/wiki/International_Typographic_Style",
+  "fonts": [{ "family": "Inter", "weights": [400, 500, 700, 800] }],
+  "dark": true,
+  "swatch": ["#e30613", "#000000", "#ffffff", "#f4f4f4"],
+  "tags": ["swiss", "typographic", "grid", "minimal", "helvetica"],
+  "version": 1
+}

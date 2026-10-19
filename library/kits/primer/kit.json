@@ -1,0 +1,12 @@
+{
+  "slug": "primer",
+  "name": "GitHub Primer",
+  "family": "web-dev",
+  "description": "GitHub Primer: system stack, accent blue #0969da, green primary buttons, canvas white on subtle gray, 1px #d0d7de borders, 6px radius, #0d1117 dark.",
+  "source": "https://primer.style/foundations/color",
+  "fonts": [],
+  "dark": true,
+  "swatch": ["#0969DA", "#1F883D", "#FFFFFF", "#0D1117"],
+  "tags": ["github", "primer", "developer", "system"],
+  "version": 1
+}

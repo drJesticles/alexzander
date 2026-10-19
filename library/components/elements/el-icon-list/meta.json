@@ -1,0 +1,11 @@
+{
+  "slug": "el-icon-list",
+  "name": "Element: icon lists",
+  "category": "elements",
+  "description": "Three list styles side by side: green check marks, primary arrows and accent bolts. Each list is its own block you can drop anywhere.",
+  "tags": ["element", "list", "icons", "checklist", "features"],
+  "previewHeight": 260,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

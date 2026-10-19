@@ -1,0 +1,11 @@
+{
+  "slug": "el-divider-text",
+  "name": "Element: divider with text",
+  "category": "elements",
+  "description": "Horizontal rule with a short label in the middle, plus a second variant with a small icon. For breaking up long pages or forms.",
+  "tags": ["element", "divider", "separator", "hr"],
+  "previewHeight": 140,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

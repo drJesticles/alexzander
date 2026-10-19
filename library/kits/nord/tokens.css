@@ -1,0 +1,58 @@
+:root {
+  --wf-bg: #eceff4;
+  --wf-surface: #e5e9f0;
+  --wf-surface-2: #d8dee9;
+  --wf-text: #2e3440;
+  --wf-text-muted: #4c566a;
+  --wf-primary: #5e81ac;
+  --wf-on-primary: #eceff4;
+  --wf-primary-hover: #4c6f9a;
+  --wf-secondary: #2e3440;
+  --wf-on-secondary: #eceff4;
+  --wf-accent: #a3be8c;
+  --wf-on-accent: #2e3440;
+  --wf-border: #d8dee9;
+  --wf-success: #6f8f5a;
+  --wf-warning: #b08a3e;
+  --wf-danger: #bf616a;
+  --wf-info: #5e81ac;
+  --wf-overlay: rgba(46, 52, 64, 0.6);
+  --wf-font-sans: "Rubik", system-ui, sans-serif;
+  --wf-font-display: "Rubik", system-ui, sans-serif;
+  --wf-font-body: "Rubik", system-ui, sans-serif;
+  --wf-tracking-tight: -0.015em;
+  --wf-radius-sm: 0.25rem;
+  --wf-radius-md: 0.5rem;
+  --wf-radius-lg: 0.75rem;
+  --wf-radius-xl: 1.25rem;
+  --wf-shadow-sm: 0 1px 2px rgba(46, 52, 64, 0.08);
+  --wf-shadow-md: 0 6px 16px rgba(46, 52, 64, 0.12);
+  --wf-shadow-lg: 0 20px 40px rgba(46, 52, 64, 0.16);
+  --wf-btn-radius: 0.5rem;
+  --wf-btn-weight: 500;
+  --wf-card-radius: 0.75rem;
+  --wf-input-radius: 0.5rem;
+}
+[data-theme="dark"] {
+  --wf-bg: #2e3440;
+  --wf-surface: #3b4252;
+  --wf-surface-2: #434c5e;
+  --wf-text: #eceff4;
+  --wf-text-muted: #d8dee9;
+  --wf-primary: #88c0d0;
+  --wf-on-primary: #2e3440;
+  --wf-primary-hover: #8fbcbb;
+  --wf-secondary: #eceff4;
+  --wf-on-secondary: #2e3440;
+  --wf-accent: #a3be8c;
+  --wf-on-accent: #2e3440;
+  --wf-border: #4c566a;
+  --wf-success: #a3be8c;
+  --wf-warning: #ebcb8b;
+  --wf-danger: #bf616a;
+  --wf-info: #81a1c1;
+  --wf-overlay: rgba(46, 52, 64, 0.8);
+  --wf-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --wf-shadow-md: 0 6px 16px rgba(0, 0, 0, 0.4);
+  --wf-shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.5);
+}

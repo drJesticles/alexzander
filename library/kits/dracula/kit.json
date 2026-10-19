@@ -1,0 +1,12 @@
+{
+  "slug": "dracula",
+  "name": "Dracula",
+  "family": "off-the-wall",
+  "description": "The Dracula editor theme as a site: #282a36 background, #f8f8f2 foreground, purple primary, pink accent, green success, cyan links. Fira Sans and Fira Code.",
+  "source": "https://draculatheme.com/contribute",
+  "fonts": [{ "family": "Fira Sans", "weights": [400, 500, 600, 700] }, { "family": "Fira Code", "weights": [400, 600] }],
+  "dark": false,
+  "swatch": ["#bd93f9", "#ff79c6", "#282a36", "#50fa7b"],
+  "tags": ["dracula", "dark", "developer", "purple", "editor"],
+  "version": 1
+}

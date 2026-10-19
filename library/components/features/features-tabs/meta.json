@@ -1,0 +1,11 @@
+{
+  "slug": "features-tabs",
+  "name": "Features: tabs",
+  "category": "features",
+  "description": "Three tabs (Repairs, Remodels, Smart home) switch a panel with image, title, text and a link. Arrow keys move between tabs; proper tablist roles.",
+  "tags": ["features", "tabs", "interactive", "image", "services"],
+  "previewHeight": 640,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

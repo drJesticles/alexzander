@@ -1,0 +1,11 @@
+{
+  "slug": "el-tooltip",
+  "name": "Element: tooltip",
+  "category": "elements",
+  "description": "CSS-only tooltips that appear on hover and keyboard focus, above and below the trigger. Linked with aria-describedby.",
+  "tags": ["element", "tooltip", "hint", "help"],
+  "previewHeight": 160,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "glassmorphism",
+  "name": "Glassmorphism",
+  "family": "off-the-wall",
+  "description": "Frosted glass over a violet-to-cyan gradient: translucent blurred cards with white hairline borders, 20px radii, Poppins. Light pastel and deep-violet dark schemes.",
+  "source": "https://hype4.academy/articles/design/glassmorphism-in-user-interfaces",
+  "fonts": [{ "family": "Poppins", "weights": [400, 500, 600, 700] }],
+  "dark": true,
+  "swatch": ["#7c3aed", "#06b6d4", "#ede9fe", "#1e1b4b"],
+  "tags": ["glass", "blur", "gradient", "frosted", "modern"],
+  "version": 1
+}

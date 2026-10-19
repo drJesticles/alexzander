@@ -1,0 +1,11 @@
+{
+  "slug": "blog-post-article",
+  "name": "Blog: single post article",
+  "category": "blog",
+  "description": "Full article layout: category, title, author and date meta, lead paragraph, hero image, body with h3 headings, a list, a pull quote, and a share row with tags at the end.",
+  "tags": ["blog", "article", "post", "prose", "share"],
+  "previewHeight": 1500,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

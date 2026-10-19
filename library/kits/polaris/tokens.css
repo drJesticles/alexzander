@@ -1,0 +1,78 @@
+/* Shopify Polaris v11 color/shape/shadow tokens. Dark scheme is an approximation (Polaris has no official dark). */
+:root {
+  --wf-bg: #ffffff;
+  --wf-surface: #f6f6f7;
+  --wf-surface-2: #edeeef;
+  --wf-text: #202223;
+  --wf-text-muted: #6d7175;
+  --wf-primary: #008060;
+  --wf-on-primary: #ffffff;
+  --wf-primary-hover: #006e52;
+  --wf-secondary: #202223;
+  --wf-on-secondary: #ffffff;
+  --wf-accent: #2c6ecb;
+  --wf-on-accent: #ffffff;
+  --wf-border: #c9cccf;
+  --wf-success: #008060;
+  --wf-warning: #916a00;
+  --wf-danger: #d72c0d;
+  --wf-info: #2c6ecb;
+  --wf-overlay: rgba(0, 0, 0, 0.5);
+  --polaris-input-border: #8c9196;
+  --polaris-focus: #458fff;
+
+  --wf-font-sans: Inter, -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --wf-font-mono: ui-monospace, SFMono-Regular, Consolas, Menlo, monospace;
+  --wf-font-display: var(--wf-font-sans);
+  --wf-font-body: var(--wf-font-sans);
+  --wf-leading-tight: 1.2;
+  --wf-leading-normal: 1.5;
+  --wf-weight-bold: 600;
+  --wf-tracking-tight: 0;
+  --wf-tracking-wide: 0.04em;
+
+  --wf-section-y: clamp(2.5rem, 6vw, 5rem);
+
+  --wf-radius-sm: 0.25rem;
+  --wf-radius-md: 0.5rem;
+  --wf-radius-lg: 0.75rem;
+  --wf-radius-xl: 1rem;
+
+  --wf-shadow-sm: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.15);
+  --wf-shadow-md: 0 0 0 1px rgba(6,44,82,.1), 0 2px 16px rgba(33,43,54,.08);
+  --wf-shadow-lg: 0 31px 41px rgba(32,42,53,.2), 0 2px 16px rgba(32,42,54,.08);
+
+  --wf-btn-radius: 0.5rem;
+  --wf-btn-py: 0.5rem;
+  --wf-btn-px: 1rem;
+  --wf-btn-weight: 600;
+  --wf-btn-shadow: 0 1px 0 rgba(0,0,0,.05);
+  --wf-card-radius: 0.5rem;
+  --wf-card-shadow: var(--wf-shadow-sm);
+  --wf-input-radius: 0.5rem;
+}
+[data-theme="dark"] {
+  --wf-bg: #1a1c1d;
+  --wf-surface: #232526;
+  --wf-surface-2: #2e3133;
+  --wf-text: #e3e5e7;
+  --wf-text-muted: #a4a7aa;
+  --wf-primary: #1a9c76;
+  --wf-on-primary: #04231a;
+  --wf-primary-hover: #22b088;
+  --wf-secondary: #e3e5e7;
+  --wf-on-secondary: #1a1c1d;
+  --wf-accent: #5c9ce5;
+  --wf-on-accent: #0a1a2e;
+  --wf-border: #3e4143;
+  --wf-success: #58c08f;
+  --wf-warning: #e1b878;
+  --wf-danger: #fd726a;
+  --wf-info: #5c9ce5;
+  --wf-overlay: rgba(0, 0, 0, 0.7);
+  --polaris-input-border: #6b6f72;
+  --polaris-focus: #5c9ce5;
+  --wf-shadow-sm: 0 0 0 1px rgba(255,255,255,.06), 0 1px 3px rgba(0,0,0,.5);
+  --wf-shadow-md: 0 0 0 1px rgba(255,255,255,.06), 0 2px 16px rgba(0,0,0,.5);
+  --wf-shadow-lg: 0 31px 41px rgba(0,0,0,.6), 0 2px 16px rgba(0,0,0,.5);
+}

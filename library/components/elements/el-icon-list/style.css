@@ -1,0 +1,11 @@
+.c-el-icon-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--wf-space-8);padding:var(--wf-space-4)}
+.c-el-icon-list__title{font-size:var(--wf-text-base);margin-bottom:var(--wf-space-3)}
+.c-el-icon-list__list{list-style:none;margin:0;padding:0;display:grid;gap:var(--wf-space-3)}
+.c-el-icon-list__list li{display:flex;align-items:flex-start;gap:var(--wf-space-3);line-height:var(--wf-leading-normal)}
+.c-el-icon-list__list .wf-icon{width:1.25rem;height:1.25rem;margin-top:.15rem}
+.c-el-icon-list__list--check .wf-icon{color:var(--wf-success)}
+.c-el-icon-list__list--arrow .wf-icon{color:var(--wf-primary)}
+.c-el-icon-list__list--arrow a{color:var(--wf-text);font-weight:var(--wf-weight-medium)}
+.c-el-icon-list__list--arrow a:hover{color:var(--wf-primary)}
+.c-el-icon-list__list--bolt .wf-icon{color:var(--wf-accent)}
+@media (max-width:768px){.c-el-icon-list{grid-template-columns:1fr;gap:var(--wf-space-6)}}

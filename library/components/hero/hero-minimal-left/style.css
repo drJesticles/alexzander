@@ -1,0 +1,7 @@
+.c-hero-minimal-left{padding-block:clamp(5rem,14vw,11rem)}
+.c-hero-minimal-left__title{font-size:clamp(var(--wf-text-4xl),8vw,5.5rem);line-height:1.02;max-width:14ch;margin-bottom:var(--wf-space-8)}
+.c-hero-minimal-left__line{font-size:var(--wf-text-xl);color:var(--wf-text-muted);max-width:40ch;margin-bottom:var(--wf-space-10)}
+@media (max-width:600px){
+  .c-hero-minimal-left__line{font-size:var(--wf-text-lg)}
+  .c-hero-minimal-left .wf-btn{width:100%}
+}

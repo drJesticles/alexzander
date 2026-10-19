@@ -1,0 +1,11 @@
+{
+  "slug": "commerce-product-grid",
+  "name": "Commerce: product grid",
+  "category": "commerce",
+  "description": "Heading with a view-all link and six product cards: square image, optional badge, name, one-line blurb, price and an Add to cart button.",
+  "tags": ["commerce", "products", "grid", "shop", "cards"],
+  "previewHeight": 900,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

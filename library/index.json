@@ -1,0 +1,3142 @@
+{
+  "generatedAt": "2026-10-19T16:27:17.626Z",
+  "counts": {
+    "kits": 34,
+    "components": 103,
+    "templates": 1
+  },
+  "kits": [
+    {
+      "slug": "aaa-brand",
+      "name": "AAA (HS / GC / AM house style)",
+      "family": "brand",
+      "description": "House kit for AAA Home Specialists, AAA Graphic Co and Avant Movers: deep navy, safety orange accent, bold condensed display type. Colors are placeholders until aaaBrandDNA.md is applied.",
+      "source": "business/GC/graphicCo/aaaBrandDNA.md (on aaalpha; not read in this session)",
+      "fonts": [
+        {
+          "family": "Barlow Condensed",
+          "weights": [
+            600,
+            700,
+            800
+          ]
+        },
+        {
+          "family": "Barlow",
+          "weights": [
+            400,
+            500,
+            600
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#0b2545",
+        "#f26a1b",
+        "#f5f7fa",
+        "#13315c"
+      ],
+      "tags": [
+        "aaa",
+        "brand",
+        "contractor",
+        "bold"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "aaa-gc-studio",
+      "name": "AAA Graphic Co: Studio",
+      "family": "brand",
+      "description": "Creative-studio variant for AAA Graphic Co: near-black on white, electric violet primary, the family orange as accent, Syne display, DM Sans body, 12px radii, playful hover lifts.",
+      "source": "library/kits/aaa-brand (house style); business/GC/graphicCo/aaaBrandDNA.md",
+      "fonts": [
+        {
+          "family": "Syne",
+          "weights": [
+            600,
+            700,
+            800
+          ]
+        },
+        {
+          "family": "DM Sans",
+          "weights": [
+            400,
+            500,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#6d28d9",
+        "#f26a1b",
+        "#ffffff",
+        "#111111"
+      ],
+      "tags": [
+        "aaa",
+        "brand",
+        "studio",
+        "creative",
+        "violet"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "aaa-hs-bold",
+      "name": "AAA Home Specialists: Bold",
+      "family": "brand",
+      "description": "Heavier AAA Home Specialists variant: safety orange primary on white with black #0a0a0a sections, Oswald condensed display, Barlow body, tight radii, high contrast.",
+      "source": "library/kits/aaa-brand (house style); business/GC/graphicCo/aaaBrandDNA.md",
+      "fonts": [
+        {
+          "family": "Oswald",
+          "weights": [
+            500,
+            600,
+            700
+          ]
+        },
+        {
+          "family": "Barlow",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#f26a1b",
+        "#0a0a0a",
+        "#ffffff",
+        "#0b2545"
+      ],
+      "tags": [
+        "aaa",
+        "brand",
+        "contractor",
+        "bold",
+        "orange"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "ant-design",
+      "name": "Ant Design",
+      "family": "web-dev",
+      "description": "Ant Design 5: system stack, daybreak blue #1677ff, 6px radius, compact spacing, light #d9d9d9 borders, white default buttons.",
+      "source": "https://ant.design/docs/spec/colors",
+      "fonts": [],
+      "dark": true,
+      "swatch": [
+        "#1677FF",
+        "#1F1F1F",
+        "#FAFAFA",
+        "#001529"
+      ],
+      "tags": [
+        "ant",
+        "antd",
+        "enterprise",
+        "blue",
+        "compact"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "apple-hig",
+      "name": "Apple HIG",
+      "family": "big-four",
+      "description": "Apple Human Interface Guidelines on the web: SF-like system stack, system blue, hairline borders, tight large headings, pill buttons.",
+      "source": "https://developer.apple.com/design/human-interface-guidelines",
+      "fonts": [
+        {
+          "family": "Inter",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#0071E3",
+        "#1D1D1F",
+        "#F5F5F7",
+        "#0A84FF"
+      ],
+      "tags": [
+        "apple",
+        "ios",
+        "macos",
+        "clean",
+        "minimal"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "atlassian",
+      "name": "Atlassian Design System",
+      "family": "web-dev",
+      "description": "Atlassian Design System: brand blue #0C66E4, N800 #172B4D text, 3px radius, Charlie-like sans falling back to system, lozenge badges, 2px-border fields, dark surfaces #1D2125.",
+      "source": "https://atlassian.design/foundations/color-new",
+      "fonts": [],
+      "dark": true,
+      "swatch": [
+        "#0C66E4",
+        "#172B4D",
+        "#F7F8F9",
+        "#579DFF"
+      ],
+      "tags": [
+        "atlassian",
+        "jira",
+        "confluence",
+        "blue",
+        "enterprise"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "base",
+      "name": "Base (neutral)",
+      "family": "web-dev",
+      "description": "The contract defaults. Clean, neutral, system fonts. Every component must look finished here.",
+      "source": "library/kits/_contract/tokens.css",
+      "fonts": [],
+      "dark": true,
+      "swatch": [
+        "#2457f5",
+        "#f59e0b",
+        "#ffffff",
+        "#16181d"
+      ],
+      "tags": [
+        "neutral",
+        "system",
+        "default"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "bauhaus",
+      "name": "Bauhaus",
+      "family": "off-the-wall",
+      "description": "Primary red, blue and yellow on cream and black. Geometric Jost type, chunky 3px borders, tricolor card stripes, zero radius.",
+      "source": "https://www.bauhaus-dessau.de",
+      "fonts": [
+        {
+          "family": "Jost",
+          "weights": [
+            400,
+            500,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#d02b27",
+        "#1d4e9b",
+        "#f2c230",
+        "#f4efe6"
+      ],
+      "tags": [
+        "geometric",
+        "primary-colors",
+        "bold",
+        "retro",
+        "1920s"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "bootstrap5",
+      "name": "Bootstrap 5",
+      "family": "web-dev",
+      "description": "Bootstrap 5.3: system stack, primary #0d6efd, the classic secondary/success/warning/danger set, 6px radius, medium-weight headings, 5.3 dark mode.",
+      "source": "https://getbootstrap.com/docs/5.3/customize/color/",
+      "fonts": [],
+      "dark": true,
+      "swatch": [
+        "#0D6EFD",
+        "#6C757D",
+        "#FFFFFF",
+        "#212529"
+      ],
+      "tags": [
+        "bootstrap",
+        "classic",
+        "system",
+        "blue"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "carbon",
+      "name": "IBM Carbon",
+      "family": "big-four",
+      "description": "IBM Carbon: IBM Plex Sans and Mono, Blue 60, zero border radius, dense spacing, left-aligned buttons, Gray 100 dark theme.",
+      "source": "https://carbondesignsystem.com",
+      "fonts": [
+        {
+          "family": "IBM Plex Sans",
+          "weights": [
+            300,
+            400,
+            600
+          ]
+        },
+        {
+          "family": "IBM Plex Mono",
+          "weights": [
+            400
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#0F62FE",
+        "#161616",
+        "#F4F4F4",
+        "#8A3FFC"
+      ],
+      "tags": [
+        "ibm",
+        "carbon",
+        "enterprise",
+        "square",
+        "dense"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "catppuccin-mocha",
+      "name": "Catppuccin Mocha",
+      "family": "off-the-wall",
+      "description": "The Catppuccin Mocha pastel-on-dark palette: base #1e1e2e, mauve primary, peach accent, soft rounded corners. Inter and JetBrains Mono.",
+      "source": "https://catppuccin.com/palette",
+      "fonts": [
+        {
+          "family": "Inter",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ]
+        },
+        {
+          "family": "JetBrains Mono",
+          "weights": [
+            400,
+            700
+          ]
+        }
+      ],
+      "dark": false,
+      "swatch": [
+        "#cba6f7",
+        "#fab387",
+        "#1e1e2e",
+        "#cdd6f4"
+      ],
+      "tags": [
+        "catppuccin",
+        "pastel",
+        "dark",
+        "developer",
+        "cozy"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "chakra",
+      "name": "Chakra UI",
+      "family": "web-dev",
+      "description": "Chakra UI: Inter, teal color scheme, gray.50-900 scale, 6px radii, semibold buttons, uppercase badges, blue focus ring.",
+      "source": "https://v2.chakra-ui.com/docs/styled-system/theme",
+      "fonts": [
+        {
+          "family": "Inter",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#319795",
+        "#1A202C",
+        "#F7FAFC",
+        "#4FD1C5"
+      ],
+      "tags": [
+        "chakra",
+        "teal",
+        "react",
+        "friendly"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "cyberpunk",
+      "name": "Cyberpunk Neon",
+      "family": "off-the-wall",
+      "description": "Night-city neon: #0a0a12 background, cyan primary, magenta and yellow accents, clipped button corners, glow shadows, Orbitron display with Rajdhani body.",
+      "source": "https://www.cyberpunk.net",
+      "fonts": [
+        {
+          "family": "Orbitron",
+          "weights": [
+            500,
+            700,
+            900
+          ]
+        },
+        {
+          "family": "Rajdhani",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ]
+        }
+      ],
+      "dark": false,
+      "swatch": [
+        "#00f0ff",
+        "#ff2bd6",
+        "#fcee0a",
+        "#0a0a12"
+      ],
+      "tags": [
+        "neon",
+        "dark",
+        "futuristic",
+        "glow",
+        "clip-path"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "daisyui",
+      "name": "DaisyUI Cupcake",
+      "family": "web-dev",
+      "description": "DaisyUI 'cupcake' playfulness: cream base, pastel teal primary with dark text, pink secondary, honey accent, pill buttons, big rounded boxes; Dracula-flavored dark scheme.",
+      "source": "https://daisyui.com/docs/themes/",
+      "fonts": [],
+      "dark": true,
+      "swatch": [
+        "#65C3C8",
+        "#EF9FBC",
+        "#EEAF3A",
+        "#291334"
+      ],
+      "tags": [
+        "daisyui",
+        "cupcake",
+        "pastel",
+        "playful",
+        "dracula"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "dracula",
+      "name": "Dracula",
+      "family": "off-the-wall",
+      "description": "The Dracula editor theme as a site: #282a36 background, #f8f8f2 foreground, purple primary, pink accent, green success, cyan links. Fira Sans and Fira Code.",
+      "source": "https://draculatheme.com/contribute",
+      "fonts": [
+        {
+          "family": "Fira Sans",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ]
+        },
+        {
+          "family": "Fira Code",
+          "weights": [
+            400,
+            600
+          ]
+        }
+      ],
+      "dark": false,
+      "swatch": [
+        "#bd93f9",
+        "#ff79c6",
+        "#282a36",
+        "#50fa7b"
+      ],
+      "tags": [
+        "dracula",
+        "dark",
+        "developer",
+        "purple",
+        "editor"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "fluent2",
+      "name": "Microsoft Fluent 2",
+      "family": "big-four",
+      "description": "Microsoft Fluent 2: Segoe UI, brand blue #0F6CBD, neutral grays, 4-8px radii, layered soft shadows, bottom-border inputs.",
+      "source": "https://fluent2.microsoft.design",
+      "fonts": [],
+      "dark": true,
+      "swatch": [
+        "#0F6CBD",
+        "#242424",
+        "#FAFAFA",
+        "#479EF5"
+      ],
+      "tags": [
+        "microsoft",
+        "fluent",
+        "windows",
+        "office"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "glassmorphism",
+      "name": "Glassmorphism",
+      "family": "off-the-wall",
+      "description": "Frosted glass over a violet-to-cyan gradient: translucent blurred cards with white hairline borders, 20px radii, Poppins. Light pastel and deep-violet dark schemes.",
+      "source": "https://hype4.academy/articles/design/glassmorphism-in-user-interfaces",
+      "fonts": [
+        {
+          "family": "Poppins",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#7c3aed",
+        "#06b6d4",
+        "#ede9fe",
+        "#1e1b4b"
+      ],
+      "tags": [
+        "glass",
+        "blur",
+        "gradient",
+        "frosted",
+        "modern"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "gruvbox",
+      "name": "Gruvbox",
+      "family": "off-the-wall",
+      "description": "Retro groove: warm #fbf1c7 light scheme with orange primary and blue accent, #282828 dark scheme. Source Serif 4 headings over Source Sans 3 body.",
+      "source": "https://github.com/morhetz/gruvbox",
+      "fonts": [
+        {
+          "family": "Source Serif 4",
+          "weights": [
+            600,
+            700
+          ]
+        },
+        {
+          "family": "Source Sans 3",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#d65d0e",
+        "#458588",
+        "#fbf1c7",
+        "#282828"
+      ],
+      "tags": [
+        "gruvbox",
+        "warm",
+        "retro",
+        "developer",
+        "serif"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "mantine",
+      "name": "Mantine",
+      "family": "web-dev",
+      "description": "Mantine v7: Inter-ish type, blue #228be6, gray.0-3 surfaces, 8px radius, 600-weight buttons, uppercase pill badges, dark.7 dark scheme.",
+      "source": "https://mantine.dev/theming/colors/",
+      "fonts": [
+        {
+          "family": "Inter",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#228BE6",
+        "#1A1B1E",
+        "#F8F9FA",
+        "#FAB005"
+      ],
+      "tags": [
+        "mantine",
+        "blue",
+        "react",
+        "rounded"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "material3",
+      "name": "Material Design 3",
+      "family": "big-four",
+      "description": "Google's Material You system: baseline tonal palette, surface tints instead of heavy shadows, pill buttons, large radii, Roboto.",
+      "source": "https://m3.material.io",
+      "fonts": [
+        {
+          "family": "Roboto",
+          "weights": [
+            400,
+            500,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#6750A4",
+        "#EADDFF",
+        "#FFFBFE",
+        "#1D1B20"
+      ],
+      "tags": [
+        "google",
+        "android",
+        "material",
+        "rounded",
+        "tonal"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "neo-brutalism",
+      "name": "Neo-Brutalism",
+      "family": "off-the-wall",
+      "description": "Stark cream and white, 3px black borders, hard offset shadows, acid yellow and hot pink. Archivo Black headlines, Space Grotesk body, zero radius.",
+      "source": "https://www.nngroup.com/articles/brutalism-antidesign/",
+      "fonts": [
+        {
+          "family": "Archivo Black",
+          "weights": [
+            400
+          ]
+        },
+        {
+          "family": "Space Grotesk",
+          "weights": [
+            400,
+            500,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#FFE600",
+        "#FF5DA2",
+        "#fffdf5",
+        "#000000"
+      ],
+      "tags": [
+        "brutalist",
+        "bold",
+        "offset-shadow",
+        "loud"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "nes",
+      "name": "NES 8-bit",
+      "family": "off-the-wall",
+      "description": "NES.css flavored 8-bit: Press Start 2P headlines, system mono body, 4px black borders, pixel-step box-shadows, red/blue/green game-cartridge colors, zero radius.",
+      "source": "https://nostalgic-css.github.io/NES.css/",
+      "fonts": [
+        {
+          "family": "Press Start 2P",
+          "weights": [
+            400
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#e76e55",
+        "#209cee",
+        "#92cc41",
+        "#212529"
+      ],
+      "tags": [
+        "8-bit",
+        "pixel",
+        "retro",
+        "game",
+        "nes"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "nord",
+      "name": "Nord",
+      "family": "off-the-wall",
+      "description": "Arctic, bluish Nord palette: Snow Storm light scheme with Frost blue primary and Aurora green accent, Polar Night dark scheme. Rubik type.",
+      "source": "https://www.nordtheme.com",
+      "fonts": [
+        {
+          "family": "Rubik",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#5e81ac",
+        "#a3be8c",
+        "#eceff4",
+        "#2e3440"
+      ],
+      "tags": [
+        "nord",
+        "arctic",
+        "calm",
+        "developer",
+        "blue"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "paper-newsprint",
+      "name": "Paper / Newsprint",
+      "family": "off-the-wall",
+      "description": "Broadsheet newspaper: off-white stock, near-black ink, one dark-red accent, Playfair Display mastheads over Libre Baskerville body, double rules, no radius, no shadows.",
+      "source": "https://fonts.google.com/specimen/Playfair+Display",
+      "fonts": [
+        {
+          "family": "Playfair Display",
+          "weights": [
+            700,
+            900
+          ]
+        },
+        {
+          "family": "Libre Baskerville",
+          "weights": [
+            400,
+            700
+          ]
+        }
+      ],
+      "dark": false,
+      "swatch": [
+        "#1a1a1a",
+        "#8b0000",
+        "#f7f4ea",
+        "#e8e2d0"
+      ],
+      "tags": [
+        "newspaper",
+        "editorial",
+        "serif",
+        "print",
+        "classic"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "polaris",
+      "name": "Shopify Polaris",
+      "family": "web-dev",
+      "description": "Shopify Polaris admin feel: Inter, green #008060 primary, interactive blue accent, white cards on soft gray, 8px radius, inset button shadows.",
+      "source": "https://polaris.shopify.com/tokens/color",
+      "fonts": [
+        {
+          "family": "Inter",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#008060",
+        "#202223",
+        "#F6F6F7",
+        "#2C6ECB"
+      ],
+      "tags": [
+        "shopify",
+        "polaris",
+        "admin",
+        "green",
+        "dashboard"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "primer",
+      "name": "GitHub Primer",
+      "family": "web-dev",
+      "description": "GitHub Primer: system stack, accent blue #0969da, green primary buttons, canvas white on subtle gray, 1px #d0d7de borders, 6px radius, #0d1117 dark.",
+      "source": "https://primer.style/foundations/color",
+      "fonts": [],
+      "dark": true,
+      "swatch": [
+        "#0969DA",
+        "#1F883D",
+        "#FFFFFF",
+        "#0D1117"
+      ],
+      "tags": [
+        "github",
+        "primer",
+        "developer",
+        "system"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "radix",
+      "name": "Radix Themes",
+      "family": "web-dev",
+      "description": "Radix Themes feel: Inter, indigo accent, slate grays, 6px radius, soft panel shadows, solid/outline/soft button variants.",
+      "source": "https://www.radix-ui.com/themes/docs/theme/color",
+      "fonts": [
+        {
+          "family": "Inter",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#3E63DD",
+        "#1C2024",
+        "#F9F9FB",
+        "#E1E9FF"
+      ],
+      "tags": [
+        "radix",
+        "indigo",
+        "slate",
+        "developer",
+        "soft"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "swiss-international",
+      "name": "Swiss / International Style",
+      "family": "off-the-wall",
+      "description": "International Typographic Style: white, black, one red. Inter/Helvetica, huge tight headlines, strict grid, thin rules, zero radius, no shadows.",
+      "source": "https://en.wikipedia.org/wiki/International_Typographic_Style",
+      "fonts": [
+        {
+          "family": "Inter",
+          "weights": [
+            400,
+            500,
+            700,
+            800
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#e30613",
+        "#000000",
+        "#ffffff",
+        "#f4f4f4"
+      ],
+      "tags": [
+        "swiss",
+        "typographic",
+        "grid",
+        "minimal",
+        "helvetica"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "tailwind-shadcn",
+      "name": "Tailwind / shadcn/ui",
+      "family": "web-dev",
+      "description": "shadcn/ui default theme: Inter, zinc neutrals, near-black primary, 6-8px radii, 1px borders, monochrome accents.",
+      "source": "https://ui.shadcn.com/themes",
+      "fonts": [
+        {
+          "family": "Inter",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#18181B",
+        "#71717A",
+        "#FFFFFF",
+        "#F4F4F5"
+      ],
+      "tags": [
+        "tailwind",
+        "shadcn",
+        "zinc",
+        "minimal",
+        "developer"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "terminal-green",
+      "name": "Terminal Green",
+      "family": "off-the-wall",
+      "description": "Green phosphor CRT: near-black background, #33ff66 text, dim green rules, monospace everything, scanlines, buttons that invert on hover.",
+      "source": "https://en.wikipedia.org/wiki/Monochrome_monitor",
+      "fonts": [
+        {
+          "family": "IBM Plex Mono",
+          "weights": [
+            400,
+            500,
+            700
+          ]
+        },
+        {
+          "family": "JetBrains Mono",
+          "weights": [
+            400,
+            700
+          ]
+        }
+      ],
+      "dark": false,
+      "swatch": [
+        "#33ff66",
+        "#1f9a44",
+        "#0b0f0a",
+        "#ffb000"
+      ],
+      "tags": [
+        "terminal",
+        "mono",
+        "retro",
+        "dark",
+        "crt"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "vaporwave",
+      "name": "Vaporwave",
+      "family": "off-the-wall",
+      "description": "A E S T H E T I C: pastel pink, cyan, purple and yellow, perspective-grid background, Monoton neon h1, VT323 pixel headings, Inter body. Sunset dark scheme.",
+      "source": "https://en.wikipedia.org/wiki/Vaporwave",
+      "fonts": [
+        {
+          "family": "Monoton",
+          "weights": [
+            400
+          ]
+        },
+        {
+          "family": "VT323",
+          "weights": [
+            400
+          ]
+        },
+        {
+          "family": "Inter",
+          "weights": [
+            400,
+            500,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#ff71ce",
+        "#01cdfe",
+        "#b967ff",
+        "#fffb96"
+      ],
+      "tags": [
+        "vaporwave",
+        "retro",
+        "pastel",
+        "neon",
+        "80s"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "win98",
+      "name": "Windows 98",
+      "family": "off-the-wall",
+      "description": "Classic Windows 98 chrome: #c0c0c0 faces, navy title bars, beveled outset and inset borders, zero radius, no shadows, MS Sans Serif stack.",
+      "source": "https://jdan.github.io/98.css/",
+      "fonts": [],
+      "dark": false,
+      "swatch": [
+        "#000080",
+        "#008080",
+        "#c0c0c0",
+        "#000000"
+      ],
+      "tags": [
+        "retro",
+        "windows",
+        "bevel",
+        "90s"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "winxp",
+      "name": "Windows XP (Luna)",
+      "family": "off-the-wall",
+      "description": "Luna blue: navy-to-blue gradient buttons, green start-button accent, 3px radii, light bluish surfaces, Tahoma and Trebuchet.",
+      "source": "https://botoxparty.github.io/XP.css/",
+      "fonts": [],
+      "dark": false,
+      "swatch": [
+        "#0A246A",
+        "#3B6EA5",
+        "#3C9D3C",
+        "#eef4fc"
+      ],
+      "tags": [
+        "retro",
+        "windows",
+        "luna",
+        "gradient"
+      ],
+      "version": 1
+    },
+    {
+      "slug": "y2k-chrome",
+      "name": "Y2K Chrome",
+      "family": "off-the-wall",
+      "description": "Millennium gloss: silver chrome gradients, electric blue and lime, bubbly pill buttons with glossy highlights, Audiowide display and Exo 2 body.",
+      "source": "https://en.wikipedia.org/wiki/Y2K_aesthetic",
+      "fonts": [
+        {
+          "family": "Audiowide",
+          "weights": [
+            400
+          ]
+        },
+        {
+          "family": "Exo 2",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ]
+        }
+      ],
+      "dark": true,
+      "swatch": [
+        "#1e6fff",
+        "#b6ff00",
+        "#eef1f6",
+        "#aab3c0"
+      ],
+      "tags": [
+        "y2k",
+        "chrome",
+        "glossy",
+        "retro-future",
+        "2000s"
+      ],
+      "version": 1
+    }
+  ],
+  "components": [
+    {
+      "slug": "blog-cards-grid",
+      "name": "Blog: three post cards",
+      "category": "blog",
+      "description": "Section heading with a View all link, then three post cards: image, category badge, title, excerpt, date and read time.",
+      "tags": [
+        "blog",
+        "cards",
+        "posts",
+        "grid",
+        "articles"
+      ],
+      "previewHeight": 720,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/blog/blog-cards-grid"
+    },
+    {
+      "slug": "blog-category-chips",
+      "name": "Blog: category chips and grid",
+      "category": "blog",
+      "description": "A row of category chip links (one marked current) above a four-card post grid. Static links; pair with a CMS or the filterable gallery for live filtering.",
+      "tags": [
+        "blog",
+        "categories",
+        "chips",
+        "grid",
+        "posts"
+      ],
+      "previewHeight": 760,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/blog/blog-category-chips"
+    },
+    {
+      "slug": "blog-featured-plus-list",
+      "name": "Blog: featured post plus list",
+      "category": "blog",
+      "description": "One large featured post with image, badge, title, excerpt and author on the left; three compact posts with small thumbnails stacked on the right.",
+      "tags": [
+        "blog",
+        "featured",
+        "list",
+        "posts",
+        "two-column"
+      ],
+      "previewHeight": 700,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/blog/blog-featured-plus-list"
+    },
+    {
+      "slug": "blog-list-horizontal",
+      "name": "Blog: horizontal list rows",
+      "category": "blog",
+      "description": "Four post rows, each with a thumbnail on the left and category, title, excerpt and meta on the right. Divider lines between rows; thumbnails shrink on phones.",
+      "tags": [
+        "blog",
+        "list",
+        "rows",
+        "thumbnail",
+        "archive"
+      ],
+      "previewHeight": 900,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/blog/blog-list-horizontal"
+    },
+    {
+      "slug": "blog-post-article",
+      "name": "Blog: single post article",
+      "category": "blog",
+      "description": "Full article layout: category, title, author and date meta, lead paragraph, hero image, body with h3 headings, a list, a pull quote, and a share row with tags at the end.",
+      "tags": [
+        "blog",
+        "article",
+        "post",
+        "prose",
+        "share"
+      ],
+      "previewHeight": 1500,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/blog/blog-post-article"
+    },
+    {
+      "slug": "commerce-cart-summary",
+      "name": "Commerce: cart summary",
+      "category": "commerce",
+      "description": "Three line items with thumbnail, variant, quantity stepper, price and remove button; totals card with promo code field and checkout button.",
+      "tags": [
+        "commerce",
+        "cart",
+        "checkout",
+        "totals",
+        "line-items"
+      ],
+      "previewHeight": 620,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/commerce/commerce-cart-summary"
+    },
+    {
+      "slug": "commerce-category-tiles",
+      "name": "Commerce: category tiles",
+      "category": "commerce",
+      "description": "Four linked image tiles with a dark gradient and the category name and item count in the corner. Two across on tablet, one on phones.",
+      "tags": [
+        "commerce",
+        "categories",
+        "tiles",
+        "collections",
+        "images"
+      ],
+      "previewHeight": 560,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/commerce/commerce-category-tiles"
+    },
+    {
+      "slug": "commerce-featured-product-split",
+      "name": "Commerce: featured product split",
+      "category": "commerce",
+      "description": "Large product photo on one side; staff-pick eyebrow, name, price, blurb, three selling points and Add to cart on the other. Image moves on top on mobile.",
+      "tags": [
+        "commerce",
+        "featured",
+        "product",
+        "split",
+        "two-column"
+      ],
+      "previewHeight": 600,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/commerce/commerce-featured-product-split"
+    },
+    {
+      "slug": "commerce-product-detail",
+      "name": "Commerce: product detail",
+      "category": "commerce",
+      "description": "Image gallery with four thumbnails that switch the main photo (radio inputs, no JS), plus title, price, rating, size select, quantity and Add to cart. Details list below.",
+      "tags": [
+        "commerce",
+        "product",
+        "gallery",
+        "add-to-cart",
+        "detail"
+      ],
+      "previewHeight": 760,
+      "hasScript": false,
+      "fields": [
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/commerce/commerce-product-detail"
+    },
+    {
+      "slug": "commerce-product-grid",
+      "name": "Commerce: product grid",
+      "category": "commerce",
+      "description": "Heading with a view-all link and six product cards: square image, optional badge, name, one-line blurb, price and an Add to cart button.",
+      "tags": [
+        "commerce",
+        "products",
+        "grid",
+        "shop",
+        "cards"
+      ],
+      "previewHeight": 900,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/commerce/commerce-product-grid"
+    },
+    {
+      "slug": "el-accordion",
+      "name": "Element: accordion",
+      "category": "elements",
+      "description": "Stack of collapsible panels; opening one closes the others. Headers are real buttons with aria-expanded; arrow keys move between headers.",
+      "tags": [
+        "element",
+        "accordion",
+        "collapse",
+        "faq"
+      ],
+      "previewHeight": 300,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-accordion"
+    },
+    {
+      "slug": "el-alert",
+      "name": "Element: alert",
+      "category": "elements",
+      "description": "Four alert boxes (info, success, warning, danger) switched by modifier class. Icon, title, message; left accent bar and a tinted background.",
+      "tags": [
+        "element",
+        "alert",
+        "notice",
+        "message",
+        "status"
+      ],
+      "previewHeight": 320,
+      "hasScript": false,
+      "fields": [
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/elements/el-alert"
+    },
+    {
+      "slug": "el-avatar-group",
+      "name": "Element: avatar group",
+      "category": "elements",
+      "description": "Four overlapping avatars, a +count bubble, and a trust line with a star rating. Use near a CTA as social proof.",
+      "tags": [
+        "element",
+        "avatar",
+        "social-proof",
+        "trust"
+      ],
+      "previewHeight": 140,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-avatar-group"
+    },
+    {
+      "slug": "el-badge-set",
+      "name": "Element: badge set",
+      "category": "elements",
+      "description": "Base, primary and accent badges plus tinted success/warning/danger/info variants and a status-dot badge.",
+      "tags": [
+        "element",
+        "badge",
+        "tag",
+        "status",
+        "pill"
+      ],
+      "previewHeight": 180,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-badge-set"
+    },
+    {
+      "slug": "el-breadcrumb",
+      "name": "Element: breadcrumb",
+      "category": "elements",
+      "description": "Home icon, two ancestor links and the current page, separated by chevrons. Wraps on narrow screens.",
+      "tags": [
+        "element",
+        "breadcrumb",
+        "navigation"
+      ],
+      "previewHeight": 120,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-breadcrumb"
+    },
+    {
+      "slug": "el-button-group",
+      "name": "Element: segmented button group",
+      "category": "elements",
+      "description": "Three-way segmented control built on radio inputs so it toggles without JavaScript. Keyboard navigable with arrow keys.",
+      "tags": [
+        "element",
+        "button",
+        "segmented",
+        "toggle",
+        "filter"
+      ],
+      "previewHeight": 140,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-button-group"
+    },
+    {
+      "slug": "el-button-icon",
+      "name": "Element: button with icon",
+      "category": "elements",
+      "description": "Buttons with a leading icon (phone, calendar, mail) plus one with a trailing arrow. Icons inherit the button color.",
+      "tags": [
+        "element",
+        "button",
+        "icon",
+        "phone"
+      ],
+      "previewHeight": 140,
+      "hasScript": false,
+      "fields": [
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/elements/el-button-icon"
+    },
+    {
+      "slug": "el-button-set",
+      "name": "Element: button palette",
+      "category": "elements",
+      "description": "Every .wf-btn variant (primary, secondary, accent, outline, ghost), the three sizes, and a full-width button, laid out as a palette.",
+      "tags": [
+        "element",
+        "button",
+        "palette",
+        "variants"
+      ],
+      "previewHeight": 300,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-button-set"
+    },
+    {
+      "slug": "el-card-basic",
+      "name": "Element: basic card",
+      "category": "elements",
+      "description": "Plain .wf-card with eyebrow, title, short paragraph and a text link. The simplest building block for lists and grids.",
+      "tags": [
+        "element",
+        "card",
+        "text",
+        "link"
+      ],
+      "previewHeight": 240,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-card-basic"
+    },
+    {
+      "slug": "el-card-horizontal",
+      "name": "Element: horizontal card",
+      "category": "elements",
+      "description": "Image on the left, copy and link on the right. Stacks with the image on top below 600px.",
+      "tags": [
+        "element",
+        "card",
+        "image",
+        "horizontal",
+        "media-object"
+      ],
+      "previewHeight": 240,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-card-horizontal"
+    },
+    {
+      "slug": "el-card-icon",
+      "name": "Element: icon card",
+      "category": "elements",
+      "description": "Card with an icon in a tinted circle, a title and a short description. The standard feature or service tile.",
+      "tags": [
+        "element",
+        "card",
+        "icon",
+        "feature"
+      ],
+      "previewHeight": 240,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-card-icon"
+    },
+    {
+      "slug": "el-card-image-top",
+      "name": "Element: card with image on top",
+      "category": "elements",
+      "description": "Card with a 3:2 image bleeding to the edges, a badge, title, blurb and a button. Good for services and blog teasers.",
+      "tags": [
+        "element",
+        "card",
+        "image",
+        "service"
+      ],
+      "previewHeight": 320,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-card-image-top"
+    },
+    {
+      "slug": "el-countdown",
+      "name": "Element: countdown timer",
+      "category": "elements",
+      "description": "Days, hours, minutes and seconds until the date in data-wf-date on the root. Shows an 'ended' message once the date passes.",
+      "tags": [
+        "element",
+        "countdown",
+        "timer",
+        "sale",
+        "event"
+      ],
+      "previewHeight": 200,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-countdown"
+    },
+    {
+      "slug": "el-divider-text",
+      "name": "Element: divider with text",
+      "category": "elements",
+      "description": "Horizontal rule with a short label in the middle, plus a second variant with a small icon. For breaking up long pages or forms.",
+      "tags": [
+        "element",
+        "divider",
+        "separator",
+        "hr"
+      ],
+      "previewHeight": 140,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-divider-text"
+    },
+    {
+      "slug": "el-dropdown-menu",
+      "name": "Element: dropdown menu",
+      "category": "elements",
+      "description": "Button that toggles a menu of links. Closes on outside click or Escape; arrow keys move through items, Home and End jump.",
+      "tags": [
+        "element",
+        "dropdown",
+        "menu",
+        "navigation"
+      ],
+      "previewHeight": 280,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-dropdown-menu"
+    },
+    {
+      "slug": "el-icon-list",
+      "name": "Element: icon lists",
+      "category": "elements",
+      "description": "Three list styles side by side: green check marks, primary arrows and accent bolts. Each list is its own block you can drop anywhere.",
+      "tags": [
+        "element",
+        "list",
+        "icons",
+        "checklist",
+        "features"
+      ],
+      "previewHeight": 260,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-icon-list"
+    },
+    {
+      "slug": "el-modal",
+      "name": "Element: modal dialog",
+      "category": "elements",
+      "description": "Trigger button that opens a centered dialog over a dimmed overlay. Focus is trapped inside, Escape or the backdrop closes, focus returns to the trigger.",
+      "tags": [
+        "element",
+        "modal",
+        "dialog",
+        "overlay",
+        "quote-form"
+      ],
+      "previewHeight": 160,
+      "hasScript": true,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/elements/el-modal"
+    },
+    {
+      "slug": "el-pagination",
+      "name": "Element: pagination",
+      "category": "elements",
+      "description": "Previous and next buttons around numbered pages with an ellipsis; the current page is marked with aria-current.",
+      "tags": [
+        "element",
+        "pagination",
+        "navigation",
+        "blog"
+      ],
+      "previewHeight": 120,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-pagination"
+    },
+    {
+      "slug": "el-progress-bar",
+      "name": "Element: progress bars",
+      "category": "elements",
+      "description": "Three labeled progress bars with percentage readouts. Fill width comes from a --c-el-progress-bar-value custom property on each bar.",
+      "tags": [
+        "element",
+        "progress",
+        "meter",
+        "stats"
+      ],
+      "previewHeight": 220,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-progress-bar"
+    },
+    {
+      "slug": "el-rating-stars",
+      "name": "Element: rating stars",
+      "category": "elements",
+      "description": "A static 4.5-star display with review count, and an interactive star picker (radiogroup) that works with click and arrow keys and writes to a hidden input.",
+      "tags": [
+        "element",
+        "rating",
+        "stars",
+        "reviews",
+        "form"
+      ],
+      "previewHeight": 220,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-rating-stars"
+    },
+    {
+      "slug": "el-table-striped",
+      "name": "Element: striped table",
+      "category": "elements",
+      "description": "Zebra-striped price table with a caption, sticky-feeling header row and a horizontal scroll wrapper for phones.",
+      "tags": [
+        "element",
+        "table",
+        "pricing",
+        "data"
+      ],
+      "previewHeight": 320,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-table-striped"
+    },
+    {
+      "slug": "el-tabs",
+      "name": "Element: tabs",
+      "category": "elements",
+      "description": "Three tabs with panels. Click or use arrow keys, Home and End to move between tabs; the active panel is the only one shown.",
+      "tags": [
+        "element",
+        "tabs",
+        "navigation",
+        "services"
+      ],
+      "previewHeight": 300,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-tabs"
+    },
+    {
+      "slug": "el-toast",
+      "name": "Element: toast notification",
+      "category": "elements",
+      "description": "Button that fires a bottom-corner toast inside an aria-live region. Auto-hides after four seconds or on the close button; repeat clicks reset the timer.",
+      "tags": [
+        "element",
+        "toast",
+        "notification",
+        "feedback"
+      ],
+      "previewHeight": 200,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-toast"
+    },
+    {
+      "slug": "el-tooltip",
+      "name": "Element: tooltip",
+      "category": "elements",
+      "description": "CSS-only tooltips that appear on hover and keyboard focus, above and below the trigger. Linked with aria-describedby.",
+      "tags": [
+        "element",
+        "tooltip",
+        "hint",
+        "help"
+      ],
+      "previewHeight": 160,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/elements/el-tooltip"
+    },
+    {
+      "slug": "faq-accordion",
+      "name": "FAQ: accordion",
+      "category": "faq",
+      "description": "Six questions in a single-column accordion. Buttons toggle aria-expanded and the panel's hidden state; script re-keys ids so several copies can share a page.",
+      "tags": [
+        "faq",
+        "accordion",
+        "questions",
+        "interactive",
+        "accessible"
+      ],
+      "previewHeight": 600,
+      "hasScript": true,
+      "fields": [
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/faq/faq-accordion"
+    },
+    {
+      "slug": "faq-search-filter",
+      "name": "FAQ: searchable accordion",
+      "category": "faq",
+      "description": "Search box above an accordion. Typing filters questions live, shows a result count, auto-opens matches and offers a reset. Works with no script as a plain accordion list.",
+      "tags": [
+        "faq",
+        "search",
+        "filter",
+        "accordion",
+        "interactive"
+      ],
+      "previewHeight": 680,
+      "hasScript": true,
+      "fields": [
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/faq/faq-search-filter"
+    },
+    {
+      "slug": "faq-two-column",
+      "name": "FAQ: two columns, static",
+      "category": "faq",
+      "description": "Eight short question and answer pairs laid out in two columns with no interaction. Good for print-style clarity; one column on phones.",
+      "tags": [
+        "faq",
+        "two-column",
+        "static",
+        "questions"
+      ],
+      "previewHeight": 640,
+      "hasScript": false,
+      "fields": [
+        "business.hours"
+      ],
+      "version": 1,
+      "path": "components/faq/faq-two-column"
+    },
+    {
+      "slug": "faq-with-contact-card",
+      "name": "FAQ: accordion with contact card",
+      "category": "faq",
+      "description": "Accordion on the left, sticky \"Still have questions?\" card on the right with phone, email and hours. Card drops below the list on mobile.",
+      "tags": [
+        "faq",
+        "accordion",
+        "contact",
+        "sidebar",
+        "interactive"
+      ],
+      "previewHeight": 640,
+      "hasScript": true,
+      "fields": [
+        "business.phone",
+        "business.email",
+        "business.hours"
+      ],
+      "version": 1,
+      "path": "components/faq/faq-with-contact-card"
+    },
+    {
+      "slug": "features-alternating-rows",
+      "name": "Features: alternating rows",
+      "category": "features",
+      "description": "Three image-and-text rows that alternate sides on desktop (image left, right, left). Each row has an eyebrow, title, paragraph and text link. Images stack above text on mobile.",
+      "tags": [
+        "features",
+        "image",
+        "alternating",
+        "zigzag",
+        "rows"
+      ],
+      "previewHeight": 1200,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/features/features-alternating-rows"
+    },
+    {
+      "slug": "features-bento",
+      "name": "Features: bento grid",
+      "category": "features",
+      "description": "Asymmetric five-cell grid: one large image-backed cell, a tall stat cell, two medium text cells and a wide dark CTA cell. Reflows to two columns on tablet and one on phone.",
+      "tags": [
+        "features",
+        "bento",
+        "grid",
+        "asymmetric",
+        "showcase"
+      ],
+      "previewHeight": 760,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/features/features-bento"
+    },
+    {
+      "slug": "features-cards-hover",
+      "name": "Features: hover cards",
+      "category": "features",
+      "description": "Four linked cards with icon, title, text and an arrow. Cards lift and gain a shadow and primary border on hover. Two columns on tablet, one on phone.",
+      "tags": [
+        "features",
+        "cards",
+        "hover",
+        "grid",
+        "links"
+      ],
+      "previewHeight": 560,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/features/features-cards-hover"
+    },
+    {
+      "slug": "features-checklist",
+      "name": "Features: checklist",
+      "category": "features",
+      "description": "Headline, lead and button on the left; a two-column list of eight checked items on the right. List collapses to one column on phones.",
+      "tags": [
+        "features",
+        "checklist",
+        "list",
+        "included",
+        "two-column"
+      ],
+      "previewHeight": 560,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/features/features-checklist"
+    },
+    {
+      "slug": "features-comparison-two-col",
+      "name": "Features: us vs. them",
+      "category": "features",
+      "description": "Two side-by-side columns comparing the typical contractor experience (muted, crossed items) with yours (highlighted, checked items). Stacks on mobile.",
+      "tags": [
+        "features",
+        "comparison",
+        "versus",
+        "two-column",
+        "trust"
+      ],
+      "previewHeight": 620,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/features/features-comparison-two-col"
+    },
+    {
+      "slug": "features-grid-icons",
+      "name": "Features: icon grid",
+      "category": "features",
+      "description": "Centered eyebrow, headline and lead above a 3x2 grid of icon, title and short text. Two columns on tablet, one on phone.",
+      "tags": [
+        "features",
+        "icons",
+        "grid",
+        "benefits",
+        "why-us"
+      ],
+      "previewHeight": 720,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/features/features-grid-icons"
+    },
+    {
+      "slug": "features-tabs",
+      "name": "Features: tabs",
+      "category": "features",
+      "description": "Three tabs (Repairs, Remodels, Smart home) switch a panel with image, title, text and a link. Arrow keys move between tabs; proper tablist roles.",
+      "tags": [
+        "features",
+        "tabs",
+        "interactive",
+        "image",
+        "services"
+      ],
+      "previewHeight": 640,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/features/features-tabs"
+    },
+    {
+      "slug": "footer-columns",
+      "name": "Footer: four columns",
+      "category": "footer",
+      "description": "Brand blurb, two link columns, contact column; copyright bar.",
+      "tags": [
+        "footer",
+        "links",
+        "contact",
+        "social"
+      ],
+      "previewHeight": 420,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone",
+        "business.email",
+        "business.address",
+        "business.year"
+      ],
+      "version": 1,
+      "path": "components/footer/footer-columns"
+    },
+    {
+      "slug": "form-booking-appointment",
+      "name": "Form: book an appointment",
+      "category": "forms",
+      "description": "Appointment request with date, time-slot select, service, contact details and notes, next to a card listing availability and a phone fallback.",
+      "tags": [
+        "form",
+        "booking",
+        "appointment",
+        "schedule",
+        "date"
+      ],
+      "previewHeight": 820,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone",
+        "business.hours"
+      ],
+      "version": 1,
+      "path": "components/forms/form-booking-appointment"
+    },
+    {
+      "slug": "form-callback-request",
+      "name": "Form: request a callback",
+      "category": "forms",
+      "description": "Dark band with a short promise on the left and a two-field callback form (phone, best time) on the right. Good above a footer.",
+      "tags": [
+        "form",
+        "callback",
+        "phone",
+        "lead",
+        "band"
+      ],
+      "previewHeight": 360,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/forms/form-callback-request"
+    },
+    {
+      "slug": "form-contact-basic",
+      "name": "Form: basic contact",
+      "category": "forms",
+      "description": "Centered contact form with name, email, phone and message, plus a short reassurance line under the submit button.",
+      "tags": [
+        "form",
+        "contact",
+        "message",
+        "simple"
+      ],
+      "previewHeight": 720,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/forms/form-contact-basic"
+    },
+    {
+      "slug": "form-estimate-calculator",
+      "name": "Form: instant estimate calculator",
+      "category": "forms",
+      "description": "Square footage times a per-foot rate from a service select, with a live total rounded up to the nearest $10. Submit requests a firm quote.",
+      "tags": [
+        "form",
+        "calculator",
+        "estimate",
+        "pricing",
+        "interactive"
+      ],
+      "previewHeight": 720,
+      "hasScript": true,
+      "fields": [
+        "business.name",
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/forms/form-estimate-calculator"
+    },
+    {
+      "slug": "form-login-signup",
+      "name": "Form: login / sign up tabs",
+      "category": "forms",
+      "description": "Centered card with two tabs: sign in (email, password, remember me) and create account (name, email, password, consent). Tabs switch panels; arrow keys move between tabs.",
+      "tags": [
+        "form",
+        "login",
+        "signup",
+        "account",
+        "tabs"
+      ],
+      "previewHeight": 680,
+      "hasScript": true,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/forms/form-login-signup"
+    },
+    {
+      "slug": "form-multistep",
+      "name": "Form: three-step wizard",
+      "category": "forms",
+      "description": "Three-step project request (job, home, contact) with a progress bar, next/back buttons and per-step validation. Client-side only; the final step submits the whole form.",
+      "tags": [
+        "form",
+        "multistep",
+        "wizard",
+        "progress",
+        "interactive"
+      ],
+      "previewHeight": 760,
+      "hasScript": true,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/forms/form-multistep"
+    },
+    {
+      "slug": "form-newsletter-inline",
+      "name": "Form: inline newsletter",
+      "category": "forms",
+      "description": "Compact band with a headline on the left and a single-line email signup on the right. Consent note under the field.",
+      "tags": [
+        "form",
+        "newsletter",
+        "email",
+        "signup",
+        "inline"
+      ],
+      "previewHeight": 320,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/forms/form-newsletter-inline"
+    },
+    {
+      "slug": "form-quote-request",
+      "name": "Form: quote request",
+      "category": "forms",
+      "description": "Two-column quote request: service select, address, preferred date, photo upload, description and budget range. Sidebar explains what happens next.",
+      "tags": [
+        "form",
+        "quote",
+        "estimate",
+        "upload",
+        "home-services"
+      ],
+      "previewHeight": 960,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone",
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/forms/form-quote-request"
+    },
+    {
+      "slug": "gallery-before-after",
+      "name": "Gallery: before / after slider",
+      "category": "gallery",
+      "description": "Two stacked images with a draggable divider revealing the before shot. Pointer events, keyboard arrows (Home/End to jump), labels and a caption. Falls back to a 50/50 split without JS.",
+      "tags": [
+        "gallery",
+        "before-after",
+        "slider",
+        "compare",
+        "interactive"
+      ],
+      "previewHeight": 760,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/gallery/gallery-before-after"
+    },
+    {
+      "slug": "gallery-carousel",
+      "name": "Gallery: scroll-snap carousel",
+      "category": "gallery",
+      "description": "Horizontal strip of project cards with CSS scroll-snap. Previous/next arrows scroll one card at a time and disable at the ends; the strip also scrolls by touch or trackpad without JS.",
+      "tags": [
+        "gallery",
+        "carousel",
+        "slider",
+        "scroll-snap",
+        "interactive"
+      ],
+      "previewHeight": 620,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/gallery/gallery-carousel"
+    },
+    {
+      "slug": "gallery-filterable",
+      "name": "Gallery: filterable by category",
+      "category": "gallery",
+      "description": "Filter buttons (All, Kitchens, Baths, Exterior, Repairs) above a grid of eight projects tagged with data-category. Buttons toggle aria-pressed and hide non-matching cards; a count line updates.",
+      "tags": [
+        "gallery",
+        "filter",
+        "categories",
+        "projects",
+        "interactive"
+      ],
+      "previewHeight": 980,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/gallery/gallery-filterable"
+    },
+    {
+      "slug": "gallery-grid",
+      "name": "Gallery: 3x3 grid with captions",
+      "category": "gallery",
+      "description": "Nine square project photos in a three-column grid, each with a caption and location line. Two columns on tablet, one on phone.",
+      "tags": [
+        "gallery",
+        "grid",
+        "photos",
+        "captions",
+        "projects"
+      ],
+      "previewHeight": 1200,
+      "hasScript": false,
+      "fields": [
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/gallery/gallery-grid"
+    },
+    {
+      "slug": "gallery-lightbox",
+      "name": "Gallery: grid with lightbox",
+      "category": "gallery",
+      "description": "Six thumbnails; clicking any opens a full-screen overlay with the large image, caption, previous/next arrows, a counter and a close button. Escape and arrow keys work, focus returns on close.",
+      "tags": [
+        "gallery",
+        "lightbox",
+        "overlay",
+        "modal",
+        "interactive"
+      ],
+      "previewHeight": 820,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/gallery/gallery-lightbox"
+    },
+    {
+      "slug": "gallery-masonry",
+      "name": "Gallery: masonry columns",
+      "category": "gallery",
+      "description": "Mixed-height project photos flowing through CSS multi-columns (3 / 2 / 1). Hover reveals a short caption.",
+      "tags": [
+        "gallery",
+        "masonry",
+        "columns",
+        "photos"
+      ],
+      "previewHeight": 1100,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/gallery/gallery-masonry"
+    },
+    {
+      "slug": "gallery-video-grid",
+      "name": "Gallery: video thumbnails grid",
+      "category": "gallery",
+      "description": "Three video cards with a poster image, play badge, duration chip and a short description. Each card carries data-wf-embed for the host to wire a video URL; nothing is hotlinked.",
+      "tags": [
+        "gallery",
+        "video",
+        "grid",
+        "thumbnails",
+        "walkthrough"
+      ],
+      "previewHeight": 640,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/gallery/gallery-video-grid"
+    },
+    {
+      "slug": "hero-carousel",
+      "name": "Hero: carousel",
+      "category": "hero",
+      "description": "Three full-width slides, each with its own image, overlay, headline and button. Dots and arrows switch slides; keyboard arrows work. Autoplays every 7 seconds only when reduced motion is off, pausing on hover and focus.",
+      "tags": [
+        "hero",
+        "carousel",
+        "slider",
+        "image",
+        "cta"
+      ],
+      "previewHeight": 600,
+      "hasScript": true,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/hero/hero-carousel"
+    },
+    {
+      "slug": "hero-centered-bg-image",
+      "name": "Hero: centered on background image",
+      "category": "hero",
+      "description": "Full-bleed background image with a dark overlay, centered eyebrow, headline, lead and two buttons. Minimum height scales with the viewport.",
+      "tags": [
+        "hero",
+        "image",
+        "overlay",
+        "centered",
+        "cta"
+      ],
+      "previewHeight": 640,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/hero/hero-centered-bg-image"
+    },
+    {
+      "slug": "hero-emergency-bar",
+      "name": "Hero: emergency bar",
+      "category": "hero",
+      "description": "Service-business hero with a 24/7 phone strip across the top, headline, lead and two buttons, then a row of four trust badges (licensed, same-day, rated, warranty).",
+      "tags": [
+        "hero",
+        "emergency",
+        "phone",
+        "trust-badges",
+        "service"
+      ],
+      "previewHeight": 640,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone",
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/hero/hero-emergency-bar"
+    },
+    {
+      "slug": "hero-form-right",
+      "name": "Hero: quote form right",
+      "category": "hero",
+      "description": "Headline, lead and three trust points on the left; a four-field quote-request card (name, phone, service, details) on the right. Form stacks under the copy on mobile.",
+      "tags": [
+        "hero",
+        "form",
+        "quote",
+        "lead-capture",
+        "two-column"
+      ],
+      "previewHeight": 680,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/hero/hero-form-right"
+    },
+    {
+      "slug": "hero-gradient-text",
+      "name": "Hero: gradient headline",
+      "category": "hero",
+      "description": "App-style centered hero: pill badge, headline with a primary-to-accent gradient clipped to the text, lead, two buttons and a framed product screenshot underneath.",
+      "tags": [
+        "hero",
+        "gradient",
+        "centered",
+        "app",
+        "saas",
+        "screenshot"
+      ],
+      "previewHeight": 760,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/hero/hero-gradient-text"
+    },
+    {
+      "slug": "hero-minimal-left",
+      "name": "Hero: minimal left",
+      "category": "hero",
+      "description": "One oversized headline, one supporting line and one button, left-aligned with generous whitespace. No image, no clutter.",
+      "tags": [
+        "hero",
+        "minimal",
+        "typography",
+        "whitespace",
+        "left"
+      ],
+      "previewHeight": 560,
+      "hasScript": false,
+      "fields": [
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/hero/hero-minimal-left"
+    },
+    {
+      "slug": "hero-pricing-teaser",
+      "name": "Hero: pricing teaser",
+      "category": "hero",
+      "description": "Headline and lead with three starting-price chips and a button on the left; a highlighted 'most booked' package card with a bullet list on the right.",
+      "tags": [
+        "hero",
+        "pricing",
+        "package",
+        "two-column",
+        "cta"
+      ],
+      "previewHeight": 640,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/hero/hero-pricing-teaser"
+    },
+    {
+      "slug": "hero-split-image",
+      "name": "Hero: split with image",
+      "category": "hero",
+      "description": "Eyebrow, headline, lead, two buttons and a trust line on the left; framed image on the right. Stacks on mobile.",
+      "tags": [
+        "hero",
+        "image",
+        "cta",
+        "two-column",
+        "trust"
+      ],
+      "previewHeight": 640,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/hero/hero-split-image"
+    },
+    {
+      "slug": "hero-split-stats",
+      "name": "Hero: split with stats",
+      "category": "hero",
+      "description": "Headline, lead and button on the left with three big numbers beneath them; framed image on the right. Image moves above the copy on mobile.",
+      "tags": [
+        "hero",
+        "stats",
+        "image",
+        "two-column",
+        "social-proof"
+      ],
+      "previewHeight": 660,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.year"
+      ],
+      "version": 1,
+      "path": "components/hero/hero-split-stats"
+    },
+    {
+      "slug": "hero-video-bg",
+      "name": "Hero: video background",
+      "category": "hero",
+      "description": "Muted, looping, autoplaying background video with a poster placeholder and dark overlay; headline, lead and buttons sit left-aligned on top. Swap the source for your own clip.",
+      "tags": [
+        "hero",
+        "video",
+        "overlay",
+        "cta",
+        "background"
+      ],
+      "previewHeight": 640,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/hero/hero-video-bg"
+    },
+    {
+      "slug": "media-image-grid-four",
+      "name": "Media: four-image mosaic",
+      "category": "media",
+      "description": "Heading and intro on the left, a 2x2 mosaic of photos on the right with one tall image spanning two rows. Collapses to a two-column grid on mobile.",
+      "tags": [
+        "media",
+        "images",
+        "mosaic",
+        "grid",
+        "about"
+      ],
+      "previewHeight": 640,
+      "hasScript": false,
+      "fields": [
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/media/media-image-grid-four"
+    },
+    {
+      "slug": "media-image-text-split",
+      "name": "Media: image and text split",
+      "category": "media",
+      "description": "Large image on the left with a small stat badge overlapping its corner; eyebrow, heading, two paragraphs, a checklist and a button on the right. Image stacks on top on mobile.",
+      "tags": [
+        "media",
+        "image",
+        "text",
+        "two-column",
+        "about"
+      ],
+      "previewHeight": 640,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.year"
+      ],
+      "version": 1,
+      "path": "components/media/media-image-text-split"
+    },
+    {
+      "slug": "media-map-embed",
+      "name": "Media: map with address card",
+      "category": "media",
+      "description": "Map placeholder box (data-wf-embed for the host to swap in a map) beside an address card with hours, phone and an Open in Google Maps link. Stacks on mobile.",
+      "tags": [
+        "media",
+        "map",
+        "address",
+        "directions",
+        "location"
+      ],
+      "previewHeight": 560,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.address",
+        "business.city",
+        "business.phone",
+        "business.hours"
+      ],
+      "version": 1,
+      "path": "components/media/media-map-embed"
+    },
+    {
+      "slug": "media-video-embed",
+      "name": "Media: responsive video embed",
+      "category": "media",
+      "description": "16:9 video frame with a local poster image and a play button. The wrapper carries data-wf-embed for the host to swap in an iframe URL; nothing external loads by default.",
+      "tags": [
+        "media",
+        "video",
+        "embed",
+        "poster",
+        "16:9"
+      ],
+      "previewHeight": 760,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/media/media-video-embed"
+    },
+    {
+      "slug": "nav-centered-logo",
+      "name": "Nav: centered logo",
+      "category": "nav",
+      "description": "Logo text centered with three links on the left and two links plus a phone button on the right. Collapses to a centered, wrapping link row on mobile.",
+      "tags": [
+        "nav",
+        "header",
+        "centered",
+        "symmetrical",
+        "cta"
+      ],
+      "previewHeight": 120,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/nav/nav-centered-logo"
+    },
+    {
+      "slug": "nav-mega-menu",
+      "name": "Nav: mega menu",
+      "category": "nav",
+      "description": "Logo, links and phone button; the Services item opens a three-column panel (Repairs, Remodels, Smart home) with a featured callout. Closes on outside click or Escape. Hamburger below 900px.",
+      "tags": [
+        "nav",
+        "header",
+        "mega-menu",
+        "dropdown",
+        "services",
+        "mobile-menu"
+      ],
+      "previewHeight": 420,
+      "hasScript": true,
+      "fields": [
+        "business.name",
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/nav/nav-mega-menu"
+    },
+    {
+      "slug": "nav-minimal-pill",
+      "name": "Nav: minimal pill",
+      "category": "nav",
+      "description": "A floating rounded pill centered at the top of the page: logo text, four links and a small button, with a blurred translucent background. Links scroll horizontally on narrow screens.",
+      "tags": [
+        "nav",
+        "header",
+        "pill",
+        "floating",
+        "minimal",
+        "sticky"
+      ],
+      "previewHeight": 120,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/nav/nav-minimal-pill"
+    },
+    {
+      "slug": "nav-sidebar-drawer",
+      "name": "Nav: sidebar drawer",
+      "category": "nav",
+      "description": "Hamburger at every width. Tapping it slides a drawer in from the left with links, hours and contact details, behind a dimmed backdrop. Escape or backdrop click closes it.",
+      "tags": [
+        "nav",
+        "header",
+        "drawer",
+        "off-canvas",
+        "hamburger",
+        "mobile-menu"
+      ],
+      "previewHeight": 120,
+      "hasScript": true,
+      "fields": [
+        "business.name",
+        "business.phone",
+        "business.email",
+        "business.hours"
+      ],
+      "version": 1,
+      "path": "components/nav/nav-sidebar-drawer"
+    },
+    {
+      "slug": "nav-simple",
+      "name": "Nav: simple with CTA",
+      "category": "nav",
+      "description": "Logo text left, five links, phone button right. Hamburger below 900px.",
+      "tags": [
+        "nav",
+        "header",
+        "mobile-menu",
+        "cta"
+      ],
+      "previewHeight": 120,
+      "hasScript": true,
+      "fields": [
+        "business.name",
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/nav/nav-simple"
+    },
+    {
+      "slug": "nav-topbar-contact",
+      "name": "Nav: top bar with contact",
+      "category": "nav",
+      "description": "Thin dark top bar with phone, hours, city and social icons; main nav below with logo text, five links and an estimate button. Links wrap on mobile; hours hide below 600px.",
+      "tags": [
+        "nav",
+        "header",
+        "topbar",
+        "contact",
+        "hours",
+        "social"
+      ],
+      "previewHeight": 150,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone",
+        "business.hours",
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/nav/nav-topbar-contact"
+    },
+    {
+      "slug": "nav-transparent-overlay",
+      "name": "Nav: transparent overlay",
+      "category": "nav",
+      "description": "Absolutely positioned over the hero with white text on a soft black gradient; becomes a fixed solid bar once the page scrolls. Hamburger menu below 900px.",
+      "tags": [
+        "nav",
+        "header",
+        "transparent",
+        "overlay",
+        "scroll",
+        "mobile-menu"
+      ],
+      "previewHeight": 120,
+      "hasScript": true,
+      "fields": [
+        "business.name",
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/nav/nav-transparent-overlay"
+    },
+    {
+      "slug": "pricing-service-menu",
+      "name": "Pricing: service menu",
+      "category": "pricing",
+      "description": "Handyman-style price list in two groups (rates and common jobs) with dotted leaders. Round, scannable numbers and a quote button.",
+      "tags": [
+        "pricing",
+        "menu",
+        "list",
+        "rates",
+        "handyman"
+      ],
+      "previewHeight": 720,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/pricing/pricing-service-menu"
+    },
+    {
+      "slug": "pricing-single-card",
+      "name": "Pricing: single offer card",
+      "category": "pricing",
+      "description": "One centered offer: price, short pitch, bullet list of what is included, button and fine print.",
+      "tags": [
+        "pricing",
+        "single",
+        "offer",
+        "card",
+        "cta"
+      ],
+      "previewHeight": 620,
+      "hasScript": false,
+      "fields": [
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/pricing/pricing-single-card"
+    },
+    {
+      "slug": "pricing-table-compare",
+      "name": "Pricing: comparison table",
+      "category": "pricing",
+      "description": "Feature matrix with three plan columns, check and dash icons, and a button row. Collapses to stacked labelled rows below 768px.",
+      "tags": [
+        "pricing",
+        "table",
+        "compare",
+        "features",
+        "responsive"
+      ],
+      "previewHeight": 760,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/pricing/pricing-table-compare"
+    },
+    {
+      "slug": "pricing-three-tier",
+      "name": "Pricing: three tiers",
+      "category": "pricing",
+      "description": "Three plan cards with price, feature list and button; the middle card is lifted and badged \"Most popular\". Stacks on mobile.",
+      "tags": [
+        "pricing",
+        "plans",
+        "cards",
+        "three-column",
+        "popular"
+      ],
+      "previewHeight": 760,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/pricing/pricing-three-tier"
+    },
+    {
+      "slug": "pricing-toggle-monthly-yearly",
+      "name": "Pricing: monthly / yearly toggle",
+      "category": "pricing",
+      "description": "Three maintenance plans with a segmented monthly/yearly switch. Script swaps amounts from data attributes; yearly shows the savings badge.",
+      "tags": [
+        "pricing",
+        "toggle",
+        "subscription",
+        "plans",
+        "interactive"
+      ],
+      "previewHeight": 820,
+      "hasScript": true,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/pricing/pricing-toggle-monthly-yearly"
+    },
+    {
+      "slug": "stats-counter",
+      "name": "Stats: animated counters",
+      "category": "stats",
+      "description": "Three numbers that count up from zero when scrolled into view (IntersectionObserver). Honors prefers-reduced-motion and shows final values with no script.",
+      "tags": [
+        "stats",
+        "counter",
+        "animated",
+        "scroll",
+        "interactive"
+      ],
+      "previewHeight": 420,
+      "hasScript": true,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/stats/stats-counter"
+    },
+    {
+      "slug": "stats-dark-band",
+      "name": "Stats: dark band",
+      "category": "stats",
+      "description": "Full-width band on the secondary color with a short line of copy and three large stats in accent color. Stacks on phones.",
+      "tags": [
+        "stats",
+        "dark",
+        "band",
+        "three-column",
+        "proof"
+      ],
+      "previewHeight": 320,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/stats/stats-dark-band"
+    },
+    {
+      "slug": "stats-row",
+      "name": "Stats: four-up row",
+      "category": "stats",
+      "description": "Four big numbers with labels in a single row, divided by hairlines. Two-by-two on tablet and phone.",
+      "tags": [
+        "stats",
+        "numbers",
+        "row",
+        "four-column",
+        "proof"
+      ],
+      "previewHeight": 300,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/stats/stats-row"
+    },
+    {
+      "slug": "stats-split-image",
+      "name": "Stats: beside image",
+      "category": "stats",
+      "description": "Headline and a two-by-two block of stats on the left, framed job-site photo on the right. Image stacks on top on mobile.",
+      "tags": [
+        "stats",
+        "image",
+        "split",
+        "two-column",
+        "proof"
+      ],
+      "previewHeight": 560,
+      "hasScript": false,
+      "fields": [
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/stats/stats-split-image"
+    },
+    {
+      "slug": "stats-with-icons",
+      "name": "Stats: with icons",
+      "category": "stats",
+      "description": "Four stat tiles, each with a tinted icon badge, a big number and a one-line explanation. Two-by-two on tablet, single column on phone.",
+      "tags": [
+        "stats",
+        "icons",
+        "tiles",
+        "four-column",
+        "proof"
+      ],
+      "previewHeight": 460,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/stats/stats-with-icons"
+    },
+    {
+      "slug": "team-cards-social",
+      "name": "Team: cards with social links",
+      "category": "team",
+      "description": "Three member cards with photo, name, role, short bio and a row of icon links (email, phone, Facebook, Instagram).",
+      "tags": [
+        "team",
+        "cards",
+        "social",
+        "icons",
+        "three-column"
+      ],
+      "previewHeight": 680,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/team/team-cards-social"
+    },
+    {
+      "slug": "team-grid",
+      "name": "Team: four-up grid",
+      "category": "team",
+      "description": "Four team members with square photo, name, role and one line each. Two columns on tablet, one on phone.",
+      "tags": [
+        "team",
+        "staff",
+        "grid",
+        "photos",
+        "four-column"
+      ],
+      "previewHeight": 640,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/team/team-grid"
+    },
+    {
+      "slug": "team-hiring-cta",
+      "name": "Team: we're hiring",
+      "category": "team",
+      "description": "Recruiting band: headline, three reasons to join, two open roles with pay and a button to apply. Dark band on the secondary color.",
+      "tags": [
+        "team",
+        "hiring",
+        "careers",
+        "cta",
+        "jobs"
+      ],
+      "previewHeight": 520,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.email",
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/team/team-hiring-cta"
+    },
+    {
+      "slug": "team-list-compact",
+      "name": "Team: compact list",
+      "category": "team",
+      "description": "Six staff rows with small round photo, name, role, specialty and a direct email link. Tight enough for a sidebar or an about page.",
+      "tags": [
+        "team",
+        "list",
+        "rows",
+        "compact",
+        "directory"
+      ],
+      "previewHeight": 620,
+      "hasScript": false,
+      "fields": [
+        "business.email"
+      ],
+      "version": 1,
+      "path": "components/team/team-list-compact"
+    },
+    {
+      "slug": "team-single-founder",
+      "name": "Team: founder story",
+      "category": "team",
+      "description": "Owner portrait on one side, origin story, three quick facts and a signature on the other. Photo stacks on top on mobile.",
+      "tags": [
+        "team",
+        "founder",
+        "owner",
+        "story",
+        "split"
+      ],
+      "previewHeight": 620,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.city",
+        "business.year"
+      ],
+      "version": 1,
+      "path": "components/team/team-single-founder"
+    },
+    {
+      "slug": "testimonials-google-style",
+      "name": "Testimonials: review platform cards",
+      "category": "testimonials",
+      "description": "Rating summary header (4.9, 180 reviews, five stars) above three platform-style review cards with initial avatars, dates and a source line.",
+      "tags": [
+        "testimonials",
+        "reviews",
+        "google",
+        "rating",
+        "cards"
+      ],
+      "previewHeight": 640,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "social.google"
+      ],
+      "version": 1,
+      "path": "components/testimonials/testimonials-google-style"
+    },
+    {
+      "slug": "testimonials-grid-cards",
+      "name": "Testimonials: three cards",
+      "category": "testimonials",
+      "description": "Three review cards with five-star rating, quote, name and town. Two columns on tablet, one on phone.",
+      "tags": [
+        "testimonials",
+        "reviews",
+        "cards",
+        "stars",
+        "three-column"
+      ],
+      "previewHeight": 560,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/testimonials/testimonials-grid-cards"
+    },
+    {
+      "slug": "testimonials-masonry",
+      "name": "Testimonials: masonry wall",
+      "category": "testimonials",
+      "description": "Six reviews of varied length flowing into three CSS columns, masonry style. Two columns on tablet, one on phone.",
+      "tags": [
+        "testimonials",
+        "reviews",
+        "masonry",
+        "columns",
+        "wall"
+      ],
+      "previewHeight": 760,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/testimonials/testimonials-masonry"
+    },
+    {
+      "slug": "testimonials-single-large",
+      "name": "Testimonials: single large quote",
+      "category": "testimonials",
+      "description": "One big pull quote with a customer photo, stars, name and town. Photo moves above the quote on mobile.",
+      "tags": [
+        "testimonials",
+        "quote",
+        "photo",
+        "single",
+        "featured"
+      ],
+      "previewHeight": 480,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/testimonials/testimonials-single-large"
+    },
+    {
+      "slug": "testimonials-slider",
+      "name": "Testimonials: slider",
+      "category": "testimonials",
+      "description": "One review at a time with previous/next buttons and dot indicators. Keyboard friendly, announces changes, works with several copies per page.",
+      "tags": [
+        "testimonials",
+        "reviews",
+        "slider",
+        "carousel",
+        "interactive"
+      ],
+      "previewHeight": 520,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/testimonials/testimonials-slider"
+    },
+    {
+      "slug": "testimonials-video-cards",
+      "name": "Testimonials: video cards",
+      "category": "testimonials",
+      "description": "Three video-testimonial cards: poster image with play button, duration badge, one-line pull quote, name and town. Links point to the video page.",
+      "tags": [
+        "testimonials",
+        "video",
+        "cards",
+        "play",
+        "three-column"
+      ],
+      "previewHeight": 620,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/testimonials/testimonials-video-cards"
+    }
+  ],
+  "templates": [
+    {
+      "slug": "_example",
+      "name": "Example (reference only)",
+      "vertical": "utility",
+      "description": "Minimal two-page template showing how pages compose library components. Hidden from the catalog (leading underscore).",
+      "kit": "base",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "example"
+      ],
+      "components": [
+        "nav/nav-simple",
+        "hero/hero-split-image",
+        "footer/footer-columns"
+      ],
+      "version": 1,
+      "path": "templates/_example"
+    }
+  ]
+}

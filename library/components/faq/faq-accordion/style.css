@@ -1,0 +1,11 @@
+.c-faq-accordion__head{margin-bottom:var(--wf-space-8)}
+.c-faq-accordion__list{border-top:var(--wf-border-w) solid var(--wf-border)}
+.c-faq-accordion__item{border-bottom:var(--wf-border-w) solid var(--wf-border)}
+.c-faq-accordion__q{margin:0;font-size:var(--wf-text-lg)}
+.c-faq-accordion__btn{display:flex;align-items:center;justify-content:space-between;gap:var(--wf-space-4);width:100%;padding:var(--wf-space-5) 0;border:0;background:none;color:var(--wf-text);font:inherit;font-weight:var(--wf-weight-medium);text-align:left;cursor:pointer}
+.c-faq-accordion__btn:hover{color:var(--wf-primary)}
+.c-faq-accordion__chev{color:var(--wf-text-muted);transition:transform var(--wf-dur-base) var(--wf-ease)}
+.c-faq-accordion__btn[aria-expanded="true"] .c-faq-accordion__chev{transform:rotate(180deg);color:var(--wf-primary)}
+.c-faq-accordion__panel{padding:0 0 var(--wf-space-5);color:var(--wf-text-muted);max-width:60ch}
+.c-faq-accordion__panel[hidden]{display:none}
+.c-faq-accordion__panel p{margin:0}

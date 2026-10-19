@@ -1,0 +1,12 @@
+{
+  "slug": "radix",
+  "name": "Radix Themes",
+  "family": "web-dev",
+  "description": "Radix Themes feel: Inter, indigo accent, slate grays, 6px radius, soft panel shadows, solid/outline/soft button variants.",
+  "source": "https://www.radix-ui.com/themes/docs/theme/color",
+  "fonts": [{ "family": "Inter", "weights": [400, 500, 600, 700] }],
+  "dark": true,
+  "swatch": ["#3E63DD", "#1C2024", "#F9F9FB", "#E1E9FF"],
+  "tags": ["radix", "indigo", "slate", "developer", "soft"],
+  "version": 1
+}

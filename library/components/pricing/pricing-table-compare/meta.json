@@ -1,0 +1,11 @@
+{
+  "slug": "pricing-table-compare",
+  "name": "Pricing: comparison table",
+  "category": "pricing",
+  "description": "Feature matrix with three plan columns, check and dash icons, and a button row. Collapses to stacked labelled rows below 768px.",
+  "tags": ["pricing", "table", "compare", "features", "responsive"],
+  "previewHeight": 760,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "testimonials-single-large",
+  "name": "Testimonials: single large quote",
+  "category": "testimonials",
+  "description": "One big pull quote with a customer photo, stars, name and town. Photo moves above the quote on mobile.",
+  "tags": ["testimonials", "quote", "photo", "single", "featured"],
+  "previewHeight": 480,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

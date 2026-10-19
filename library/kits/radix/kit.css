@@ -1,0 +1,16 @@
+/* Radix Themes: solid / outline / soft buttons, hairline+shadow panels, 2px inset-ish focus. */
+h1,h2{letter-spacing:-0.02em}
+h3,h4{letter-spacing:-0.01em;font-weight:600}
+.wf-eyebrow{font-weight:500;letter-spacing:.03em}
+.wf-btn{font-size:.875rem;min-height:2.25rem}
+.wf-btn--secondary{background:var(--radix-accent-soft);color:var(--radix-on-accent-soft)}
+.wf-btn--outline{border-color:var(--wf-primary);color:var(--wf-primary)}
+.wf-btn--outline:hover{background:var(--radix-accent-soft)}
+.wf-btn--ghost{color:var(--wf-primary)}
+.wf-btn--ghost:hover{background:var(--radix-accent-soft)}
+.wf-card{border-color:transparent;background:var(--wf-bg)}
+.wf-card--flat{border-color:var(--wf-border);box-shadow:none}
+.wf-badge{border-radius:var(--wf-radius-sm);font-weight:500;background:var(--radix-accent-soft);color:var(--radix-on-accent-soft)}
+.wf-input,.wf-select,.wf-textarea{padding:.5rem .75rem;border-color:var(--radix-input-border);font-size:.9375rem}
+.wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:2px solid var(--wf-primary);outline-offset:-1px;border-color:var(--wf-primary)}
+:focus-visible{outline:2px solid var(--wf-primary);outline-offset:1px}

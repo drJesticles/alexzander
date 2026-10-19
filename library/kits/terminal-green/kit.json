@@ -1,0 +1,12 @@
+{
+  "slug": "terminal-green",
+  "name": "Terminal Green",
+  "family": "off-the-wall",
+  "description": "Green phosphor CRT: near-black background, #33ff66 text, dim green rules, monospace everything, scanlines, buttons that invert on hover.",
+  "source": "https://en.wikipedia.org/wiki/Monochrome_monitor",
+  "fonts": [{ "family": "IBM Plex Mono", "weights": [400, 500, 700] }, { "family": "JetBrains Mono", "weights": [400, 700] }],
+  "dark": false,
+  "swatch": ["#33ff66", "#1f9a44", "#0b0f0a", "#ffb000"],
+  "tags": ["terminal", "mono", "retro", "dark", "crt"],
+  "version": 1
+}

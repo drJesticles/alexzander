@@ -1,0 +1,17 @@
+.c-testimonials-google-style__summary{display:grid;grid-template-columns:auto 1fr;gap:var(--wf-space-10);align-items:center;padding:var(--wf-space-8);margin-bottom:var(--wf-space-8);background:var(--wf-surface);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius)}
+.c-testimonials-google-style__summary-main{display:flex;align-items:center;gap:var(--wf-space-5)}
+.c-testimonials-google-style__big{font-family:var(--wf-font-display);font-size:var(--wf-text-6xl);font-weight:var(--wf-weight-bold);line-height:1;letter-spacing:var(--wf-tracking-tight)}
+.c-testimonials-google-style__count{margin:var(--wf-space-1) 0 0;color:var(--wf-text-muted);font-size:var(--wf-text-sm);white-space:nowrap}
+.c-testimonials-google-style__summary-side p{margin-bottom:var(--wf-space-4);max-width:48ch}
+.c-testimonials-google-style__title{font-size:var(--wf-text-2xl);margin-bottom:var(--wf-space-2)}
+.c-testimonials-google-style__stars{display:inline-flex;gap:2px;color:var(--wf-accent)}
+.c-testimonials-google-style__stars .wf-icon{width:1.125rem;height:1.125rem}
+.c-testimonials-google-style__card{display:flex;flex-direction:column;gap:var(--wf-space-3);padding:var(--wf-space-6);background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);box-shadow:var(--wf-card-shadow)}
+.c-testimonials-google-style__meta{display:flex;align-items:center;gap:var(--wf-space-3)}
+.c-testimonials-google-style__meta div{display:flex;flex-direction:column}
+.c-testimonials-google-style__avatar{display:inline-flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border-radius:var(--wf-radius-full);background:var(--wf-primary);color:var(--wf-on-primary);font-weight:var(--wf-weight-bold);font-size:var(--wf-text-lg)}
+.c-testimonials-google-style__date{color:var(--wf-text-muted);font-size:var(--wf-text-xs)}
+.c-testimonials-google-style__text{margin:0;flex:1}
+.c-testimonials-google-style__source{display:flex;align-items:center;gap:var(--wf-space-2);padding-top:var(--wf-space-3);border-top:var(--wf-border-w) solid var(--wf-border);color:var(--wf-text-muted);font-size:var(--wf-text-xs)}
+.c-testimonials-google-style__source .wf-icon{width:1rem;height:1rem}
+@media (max-width:767px){.c-testimonials-google-style__summary{grid-template-columns:1fr;gap:var(--wf-space-6);padding:var(--wf-space-6)}}

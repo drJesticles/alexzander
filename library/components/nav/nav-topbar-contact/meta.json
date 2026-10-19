@@ -1,0 +1,11 @@
+{
+  "slug": "nav-topbar-contact",
+  "name": "Nav: top bar with contact",
+  "category": "nav",
+  "description": "Thin dark top bar with phone, hours, city and social icons; main nav below with logo text, five links and an estimate button. Links wrap on mobile; hours hide below 600px.",
+  "tags": ["nav", "header", "topbar", "contact", "hours", "social"],
+  "previewHeight": 150,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone", "business.hours", "business.city"],
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "team-single-founder",
+  "name": "Team: founder story",
+  "category": "team",
+  "description": "Owner portrait on one side, origin story, three quick facts and a signature on the other. Photo stacks on top on mobile.",
+  "tags": ["team", "founder", "owner", "story", "split"],
+  "previewHeight": 620,
+  "hasScript": false,
+  "fields": ["business.name", "business.city", "business.year"],
+  "version": 1
+}

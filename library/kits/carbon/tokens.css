@@ -1,0 +1,77 @@
+/* IBM Carbon v11. Light = White theme, dark = Gray 100 theme. No radii anywhere. */
+:root {
+  --wf-bg: #ffffff;
+  --wf-surface: #f4f4f4;
+  --wf-surface-2: #e0e0e0;
+  --wf-text: #161616;
+  --wf-text-muted: #525252;
+  --wf-primary: #0f62fe;
+  --wf-on-primary: #ffffff;
+  --wf-primary-hover: #0050e6;
+  --wf-secondary: #393939;
+  --wf-on-secondary: #ffffff;
+  --wf-accent: #8a3ffc;
+  --wf-on-accent: #ffffff;
+  --wf-border: #e0e0e0;
+  --wf-success: #198038;
+  --wf-warning: #8e6a00;
+  --wf-danger: #da1e28;
+  --wf-info: #0043ce;
+  --wf-overlay: rgba(22, 22, 22, 0.5);
+  --carbon-border-strong: #8d8d8d;
+
+  --wf-font-sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --wf-font-mono: "IBM Plex Mono", Menlo, Consolas, monospace;
+  --wf-font-display: var(--wf-font-sans);
+  --wf-font-body: var(--wf-font-sans);
+  --wf-leading-tight: 1.25;
+  --wf-leading-normal: 1.5;
+  --wf-weight-bold: 600;
+  --wf-tracking-tight: 0;
+  --wf-tracking-wide: 0.02em;
+
+  --wf-space-6: 1.25rem;
+  --wf-space-8: 1.75rem;
+  --wf-space-12: 2.5rem;
+  --wf-section-y: clamp(2.5rem, 6vw, 4.5rem);
+
+  --wf-radius-sm: 0;
+  --wf-radius-md: 0;
+  --wf-radius-lg: 0;
+  --wf-radius-xl: 0;
+
+  --wf-shadow-sm: none;
+  --wf-shadow-md: 0 2px 6px rgba(0,0,0,.2);
+  --wf-shadow-lg: 0 8px 24px rgba(0,0,0,.25);
+
+  --wf-btn-radius: 0;
+  --wf-btn-py: 0.875rem;
+  --wf-btn-px: 1rem;
+  --wf-btn-weight: 400;
+  --wf-card-radius: 0;
+  --wf-card-shadow: none;
+  --wf-input-radius: 0;
+}
+[data-theme="dark"] {
+  --wf-bg: #161616;
+  --wf-surface: #262626;
+  --wf-surface-2: #393939;
+  --wf-text: #f4f4f4;
+  --wf-text-muted: #c6c6c6;
+  --wf-primary: #78a9ff;
+  --wf-on-primary: #000000;
+  --wf-primary-hover: #a6c8ff;
+  --wf-secondary: #6f6f6f;
+  --wf-on-secondary: #ffffff;
+  --wf-accent: #be95ff;
+  --wf-on-accent: #000000;
+  --wf-border: #393939;
+  --wf-success: #42be65;
+  --wf-warning: #f1c21b;
+  --wf-danger: #fa4d56;
+  --wf-info: #4589ff;
+  --wf-overlay: rgba(0, 0, 0, 0.65);
+  --carbon-border-strong: #8d8d8d;
+  --wf-shadow-md: 0 2px 6px rgba(0,0,0,.5);
+  --wf-shadow-lg: 0 8px 24px rgba(0,0,0,.6);
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "el-button-group",
+  "name": "Element: segmented button group",
+  "category": "elements",
+  "description": "Three-way segmented control built on radio inputs so it toggles without JavaScript. Keyboard navigable with arrow keys.",
+  "tags": ["element", "button", "segmented", "toggle", "filter"],
+  "previewHeight": 140,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

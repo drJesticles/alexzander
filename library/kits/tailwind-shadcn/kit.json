@@ -1,0 +1,12 @@
+{
+  "slug": "tailwind-shadcn",
+  "name": "Tailwind / shadcn/ui",
+  "family": "web-dev",
+  "description": "shadcn/ui default theme: Inter, zinc neutrals, near-black primary, 6-8px radii, 1px borders, monochrome accents.",
+  "source": "https://ui.shadcn.com/themes",
+  "fonts": [{ "family": "Inter", "weights": [400, 500, 600, 700] }],
+  "dark": true,
+  "swatch": ["#18181B", "#71717A", "#FFFFFF", "#F4F4F5"],
+  "tags": ["tailwind", "shadcn", "zinc", "minimal", "developer"],
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "media-image-grid-four",
+  "name": "Media: four-image mosaic",
+  "category": "media",
+  "description": "Heading and intro on the left, a 2x2 mosaic of photos on the right with one tall image spanning two rows. Collapses to a two-column grid on mobile.",
+  "tags": ["media", "images", "mosaic", "grid", "about"],
+  "previewHeight": 640,
+  "hasScript": false,
+  "fields": ["business.city"],
+  "version": 1
+}

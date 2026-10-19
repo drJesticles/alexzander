@@ -1,0 +1,11 @@
+{
+  "slug": "gallery-before-after",
+  "name": "Gallery: before / after slider",
+  "category": "gallery",
+  "description": "Two stacked images with a draggable divider revealing the before shot. Pointer events, keyboard arrows (Home/End to jump), labels and a caption. Falls back to a 50/50 split without JS.",
+  "tags": ["gallery", "before-after", "slider", "compare", "interactive"],
+  "previewHeight": 760,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

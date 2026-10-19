@@ -1,0 +1,25 @@
+.c-faq-search-filter__head{margin-bottom:var(--wf-space-6)}
+.c-faq-search-filter__head .wf-lead{margin-inline:auto}
+.c-faq-search-filter__form{margin-bottom:var(--wf-space-6)}
+.c-faq-search-filter__box{position:relative;display:flex;align-items:center}
+.c-faq-search-filter__icon{position:absolute;left:var(--wf-space-4);color:var(--wf-text-muted);pointer-events:none}
+.c-faq-search-filter__input{padding-left:3.25rem;padding-right:3rem;font-size:var(--wf-text-lg)}
+.c-faq-search-filter__clear{position:absolute;right:var(--wf-space-2);display:inline-flex;align-items:center;justify-content:center;width:2.25rem;height:2.25rem;border:0;border-radius:var(--wf-radius-full);background:transparent;color:var(--wf-text-muted);cursor:pointer}
+.c-faq-search-filter__clear:hover{background:var(--wf-surface-2);color:var(--wf-text)}
+.c-faq-search-filter__clear[hidden]{display:none}
+.c-faq-search-filter__status{margin:var(--wf-space-2) 0 0;font-size:var(--wf-text-sm);color:var(--wf-text-muted)}
+.c-faq-search-filter__list{background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);overflow:hidden}
+.c-faq-search-filter__item{padding:0 var(--wf-space-6)}
+.c-faq-search-filter__item+.c-faq-search-filter__item{border-top:var(--wf-border-w) solid var(--wf-border)}
+.c-faq-search-filter__item[hidden]{display:none}
+.c-faq-search-filter__q{margin:0;font-size:var(--wf-text-base)}
+.c-faq-search-filter__btn{display:flex;align-items:center;justify-content:space-between;gap:var(--wf-space-4);width:100%;padding:var(--wf-space-4) 0;border:0;background:none;color:var(--wf-text);font:inherit;font-weight:var(--wf-weight-medium);text-align:left;cursor:pointer}
+.c-faq-search-filter__btn:hover{color:var(--wf-primary)}
+.c-faq-search-filter__chev{color:var(--wf-text-muted);transition:transform var(--wf-dur-base) var(--wf-ease)}
+.c-faq-search-filter__btn[aria-expanded="true"] .c-faq-search-filter__chev{transform:rotate(180deg);color:var(--wf-primary)}
+.c-faq-search-filter__panel{padding:0 0 var(--wf-space-4);color:var(--wf-text-muted);max-width:60ch}
+.c-faq-search-filter__panel[hidden]{display:none}
+.c-faq-search-filter__panel p{margin:0}
+.c-faq-search-filter__empty{margin:var(--wf-space-4) 0 0;text-align:center;color:var(--wf-text-muted)}
+.c-faq-search-filter__empty[hidden]{display:none}
+.c-faq-search-filter__reset{border:0;background:none;padding:0;color:var(--wf-primary);font:inherit;cursor:pointer;text-decoration:underline}

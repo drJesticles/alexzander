@@ -1,0 +1,12 @@
+{
+  "slug": "catppuccin-mocha",
+  "name": "Catppuccin Mocha",
+  "family": "off-the-wall",
+  "description": "The Catppuccin Mocha pastel-on-dark palette: base #1e1e2e, mauve primary, peach accent, soft rounded corners. Inter and JetBrains Mono.",
+  "source": "https://catppuccin.com/palette",
+  "fonts": [{ "family": "Inter", "weights": [400, 500, 600, 700] }, { "family": "JetBrains Mono", "weights": [400, 700] }],
+  "dark": false,
+  "swatch": ["#cba6f7", "#fab387", "#1e1e2e", "#cdd6f4"],
+  "tags": ["catppuccin", "pastel", "dark", "developer", "cozy"],
+  "version": 1
+}

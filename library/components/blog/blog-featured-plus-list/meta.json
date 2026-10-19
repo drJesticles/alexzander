@@ -1,0 +1,11 @@
+{
+  "slug": "blog-featured-plus-list",
+  "name": "Blog: featured post plus list",
+  "category": "blog",
+  "description": "One large featured post with image, badge, title, excerpt and author on the left; three compact posts with small thumbnails stacked on the right.",
+  "tags": ["blog", "featured", "list", "posts", "two-column"],
+  "previewHeight": 700,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

@@ -1,0 +1,71 @@
+/* Fluent 2 web tokens (brand ramp 80 #0F6CBD / 70 #115EA3 / 100 #479EF5, neutral grays, shadow2/4/16). */
+:root {
+  --wf-bg: #ffffff;
+  --wf-surface: #fafafa;
+  --wf-surface-2: #f0f0f0;
+  --wf-text: #242424;
+  --wf-text-muted: #616161;
+  --wf-primary: #0f6cbd;
+  --wf-on-primary: #ffffff;
+  --wf-primary-hover: #115ea3;
+  --wf-secondary: #242424;
+  --wf-on-secondary: #ffffff;
+  --wf-accent: #8764b8;
+  --wf-on-accent: #ffffff;
+  --wf-border: #d1d1d1;
+  --wf-success: #107c10;
+  --wf-warning: #bc4b09;
+  --wf-danger: #c50f1f;
+  --wf-info: #0f6cbd;
+  --wf-overlay: rgba(0, 0, 0, 0.4);
+
+  --wf-font-sans: "Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  --wf-font-display: var(--wf-font-sans);
+  --wf-font-body: var(--wf-font-sans);
+  --wf-font-mono: Consolas, "Cascadia Mono", Menlo, monospace;
+  --wf-leading-tight: 1.2;
+  --wf-leading-normal: 1.43;
+  --wf-weight-bold: 600;
+  --wf-tracking-tight: -0.01em;
+  --wf-tracking-wide: 0.04em;
+
+  --wf-radius-sm: 0.125rem;
+  --wf-radius-md: 0.25rem;
+  --wf-radius-lg: 0.375rem;
+  --wf-radius-xl: 0.5rem;
+
+  --wf-shadow-sm: 0 0 2px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.14);
+  --wf-shadow-md: 0 0 2px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.14);
+  --wf-shadow-lg: 0 0 8px rgba(0,0,0,.12), 0 16px 32px rgba(0,0,0,.14);
+
+  --wf-btn-radius: 0.25rem;
+  --wf-btn-py: 0.45rem;
+  --wf-btn-px: 1rem;
+  --wf-btn-weight: 600;
+  --wf-card-radius: 0.5rem;
+  --wf-card-shadow: var(--wf-shadow-sm);
+  --wf-input-radius: 0.25rem;
+}
+[data-theme="dark"] {
+  --wf-bg: #292929;
+  --wf-surface: #333333;
+  --wf-surface-2: #3d3d3d;
+  --wf-text: #ffffff;
+  --wf-text-muted: #adadad;
+  --wf-primary: #479ef5;
+  --wf-on-primary: #0a0a0a;
+  --wf-primary-hover: #62abf5;
+  --wf-secondary: #ffffff;
+  --wf-on-secondary: #242424;
+  --wf-accent: #b4a0ff;
+  --wf-on-accent: #1b1b1b;
+  --wf-border: #525252;
+  --wf-success: #54b054;
+  --wf-warning: #faa06b;
+  --wf-danger: #dc626d;
+  --wf-info: #479ef5;
+  --wf-overlay: rgba(0, 0, 0, 0.6);
+  --wf-shadow-sm: 0 0 2px rgba(0,0,0,.24), 0 1px 2px rgba(0,0,0,.28);
+  --wf-shadow-md: 0 0 2px rgba(0,0,0,.24), 0 4px 8px rgba(0,0,0,.28);
+  --wf-shadow-lg: 0 0 8px rgba(0,0,0,.24), 0 16px 32px rgba(0,0,0,.28);
+}
