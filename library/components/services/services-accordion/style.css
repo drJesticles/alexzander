@@ -1,0 +1,28 @@
+.c-services-accordion__grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:var(--wf-space-12);align-items:start}
+.c-services-accordion__intro{position:sticky;top:var(--wf-space-8)}
+.c-services-accordion__intro h2{margin-bottom:var(--wf-space-4)}
+.c-services-accordion__intro .wf-lead{margin-bottom:var(--wf-space-6)}
+.c-services-accordion__list{border-top:var(--wf-border-w) solid var(--wf-border)}
+.c-services-accordion__item{border-bottom:var(--wf-border-w) solid var(--wf-border)}
+.c-services-accordion__heading{margin:0;font-size:inherit}
+.c-services-accordion__trigger{display:flex;align-items:center;gap:var(--wf-space-4);width:100%;padding:var(--wf-space-5) 0;background:none;border:0;text-align:left;color:var(--wf-text);font:inherit;cursor:pointer}
+.c-services-accordion__trigger:hover .c-services-accordion__name{color:var(--wf-primary)}
+.c-services-accordion__name{flex:1;font-family:var(--wf-font-display);font-weight:var(--wf-weight-bold);font-size:var(--wf-text-xl);letter-spacing:var(--wf-tracking-tight)}
+.c-services-accordion__price{font-size:var(--wf-text-sm);font-weight:var(--wf-weight-medium);color:var(--wf-primary);background:color-mix(in srgb,var(--wf-primary) 12%,transparent);padding:.25rem .65rem;border-radius:var(--wf-radius-full);white-space:nowrap}
+.c-services-accordion__chevron{color:var(--wf-text-muted);transition:transform var(--wf-dur-base) var(--wf-ease)}
+.c-services-accordion__trigger[aria-expanded="true"] .c-services-accordion__chevron{transform:rotate(180deg)}
+.c-services-accordion__panel-inner{padding:0 0 var(--wf-space-6);color:var(--wf-text-muted)}
+.c-services-accordion__panel-inner ul{margin:0 0 var(--wf-space-4);display:grid;gap:var(--wf-space-1)}
+.c-services-accordion__panel-inner li::marker{color:var(--wf-primary)}
+.c-services-accordion__panel-inner a{font-weight:var(--wf-weight-medium)}
+@media (max-width:900px){
+  .c-services-accordion__grid{grid-template-columns:1fr;gap:var(--wf-space-8)}
+  .c-services-accordion__intro{position:static}
+}
+@media (max-width:480px){
+  .c-services-accordion__trigger{display:grid;grid-template-columns:1fr auto;align-items:center;gap:var(--wf-space-2) var(--wf-space-3)}
+  .c-services-accordion__name{grid-column:1;grid-row:1;font-size:var(--wf-text-lg)}
+  .c-services-accordion__chevron{grid-column:2;grid-row:1}
+  .c-services-accordion__price{grid-column:1;grid-row:2;justify-self:start}
+  .c-services-accordion__intro .wf-btn{width:100%}
+}

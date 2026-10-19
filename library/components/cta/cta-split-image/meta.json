@@ -1,0 +1,11 @@
+{
+  "slug": "cta-split-image",
+  "name": "CTA: split with image",
+  "category": "cta",
+  "description": "Rounded two-column card on a surface background: image on the left, eyebrow, headline, text and two buttons on the right. Image stacks on top on mobile.",
+  "tags": ["cta", "image", "two-column", "card", "buttons"],
+  "previewHeight": 520,
+  "hasScript": false,
+  "fields": ["business.phone"],
+  "version": 1
+}

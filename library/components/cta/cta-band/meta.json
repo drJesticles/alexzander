@@ -1,0 +1,11 @@
+{
+  "slug": "cta-band",
+  "name": "CTA: band",
+  "category": "cta",
+  "description": "One-line primary-colored band: a short headline and supporting line on the left, one accent button on the right. Stacks and centers on phones.",
+  "tags": ["cta", "band", "strip", "one-line", "button"],
+  "previewHeight": 200,
+  "hasScript": false,
+  "fields": ["business.city"],
+  "version": 1
+}

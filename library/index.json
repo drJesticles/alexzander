@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-19T16:27:17.626Z",
+  "generatedAt": "2026-10-19T16:32:17.803Z",
   "counts": {
     "kits": 34,
-    "components": 103,
+    "components": 153,
     "templates": 1
   },
   "kits": [
@@ -1114,6 +1114,91 @@
   ],
   "components": [
     {
+      "slug": "about-owner-letter",
+      "name": "About: letter from the owner",
+      "category": "about",
+      "description": "Narrow letter-style note from the owner on a paper-like card: greeting, three short paragraphs, cursive signature line, name and title, small portrait.",
+      "tags": [
+        "about",
+        "letter",
+        "owner",
+        "signature",
+        "personal"
+      ],
+      "previewHeight": 700,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.city",
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/about/about-owner-letter"
+    },
+    {
+      "slug": "about-split-story",
+      "name": "About: split story",
+      "category": "about",
+      "description": "Job-site photo on the left, company story with three checkmark bullets and a button on the right. Photo stacks on top on mobile.",
+      "tags": [
+        "about",
+        "story",
+        "image",
+        "bullets",
+        "split"
+      ],
+      "previewHeight": 600,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.city",
+        "business.year"
+      ],
+      "version": 1,
+      "path": "components/about/about-split-story"
+    },
+    {
+      "slug": "about-timeline-history",
+      "name": "About: company history",
+      "category": "about",
+      "description": "Year milestones alternating left and right of a center line on desktop; single left-aligned column with the line on mobile.",
+      "tags": [
+        "about",
+        "history",
+        "timeline",
+        "years",
+        "milestones"
+      ],
+      "previewHeight": 760,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.year"
+      ],
+      "version": 1,
+      "path": "components/about/about-timeline-history"
+    },
+    {
+      "slug": "about-values-grid",
+      "name": "About: mission and values",
+      "category": "about",
+      "description": "Mission statement on the left, four value cards with icons on the right in a two-by-two grid. Stacks to one column on phones.",
+      "tags": [
+        "about",
+        "values",
+        "mission",
+        "icons",
+        "grid"
+      ],
+      "previewHeight": 600,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/about/about-values-grid"
+    },
+    {
       "slug": "blog-cards-grid",
       "name": "Blog: three post cards",
       "category": "blog",
@@ -1242,6 +1327,26 @@
       "path": "components/commerce/commerce-category-tiles"
     },
     {
+      "slug": "commerce-checkout-form",
+      "name": "Commerce: checkout form",
+      "category": "commerce",
+      "description": "Contact, shipping address and delivery method fields with a payment placeholder (no card inputs; connect Stripe or Square) beside a sticky order summary.",
+      "tags": [
+        "commerce",
+        "checkout",
+        "form",
+        "shipping",
+        "payment"
+      ],
+      "previewHeight": 900,
+      "hasScript": false,
+      "fields": [
+        "business.address"
+      ],
+      "version": 1,
+      "path": "components/commerce/commerce-checkout-form"
+    },
+    {
       "slug": "commerce-featured-product-split",
       "name": "Commerce: featured product split",
       "category": "commerce",
@@ -1298,6 +1403,440 @@
       ],
       "version": 1,
       "path": "components/commerce/commerce-product-grid"
+    },
+    {
+      "slug": "commerce-reviews-list",
+      "name": "Commerce: reviews list",
+      "category": "commerce",
+      "description": "Rating summary with a five-to-one star breakdown (bar widths from a custom property) beside three customer reviews with avatar, stars, date and verified badge.",
+      "tags": [
+        "commerce",
+        "reviews",
+        "rating",
+        "testimonials",
+        "social-proof"
+      ],
+      "previewHeight": 720,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/commerce/commerce-reviews-list"
+    },
+    {
+      "slug": "commerce-sale-banner",
+      "name": "Commerce: sale banner",
+      "category": "commerce",
+      "description": "Full-width primary-color band with eyebrow, sale headline, promo code chip and a shop button. Tight vertical padding so it slots between sections.",
+      "tags": [
+        "commerce",
+        "sale",
+        "banner",
+        "promo",
+        "cta"
+      ],
+      "previewHeight": 260,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/commerce/commerce-sale-banner"
+    },
+    {
+      "slug": "commerce-trust-badges-row",
+      "name": "Commerce: trust badges row",
+      "category": "commerce",
+      "description": "Four icon-and-text reassurances on a surface band: free shipping, easy returns, secure checkout, local pickup. Two across on tablet, stacked on phones.",
+      "tags": [
+        "commerce",
+        "trust",
+        "shipping",
+        "returns",
+        "icons"
+      ],
+      "previewHeight": 220,
+      "hasScript": false,
+      "fields": [
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/commerce/commerce-trust-badges-row"
+    },
+    {
+      "slug": "contact-cards-three",
+      "name": "Contact: three cards (call, email, visit)",
+      "category": "contact",
+      "description": "Centered heading over three equal cards with an icon, label, the contact value and a button each: call, email, visit.",
+      "tags": [
+        "contact",
+        "cards",
+        "phone",
+        "email",
+        "address"
+      ],
+      "previewHeight": 560,
+      "hasScript": false,
+      "fields": [
+        "business.phone",
+        "business.email",
+        "business.address",
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/contact/contact-cards-three"
+    },
+    {
+      "slug": "contact-full-width-cta",
+      "name": "Contact: full-width call CTA",
+      "category": "contact",
+      "description": "Primary-colored band with a big headline, a large phone number link, a short promise and a secondary button. Centered, stacks on mobile.",
+      "tags": [
+        "contact",
+        "cta",
+        "phone",
+        "band",
+        "full-width"
+      ],
+      "previewHeight": 420,
+      "hasScript": false,
+      "fields": [
+        "business.phone",
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/contact/contact-full-width-cta"
+    },
+    {
+      "slug": "contact-hours-table",
+      "name": "Contact: hours table",
+      "category": "contact",
+      "description": "Heading and holiday note on the left; a seven-row hours table on the right with today's row highlighted by a class, closed days muted, and an emergency line under it.",
+      "tags": [
+        "contact",
+        "hours",
+        "table",
+        "schedule",
+        "open"
+      ],
+      "previewHeight": 560,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone",
+        "business.hours"
+      ],
+      "version": 1,
+      "path": "components/contact/contact-hours-table"
+    },
+    {
+      "slug": "contact-map-top",
+      "name": "Contact: map on top, form below",
+      "category": "contact",
+      "description": "Edge-to-edge map placeholder (data-wf-embed) with a floating address chip, then a two-column block below: short contact details on the left and a message form on the right.",
+      "tags": [
+        "contact",
+        "map",
+        "form",
+        "address",
+        "full-bleed"
+      ],
+      "previewHeight": 980,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone",
+        "business.email",
+        "business.address",
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/contact/contact-map-top"
+    },
+    {
+      "slug": "contact-split-form-info",
+      "name": "Contact: form with info cards",
+      "category": "contact",
+      "description": "Contact form on the left; three stacked info cards (call, email, visit) with icons on the right, plus hours. Stacks on mobile with the cards first.",
+      "tags": [
+        "contact",
+        "form",
+        "info",
+        "two-column",
+        "cards"
+      ],
+      "previewHeight": 820,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone",
+        "business.email",
+        "business.address",
+        "business.city",
+        "business.hours"
+      ],
+      "version": 1,
+      "path": "components/contact/contact-split-form-info"
+    },
+    {
+      "slug": "content-accordion-text",
+      "name": "Content: accordion text blocks",
+      "category": "content",
+      "description": "Heading and intro on the left, four expandable text sections on the right built on native details/summary with a rotating chevron. Script keeps one section open at a time; without it, all sections still work.",
+      "tags": [
+        "content",
+        "accordion",
+        "details",
+        "expandable",
+        "policies"
+      ],
+      "previewHeight": 640,
+      "hasScript": true,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/content/content-accordion-text"
+    },
+    {
+      "slug": "content-checklist-columns",
+      "name": "Content: checklist in columns",
+      "category": "content",
+      "description": "Heading on the left, two titled checklists on the right (what is included / what to have ready) with check icons. A footnote sits under the lists.",
+      "tags": [
+        "content",
+        "checklist",
+        "list",
+        "columns",
+        "included"
+      ],
+      "previewHeight": 560,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/content/content-checklist-columns"
+    },
+    {
+      "slug": "content-prose",
+      "name": "Content: rich text prose",
+      "category": "content",
+      "description": "Article-width rich text sample with h2, h3s, paragraphs, an unordered list, an ordered list, a blockquote, inline links and a small note. Use as a starting block for any long-form page.",
+      "tags": [
+        "content",
+        "prose",
+        "rich-text",
+        "article",
+        "typography"
+      ],
+      "previewHeight": 1100,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/content/content-prose"
+    },
+    {
+      "slug": "content-quote-block",
+      "name": "Content: large quote block",
+      "category": "content",
+      "description": "A single large pull quote on a surface background with an oversized opening mark, attribution with avatar, and a short context line. Works as a testimonial or an owner statement.",
+      "tags": [
+        "content",
+        "quote",
+        "pull-quote",
+        "testimonial",
+        "statement"
+      ],
+      "previewHeight": 460,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/content/content-quote-block"
+    },
+    {
+      "slug": "content-tabs",
+      "name": "Content: three tabs",
+      "category": "content",
+      "description": "Three tabs (Repairs, Remodels, Maintenance plans) switching between text panels with a small list and a link each. Full WAI-ARIA tabs pattern: arrow keys, Home/End, roving tabindex. All panels show stacked without JS.",
+      "tags": [
+        "content",
+        "tabs",
+        "panels",
+        "services",
+        "interactive"
+      ],
+      "previewHeight": 560,
+      "hasScript": true,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/content/content-tabs"
+    },
+    {
+      "slug": "content-timeline",
+      "name": "Content: year timeline",
+      "category": "content",
+      "description": "Vertical timeline of five milestones, each with a year marker on the line, a title and a sentence. Alternates sides on desktop, single column on mobile.",
+      "tags": [
+        "content",
+        "timeline",
+        "history",
+        "milestones",
+        "years"
+      ],
+      "previewHeight": 900,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/content/content-timeline"
+    },
+    {
+      "slug": "content-two-column-text",
+      "name": "Content: two-column text",
+      "category": "content",
+      "description": "A heading and lead spanning the top, then two columns of body text with their own h3s, divided by a vertical rule. Columns stack on tablet and below.",
+      "tags": [
+        "content",
+        "text",
+        "two-column",
+        "about",
+        "editorial"
+      ],
+      "previewHeight": 620,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/content/content-two-column-text"
+    },
+    {
+      "slug": "cta-app-badges",
+      "name": "CTA: app badges",
+      "category": "cta",
+      "description": "Promote a mobile app or booking link: headline, text and two dark store-style badge buttons (App Store, Google Play) drawn with inline icons, next to a phone-frame screenshot.",
+      "tags": [
+        "cta",
+        "app",
+        "badges",
+        "mobile",
+        "download",
+        "two-column"
+      ],
+      "previewHeight": 520,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/cta/cta-app-badges"
+    },
+    {
+      "slug": "cta-band",
+      "name": "CTA: band",
+      "category": "cta",
+      "description": "One-line primary-colored band: a short headline and supporting line on the left, one accent button on the right. Stacks and centers on phones.",
+      "tags": [
+        "cta",
+        "band",
+        "strip",
+        "one-line",
+        "button"
+      ],
+      "previewHeight": 200,
+      "hasScript": false,
+      "fields": [
+        "business.city"
+      ],
+      "version": 1,
+      "path": "components/cta/cta-band"
+    },
+    {
+      "slug": "cta-floating-card",
+      "name": "CTA: floating card",
+      "category": "cta",
+      "description": "A shadowed white card that overlaps the bottom edge of its primary-colored band and hangs into the next section. Headline and text on the left, two buttons on the right. Place it directly above any section.",
+      "tags": [
+        "cta",
+        "card",
+        "overlap",
+        "floating",
+        "shadow"
+      ],
+      "previewHeight": 420,
+      "hasScript": false,
+      "fields": [
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/cta/cta-floating-card"
+    },
+    {
+      "slug": "cta-newsletter",
+      "name": "CTA: newsletter",
+      "category": "cta",
+      "description": "Centered headline and short pitch with an inline email field and subscribe button, plus a privacy line. Field and button stack on phones.",
+      "tags": [
+        "cta",
+        "newsletter",
+        "email",
+        "form",
+        "subscribe"
+      ],
+      "previewHeight": 360,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/cta/cta-newsletter"
+    },
+    {
+      "slug": "cta-phone-big",
+      "name": "CTA: big phone number",
+      "category": "cta",
+      "description": "Dark section with a giant tappable phone number, a 'Call or text' prompt above it, hours beneath and a secondary online-quote link. The number scales with the viewport.",
+      "tags": [
+        "cta",
+        "phone",
+        "call",
+        "text",
+        "hours",
+        "dark"
+      ],
+      "previewHeight": 420,
+      "hasScript": false,
+      "fields": [
+        "business.phone",
+        "business.hours",
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/cta/cta-phone-big"
+    },
+    {
+      "slug": "cta-split-image",
+      "name": "CTA: split with image",
+      "category": "cta",
+      "description": "Rounded two-column card on a surface background: image on the left, eyebrow, headline, text and two buttons on the right. Image stacks on top on mobile.",
+      "tags": [
+        "cta",
+        "image",
+        "two-column",
+        "card",
+        "buttons"
+      ],
+      "previewHeight": 520,
+      "hasScript": false,
+      "fields": [
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/cta/cta-split-image"
     },
     {
       "slug": "el-accordion",
@@ -1937,6 +2476,29 @@
       "path": "components/features/features-tabs"
     },
     {
+      "slug": "footer-centered",
+      "name": "Footer: centered",
+      "category": "footer",
+      "description": "Everything centered: business name, a row of six links, three social icons, a contact line and the copyright. Light surface background.",
+      "tags": [
+        "footer",
+        "centered",
+        "links",
+        "social",
+        "copyright"
+      ],
+      "previewHeight": 320,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone",
+        "business.address",
+        "business.year"
+      ],
+      "version": 1,
+      "path": "components/footer/footer-centered"
+    },
+    {
       "slug": "footer-columns",
       "name": "Footer: four columns",
       "category": "footer",
@@ -1958,6 +2520,79 @@
       ],
       "version": 1,
       "path": "components/footer/footer-columns"
+    },
+    {
+      "slug": "footer-cta-above",
+      "name": "Footer: CTA card above",
+      "category": "footer",
+      "description": "A big primary-colored CTA card overlaps the top of a dark four-column footer. Card has headline, text and two buttons; footer has brand, links, contact and a copyright bar.",
+      "tags": [
+        "footer",
+        "cta",
+        "card",
+        "overlap",
+        "columns",
+        "dark"
+      ],
+      "previewHeight": 640,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone",
+        "business.email",
+        "business.address",
+        "business.year"
+      ],
+      "version": 1,
+      "path": "components/footer/footer-cta-above"
+    },
+    {
+      "slug": "footer-mega",
+      "name": "Footer: mega with newsletter",
+      "category": "footer",
+      "description": "Dark footer with a newsletter row on top, then five columns (brand and hours, Services, Company, Service area, Contact) and a bottom bar with social icons and legal links.",
+      "tags": [
+        "footer",
+        "mega",
+        "newsletter",
+        "columns",
+        "social",
+        "hours"
+      ],
+      "previewHeight": 620,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.tagline",
+        "business.phone",
+        "business.email",
+        "business.address",
+        "business.hours",
+        "business.year"
+      ],
+      "version": 1,
+      "path": "components/footer/footer-mega"
+    },
+    {
+      "slug": "footer-simple",
+      "name": "Footer: simple line",
+      "category": "footer",
+      "description": "One-line footer on a light surface: business name left, four links in the middle, copyright right. Wraps to centered rows on phones.",
+      "tags": [
+        "footer",
+        "simple",
+        "one-line",
+        "links",
+        "copyright"
+      ],
+      "previewHeight": 140,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.year"
+      ],
+      "version": 1,
+      "path": "components/footer/footer-simple"
     },
     {
       "slug": "form-booking-appointment",
@@ -2463,6 +3098,60 @@
       "path": "components/hero/hero-video-bg"
     },
     {
+      "slug": "logos-grid-bordered",
+      "name": "Logos: bordered grid",
+      "category": "logos",
+      "description": "Six wordmarks in a three-by-two grid of hairline-bordered cells with a heading on the left. Three columns on tablet, two on phone.",
+      "tags": [
+        "logos",
+        "grid",
+        "bordered",
+        "partners",
+        "trust"
+      ],
+      "previewHeight": 400,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/logos/logos-grid-bordered"
+    },
+    {
+      "slug": "logos-marquee",
+      "name": "Logos: scrolling marquee",
+      "category": "logos",
+      "description": "Six wordmarks scrolling endlessly with CSS keyframes only; the track is duplicated for a seamless loop. Pauses on hover and stops under prefers-reduced-motion.",
+      "tags": [
+        "logos",
+        "marquee",
+        "animation",
+        "css-only",
+        "partners"
+      ],
+      "previewHeight": 220,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/logos/logos-marquee"
+    },
+    {
+      "slug": "logos-row",
+      "name": "Logos: single row",
+      "category": "logos",
+      "description": "Caption plus six placeholder partner wordmarks as inline SVG in one muted row. Wraps to two and three rows on smaller screens.",
+      "tags": [
+        "logos",
+        "partners",
+        "row",
+        "trust",
+        "svg"
+      ],
+      "previewHeight": 260,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/logos/logos-row"
+    },
+    {
       "slug": "media-image-grid-four",
       "name": "Media: four-image mosaic",
       "category": "media",
@@ -2801,6 +3490,193 @@
       "path": "components/pricing/pricing-toggle-monthly-yearly"
     },
     {
+      "slug": "process-before-during-after",
+      "name": "Process: before, during, after",
+      "category": "process",
+      "description": "Three phase panels for a remodel job, each with a photo, phase label, title and a short checklist. One column on phones.",
+      "tags": [
+        "process",
+        "remodel",
+        "phases",
+        "before-after",
+        "checklist"
+      ],
+      "previewHeight": 720,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/process/process-before-during-after"
+    },
+    {
+      "slug": "process-cards-arrows",
+      "name": "Process: cards with arrows",
+      "category": "process",
+      "description": "Three icon cards linked by arrow icons that point right on desktop and down when the cards stack on mobile.",
+      "tags": [
+        "process",
+        "cards",
+        "arrows",
+        "icons",
+        "three-step"
+      ],
+      "previewHeight": 460,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/process/process-cards-arrows"
+    },
+    {
+      "slug": "process-steps-horizontal",
+      "name": "Process: four steps in a row",
+      "category": "process",
+      "description": "Four numbered steps joined by a connecting line, each with title and two lines of copy. Becomes a two-by-two grid on tablet and a numbered column on phone.",
+      "tags": [
+        "process",
+        "steps",
+        "how-it-works",
+        "numbered",
+        "four-column"
+      ],
+      "previewHeight": 480,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/process/process-steps-horizontal"
+    },
+    {
+      "slug": "process-timeline-vertical",
+      "name": "Process: vertical timeline",
+      "category": "process",
+      "description": "Five milestones on a vertical line with dots, each with a day label, title and copy. Narrow column, reads top to bottom on every screen.",
+      "tags": [
+        "process",
+        "timeline",
+        "vertical",
+        "milestones",
+        "schedule"
+      ],
+      "previewHeight": 720,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/process/process-timeline-vertical"
+    },
+    {
+      "slug": "services-accordion",
+      "name": "Services: accordion",
+      "category": "services",
+      "description": "Five expandable service rows. Each header button shows the name and starting price; the panel reveals details, a bullet list and a quote link. One open at a time; the first opens by default.",
+      "tags": [
+        "services",
+        "accordion",
+        "expandable",
+        "pricing",
+        "details"
+      ],
+      "previewHeight": 700,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/services/services-accordion"
+    },
+    {
+      "slug": "services-area-list",
+      "name": "Services: service area",
+      "category": "services",
+      "description": "Where-we-work section: a simple inline SVG map placeholder with town markers, beside two lists, the regular service area (Russellville, Dardanelle, London, Atkins, Pottsville, Danville, Hector) and travel-by-appointment cities (NWA, Little Rock, Fort Smith).",
+      "tags": [
+        "services",
+        "service-area",
+        "map",
+        "locations",
+        "towns"
+      ],
+      "previewHeight": 620,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/services/services-area-list"
+    },
+    {
+      "slug": "services-grid-cards",
+      "name": "Services: card grid",
+      "category": "services",
+      "description": "Six service cards in a three-column grid, each with an icon, title, two-line description and a 'Learn more' link. Two columns on tablet, one on phone.",
+      "tags": [
+        "services",
+        "cards",
+        "grid",
+        "icons",
+        "learn-more"
+      ],
+      "previewHeight": 820,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/services/services-grid-cards"
+    },
+    {
+      "slug": "services-icon-row",
+      "name": "Services: icon row",
+      "category": "services",
+      "description": "A compact row of four circular icons with captions and one-line descriptions, each linking to the services page. Wraps to two per row on phones.",
+      "tags": [
+        "services",
+        "icons",
+        "row",
+        "compact",
+        "overview"
+      ],
+      "previewHeight": 400,
+      "hasScript": false,
+      "fields": [],
+      "version": 1,
+      "path": "components/services/services-icon-row"
+    },
+    {
+      "slug": "services-list-prices",
+      "name": "Services: list with prices",
+      "category": "services",
+      "description": "Stacked service rows, each with a title, one-line description, a 'from $X' starting price and a book button. Prices are round numbers; the footnote explains what 'from' means.",
+      "tags": [
+        "services",
+        "pricing",
+        "list",
+        "rows",
+        "from-price"
+      ],
+      "previewHeight": 760,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/services/services-list-prices"
+    },
+    {
+      "slug": "services-split-image",
+      "name": "Services: split with image",
+      "category": "services",
+      "description": "Framed image on the left; eyebrow, headline, lead, a two-column checked list of eight services and a button on the right. Stacks on mobile with the image first.",
+      "tags": [
+        "services",
+        "image",
+        "list",
+        "two-column",
+        "checklist"
+      ],
+      "previewHeight": 620,
+      "hasScript": false,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/services/services-split-image"
+    },
+    {
       "slug": "stats-counter",
       "name": "Stats: animated counters",
       "category": "stats",
@@ -3106,6 +3982,143 @@
       "fields": [],
       "version": 1,
       "path": "components/testimonials/testimonials-video-cards"
+    },
+    {
+      "slug": "util-404-block",
+      "name": "Utility: 404 block",
+      "category": "utility",
+      "description": "Oversized 404, a friendly headline, a site search box and quick links to the pages people actually want, plus the phone number.",
+      "tags": [
+        "utility",
+        "404",
+        "error",
+        "search",
+        "not-found"
+      ],
+      "previewHeight": 560,
+      "hasScript": false,
+      "fields": [
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/utility/util-404-block"
+    },
+    {
+      "slug": "util-announcement-bar",
+      "name": "Utility: announcement bar",
+      "category": "utility",
+      "description": "Slim bar for the top of the page with an icon, a short message, a link and a close button. Dismissal is remembered for the session.",
+      "tags": [
+        "utility",
+        "announcement",
+        "bar",
+        "promo",
+        "notice"
+      ],
+      "previewHeight": 120,
+      "hasScript": true,
+      "fields": [
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/utility/util-announcement-bar"
+    },
+    {
+      "slug": "util-back-to-top",
+      "name": "Utility: back to top",
+      "category": "utility",
+      "description": "Round button pinned to the bottom-right corner that fades in after scrolling 400px and smooth-scrolls to the top (instant when reduced motion is on).",
+      "tags": [
+        "utility",
+        "scroll",
+        "back-to-top",
+        "button"
+      ],
+      "previewHeight": 140,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/utility/util-back-to-top"
+    },
+    {
+      "slug": "util-coming-soon-block",
+      "name": "Utility: coming soon block",
+      "category": "utility",
+      "description": "Launch page section: eyebrow, headline, live countdown to the date in data-wf-date, an email notify form and a phone line for the meantime.",
+      "tags": [
+        "utility",
+        "coming-soon",
+        "launch",
+        "countdown",
+        "email"
+      ],
+      "previewHeight": 600,
+      "hasScript": true,
+      "fields": [
+        "business.name",
+        "business.phone"
+      ],
+      "version": 1,
+      "path": "components/utility/util-coming-soon-block"
+    },
+    {
+      "slug": "util-cookie-banner",
+      "name": "Utility: cookie banner",
+      "category": "utility",
+      "description": "Fixed bottom card with a short notice, privacy link, Accept and Decline buttons. The choice is remembered in localStorage so it only shows once.",
+      "tags": [
+        "utility",
+        "cookie",
+        "consent",
+        "privacy",
+        "banner"
+      ],
+      "previewHeight": 200,
+      "hasScript": true,
+      "fields": [
+        "business.name"
+      ],
+      "version": 1,
+      "path": "components/utility/util-cookie-banner"
+    },
+    {
+      "slug": "util-maintenance-block",
+      "name": "Utility: maintenance block",
+      "category": "utility",
+      "description": "Down-for-maintenance page section with an icon, headline, expected return time and phone/email contact cards so customers can still reach you.",
+      "tags": [
+        "utility",
+        "maintenance",
+        "downtime",
+        "status"
+      ],
+      "previewHeight": 520,
+      "hasScript": false,
+      "fields": [
+        "business.name",
+        "business.phone",
+        "business.email"
+      ],
+      "version": 1,
+      "path": "components/utility/util-maintenance-block"
+    },
+    {
+      "slug": "util-social-proof-popup",
+      "name": "Utility: social proof popup",
+      "category": "utility",
+      "description": "Small bottom-left card that cycles through recent-activity lines ('Someone in Dardanelle requested a quote 12 min ago'). Closable, remembered for the session, and it stops cycling when reduced motion is on.",
+      "tags": [
+        "utility",
+        "social-proof",
+        "popup",
+        "notification",
+        "fomo"
+      ],
+      "previewHeight": 200,
+      "hasScript": true,
+      "fields": [],
+      "version": 1,
+      "path": "components/utility/util-social-proof-popup"
     }
   ],
   "templates": [

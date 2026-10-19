@@ -1,0 +1,11 @@
+{
+  "slug": "cta-app-badges",
+  "name": "CTA: app badges",
+  "category": "cta",
+  "description": "Promote a mobile app or booking link: headline, text and two dark store-style badge buttons (App Store, Google Play) drawn with inline icons, next to a phone-frame screenshot.",
+  "tags": ["cta", "app", "badges", "mobile", "download", "two-column"],
+  "previewHeight": 520,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

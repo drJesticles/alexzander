@@ -1,0 +1,11 @@
+{
+  "slug": "services-list-prices",
+  "name": "Services: list with prices",
+  "category": "services",
+  "description": "Stacked service rows, each with a title, one-line description, a 'from $X' starting price and a book button. Prices are round numbers; the footnote explains what 'from' means.",
+  "tags": ["services", "pricing", "list", "rows", "from-price"],
+  "previewHeight": 760,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

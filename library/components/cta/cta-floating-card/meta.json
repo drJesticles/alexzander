@@ -1,0 +1,11 @@
+{
+  "slug": "cta-floating-card",
+  "name": "CTA: floating card",
+  "category": "cta",
+  "description": "A shadowed white card that overlaps the bottom edge of its primary-colored band and hangs into the next section. Headline and text on the left, two buttons on the right. Place it directly above any section.",
+  "tags": ["cta", "card", "overlap", "floating", "shadow"],
+  "previewHeight": 420,
+  "hasScript": false,
+  "fields": ["business.phone"],
+  "version": 1
+}

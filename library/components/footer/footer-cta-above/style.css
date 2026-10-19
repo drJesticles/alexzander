@@ -1,0 +1,27 @@
+.c-footer-cta-above{padding-top:0;margin-top:var(--wf-space-16)}
+.c-footer-cta-above h3,.c-footer-cta-above h4{color:inherit;font-size:var(--wf-text-lg);margin-bottom:var(--wf-space-3)}
+.c-footer-cta-above__cta{display:flex;align-items:center;justify-content:space-between;gap:var(--wf-space-10);background:var(--wf-primary);color:var(--wf-on-primary);border-radius:var(--wf-radius-xl);box-shadow:var(--wf-shadow-lg);padding:var(--wf-space-10);transform:translateY(calc(-1 * var(--wf-space-16)));margin-bottom:calc(var(--wf-space-10) - var(--wf-space-16))}
+.c-footer-cta-above__cta-title{color:inherit;font-size:var(--wf-text-3xl);margin-bottom:var(--wf-space-2);max-width:22ch}
+.c-footer-cta-above__cta-text{margin:0;opacity:.9;max-width:50ch}
+.c-footer-cta-above__cta-actions{display:flex;flex-wrap:wrap;gap:var(--wf-space-3);flex:none}
+.c-footer-cta-above__cta .wf-btn--outline{color:var(--wf-on-primary)}
+.c-footer-cta-above__cta .wf-btn--outline:hover{background:rgba(255,255,255,.12)}
+.c-footer-cta-above__grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:var(--wf-space-8)}
+.c-footer-cta-above__blurb{opacity:.8;max-width:34ch}
+.c-footer-cta-above__links{list-style:none;padding:0;margin:0;display:grid;gap:var(--wf-space-2)}
+.c-footer-cta-above__links a{color:inherit;opacity:.85}
+.c-footer-cta-above__links a:hover{opacity:1}
+.c-footer-cta-above__bar{display:flex;flex-wrap:wrap;justify-content:space-between;gap:var(--wf-space-4);margin-top:var(--wf-space-10);padding-top:var(--wf-space-6);border-top:1px solid rgba(255,255,255,.15);font-size:var(--wf-text-sm);opacity:.9}
+.c-footer-cta-above__social{display:flex;gap:var(--wf-space-3)}
+.c-footer-cta-above__social a{color:inherit;display:inline-flex}
+@media (max-width:900px){
+  .c-footer-cta-above__cta{flex-direction:column;align-items:flex-start;padding:var(--wf-space-8)}
+  .c-footer-cta-above__grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:600px){
+  .c-footer-cta-above__cta{padding:var(--wf-space-6)}
+  .c-footer-cta-above__cta-title{font-size:var(--wf-text-2xl)}
+  .c-footer-cta-above__cta-actions{width:100%;flex-direction:column}
+  .c-footer-cta-above__cta-actions .wf-btn{width:100%}
+  .c-footer-cta-above__grid{grid-template-columns:1fr;gap:var(--wf-space-6)}
+}

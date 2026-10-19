@@ -1,0 +1,11 @@
+{
+  "slug": "services-split-image",
+  "name": "Services: split with image",
+  "category": "services",
+  "description": "Framed image on the left; eyebrow, headline, lead, a two-column checked list of eight services and a button on the right. Stacks on mobile with the image first.",
+  "tags": ["services", "image", "list", "two-column", "checklist"],
+  "previewHeight": 620,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

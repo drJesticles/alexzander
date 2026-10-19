@@ -1,0 +1,11 @@
+{
+  "slug": "footer-cta-above",
+  "name": "Footer: CTA card above",
+  "category": "footer",
+  "description": "A big primary-colored CTA card overlaps the top of a dark four-column footer. Card has headline, text and two buttons; footer has brand, links, contact and a copyright bar.",
+  "tags": ["footer", "cta", "card", "overlap", "columns", "dark"],
+  "previewHeight": 640,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone", "business.email", "business.address", "business.year"],
+  "version": 1
+}

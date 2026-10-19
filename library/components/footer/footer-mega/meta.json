@@ -1,0 +1,11 @@
+{
+  "slug": "footer-mega",
+  "name": "Footer: mega with newsletter",
+  "category": "footer",
+  "description": "Dark footer with a newsletter row on top, then five columns (brand and hours, Services, Company, Service area, Contact) and a bottom bar with social icons and legal links.",
+  "tags": ["footer", "mega", "newsletter", "columns", "social", "hours"],
+  "previewHeight": 620,
+  "hasScript": false,
+  "fields": ["business.name", "business.tagline", "business.phone", "business.email", "business.address", "business.hours", "business.year"],
+  "version": 1
+}
