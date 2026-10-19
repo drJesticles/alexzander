@@ -1,0 +1,11 @@
+{
+  "slug": "services-area-list",
+  "name": "Services: service area",
+  "category": "services",
+  "description": "Where-we-work section: a simple inline SVG map placeholder with town markers, beside two lists, the regular service area (Russellville, Dardanelle, London, Atkins, Pottsville, Danville, Hector) and travel-by-appointment cities (NWA, Little Rock, Fort Smith).",
+  "tags": ["services", "service-area", "map", "locations", "towns"],
+  "previewHeight": 620,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone"],
+  "version": 1
+}

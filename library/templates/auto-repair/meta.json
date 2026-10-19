@@ -1,0 +1,37 @@
+{
+  "slug": "auto-repair",
+  "name": "Auto Repair",
+  "vertical": "local",
+  "description": "Six-page auto shop site: emergency-bar hero, service cards and accordion with starting prices, posted price list with FAQ, review page with rating breakdown, owner letter and crew directory, map contact with callback form.",
+  "kit": "carbon",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "services.html", "title": "Services", "path": "/services" },
+    { "file": "pricing.html", "title": "Pricing", "path": "/pricing" },
+    { "file": "reviews.html", "title": "Reviews", "path": "/reviews" },
+    { "file": "about.html", "title": "About", "path": "/about" },
+    { "file": "contact.html", "title": "Contact", "path": "/contact" }
+  ],
+  "tags": ["auto", "mechanic", "repair", "tires", "pricing", "reviews", "local"],
+  "components": [
+    "nav/nav-mega-menu",
+    "hero/hero-emergency-bar",
+    "services/services-grid-cards",
+    "process/process-cards-arrows",
+    "stats/stats-row",
+    "testimonials/testimonials-grid-cards",
+    "services/services-accordion",
+    "features/features-checklist",
+    "pricing/pricing-service-menu",
+    "faq/faq-accordion",
+    "commerce/commerce-reviews-list",
+    "testimonials/testimonials-google-style",
+    "about/about-owner-letter",
+    "team/team-list-compact",
+    "logos/logos-row",
+    "contact/contact-map-top",
+    "forms/form-callback-request",
+    "footer/footer-cta-above"
+  ],
+  "version": 1
+}

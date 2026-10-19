@@ -1,0 +1,18 @@
+/* Bootstrap 5: 1.5 line-height buttons, outline-primary, .25rem focus ring, bordered cards. */
+h1,h2,h3,h4{font-weight:500}
+.wf-btn{line-height:1.5;font-size:1rem}
+.wf-btn--lg{font-size:1.25rem;padding:.5rem 1rem;border-radius:var(--wf-radius-lg)}
+.wf-btn--sm{font-size:.875rem;padding:.25rem .5rem;border-radius:var(--wf-radius-sm)}
+.wf-btn--outline{border-color:var(--wf-primary);color:var(--wf-primary)}
+.wf-btn--outline:hover{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-btn--ghost{color:var(--wf-primary)}
+.wf-btn:focus-visible{outline:0;box-shadow:0 0 0 .25rem var(--bs-focus-ring)}
+.wf-card{background:var(--wf-bg)}
+.wf-card--raised{box-shadow:var(--wf-shadow-sm)}
+.wf-badge{border-radius:var(--wf-radius-md);font-weight:700;padding:.35em .65em;line-height:1}
+.wf-eyebrow{font-weight:700}
+.wf-input,.wf-select,.wf-textarea{padding:.375rem .75rem;line-height:1.5}
+.wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-color:var(--wf-primary);box-shadow:0 0 0 .25rem var(--bs-focus-ring)}
+.wf-section--dark .wf-btn--outline,.wf-section--primary .wf-btn--outline{color:inherit;border-color:currentColor}
+.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}

@@ -1,0 +1,11 @@
+{
+  "slug": "form-callback-request",
+  "name": "Form: request a callback",
+  "category": "forms",
+  "description": "Dark band with a short promise on the left and a two-field callback form (phone, best time) on the right. Good above a footer.",
+  "tags": ["form", "callback", "phone", "lead", "band"],
+  "previewHeight": 360,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone"],
+  "version": 1
+}

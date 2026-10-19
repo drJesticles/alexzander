@@ -1,0 +1,20 @@
+/* Carbon: light display headings, left-aligned square buttons, underlined fields, inset 2px focus. */
+h1,h2{font-weight:300}
+h3,h4{font-weight:400}
+.wf-eyebrow{text-transform:none;letter-spacing:.02em;font-weight:400;color:var(--wf-text-muted)}
+.wf-btn{font-size:.875rem;justify-content:flex-start;min-height:3rem;padding-right:4rem;letter-spacing:.01em}
+.wf-btn--sm{min-height:2rem;padding-right:2.5rem}
+.wf-btn--block{justify-content:flex-start}
+.wf-btn--outline{border-color:var(--wf-primary);color:var(--wf-primary)}
+.wf-btn--outline:hover{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-btn--ghost{color:var(--wf-primary)}
+.wf-btn:focus-visible{outline:2px solid var(--wf-primary);outline-offset:-2px;box-shadow:inset 0 0 0 3px var(--wf-bg)}
+.wf-card{border-color:transparent}
+.wf-badge{border-radius:var(--wf-radius-full);font-weight:400}
+.wf-label{color:var(--wf-text-muted);font-size:.75rem;letter-spacing:.02em}
+.wf-input,.wf-select,.wf-textarea{background:var(--wf-surface);border-color:transparent;border-bottom-color:var(--carbon-border-strong);padding:.75rem 1rem}
+.wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:2px solid var(--wf-primary);outline-offset:-2px;border-color:transparent}
+:focus-visible{outline:2px solid var(--wf-primary);outline-offset:1px}
+.wf-section--dark .wf-btn--outline,.wf-section--primary .wf-btn--outline{color:inherit;border-color:currentColor}
+.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}

@@ -1,0 +1,32 @@
+{
+  "slug": "link-in-bio",
+  "name": "Link in Bio",
+  "vertical": "personal",
+  "description": "A single link-in-bio page: avatar, short bio, eight big link buttons and a social row, plus a privacy page. Built for the vaporwave kit but works on any.",
+  "kit": "vaporwave",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Links",
+      "path": "/"
+    },
+    {
+      "file": "privacy.html",
+      "title": "Privacy",
+      "path": "/privacy"
+    }
+  ],
+  "tags": [
+    "personal",
+    "link-in-bio",
+    "creator",
+    "social",
+    "one-page"
+  ],
+  "components": [
+    "nav/nav-minimal-pill",
+    "footer/footer-simple",
+    "content/content-prose"
+  ],
+  "version": 1
+}

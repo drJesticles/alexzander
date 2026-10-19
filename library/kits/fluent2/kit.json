@@ -1,0 +1,12 @@
+{
+  "slug": "fluent2",
+  "name": "Microsoft Fluent 2",
+  "family": "big-four",
+  "description": "Microsoft Fluent 2: Segoe UI, brand blue #0F6CBD, neutral grays, 4-8px radii, layered soft shadows, bottom-border inputs.",
+  "source": "https://fluent2.microsoft.design",
+  "fonts": [],
+  "dark": true,
+  "swatch": ["#0F6CBD", "#242424", "#FAFAFA", "#479EF5"],
+  "tags": ["microsoft", "fluent", "windows", "office"],
+  "version": 1
+}

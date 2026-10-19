@@ -1,0 +1,18 @@
+{
+  "business": {
+    "name": "Ship Notes",
+    "tagline": "One thing worth shipping, every Friday morning.",
+    "phone": "(479) 555-0100",
+    "email": "hello@example.com",
+    "address": "Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Every Friday, 7am Central",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Subscribe", "path": "/" },
+    { "label": "Archive", "path": "/archive" },
+    { "label": "Privacy", "path": "/privacy" }
+  ]
+}

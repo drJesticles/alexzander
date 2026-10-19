@@ -1,0 +1,11 @@
+{
+  "slug": "faq-two-column",
+  "name": "FAQ: two columns, static",
+  "category": "faq",
+  "description": "Eight short question and answer pairs laid out in two columns with no interaction. Good for print-style clarity; one column on phones.",
+  "tags": ["faq", "two-column", "static", "questions"],
+  "previewHeight": 640,
+  "hasScript": false,
+  "fields": ["business.hours"],
+  "version": 1
+}

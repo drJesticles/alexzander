@@ -1,0 +1,11 @@
+{
+  "slug": "content-two-column-text",
+  "name": "Content: two-column text",
+  "category": "content",
+  "description": "A heading and lead spanning the top, then two columns of body text with their own h3s, divided by a vertical rule. Columns stack on tablet and below.",
+  "tags": ["content", "text", "two-column", "about", "editorial"],
+  "previewHeight": 620,
+  "hasScript": false,
+  "fields": ["business.name", "business.city"],
+  "version": 1
+}

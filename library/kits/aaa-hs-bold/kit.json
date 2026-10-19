@@ -1,0 +1,12 @@
+{
+  "slug": "aaa-hs-bold",
+  "name": "AAA Home Specialists: Bold",
+  "family": "brand",
+  "description": "Heavier AAA Home Specialists variant: safety orange primary on white with black #0a0a0a sections, Oswald condensed display, Barlow body, tight radii, high contrast.",
+  "source": "library/kits/aaa-brand (house style); business/GC/graphicCo/aaaBrandDNA.md",
+  "fonts": [{ "family": "Oswald", "weights": [500, 600, 700] }, { "family": "Barlow", "weights": [400, 500, 600, 700] }],
+  "dark": true,
+  "swatch": ["#f26a1b", "#0a0a0a", "#ffffff", "#0b2545"],
+  "tags": ["aaa", "brand", "contractor", "bold", "orange"],
+  "version": 1
+}

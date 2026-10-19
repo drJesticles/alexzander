@@ -1,0 +1,11 @@
+{
+  "slug": "contact-cards-three",
+  "name": "Contact: three cards (call, email, visit)",
+  "category": "contact",
+  "description": "Centered heading over three equal cards with an icon, label, the contact value and a button each: call, email, visit.",
+  "tags": ["contact", "cards", "phone", "email", "address"],
+  "previewHeight": 560,
+  "hasScript": false,
+  "fields": ["business.phone", "business.email", "business.address", "business.city"],
+  "version": 1
+}

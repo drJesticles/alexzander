@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "Iron Valley Fitness",
+    "tagline": "A 14,000 square foot gym on East Main with real coaching, no contracts and a 5am open.",
+    "phone": "(479) 555-0188",
+    "email": "frontdesk@ironvalleyfit.com",
+    "address": "2400 East Main Street, Russellville, AR 72802",
+    "city": "Russellville, AR",
+    "hours": "Mon–Fri 5am–10pm · Sat–Sun 7am–7pm",
+    "year": "2015"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Classes", "path": "/classes" },
+    { "label": "Memberships", "path": "/memberships" },
+    { "label": "Trainers", "path": "/trainers" },
+    { "label": "Schedule", "path": "/schedule" },
+    { "label": "Join", "path": "/join" }
+  ]
+}

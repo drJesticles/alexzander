@@ -1,0 +1,11 @@
+{
+  "slug": "process-steps-horizontal",
+  "name": "Process: four steps in a row",
+  "category": "process",
+  "description": "Four numbered steps joined by a connecting line, each with title and two lines of copy. Becomes a two-by-two grid on tablet and a numbered column on phone.",
+  "tags": ["process", "steps", "how-it-works", "numbered", "four-column"],
+  "previewHeight": 480,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

@@ -1,0 +1,17 @@
+/* Base kit: inherits every contract default. Only dark mode is defined here. */
+[data-theme="dark"] {
+  --wf-bg: #0f1117;
+  --wf-surface: #171a22;
+  --wf-surface-2: #222633;
+  --wf-text: #eef0f5;
+  --wf-text-muted: #a2a8b8;
+  --wf-primary: #6d8cff;
+  --wf-on-primary: #0b1020;
+  --wf-primary-hover: #8aa3ff;
+  --wf-secondary: #222633;
+  --wf-on-secondary: #eef0f5;
+  --wf-border: #2c3140;
+  --wf-shadow-sm: 0 1px 2px rgba(0,0,0,.4);
+  --wf-shadow-md: 0 6px 16px rgba(0,0,0,.5);
+  --wf-shadow-lg: 0 20px 40px rgba(0,0,0,.6);
+}

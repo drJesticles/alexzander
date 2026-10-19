@@ -1,0 +1,11 @@
+{
+  "slug": "gallery-masonry",
+  "name": "Gallery: masonry columns",
+  "category": "gallery",
+  "description": "Mixed-height project photos flowing through CSS multi-columns (3 / 2 / 1). Hover reveals a short caption.",
+  "tags": ["gallery", "masonry", "columns", "photos"],
+  "previewHeight": 1100,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

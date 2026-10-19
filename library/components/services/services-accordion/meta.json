@@ -1,0 +1,11 @@
+{
+  "slug": "services-accordion",
+  "name": "Services: accordion",
+  "category": "services",
+  "description": "Five expandable service rows. Each header button shows the name and starting price; the panel reveals details, a bullet list and a quote link. One open at a time; the first opens by default.",
+  "tags": ["services", "accordion", "expandable", "pricing", "details"],
+  "previewHeight": 700,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

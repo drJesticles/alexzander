@@ -1,0 +1,12 @@
+{
+  "slug": "aaa-brand",
+  "name": "AAA (HS / GC / AM house style)",
+  "family": "brand",
+  "description": "House kit for AAA Home Specialists, AAA Graphic Co and Avant Movers: deep navy, safety orange accent, bold condensed display type. Colors are placeholders until aaaBrandDNA.md is applied.",
+  "source": "business/GC/graphicCo/aaaBrandDNA.md (on aaalpha; not read in this session)",
+  "fonts": [{ "family": "Barlow Condensed", "weights": [600, 700, 800] }, { "family": "Barlow", "weights": [400, 500, 600] }],
+  "dark": true,
+  "swatch": ["#0b2545", "#f26a1b", "#f5f7fa", "#13315c"],
+  "tags": ["aaa", "brand", "contractor", "bold"],
+  "version": 1
+}

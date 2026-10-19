@@ -1,0 +1,27 @@
+.c-services-area-list__grid{display:grid;grid-template-columns:1fr 1.1fr;gap:var(--wf-space-12);align-items:center}
+.c-services-area-list__map{background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);padding:var(--wf-space-5);box-shadow:var(--wf-shadow-sm)}
+.c-services-area-list__svg{width:100%;height:auto;display:block}
+.c-services-area-list__region{fill:color-mix(in srgb,var(--wf-primary) 10%,transparent);stroke:color-mix(in srgb,var(--wf-primary) 35%,transparent);stroke-width:2}
+.c-services-area-list__river{fill:none;stroke:color-mix(in srgb,var(--wf-info) 45%,transparent);stroke-width:5;stroke-linecap:round}
+.c-services-area-list__road{fill:none;stroke:var(--wf-border);stroke-width:2;stroke-dasharray:6 5}
+.c-services-area-list__dot{fill:var(--wf-bg);stroke:var(--wf-primary);stroke-width:2.5}
+.c-services-area-list__ring{fill:color-mix(in srgb,var(--wf-accent) 25%,transparent);stroke:var(--wf-accent);stroke-width:2}
+.c-services-area-list__hq{fill:var(--wf-accent);stroke:var(--wf-bg);stroke-width:2.5}
+.c-services-area-list__label{font-family:inherit;font-size:12px;fill:var(--wf-text-muted)}
+.c-services-area-list__label--hq{font-size:14px;font-weight:var(--wf-weight-bold);fill:var(--wf-text)}
+.c-services-area-list__map-note{margin:var(--wf-space-3) 0 0;font-size:var(--wf-text-xs);color:var(--wf-text-muted);text-align:center}
+.c-services-area-list__copy h2{margin-bottom:var(--wf-space-4)}
+.c-services-area-list__groups{display:grid;grid-template-columns:1fr 1fr;gap:var(--wf-space-6);margin:var(--wf-space-6) 0}
+.c-services-area-list__group h3{font-size:var(--wf-text-lg);margin-bottom:var(--wf-space-1)}
+.c-services-area-list__group-note{font-size:var(--wf-text-sm);color:var(--wf-text-muted);margin-bottom:var(--wf-space-3)}
+.c-services-area-list__towns{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:var(--wf-space-2)}
+.c-services-area-list__towns li{padding:.3rem .75rem;border-radius:var(--wf-radius-full);background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);font-size:var(--wf-text-sm);font-weight:var(--wf-weight-medium)}
+.c-services-area-list__towns--travel li{background:transparent;border-style:dashed;color:var(--wf-text-muted)}
+.c-services-area-list__cta{margin:0;font-weight:var(--wf-weight-medium)}
+@media (max-width:900px){
+  .c-services-area-list__grid{grid-template-columns:1fr;gap:var(--wf-space-8)}
+  .c-services-area-list__map{max-width:30rem}
+}
+@media (max-width:600px){
+  .c-services-area-list__groups{grid-template-columns:1fr}
+}

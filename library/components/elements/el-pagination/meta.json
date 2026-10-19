@@ -1,0 +1,11 @@
+{
+  "slug": "el-pagination",
+  "name": "Element: pagination",
+  "category": "elements",
+  "description": "Previous and next buttons around numbered pages with an ellipsis; the current page is marked with aria-current.",
+  "tags": ["element", "pagination", "navigation", "blog"],
+  "previewHeight": 120,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

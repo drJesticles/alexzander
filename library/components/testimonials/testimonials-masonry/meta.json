@@ -1,0 +1,11 @@
+{
+  "slug": "testimonials-masonry",
+  "name": "Testimonials: masonry wall",
+  "category": "testimonials",
+  "description": "Six reviews of varied length flowing into three CSS columns, masonry style. Two columns on tablet, one on phone.",
+  "tags": ["testimonials", "reviews", "masonry", "columns", "wall"],
+  "previewHeight": 760,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

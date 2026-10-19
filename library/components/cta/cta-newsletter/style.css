@@ -1,0 +1,11 @@
+.c-cta-newsletter__inner{text-align:center;display:flex;flex-direction:column;align-items:center}
+.c-cta-newsletter h2{max-width:24ch;margin-bottom:var(--wf-space-4)}
+.c-cta-newsletter__text{color:var(--wf-text-muted);max-width:52ch;margin-bottom:var(--wf-space-6)}
+.c-cta-newsletter__form{display:flex;gap:var(--wf-space-3);width:100%;max-width:32rem}
+.c-cta-newsletter__input{flex:1}
+.c-cta-newsletter__form .wf-btn{flex:none;white-space:nowrap}
+.c-cta-newsletter__fineprint{margin:var(--wf-space-3) 0 0;font-size:var(--wf-text-xs);color:var(--wf-text-muted)}
+@media (max-width:600px){
+  .c-cta-newsletter__form{flex-direction:column}
+  .c-cta-newsletter__form .wf-btn{width:100%}
+}

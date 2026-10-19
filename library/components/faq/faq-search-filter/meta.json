@@ -1,0 +1,11 @@
+{
+  "slug": "faq-search-filter",
+  "name": "FAQ: searchable accordion",
+  "category": "faq",
+  "description": "Search box above an accordion. Typing filters questions live, shows a result count, auto-opens matches and offers a reset. Works with no script as a plain accordion list.",
+  "tags": ["faq", "search", "filter", "accordion", "interactive"],
+  "previewHeight": 680,
+  "hasScript": true,
+  "fields": ["business.phone"],
+  "version": 1
+}

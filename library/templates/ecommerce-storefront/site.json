@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "Hollow Creek Mercantile",
+    "tagline": "Small-batch goods from Ozark makers. Shop online, pick up downtown, or we ship anywhere in the lower 48.",
+    "phone": "(479) 555-0121",
+    "email": "hello@hollowcreekmercantile.com",
+    "address": "112 West Central Avenue, Bentonville, AR 72712",
+    "city": "Bentonville, AR",
+    "hours": "Mon to Sat 9am to 6pm · Sun noon to 5pm",
+    "year": "2019"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Shop", "path": "/shop" },
+    { "label": "Featured", "path": "/product" },
+    { "label": "About", "path": "/about" },
+    { "label": "Cart", "path": "/cart" },
+    { "label": "Checkout", "path": "/checkout" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "about-values-grid",
+  "name": "About: mission and values",
+  "category": "about",
+  "description": "Mission statement on the left, four value cards with icons on the right in a two-by-two grid. Stacks to one column on phones.",
+  "tags": ["about", "values", "mission", "icons", "grid"],
+  "previewHeight": 600,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

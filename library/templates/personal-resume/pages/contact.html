@@ -1,0 +1,97 @@
+<header class="c-nav-simple" data-wf-component="nav-simple">
+  <div class="wf-container c-nav-simple__bar">
+    <a class="c-nav-simple__brand" href="/" data-wf-field="business.name">Jordan Reyes</a>
+    <button class="c-nav-simple__toggle" type="button" aria-expanded="false" aria-controls="nav-simple-menu" aria-label="Open menu">
+      <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="c-nav-simple__menu" id="nav-simple-menu">
+      <a href="/">About</a>
+      <a href="/experience">Experience</a>
+      <a href="/projects">Projects</a>
+      <a href="/contact">Contact</a>
+      <a class="wf-btn wf-btn--primary wf-btn--sm" href="#">Download résumé</a>
+    </nav>
+  </div>
+</header>
+
+<section class="wf-section c-form-contact-basic" data-wf-component="form-contact-basic">
+  <div class="wf-container wf-container--narrow">
+    <div class="c-form-contact-basic__head wf-center">
+      <span class="wf-eyebrow">Get in touch</span>
+      <h2>Tell me about the role, or just say hi.</h2>
+      <p class="wf-lead c-form-contact-basic__lead">Send a note and <span data-wf-field="business.name">Jordan Reyes</span> will reply within one business day. Recruiters welcome; please include the company and a salary range.</p>
+    </div>
+    <form class="c-form-contact-basic__form" data-wf-form="contact" action="#" method="post">
+      <div class="c-form-contact-basic__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-contact-basic-name">Your name</label>
+          <input class="wf-input" id="form-contact-basic-name" name="name" type="text" autocomplete="name" placeholder="Sam Patel" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-contact-basic-email">Email</label>
+          <input class="wf-input" id="form-contact-basic-email" name="email" type="email" autocomplete="email" placeholder="you@company.com" required>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-contact-basic-phone">Company <span class="wf-muted">(optional)</span></label>
+        <input class="wf-input" id="form-contact-basic-phone" name="company" type="text" autocomplete="organization" placeholder="Where you work">
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-contact-basic-message">What's on your mind?</label>
+        <textarea class="wf-textarea" id="form-contact-basic-message" name="message" placeholder="Example: we're hiring a lead front-end engineer, remote, $150–180k, and your scheduling work caught my eye." required></textarea>
+      </div>
+      <div class="c-form-contact-basic__actions">
+        <button class="wf-btn wf-btn--primary wf-btn--lg" type="submit">Send message</button>
+        <p class="c-form-contact-basic__note">
+          <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+          Your message goes to my inbox and nowhere else.
+        </p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="wf-section wf-section--surface c-contact-cards-three" data-wf-component="contact-cards-three">
+  <div class="wf-container">
+    <div class="c-contact-cards-three__head wf-center">
+      <span class="wf-eyebrow">Elsewhere</span>
+      <h2>Email, call, or find me online.</h2>
+    </div>
+    <div class="wf-grid wf-grid--3">
+      <div class="c-contact-cards-three__card">
+        <span class="c-contact-cards-three__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+        <h3 class="c-contact-cards-three__title">Email</h3>
+        <p class="c-contact-cards-three__text">The best way. I check it twice a day and answer everything that isn't spam.</p>
+        <p class="c-contact-cards-three__value" data-wf-field="business.email">hello@example.com</p>
+        <a class="wf-btn wf-btn--primary" href="mailto:hello@example.com">Send an email</a>
+      </div>
+      <div class="c-contact-cards-three__card">
+        <span class="c-contact-cards-three__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span>
+        <h3 class="c-contact-cards-three__title">Call or text</h3>
+        <p class="c-contact-cards-three__text">Weekdays 9 to 5 Central. Text first if it's not scheduled and I'll call back between meetings.</p>
+        <p class="c-contact-cards-three__value" data-wf-field="business.phone">(479) 555-0100</p>
+        <a class="wf-btn wf-btn--outline" href="tel:+14795550100">Call</a>
+      </div>
+      <div class="c-contact-cards-three__card">
+        <span class="c-contact-cards-three__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg></span>
+        <h3 class="c-contact-cards-three__title">Online</h3>
+        <p class="c-contact-cards-three__text">GitHub for the code, LinkedIn for the paper trail. Based in <span data-wf-field="business.city">Russellville, AR</span>, Central time.</p>
+        <p class="c-contact-cards-three__value">github.com/jordanreyes</p>
+        <a class="wf-btn wf-btn--outline" href="#">View GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="wf-section wf-section--tight wf-section--surface c-footer-simple" data-wf-component="footer-simple">
+  <div class="wf-container c-footer-simple__inner">
+    <a class="c-footer-simple__brand" href="/" data-wf-field="business.name">Jordan Reyes</a>
+    <nav class="c-footer-simple__links" aria-label="Footer">
+      <a href="/experience">Experience</a>
+      <a href="/projects">Projects</a>
+      <a href="/contact">Contact</a>
+      <a href="#">Privacy</a>
+    </nav>
+    <span class="c-footer-simple__copy">&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">Jordan Reyes</span></span>
+  </div>
+</footer>

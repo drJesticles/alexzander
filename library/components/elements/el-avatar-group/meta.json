@@ -1,0 +1,11 @@
+{
+  "slug": "el-avatar-group",
+  "name": "Element: avatar group",
+  "category": "elements",
+  "description": "Four overlapping avatars, a +count bubble, and a trust line with a star rating. Use near a CTA as social proof.",
+  "tags": ["element", "avatar", "social-proof", "trust"],
+  "previewHeight": 140,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

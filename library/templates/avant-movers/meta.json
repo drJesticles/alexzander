@@ -1,0 +1,73 @@
+{
+  "slug": "avant-movers",
+  "name": "Avant Movers",
+  "vertical": "brand",
+  "description": "Six-page site for Avant Movers, a local and long-distance moving company in Russellville, AR: posted-rate hero, service tabs, hourly and flat price menu with three packages, printable moving checklist and timeline, review wall and a three-step quote form.",
+  "kit": "aaa-brand",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "services.html",
+      "title": "Services",
+      "path": "/services"
+    },
+    {
+      "file": "pricing.html",
+      "title": "Pricing",
+      "path": "/pricing"
+    },
+    {
+      "file": "checklist.html",
+      "title": "Moving Checklist",
+      "path": "/checklist"
+    },
+    {
+      "file": "reviews.html",
+      "title": "Reviews",
+      "path": "/reviews"
+    },
+    {
+      "file": "quote.html",
+      "title": "Get a Quote",
+      "path": "/quote"
+    }
+  ],
+  "tags": [
+    "movers",
+    "moving",
+    "long-distance",
+    "avant",
+    "quote-form",
+    "checklist"
+  ],
+  "components": [
+    "contact/contact-cards-three",
+    "contact/contact-hours-table",
+    "content/content-checklist-columns",
+    "content/content-timeline",
+    "cta/cta-split-image",
+    "faq/faq-accordion",
+    "faq/faq-two-column",
+    "features/features-checklist",
+    "features/features-grid-icons",
+    "features/features-tabs",
+    "footer/footer-cta-above",
+    "forms/form-multistep",
+    "hero/hero-pricing-teaser",
+    "nav/nav-simple",
+    "pricing/pricing-service-menu",
+    "pricing/pricing-three-tier",
+    "services/services-area-list",
+    "services/services-grid-cards",
+    "stats/stats-dark-band",
+    "testimonials/testimonials-google-style",
+    "testimonials/testimonials-masonry",
+    "testimonials/testimonials-slider",
+    "testimonials/testimonials-video-cards"
+  ],
+  "version": 1
+}

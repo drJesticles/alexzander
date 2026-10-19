@@ -1,0 +1,11 @@
+{
+  "slug": "nav-centered-logo",
+  "name": "Nav: centered logo",
+  "category": "nav",
+  "description": "Logo text centered with three links on the left and two links plus a phone button on the right. Collapses to a centered, wrapping link row on mobile.",
+  "tags": ["nav", "header", "centered", "symmetrical", "cta"],
+  "previewHeight": 120,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone"],
+  "version": 1
+}

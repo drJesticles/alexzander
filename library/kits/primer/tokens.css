@@ -1,0 +1,76 @@
+/* GitHub Primer light + dark_dimmed-free "dark" (canvas #0d1117). */
+:root {
+  --wf-bg: #ffffff;
+  --wf-surface: #f6f8fa;
+  --wf-surface-2: #eaeef2;
+  --wf-text: #1f2328;
+  --wf-text-muted: #656d76;
+  --wf-primary: #0969da;
+  --wf-on-primary: #ffffff;
+  --wf-primary-hover: #0860ca;
+  --wf-secondary: #24292f;
+  --wf-on-secondary: #ffffff;
+  --wf-accent: #1f883d;
+  --wf-on-accent: #ffffff;
+  --wf-border: #d0d7de;
+  --wf-success: #1a7f37;
+  --wf-warning: #9a6700;
+  --wf-danger: #cf222e;
+  --wf-info: #0969da;
+  --wf-overlay: rgba(31, 35, 40, 0.5);
+  --primer-accent-hover: #1a7f37;
+  --primer-focus-ring: rgba(9, 105, 218, 0.3);
+
+  --wf-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --wf-font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  --wf-font-display: var(--wf-font-sans);
+  --wf-font-body: var(--wf-font-sans);
+  --wf-leading-tight: 1.25;
+  --wf-leading-normal: 1.5;
+  --wf-weight-bold: 600;
+  --wf-tracking-tight: 0;
+  --wf-tracking-wide: 0.04em;
+
+  --wf-radius-sm: 0.25rem;
+  --wf-radius-md: 0.375rem;
+  --wf-radius-lg: 0.5rem;
+  --wf-radius-xl: 0.75rem;
+
+  --wf-shadow-sm: 0 1px 0 rgba(31,35,40,.04);
+  --wf-shadow-md: 0 3px 6px rgba(140,149,159,.15);
+  --wf-shadow-lg: 0 8px 24px rgba(140,149,159,.2);
+
+  --wf-btn-radius: 0.375rem;
+  --wf-btn-py: 0.3125rem;
+  --wf-btn-px: 1rem;
+  --wf-btn-weight: 500;
+  --wf-btn-shadow: 0 1px 0 rgba(31,35,40,.04);
+  --wf-card-radius: 0.375rem;
+  --wf-card-shadow: none;
+  --wf-input-radius: 0.375rem;
+}
+[data-theme="dark"] {
+  --wf-bg: #0d1117;
+  --wf-surface: #161b22;
+  --wf-surface-2: #21262d;
+  --wf-text: #e6edf3;
+  --wf-text-muted: #8b949e;
+  --wf-primary: #2f81f7;
+  --wf-on-primary: #ffffff;
+  --wf-primary-hover: #1f6feb;
+  --wf-secondary: #21262d;
+  --wf-on-secondary: #e6edf3;
+  --wf-accent: #238636;
+  --wf-on-accent: #ffffff;
+  --wf-border: #30363d;
+  --wf-success: #3fb950;
+  --wf-warning: #d29922;
+  --wf-danger: #f85149;
+  --wf-info: #2f81f7;
+  --wf-overlay: rgba(1, 4, 9, 0.8);
+  --primer-accent-hover: #2ea043;
+  --primer-focus-ring: rgba(47, 129, 247, 0.4);
+  --wf-shadow-sm: 0 0 transparent;
+  --wf-shadow-md: 0 3px 6px rgba(1,4,9,.5);
+  --wf-shadow-lg: 0 8px 24px rgba(1,4,9,.6);
+}

@@ -1,0 +1,17 @@
+.c-pricing-service-menu__head{display:flex;justify-content:space-between;align-items:flex-end;gap:var(--wf-space-8);margin-bottom:var(--wf-space-10)}
+.c-pricing-service-menu__head h2{max-width:20ch}
+.c-pricing-service-menu__head .wf-lead{margin:0}
+.c-pricing-service-menu__head .wf-btn{flex:none}
+.c-pricing-service-menu__cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--wf-space-8)}
+.c-pricing-service-menu__group{background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);box-shadow:var(--wf-card-shadow);padding:var(--wf-space-6) var(--wf-space-8)}
+.c-pricing-service-menu__title{font-size:var(--wf-text-sm);text-transform:uppercase;letter-spacing:var(--wf-tracking-wide);color:var(--wf-primary);margin-bottom:var(--wf-space-4);padding-bottom:var(--wf-space-3);border-bottom:var(--wf-border-w) solid var(--wf-border)}
+.c-pricing-service-menu__list{list-style:none;padding:0;margin:0}
+.c-pricing-service-menu__item{display:flex;align-items:baseline;gap:var(--wf-space-3);padding:var(--wf-space-3) 0}
+.c-pricing-service-menu__item+.c-pricing-service-menu__item{border-top:var(--wf-border-w) dashed var(--wf-border)}
+.c-pricing-service-menu__label{display:flex;flex-direction:column;font-weight:var(--wf-weight-medium)}
+.c-pricing-service-menu__label small{font-weight:var(--wf-weight-normal);color:var(--wf-text-muted);font-size:var(--wf-text-sm)}
+.c-pricing-service-menu__dots{flex:1;border-bottom:2px dotted var(--wf-border);min-width:1.5rem;transform:translateY(-.35em)}
+.c-pricing-service-menu__price{font-family:var(--wf-font-display);font-weight:var(--wf-weight-bold);font-size:var(--wf-text-xl);white-space:nowrap}
+.c-pricing-service-menu__note{font-size:var(--wf-text-sm);margin:var(--wf-space-8) 0 0;max-width:70ch}
+@media (max-width:900px){.c-pricing-service-menu__cols{grid-template-columns:1fr}}
+@media (max-width:767px){.c-pricing-service-menu__head{flex-direction:column;align-items:flex-start}.c-pricing-service-menu__group{padding:var(--wf-space-5)}}

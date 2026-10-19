@@ -1,0 +1,5 @@
+.c-el-card-icon{padding:var(--wf-space-4)}
+.c-el-card-icon__card{max-width:22rem}
+.c-el-card-icon__icon{display:inline-flex;align-items:center;justify-content:center;width:3rem;height:3rem;border-radius:var(--wf-radius-md);background:color-mix(in srgb, var(--wf-primary) 12%, transparent);color:var(--wf-primary);margin-bottom:var(--wf-space-4)}
+.c-el-card-icon__title{font-size:var(--wf-text-lg);margin-bottom:var(--wf-space-2)}
+.c-el-card-icon__text{color:var(--wf-text-muted);font-size:var(--wf-text-sm);margin:0}

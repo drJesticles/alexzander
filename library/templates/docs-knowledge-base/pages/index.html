@@ -1,0 +1,242 @@
+<header class="c-nav-sidebar-drawer" data-wf-component="nav-sidebar-drawer">
+  <div class="wf-container c-nav-sidebar-drawer__bar">
+    <button class="c-nav-sidebar-drawer__open" type="button" aria-expanded="false" aria-controls="nav-sidebar-drawer-panel" aria-label="Open menu">
+      <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <span class="c-nav-sidebar-drawer__open-label">Docs</span>
+    </button>
+    <a class="c-nav-sidebar-drawer__brand" href="/" data-wf-field="business.name">Beacon Docs</a>
+    <a class="wf-btn wf-btn--primary wf-btn--sm c-nav-sidebar-drawer__cta" href="/support">
+      <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M12 8v3M12 13.5v.5"/></svg>
+      <span>Get support</span>
+    </a>
+  </div>
+  <div class="c-nav-sidebar-drawer__backdrop" hidden></div>
+  <aside class="c-nav-sidebar-drawer__panel" id="nav-sidebar-drawer-panel" aria-label="Site menu" aria-hidden="true">
+    <div class="c-nav-sidebar-drawer__panel-head">
+      <span class="c-nav-sidebar-drawer__panel-brand" data-wf-field="business.name">Beacon Docs</span>
+      <button class="c-nav-sidebar-drawer__close" type="button" aria-label="Close menu">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <nav class="c-nav-sidebar-drawer__links" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/getting-started">Getting started</a>
+      <a href="/guides">Guides</a>
+      <a href="/api">API reference</a>
+      <a href="/faq">FAQ</a>
+      <a href="/support">Support</a>
+    </nav>
+    <div class="c-nav-sidebar-drawer__contact">
+      <p class="c-nav-sidebar-drawer__contact-label">Support hours</p>
+      <p data-wf-field="business.hours">Mon to Fri, 6am to 6pm Pacific</p>
+      <p class="c-nav-sidebar-drawer__contact-label">Phone</p>
+      <p><a href="tel:+18555550170" data-wf-field="business.phone">(855) 555-0170</a></p>
+      <p class="c-nav-sidebar-drawer__contact-label">Email</p>
+      <p><a href="mailto:support@beacon.dev" data-wf-field="business.email">support@beacon.dev</a></p>
+    </div>
+  </aside>
+</header>
+
+<section class="wf-section wf-section--surface c-faq-search-filter" data-wf-component="faq-search-filter">
+  <div class="wf-container wf-container--narrow">
+    <div class="wf-center c-faq-search-filter__head">
+      <span class="wf-eyebrow">Beacon documentation</span>
+      <h2>How can we help?</h2>
+      <p class="wf-lead">Search the docs for a word like "heartbeat", "status page", "webhook" or "SSO" and the answers below narrow as you type.</p>
+    </div>
+    <form class="c-faq-search-filter__form" role="search" action="#">
+      <label class="wf-sr-only" for="faq-search-filter-input">Search the documentation</label>
+      <div class="c-faq-search-filter__box">
+        <svg class="wf-icon c-faq-search-filter__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+        <input class="wf-input c-faq-search-filter__input" id="faq-search-filter-input" type="search" placeholder="Search the docs" autocomplete="off">
+        <button class="c-faq-search-filter__clear" type="button" aria-label="Clear search" hidden>
+          <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <p class="c-faq-search-filter__status" aria-live="polite">Showing all 8 quick answers</p>
+    </form>
+    <div class="c-faq-search-filter__list">
+      <div class="c-faq-search-filter__item">
+        <h3 class="c-faq-search-filter__q"><button class="c-faq-search-filter__btn" type="button" aria-expanded="false">How often does Beacon check my site?<svg class="wf-icon c-faq-search-filter__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></h3>
+        <div class="c-faq-search-filter__panel" hidden><p>Every 30 seconds on paid plans, every 3 minutes on the free plan, from 14 regions. A check must fail from two regions before an incident opens, which filters out single-region network blips.</p></div>
+      </div>
+      <div class="c-faq-search-filter__item">
+        <h3 class="c-faq-search-filter__q"><button class="c-faq-search-filter__btn" type="button" aria-expanded="false">What is a heartbeat monitor?<svg class="wf-icon c-faq-search-filter__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></h3>
+        <div class="c-faq-search-filter__panel" hidden><p>A monitor that expects your job to ping it. If the ping does not arrive within the schedule plus a grace period, Beacon alerts. Use it for cron jobs, backups and queue workers. See the Guides page.</p></div>
+      </div>
+      <div class="c-faq-search-filter__item">
+        <h3 class="c-faq-search-filter__q"><button class="c-faq-search-filter__btn" type="button" aria-expanded="false">Can I put the status page on my own domain?<svg class="wf-icon c-faq-search-filter__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></h3>
+        <div class="c-faq-search-filter__panel" hidden><p>Yes. Add a CNAME from status.yourdomain.com to pages.beacon.dev and Beacon issues the certificate automatically within a few minutes. Custom logo, colours and footer are under Status page, then Appearance.</p></div>
+      </div>
+      <div class="c-faq-search-filter__item">
+        <h3 class="c-faq-search-filter__q"><button class="c-faq-search-filter__btn" type="button" aria-expanded="false">How do webhook alerts work?<svg class="wf-icon c-faq-search-filter__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></h3>
+        <div class="c-faq-search-filter__panel" hidden><p>Beacon POSTs a signed JSON payload to your URL when an incident opens, updates or resolves. Verify the X-Beacon-Signature header with your webhook secret. Failed deliveries retry with backoff for 24 hours.</p></div>
+      </div>
+      <div class="c-faq-search-filter__item">
+        <h3 class="c-faq-search-filter__q"><button class="c-faq-search-filter__btn" type="button" aria-expanded="false">Does Beacon support SSO?<svg class="wf-icon c-faq-search-filter__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></h3>
+        <div class="c-faq-search-filter__panel" hidden><p>SAML and OIDC on the Team and Business plans: Okta, Google Workspace, Microsoft Entra and any generic provider. Groups can be mapped to Beacon roles so new hires land with the right access.</p></div>
+      </div>
+      <div class="c-faq-search-filter__item">
+        <h3 class="c-faq-search-filter__q"><button class="c-faq-search-filter__btn" type="button" aria-expanded="false">Where do I find my API key?<svg class="wf-icon c-faq-search-filter__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></h3>
+        <div class="c-faq-search-filter__panel" hidden><p>Settings, then API keys, then Create key. Pick read-only or read-write scopes. Keys are shown once; store them in your secrets manager. The API reference page has the first request.</p></div>
+      </div>
+      <div class="c-faq-search-filter__item">
+        <h3 class="c-faq-search-filter__q"><button class="c-faq-search-filter__btn" type="button" aria-expanded="false">Why did I get paged for a 20-second outage?<svg class="wf-icon c-faq-search-filter__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></h3>
+        <div class="c-faq-search-filter__panel" hidden><p>Your monitor's confirmation delay is probably set to zero. Raise it to 60 or 120 seconds under Monitor, then Alerting, and Beacon waits for a second failed check before paging anyone.</p></div>
+      </div>
+      <div class="c-faq-search-filter__item">
+        <h3 class="c-faq-search-filter__q"><button class="c-faq-search-filter__btn" type="button" aria-expanded="false">How do I reach a human?<svg class="wf-icon c-faq-search-filter__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></h3>
+        <div class="c-faq-search-filter__panel" hidden><p>Email <a href="mailto:support@beacon.dev" data-wf-field="business.email">support@beacon.dev</a>, use the chat bubble in the app, or call <a href="tel:+18555550170" data-wf-field="business.phone">(855) 555-0170</a> on the Business plan. Weekdays 6am to 6pm Pacific.</p></div>
+      </div>
+    </div>
+    <p class="c-faq-search-filter__empty" hidden>Nothing matches that. <button class="c-faq-search-filter__reset" type="button">Show all answers</button> or email <a href="mailto:support@beacon.dev" data-wf-field="business.email">support@beacon.dev</a>.</p>
+  </div>
+</section>
+
+<section class="wf-section c-features-grid-icons" data-wf-component="features-grid-icons">
+  <div class="wf-container">
+    <div class="c-features-grid-icons__head">
+      <span class="wf-eyebrow">Browse by topic</span>
+      <h2>Six places to start.</h2>
+      <p class="wf-lead">Everything in the <span data-wf-field="business.name">Beacon</span> docs lives under one of these. Each section has a two-minute overview at the top.</p>
+    </div>
+    <div class="wf-grid wf-grid--3 c-features-grid-icons__grid">
+      <div class="c-features-grid-icons__item">
+        <span class="c-features-grid-icons__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        <h3><a href="/getting-started">Getting started</a></h3>
+        <p>Create an account, add your first monitor, invite the team and connect Slack. About fifteen minutes end to end.</p>
+      </div>
+      <div class="c-features-grid-icons__item">
+        <span class="c-features-grid-icons__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <h3><a href="/guides">Monitors</a></h3>
+        <p>HTTP, TCP, ping, DNS, SSL expiry, keyword and heartbeat checks. Intervals, regions, confirmation delays and maintenance windows.</p>
+      </div>
+      <div class="c-features-grid-icons__item">
+        <span class="c-features-grid-icons__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></span>
+        <h3><a href="/guides">Alerting &amp; on-call</a></h3>
+        <p>Escalation policies, schedules, quiet hours, and every channel: Slack, Teams, SMS, phone, email, PagerDuty and webhooks.</p>
+      </div>
+      <div class="c-features-grid-icons__item">
+        <span class="c-features-grid-icons__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg></span>
+        <h3><a href="/guides">Status pages</a></h3>
+        <p>Public and private pages, custom domains, component groups, subscriber emails and incident templates.</p>
+      </div>
+      <div class="c-features-grid-icons__item">
+        <span class="c-features-grid-icons__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></svg></span>
+        <h3><a href="/api">API &amp; integrations</a></h3>
+        <p>The REST API, webhooks, Terraform provider and the CLI. Create monitors from code and keep them in version control.</p>
+      </div>
+      <div class="c-features-grid-icons__item">
+        <span class="c-features-grid-icons__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
+        <h3><a href="/guides">Teams &amp; security</a></h3>
+        <p>Roles, SSO, audit logs, two-factor enforcement, data retention and the security overview your vendor review will ask for.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wf-section c-blog-cards-grid" data-wf-component="blog-cards-grid">
+  <div class="wf-container">
+    <div class="c-blog-cards-grid__head">
+      <div>
+        <span class="wf-eyebrow">Popular guides</span>
+        <h2>What most people read first.</h2>
+      </div>
+      <a class="c-blog-cards-grid__all" href="/guides">All guides
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+    <div class="wf-grid wf-grid--3">
+      <article class="c-blog-cards-grid__card">
+        <a class="c-blog-cards-grid__media" href="/getting-started" tabindex="-1" aria-hidden="true">
+          <img src="/ph/800/500/guide-first-monitor-in-five-minutes.svg" alt="" width="800" height="500">
+        </a>
+        <div class="c-blog-cards-grid__body">
+          <span class="wf-badge wf-badge--primary">Start here</span>
+          <h3 class="c-blog-cards-grid__title"><a href="/getting-started">Your first uptime monitor in five minutes</a></h3>
+          <p class="c-blog-cards-grid__excerpt">Add a URL, pick a check interval, choose who gets paged. The whole flow with screenshots of every screen.</p>
+          <p class="c-blog-cards-grid__meta"><time datetime="2026-10-06">Updated Oct 6, 2026</time> · 5 min read</p>
+        </div>
+      </article>
+      <article class="c-blog-cards-grid__card">
+        <a class="c-blog-cards-grid__media" href="/guides" tabindex="-1" aria-hidden="true">
+          <img src="/ph/800/500/guide-public-status-page.svg" alt="" width="800" height="500">
+        </a>
+        <div class="c-blog-cards-grid__body">
+          <span class="wf-badge">Status pages</span>
+          <h3 class="c-blog-cards-grid__title"><a href="/guides">Publishing a public status page on your own domain</a></h3>
+          <p class="c-blog-cards-grid__excerpt">CNAME setup, the automatic certificate, component groups and how to post an incident update from your phone.</p>
+          <p class="c-blog-cards-grid__meta"><time datetime="2026-09-29">Updated Sep 29, 2026</time> · 7 min read</p>
+        </div>
+      </article>
+      <article class="c-blog-cards-grid__card">
+        <a class="c-blog-cards-grid__media" href="/guides" tabindex="-1" aria-hidden="true">
+          <img src="/ph/800/500/guide-alert-routing-on-call.svg" alt="" width="800" height="500">
+        </a>
+        <div class="c-blog-cards-grid__body">
+          <span class="wf-badge">Alerting</span>
+          <h3 class="c-blog-cards-grid__title"><a href="/guides">Routing alerts: Slack first, then phone, then the backup</a></h3>
+          <p class="c-blog-cards-grid__excerpt">Escalation policies, on-call schedules and the quiet-hours rule that stops the 3am page for a 30-second blip.</p>
+          <p class="c-blog-cards-grid__meta"><time datetime="2026-09-18">Updated Sep 18, 2026</time> · 6 min read</p>
+        </div>
+      </article>
+      <article class="c-blog-cards-grid__card">
+        <a class="c-blog-cards-grid__media" href="/api" tabindex="-1" aria-hidden="true">
+          <img src="/ph/800/500/guide-api-keys-and-auth.svg" alt="" width="800" height="500">
+        </a>
+        <div class="c-blog-cards-grid__body">
+          <span class="wf-badge">API</span>
+          <h3 class="c-blog-cards-grid__title"><a href="/api">API keys, scopes and your first request</a></h3>
+          <p class="c-blog-cards-grid__excerpt">Create a key, limit it to read-only, and list your monitors with one curl command. Rate limits explained.</p>
+          <p class="c-blog-cards-grid__meta"><time datetime="2026-09-10">Updated Sep 10, 2026</time> · 4 min read</p>
+        </div>
+      </article>
+      <article class="c-blog-cards-grid__card">
+        <a class="c-blog-cards-grid__media" href="/guides" tabindex="-1" aria-hidden="true">
+          <img src="/ph/800/500/guide-cron-heartbeat-monitors.svg" alt="" width="800" height="500">
+        </a>
+        <div class="c-blog-cards-grid__body">
+          <span class="wf-badge">Heartbeats</span>
+          <h3 class="c-blog-cards-grid__title"><a href="/guides">Monitoring cron jobs and backups with heartbeats</a></h3>
+          <p class="c-blog-cards-grid__excerpt">A monitor that alerts when something does not happen. Grace periods, the one-line curl to add to any script, and examples.</p>
+          <p class="c-blog-cards-grid__meta"><time datetime="2026-08-27">Updated Aug 27, 2026</time> · 5 min read</p>
+        </div>
+      </article>
+      <article class="c-blog-cards-grid__card">
+        <a class="c-blog-cards-grid__media" href="/guides" tabindex="-1" aria-hidden="true">
+          <img src="/ph/800/500/guide-sso-and-team-roles.svg" alt="" width="800" height="500">
+        </a>
+        <div class="c-blog-cards-grid__body">
+          <span class="wf-badge">Teams</span>
+          <h3 class="c-blog-cards-grid__title"><a href="/guides">Single sign-on, roles and audit logs</a></h3>
+          <p class="c-blog-cards-grid__excerpt">Connect Okta, Google or Entra, map groups to roles, and find out who silenced that monitor last Tuesday.</p>
+          <p class="c-blog-cards-grid__meta"><time datetime="2026-08-14">Updated Aug 14, 2026</time> · 6 min read</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="wf-section wf-section--tight wf-section--primary c-cta-band" data-wf-component="cta-band">
+  <div class="wf-container c-cta-band__inner">
+    <div class="c-cta-band__copy">
+      <h2 class="c-cta-band__title">Can't find it? A person can.</h2>
+      <p class="c-cta-band__text">Support at <span data-wf-field="business.name">Beacon</span> is staffed by engineers, weekdays 6am to 6pm Pacific. Median first reply is nine minutes.</p>
+    </div>
+    <a class="wf-btn wf-btn--accent wf-btn--lg" href="/support">Contact support</a>
+  </div>
+</section>
+
+<footer class="wf-section wf-section--tight wf-section--surface c-footer-simple" data-wf-component="footer-simple">
+  <div class="wf-container c-footer-simple__inner">
+    <a class="c-footer-simple__brand" href="/" data-wf-field="business.name">Beacon Docs</a>
+    <nav class="c-footer-simple__links" aria-label="Footer">
+      <a href="/getting-started">Getting started</a>
+      <a href="/guides">Guides</a>
+      <a href="/api">API</a>
+      <a href="/faq">FAQ</a>
+      <a href="/support">Support</a>
+    </nav>
+    <span class="c-footer-simple__copy">&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">Beacon Docs</span></span>
+  </div>
+</footer>

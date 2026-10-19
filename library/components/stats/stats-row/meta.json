@@ -1,0 +1,11 @@
+{
+  "slug": "stats-row",
+  "name": "Stats: four-up row",
+  "category": "stats",
+  "description": "Four big numbers with labels in a single row, divided by hairlines. Two-by-two on tablet and phone.",
+  "tags": ["stats", "numbers", "row", "four-column", "proof"],
+  "previewHeight": 300,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

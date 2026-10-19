@@ -1,0 +1,12 @@
+{
+  "slug": "nord",
+  "name": "Nord",
+  "family": "off-the-wall",
+  "description": "Arctic, bluish Nord palette: Snow Storm light scheme with Frost blue primary and Aurora green accent, Polar Night dark scheme. Rubik type.",
+  "source": "https://www.nordtheme.com",
+  "fonts": [{ "family": "Rubik", "weights": [400, 500, 600, 700] }],
+  "dark": true,
+  "swatch": ["#5e81ac", "#a3be8c", "#eceff4", "#2e3440"],
+  "tags": ["nord", "arctic", "calm", "developer", "blue"],
+  "version": 1
+}

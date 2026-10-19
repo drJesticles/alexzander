@@ -1,0 +1,36 @@
+{
+  "slug": "hair-salon",
+  "name": "Hair Salon",
+  "vertical": "local",
+  "description": "Six-page salon site: posted service prices, stylist profiles with hiring block, online booking request, lightbox gallery with before/after, and contact.",
+  "kit": "glassmorphism",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "services.html", "title": "Services & Prices", "path": "/services" },
+    { "file": "stylists.html", "title": "Stylists", "path": "/stylists" },
+    { "file": "book.html", "title": "Book", "path": "/book" },
+    { "file": "gallery.html", "title": "Gallery", "path": "/gallery" },
+    { "file": "contact.html", "title": "Contact", "path": "/contact" }
+  ],
+  "tags": ["salon", "hair", "beauty", "booking", "stylists", "local"],
+  "components": [
+    "nav/nav-transparent-overlay",
+    "hero/hero-gradient-text",
+    "services/services-icon-row",
+    "gallery/gallery-carousel",
+    "testimonials/testimonials-slider",
+    "cta/cta-floating-card",
+    "pricing/pricing-service-menu",
+    "faq/faq-two-column",
+    "team/team-cards-social",
+    "team/team-hiring-cta",
+    "forms/form-booking-appointment",
+    "contact/contact-hours-table",
+    "gallery/gallery-lightbox",
+    "gallery/gallery-before-after",
+    "contact/contact-cards-three",
+    "media/media-map-embed",
+    "footer/footer-columns"
+  ],
+  "version": 1
+}

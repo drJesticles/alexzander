@@ -1,0 +1,24 @@
+/* Atlassian: 32px medium-weight buttons, subtle gray default button, lozenge badges, 2px-border fields, 3px corners. */
+h1,h2,h3,h4{font-weight:600}
+.wf-eyebrow{text-transform:uppercase;font-size:.6875rem;font-weight:700;letter-spacing:.04em;color:var(--wf-text-muted)}
+.wf-btn{font-size:.875rem;min-height:2rem;line-height:1.2}
+.wf-btn--lg{min-height:2.5rem;font-size:1rem}
+.wf-btn--sm{min-height:1.5rem;font-size:.75rem}
+.wf-btn--outline{background:var(--wf-surface-2);border-color:transparent;color:var(--wf-text)}
+.wf-btn--outline:hover{background:var(--wf-border)}
+.wf-btn--ghost{color:var(--wf-text)}
+.wf-btn--ghost:hover{background:var(--wf-surface-2)}
+.wf-card{border-color:transparent;background:var(--wf-bg)}
+.wf-section--surface .wf-card{background:var(--wf-bg)}
+.wf-card--flat{border-color:var(--wf-border)}
+.wf-badge{border-radius:var(--wf-radius-md);text-transform:uppercase;font-size:.6875rem;font-weight:700;letter-spacing:.02em;padding:.15rem .35rem;background:var(--wf-surface-2);color:var(--wf-text-muted)}
+.wf-badge--primary,.wf-badge--accent{color:var(--wf-on-primary)}
+.wf-label{font-size:.75rem;font-weight:600;color:var(--wf-text-muted)}
+.wf-input,.wf-select,.wf-textarea{background:var(--ads-field-bg);border-width:2px;border-color:var(--ads-field-border);padding:.4rem .5rem;font-size:.875rem}
+.wf-input:hover,.wf-select:hover,.wf-textarea:hover{background:var(--wf-surface-2)}
+.wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;background:var(--wf-bg);border-color:var(--ads-focus)}
+:focus-visible{outline:2px solid var(--ads-focus);outline-offset:2px}
+.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}
+.wf-badge--primary{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-badge--accent{background:var(--wf-accent);color:var(--wf-on-accent)}

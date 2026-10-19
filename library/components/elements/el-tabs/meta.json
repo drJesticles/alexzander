@@ -1,0 +1,11 @@
+{
+  "slug": "el-tabs",
+  "name": "Element: tabs",
+  "category": "elements",
+  "description": "Three tabs with panels. Click or use arrow keys, Home and End to move between tabs; the active panel is the only one shown.",
+  "tags": ["element", "tabs", "navigation", "services"],
+  "previewHeight": 300,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

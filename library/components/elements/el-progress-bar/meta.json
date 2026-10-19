@@ -1,0 +1,11 @@
+{
+  "slug": "el-progress-bar",
+  "name": "Element: progress bars",
+  "category": "elements",
+  "description": "Three labeled progress bars with percentage readouts. Fill width comes from a --c-el-progress-bar-value custom property on each bar.",
+  "tags": ["element", "progress", "meter", "stats"],
+  "previewHeight": 220,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

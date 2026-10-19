@@ -1,0 +1,11 @@
+{
+  "slug": "gallery-carousel",
+  "name": "Gallery: scroll-snap carousel",
+  "category": "gallery",
+  "description": "Horizontal strip of project cards with CSS scroll-snap. Previous/next arrows scroll one card at a time and disable at the ends; the strip also scrolls by touch or trackpad without JS.",
+  "tags": ["gallery", "carousel", "slider", "scroll-snap", "interactive"],
+  "previewHeight": 620,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

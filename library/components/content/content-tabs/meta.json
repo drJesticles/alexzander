@@ -1,0 +1,11 @@
+{
+  "slug": "content-tabs",
+  "name": "Content: three tabs",
+  "category": "content",
+  "description": "Three tabs (Repairs, Remodels, Maintenance plans) switching between text panels with a small list and a link each. Full WAI-ARIA tabs pattern: arrow keys, Home/End, roving tabindex. All panels show stacked without JS.",
+  "tags": ["content", "tabs", "panels", "services", "interactive"],
+  "previewHeight": 560,
+  "hasScript": true,
+  "fields": ["business.name"],
+  "version": 1
+}

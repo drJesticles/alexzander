@@ -1,0 +1,11 @@
+{
+  "slug": "el-alert",
+  "name": "Element: alert",
+  "category": "elements",
+  "description": "Four alert boxes (info, success, warning, danger) switched by modifier class. Icon, title, message; left accent bar and a tinted background.",
+  "tags": ["element", "alert", "notice", "message", "status"],
+  "previewHeight": 320,
+  "hasScript": false,
+  "fields": ["business.phone"],
+  "version": 1
+}

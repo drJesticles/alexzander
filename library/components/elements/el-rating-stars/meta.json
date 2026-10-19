@@ -1,0 +1,11 @@
+{
+  "slug": "el-rating-stars",
+  "name": "Element: rating stars",
+  "category": "elements",
+  "description": "A static 4.5-star display with review count, and an interactive star picker (radiogroup) that works with click and arrow keys and writes to a hidden input.",
+  "tags": ["element", "rating", "stars", "reviews", "form"],
+  "previewHeight": 220,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "law-firm",
+  "name": "Law Firm",
+  "vertical": "local",
+  "description": "Six-page small law firm site: minimal hero, practice area cards with fee structure, attorney profiles, case results with stats and timeline, resources blog with newsletter, and a consultation request page.",
+  "kit": "swiss-international",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "practice-areas.html", "title": "Practice Areas", "path": "/practice-areas" },
+    { "file": "attorneys.html", "title": "Attorneys", "path": "/attorneys" },
+    { "file": "case-results.html", "title": "Case Results", "path": "/case-results" },
+    { "file": "resources.html", "title": "Resources", "path": "/resources" },
+    { "file": "consultation.html", "title": "Consultation", "path": "/consultation" }
+  ],
+  "tags": ["law", "attorney", "legal", "injury", "family-law", "consultation", "local"],
+  "components": [
+    "nav/nav-simple",
+    "hero/hero-minimal-left",
+    "services/services-split-image",
+    "stats/stats-counter",
+    "testimonials/testimonials-single-large",
+    "cta/cta-band",
+    "services/services-grid-cards",
+    "content/content-two-column-text",
+    "team/team-cards-social",
+    "about/about-values-grid",
+    "stats/stats-with-icons",
+    "content/content-timeline",
+    "blog/blog-featured-plus-list",
+    "cta/cta-newsletter",
+    "forms/form-contact-basic",
+    "contact/contact-cards-three",
+    "footer/footer-columns"
+  ],
+  "version": 1
+}

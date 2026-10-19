@@ -1,0 +1,11 @@
+{
+  "slug": "blog-category-chips",
+  "name": "Blog: category chips and grid",
+  "category": "blog",
+  "description": "A row of category chip links (one marked current) above a four-card post grid. Static links; pair with a CMS or the filterable gallery for live filtering.",
+  "tags": ["blog", "categories", "chips", "grid", "posts"],
+  "previewHeight": 760,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

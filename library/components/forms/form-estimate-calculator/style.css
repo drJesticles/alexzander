@@ -1,0 +1,18 @@
+.c-form-estimate-calculator__grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:var(--wf-space-12);align-items:center}
+.c-form-estimate-calculator__facts{list-style:none;padding:0;margin:var(--wf-space-6) 0 0;display:grid;gap:var(--wf-space-3)}
+.c-form-estimate-calculator__facts li{position:relative;padding-left:1.75rem;color:var(--wf-text-muted)}
+.c-form-estimate-calculator__facts li::before{content:"";position:absolute;left:0;top:.45em;width:.75rem;height:.75rem;border-radius:var(--wf-radius-full);background:var(--wf-primary)}
+.c-form-estimate-calculator__form{background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);box-shadow:var(--wf-shadow-md);padding:var(--wf-space-8)}
+.c-form-estimate-calculator__hint{font-size:var(--wf-text-sm);color:var(--wf-text-muted);margin:var(--wf-space-2) 0 0}
+.c-form-estimate-calculator__total{display:grid;gap:var(--wf-space-1);padding:var(--wf-space-5);margin:var(--wf-space-2) 0 var(--wf-space-6);border-radius:var(--wf-radius-md);background:color-mix(in srgb, var(--wf-primary) 10%, transparent);border:var(--wf-border-w) solid color-mix(in srgb, var(--wf-primary) 30%, transparent)}
+.c-form-estimate-calculator__total-label{font-size:var(--wf-text-sm);font-weight:var(--wf-weight-medium);letter-spacing:var(--wf-tracking-wide);text-transform:uppercase;color:var(--wf-text-muted)}
+.c-form-estimate-calculator__total-value{font-family:var(--wf-font-display);font-size:var(--wf-text-4xl);font-weight:var(--wf-weight-bold);line-height:var(--wf-leading-tight);color:var(--wf-primary);font-variant-numeric:tabular-nums}
+.c-form-estimate-calculator__total-detail{font-size:var(--wf-text-sm);color:var(--wf-text-muted)}
+.c-form-estimate-calculator__form .wf-btn--block{margin-top:var(--wf-space-2)}
+@media (max-width:900px){
+  .c-form-estimate-calculator__grid{grid-template-columns:1fr;gap:var(--wf-space-8)}
+}
+@media (max-width:600px){
+  .c-form-estimate-calculator__form{padding:var(--wf-space-5)}
+  .c-form-estimate-calculator__total-value{font-size:var(--wf-text-3xl)}
+}

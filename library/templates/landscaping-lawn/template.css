@@ -1,0 +1,4 @@
+.t-landscaping-lawn .c-hero-carousel__slide{padding-top:calc(var(--wf-section-y) + 4.5rem)}
+/* pages without the hero: nav sits in flow as a solid bar */
+.t-landscaping-lawn .c-nav-transparent-overlay:not(:has(+ .c-hero-carousel)){position:relative;background:var(--wf-bg);color:var(--wf-text);box-shadow:var(--wf-shadow-sm)}
+.t-landscaping-lawn .c-nav-transparent-overlay:not(:has(+ .c-hero-carousel)).is-solid{position:fixed}

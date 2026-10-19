@@ -1,0 +1,35 @@
+{
+  "slug": "product-launch-single",
+  "name": "Product Launch (single product)",
+  "vertical": "commerce",
+  "description": "Five-page launch site for one physical product: pricing-teaser hero, feature checklist, dark stat band, a specs page with a striped table, a reviews page, FAQ with contact card, and a buy page with countdown, add-on and trust badges.",
+  "kit": "neo-brutalism",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "specs.html", "title": "Specs", "path": "/specs" },
+    { "file": "reviews.html", "title": "Reviews", "path": "/reviews" },
+    { "file": "faq.html", "title": "FAQ", "path": "/faq" },
+    { "file": "buy.html", "title": "Buy", "path": "/buy" }
+  ],
+  "tags": ["product", "launch", "single-product", "ecommerce", "specs", "countdown"],
+  "components": [
+    "nav/nav-simple",
+    "hero/hero-pricing-teaser",
+    "features/features-checklist",
+    "stats/stats-dark-band",
+    "testimonials/testimonials-single-large",
+    "cta/cta-band",
+    "content/content-two-column-text",
+    "elements/el-table-striped",
+    "content/content-checklist-columns",
+    "testimonials/testimonials-grid-cards",
+    "commerce/commerce-reviews-list",
+    "faq/faq-with-contact-card",
+    "pricing/pricing-single-card",
+    "elements/el-countdown",
+    "commerce/commerce-featured-product-split",
+    "commerce/commerce-trust-badges-row",
+    "footer/footer-centered"
+  ],
+  "version": 1
+}

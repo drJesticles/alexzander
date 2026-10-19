@@ -1,0 +1,11 @@
+{
+  "slug": "services-icon-row",
+  "name": "Services: icon row",
+  "category": "services",
+  "description": "A compact row of four circular icons with captions and one-line descriptions, each linking to the services page. Wraps to two per row on phones.",
+  "tags": ["services", "icons", "row", "compact", "overview"],
+  "previewHeight": 400,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

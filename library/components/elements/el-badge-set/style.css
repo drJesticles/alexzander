@@ -1,0 +1,9 @@
+.c-el-badge-set{display:grid;gap:var(--wf-space-5);padding:var(--wf-space-4)}
+.c-el-badge-set__group{display:grid;gap:var(--wf-space-2)}
+.c-el-badge-set__label{font-size:var(--wf-text-xs);font-weight:var(--wf-weight-medium);letter-spacing:var(--wf-tracking-wide);text-transform:uppercase;color:var(--wf-text-muted)}
+.c-el-badge-set__row{gap:var(--wf-space-2)}
+.c-el-badge-set__badge--success{background:color-mix(in srgb, var(--wf-success) 14%, transparent);color:var(--wf-success)}
+.c-el-badge-set__badge--warning{background:color-mix(in srgb, var(--wf-warning) 14%, transparent);color:var(--wf-warning)}
+.c-el-badge-set__badge--danger{background:color-mix(in srgb, var(--wf-danger) 14%, transparent);color:var(--wf-danger)}
+.c-el-badge-set__badge--info{background:color-mix(in srgb, var(--wf-info) 14%, transparent);color:var(--wf-info)}
+.c-el-badge-set__badge--dot::before{content:"";width:.5rem;height:.5rem;border-radius:var(--wf-radius-full);background:currentColor;flex:none}

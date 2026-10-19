@@ -1,0 +1,11 @@
+{
+  "slug": "hero-split-image",
+  "name": "Hero: split with image",
+  "category": "hero",
+  "description": "Eyebrow, headline, lead, two buttons and a trust line on the left; framed image on the right. Stacks on mobile.",
+  "tags": ["hero", "image", "cta", "two-column", "trust"],
+  "previewHeight": 640,
+  "hasScript": false,
+  "fields": ["business.name", "business.city"],
+  "version": 1
+}

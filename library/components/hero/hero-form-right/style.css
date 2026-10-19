@@ -1,0 +1,13 @@
+.c-hero-form-right__grid{display:grid;grid-template-columns:1.1fr .9fr;gap:var(--wf-space-12);align-items:center}
+.c-hero-form-right__copy h1{margin-bottom:var(--wf-space-5)}
+.c-hero-form-right__trust{list-style:none;padding:0;margin:var(--wf-space-6) 0 0;display:grid;gap:var(--wf-space-3)}
+.c-hero-form-right__trust li{display:flex;align-items:center;gap:var(--wf-space-3);font-weight:var(--wf-weight-medium)}
+.c-hero-form-right__trust .wf-icon{color:var(--wf-primary)}
+.c-hero-form-right__form{background:var(--wf-bg);box-shadow:var(--wf-shadow-lg);padding:var(--wf-space-8)}
+.c-hero-form-right__form-title{font-size:var(--wf-text-2xl);margin-bottom:var(--wf-space-5)}
+.c-hero-form-right__textarea{min-height:5.5rem}
+.c-hero-form-right__fineprint{font-size:var(--wf-text-xs);color:var(--wf-text-muted);margin:var(--wf-space-3) 0 0;text-align:center}
+@media (max-width:900px){
+  .c-hero-form-right__grid{grid-template-columns:1fr;gap:var(--wf-space-8)}
+  .c-hero-form-right__form{padding:var(--wf-space-6)}
+}

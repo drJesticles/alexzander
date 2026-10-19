@@ -1,0 +1,11 @@
+{
+  "slug": "gallery-filterable",
+  "name": "Gallery: filterable by category",
+  "category": "gallery",
+  "description": "Filter buttons (All, Kitchens, Baths, Exterior, Repairs) above a grid of eight projects tagged with data-category. Buttons toggle aria-pressed and hide non-matching cards; a count line updates.",
+  "tags": ["gallery", "filter", "categories", "projects", "interactive"],
+  "previewHeight": 980,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

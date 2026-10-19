@@ -1,0 +1,11 @@
+{
+  "slug": "nav-minimal-pill",
+  "name": "Nav: minimal pill",
+  "category": "nav",
+  "description": "A floating rounded pill centered at the top of the page: logo text, four links and a small button, with a blurred translucent background. Links scroll horizontally on narrow screens.",
+  "tags": ["nav", "header", "pill", "floating", "minimal", "sticky"],
+  "previewHeight": 120,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

@@ -1,0 +1,14 @@
+.c-form-booking-appointment__grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:var(--wf-space-12);align-items:start}
+.c-form-booking-appointment__card{margin-top:var(--wf-space-6)}
+.c-form-booking-appointment__card-title{font-size:var(--wf-text-lg);margin-bottom:var(--wf-space-2)}
+.c-form-booking-appointment__card p:last-child{margin:0}
+.c-form-booking-appointment__form{background:var(--wf-surface);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);box-shadow:var(--wf-card-shadow);padding:var(--wf-space-8)}
+.c-form-booking-appointment__row{display:grid;grid-template-columns:1fr 1fr;gap:0 var(--wf-space-4)}
+.c-form-booking-appointment__notes{min-height:5.5rem}
+@media (max-width:900px){
+  .c-form-booking-appointment__grid{grid-template-columns:1fr;gap:var(--wf-space-8)}
+}
+@media (max-width:600px){
+  .c-form-booking-appointment__row{grid-template-columns:1fr}
+  .c-form-booking-appointment__form{padding:var(--wf-space-5)}
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "aaa-graphic-co",
+  "name": "AAA Graphic Co",
+  "vertical": "brand",
+  "description": "Six-page brand demo for AAA Graphic Co, a design and marketing studio in Russellville, AR serving clients nationwide by teleconference: web design with pricing, branding, marketing retainers, a filterable work gallery and a multi-step project form.",
+  "kit": "aaa-gc-studio",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "web-design.html",
+      "title": "Web Design",
+      "path": "/web-design"
+    },
+    {
+      "file": "branding.html",
+      "title": "Branding & Logos",
+      "path": "/branding"
+    },
+    {
+      "file": "marketing.html",
+      "title": "Marketing",
+      "path": "/marketing"
+    },
+    {
+      "file": "work.html",
+      "title": "Work",
+      "path": "/work"
+    },
+    {
+      "file": "start.html",
+      "title": "Start a Project",
+      "path": "/start"
+    }
+  ],
+  "tags": [
+    "aaa",
+    "brand",
+    "design-studio",
+    "agency",
+    "marketing",
+    "portfolio",
+    "multistep-form"
+  ],
+  "components": [
+    "nav/nav-minimal-pill",
+    "hero/hero-split-image",
+    "process/process-cards-arrows",
+    "gallery/gallery-grid",
+    "content/content-quote-block",
+    "cta/cta-band",
+    "footer/footer-columns",
+    "hero/hero-gradient-text",
+    "logos/logos-row",
+    "services/services-icon-row",
+    "features/features-bento",
+    "testimonials/testimonials-single-large",
+    "cta/cta-split-image",
+    "hero/hero-minimal-left",
+    "features/features-cards-hover",
+    "stats/stats-with-icons",
+    "services/services-list-prices",
+    "forms/form-multistep",
+    "contact/contact-cards-three",
+    "features/features-alternating-rows",
+    "pricing/pricing-three-tier",
+    "faq/faq-two-column",
+    "gallery/gallery-filterable",
+    "testimonials/testimonials-grid-cards"
+  ],
+  "version": 1
+}

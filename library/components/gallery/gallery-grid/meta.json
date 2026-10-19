@@ -1,0 +1,11 @@
+{
+  "slug": "gallery-grid",
+  "name": "Gallery: 3x3 grid with captions",
+  "category": "gallery",
+  "description": "Nine square project photos in a three-column grid, each with a caption and location line. Two columns on tablet, one on phone.",
+  "tags": ["gallery", "grid", "photos", "captions", "projects"],
+  "previewHeight": 1200,
+  "hasScript": false,
+  "fields": ["business.city"],
+  "version": 1
+}

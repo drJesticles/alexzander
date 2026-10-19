@@ -1,0 +1,43 @@
+{
+  "business": {
+    "name": "River Valley Handyman Co.",
+    "tagline": "The small jobs, finally done.",
+    "phone": "(479) 555-0142",
+    "email": "hello@rivervalleyhandyman.com",
+    "address": "1806 S Arkansas Ave, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Mon–Fri 7am–5pm · Sat 8am–noon",
+    "year": "2026"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "google": ""
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Services",
+      "path": "/services"
+    },
+    {
+      "label": "Gallery",
+      "path": "/gallery"
+    },
+    {
+      "label": "About",
+      "path": "/about"
+    },
+    {
+      "label": "Reviews",
+      "path": "/reviews"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ]
+}

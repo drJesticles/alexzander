@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "Lumen Hair Studio",
+    "tagline": "Lived-in color, precision cuts and hand-tied extensions in downtown Russellville.",
+    "phone": "(479) 555-0163",
+    "email": "hello@lumenhair.com",
+    "address": "410 North Arkansas Avenue, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Tue to Fri 9am to 6pm · Thu until 8pm · Sat 8am to 4pm",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Services & Prices", "path": "/services" },
+    { "label": "Stylists", "path": "/stylists" },
+    { "label": "Book", "path": "/book" },
+    { "label": "Gallery", "path": "/gallery" },
+    { "label": "Contact", "path": "/contact" }
+  ]
+}

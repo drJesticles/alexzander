@@ -1,0 +1,11 @@
+{
+  "slug": "form-booking-appointment",
+  "name": "Form: book an appointment",
+  "category": "forms",
+  "description": "Appointment request with date, time-slot select, service, contact details and notes, next to a card listing availability and a phone fallback.",
+  "tags": ["form", "booking", "appointment", "schedule", "date"],
+  "previewHeight": 820,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone", "business.hours"],
+  "version": 1
+}

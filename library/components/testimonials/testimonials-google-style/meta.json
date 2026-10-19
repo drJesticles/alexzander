@@ -1,0 +1,11 @@
+{
+  "slug": "testimonials-google-style",
+  "name": "Testimonials: review platform cards",
+  "category": "testimonials",
+  "description": "Rating summary header (4.9, 180 reviews, five stars) above three platform-style review cards with initial avatars, dates and a source line.",
+  "tags": ["testimonials", "reviews", "google", "rating", "cards"],
+  "previewHeight": 640,
+  "hasScript": false,
+  "fields": ["business.name", "social.google"],
+  "version": 1
+}

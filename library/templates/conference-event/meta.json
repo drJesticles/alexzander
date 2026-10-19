@@ -1,0 +1,66 @@
+{
+  "slug": "conference-event",
+  "name": "Conference",
+  "vertical": "personal",
+  "description": "Six-page conference site: hero with live countdown and sponsor logos, speaker grid, tabbed schedule with a session table, three-tier tickets with FAQ, venue map and travel cards, and a registration form.",
+  "kit": "fluent2",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "speakers.html",
+      "title": "Speakers",
+      "path": "/speakers"
+    },
+    {
+      "file": "schedule.html",
+      "title": "Schedule",
+      "path": "/schedule"
+    },
+    {
+      "file": "tickets.html",
+      "title": "Tickets",
+      "path": "/tickets"
+    },
+    {
+      "file": "venue.html",
+      "title": "Venue",
+      "path": "/venue"
+    },
+    {
+      "file": "register.html",
+      "title": "Register",
+      "path": "/register"
+    }
+  ],
+  "tags": [
+    "event",
+    "conference",
+    "countdown",
+    "speakers",
+    "schedule",
+    "tickets",
+    "registration"
+  ],
+  "components": [
+    "nav/nav-simple",
+    "hero/hero-centered-bg-image",
+    "elements/el-countdown",
+    "logos/logos-row",
+    "features/features-grid-icons",
+    "cta/cta-band",
+    "footer/footer-columns",
+    "forms/form-contact-basic",
+    "content/content-tabs",
+    "elements/el-table-striped",
+    "team/team-grid",
+    "pricing/pricing-three-tier",
+    "faq/faq-accordion",
+    "media/media-map-embed",
+    "contact/contact-cards-three"
+  ],
+  "version": 1
+}

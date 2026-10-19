@@ -1,0 +1,12 @@
+{
+  "slug": "y2k-chrome",
+  "name": "Y2K Chrome",
+  "family": "off-the-wall",
+  "description": "Millennium gloss: silver chrome gradients, electric blue and lime, bubbly pill buttons with glossy highlights, Audiowide display and Exo 2 body.",
+  "source": "https://en.wikipedia.org/wiki/Y2K_aesthetic",
+  "fonts": [{ "family": "Audiowide", "weights": [400] }, { "family": "Exo 2", "weights": [400, 500, 600, 700] }],
+  "dark": true,
+  "swatch": ["#1e6fff", "#b6ff00", "#eef1f6", "#aab3c0"],
+  "tags": ["y2k", "chrome", "glossy", "retro-future", "2000s"],
+  "version": 1
+}

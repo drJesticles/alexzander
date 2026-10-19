@@ -1,0 +1,202 @@
+<header class="c-nav-simple" data-wf-component="nav-simple">
+  <div class="wf-container c-nav-simple__bar">
+    <a class="c-nav-simple__brand" href="/" data-wf-field="business.name">River Valley Handyman Co.</a>
+    <button class="c-nav-simple__toggle" type="button" aria-expanded="false" aria-controls="nav-simple-menu" aria-label="Open menu">
+      <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="c-nav-simple__menu" id="nav-simple-menu">
+      <a href="/">Home</a>
+      <a href="/services">Services</a>
+      <a href="/gallery">Gallery</a>
+      <a href="/about">About</a>
+      <a href="/reviews">Reviews</a>
+      <a href="/contact">Contact</a>
+      <a class="wf-btn wf-btn--primary wf-btn--sm" href="tel:+14795550142" data-wf-field="business.phone">(479) 555-0142</a>
+    </nav>
+  </div>
+</header>
+
+<section class="wf-section wf-section--surface c-form-quote-request" data-wf-component="form-quote-request">
+  <div class="wf-container c-form-quote-request__grid">
+    <aside class="c-form-quote-request__aside">
+      <span class="wf-eyebrow">Free quotes</span>
+      <h2>Request a quote</h2>
+      <p class="wf-lead">Tell us about the job and <span data-wf-field="business.name">River Valley Handyman Co.</span> will send a written estimate, usually within 24 hours.</p>
+      <ol class="c-form-quote-request__steps">
+        <li><strong>Describe the job.</strong> Photos help us price it accurately the first time.</li>
+        <li><strong>We review it.</strong> A real tech reads every request, not a call center.</li>
+        <li><strong>You get a number.</strong> Flat-rate pricing, no surprises on the invoice.</li>
+      </ol>
+      <p class="c-form-quote-request__phone">Rather talk it through? <a href="tel:+14795550142" data-wf-field="business.phone">(479) 555-0142</a></p>
+    </aside>
+    <form class="c-form-quote-request__form" data-wf-form="quote" action="#" method="post" enctype="multipart/form-data">
+      <div class="c-form-quote-request__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-quote-request-name">Full name</label>
+          <input class="wf-input" id="form-quote-request-name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-quote-request-phone">Phone</label>
+          <input class="wf-input" id="form-quote-request-phone" name="phone" type="tel" autocomplete="tel" required>
+        </div>
+      </div>
+      <div class="c-form-quote-request__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-quote-request-email">Email</label>
+          <input class="wf-input" id="form-quote-request-email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-quote-request-service">Service needed</label>
+          <select class="wf-select" id="form-quote-request-service" name="service" required>
+            <option value="">Choose a service</option>
+            <option value="handyman">Handyman repairs</option>
+            <option value="doors">Doors, windows or locks</option>
+            <option value="painting">Painting and drywall</option>
+            <option value="mounting">Mounting or assembly</option>
+            <option value="deck-fence">Deck and fence</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-quote-request-address">Job address</label>
+        <input class="wf-input" id="form-quote-request-address" name="address" type="text" autocomplete="street-address" placeholder="Street address, Russellville, AR">
+      </div>
+      <div class="c-form-quote-request__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-quote-request-date">Preferred date</label>
+          <input class="wf-input" id="form-quote-request-date" name="preferred_date" type="date">
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-quote-request-budget">Budget range</label>
+          <select class="wf-select" id="form-quote-request-budget" name="budget">
+            <option value="">Not sure yet</option>
+            <option value="under-500">Under $500</option>
+            <option value="500-2000">$500 to $2,000</option>
+            <option value="2000-10000">$2,000 to $10,000</option>
+            <option value="over-10000">Over $10,000</option>
+          </select>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-quote-request-photos">Photos of the job <span class="wf-muted">(up to 5)</span></label>
+        <input class="wf-input c-form-quote-request__file" id="form-quote-request-photos" name="photos" type="file" accept="image/*" multiple>
+        <p class="c-form-quote-request__hint">A wide shot and a close-up are plenty.</p>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-quote-request-description">Describe the work</label>
+        <textarea class="wf-textarea" id="form-quote-request-description" name="description" placeholder="Example: replace the rotted boards on a 12 by 16 deck and restain it." required></textarea>
+      </div>
+      <div class="c-form-quote-request__actions">
+        <button class="wf-btn wf-btn--primary wf-btn--lg" type="submit">Send my quote request</button>
+        <span class="c-form-quote-request__hint">Serving <span data-wf-field="business.city">Russellville, AR</span> and the River Valley.</span>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="wf-section wf-section--surface c-contact-cards-three" data-wf-component="contact-cards-three">
+  <div class="wf-container">
+    <div class="c-contact-cards-three__head wf-center">
+      <span class="wf-eyebrow">Three ways to reach us</span>
+      <h2>Pick up the phone, send a note, or stop in.</h2>
+    </div>
+    <div class="wf-grid wf-grid--3">
+      <div class="c-contact-cards-three__card">
+        <span class="c-contact-cards-three__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+        <h3 class="c-contact-cards-three__title">Call</h3>
+        <p class="c-contact-cards-three__text">Weekdays 7 to 5, Saturday mornings. After hours, text and we reply first thing.</p>
+        <p class="c-contact-cards-three__value" data-wf-field="business.phone">(479) 555-0142</p>
+        <a class="wf-btn wf-btn--primary" href="tel:+14795550142">Call now</a>
+      </div>
+      <div class="c-contact-cards-three__card">
+        <span class="c-contact-cards-three__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+        <h3 class="c-contact-cards-three__title">Email</h3>
+        <p class="c-contact-cards-three__text">Best for photos, plans and anything you want in writing.</p>
+        <p class="c-contact-cards-three__value" data-wf-field="business.email">hello@rivervalleyhandyman.com</p>
+        <a class="wf-btn wf-btn--outline" href="mailto:hello@rivervalleyhandyman.com">Send an email</a>
+      </div>
+      <div class="c-contact-cards-three__card">
+        <span class="c-contact-cards-three__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+        <h3 class="c-contact-cards-three__title">Visit</h3>
+        <p class="c-contact-cards-three__text">Our shop on South Arkansas Avenue, just past the tracks.</p>
+        <p class="c-contact-cards-three__value"><span data-wf-field="business.address">1806 S Arkansas Ave</span></p>
+        <a class="wf-btn wf-btn--outline" href="#">Get directions</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wf-section c-contact-hours-table" data-wf-component="contact-hours-table">
+  <div class="wf-container c-contact-hours-table__grid">
+    <div class="c-contact-hours-table__copy">
+      <span class="wf-eyebrow">Hours</span>
+      <h2>When we answer the phone.</h2>
+      <p class="wf-lead">The office at <span data-wf-field="business.name">River Valley Handyman Co.</span> is staffed every weekday. Trucks roll out at 7:30, so the best time to catch Dale is before then.</p>
+      <p class="c-contact-hours-table__summary"><strong>In short:</strong> <span data-wf-field="business.hours">Mon–Fri 7am–5pm · Sat 8am–noon</span></p>
+      <p class="c-contact-hours-table__note wf-muted">Closed Thanksgiving, Christmas Eve and Christmas Day, and New Year's Day. Holiday hours are posted on our Google profile a week ahead.</p>
+    </div>
+    <div class="c-contact-hours-table__card">
+      <table class="c-contact-hours-table__table">
+        <caption class="wf-sr-only">Weekly business hours</caption>
+        <tbody>
+          <tr><th scope="row">Monday</th><td>7:00am to 5:00pm</td></tr>
+          <tr><th scope="row">Tuesday</th><td>7:00am to 5:00pm</td></tr>
+          <tr class="is-today"><th scope="row">Wednesday <span class="wf-badge wf-badge--primary">Today</span></th><td>7:00am to 5:00pm</td></tr>
+          <tr><th scope="row">Thursday</th><td>7:00am to 5:00pm</td></tr>
+          <tr><th scope="row">Friday</th><td>7:00am to 5:00pm</td></tr>
+          <tr><th scope="row">Saturday</th><td>8:00am to 12:00pm</td></tr>
+          <tr class="is-closed"><th scope="row">Sunday</th><td>Closed</td></tr>
+        </tbody>
+      </table>
+      <p class="c-contact-hours-table__emergency">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 9v4M12 17h.01M10.3 3.9L2.6 17a2 2 0 0 0 1.7 3h15.4a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
+        <span>Locked out or a door that will not shut? Call <a href="tel:+14795550142" data-wf-field="business.phone">(479) 555-0142</a> any hour; the after-hours line rings a real tech.</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer class="wf-section wf-section--dark c-footer-columns" data-wf-component="footer-columns">
+  <div class="wf-container">
+    <div class="wf-grid wf-grid--4 c-footer-columns__grid">
+      <div>
+        <h3 class="c-footer-columns__brand" data-wf-field="business.name">River Valley Handyman Co.</h3>
+        <p class="c-footer-columns__blurb">One-call handyman service for Russellville, Dardanelle, Atkins, Pottsville and the rest of the River Valley. Licensed, insured, and on time.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul class="c-footer-columns__links">
+          <li><a href="/services">Repairs &amp; odd jobs</a></li>
+          <li><a href="/services">Doors, drywall &amp; trim</a></li>
+          <li><a href="/services">Fixtures &amp; mounting</a></li>
+          <li><a href="/services">Decks &amp; fences</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul class="c-footer-columns__links">
+          <li><a href="/about">About</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+          <li><a href="/reviews">Reviews</a></li>
+          <li><a href="/contact">Get a quote</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="c-footer-columns__links">
+          <li><a href="tel:+14795550142" data-wf-field="business.phone">(479) 555-0142</a></li>
+          <li><a href="mailto:hello@rivervalleyhandyman.com" data-wf-field="business.email">hello@rivervalleyhandyman.com</a></li>
+          <li data-wf-field="business.address">1806 S Arkansas Ave, Russellville, AR 72801</li>
+        </ul>
+      </div>
+    </div>
+    <div class="c-footer-columns__bar">
+      <span>&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">River Valley Handyman Co.</span>. All rights reserved.</span>
+      <span class="c-footer-columns__social">
+        <a href="#" aria-label="Facebook"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+      </span>
+    </div>
+  </div>
+</footer>

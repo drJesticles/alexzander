@@ -1,0 +1,20 @@
+{
+  "business": {
+    "name": "The Ozark Ledger",
+    "tagline": "Reader-supported writing about food, land and makers in the Ozarks.",
+    "phone": "(479) 555-0198",
+    "email": "editor@ozarkledger.com",
+    "address": "37 Spring Street, Eureka Springs, AR 72632",
+    "city": "Eureka Springs, Arkansas",
+    "hours": "Mon to Fri, 9am to 5pm Central",
+    "year": "2022"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Latest", "path": "/" },
+    { "label": "Topics", "path": "/category" },
+    { "label": "Featured", "path": "/article" },
+    { "label": "About", "path": "/about" },
+    { "label": "Subscribe", "path": "/subscribe" }
+  ]
+}

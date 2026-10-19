@@ -1,0 +1,11 @@
+{
+  "slug": "nav-sidebar-drawer",
+  "name": "Nav: sidebar drawer",
+  "category": "nav",
+  "description": "Hamburger at every width. Tapping it slides a drawer in from the left with links, hours and contact details, behind a dimmed backdrop. Escape or backdrop click closes it.",
+  "tags": ["nav", "header", "drawer", "off-canvas", "hamburger", "mobile-menu"],
+  "previewHeight": 120,
+  "hasScript": true,
+  "fields": ["business.name", "business.phone", "business.email", "business.hours"],
+  "version": 1
+}

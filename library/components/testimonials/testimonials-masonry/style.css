@@ -1,0 +1,13 @@
+.c-testimonials-masonry__head{margin-bottom:var(--wf-space-10)}
+.c-testimonials-masonry__wall{columns:3;column-gap:var(--wf-space-6)}
+.c-testimonials-masonry__card{display:inline-flex;flex-direction:column;gap:var(--wf-space-3);width:100%;margin:0 0 var(--wf-space-6);break-inside:avoid;background:var(--wf-bg)}
+.c-testimonials-masonry__stars{display:inline-flex;gap:2px;color:var(--wf-accent)}
+.c-testimonials-masonry__stars .wf-icon{width:1rem;height:1rem}
+.c-testimonials-masonry__stars .is-empty{color:var(--wf-border)}
+.c-testimonials-masonry__quote{margin:0}
+.c-testimonials-masonry__quote p{margin:0}
+.c-testimonials-masonry__who{display:flex;gap:var(--wf-space-2);align-items:baseline;flex-wrap:wrap;font-size:var(--wf-text-sm)}
+.c-testimonials-masonry__who span{color:var(--wf-text-muted)}
+.c-testimonials-masonry__who span::before{content:"\00B7";margin-right:var(--wf-space-2)}
+@media (max-width:900px){.c-testimonials-masonry__wall{columns:2}}
+@media (max-width:600px){.c-testimonials-masonry__wall{columns:1}}

@@ -1,0 +1,11 @@
+{
+  "slug": "util-back-to-top",
+  "name": "Utility: back to top",
+  "category": "utility",
+  "description": "Round button pinned to the bottom-right corner that fades in after scrolling 400px and smooth-scrolls to the top (instant when reduced motion is on).",
+  "tags": ["utility", "scroll", "back-to-top", "button"],
+  "previewHeight": 140,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

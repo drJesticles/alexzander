@@ -1,0 +1,21 @@
+.c-hero-pricing-teaser__grid{display:grid;grid-template-columns:1.15fr .85fr;gap:var(--wf-space-12);align-items:center}
+.c-hero-pricing-teaser__copy h1{margin-bottom:var(--wf-space-5)}
+.c-hero-pricing-teaser__chips{list-style:none;padding:0;margin:var(--wf-space-6) 0 var(--wf-space-8);display:flex;flex-wrap:wrap;gap:var(--wf-space-3)}
+.c-hero-pricing-teaser__chips li{display:flex;flex-direction:column;gap:var(--wf-space-1);padding:var(--wf-space-3) var(--wf-space-4);border-radius:var(--wf-radius-md);border:var(--wf-border-w) solid var(--wf-border);background:var(--wf-surface);font-size:var(--wf-text-sm);color:var(--wf-text-muted);min-width:9rem}
+.c-hero-pricing-teaser__chips strong{color:var(--wf-text);font-size:var(--wf-text-lg)}
+.c-hero-pricing-teaser__card{background:var(--wf-bg);border-color:color-mix(in srgb,var(--wf-primary) 35%,var(--wf-border));padding:var(--wf-space-8);display:flex;flex-direction:column;align-items:flex-start}
+.c-hero-pricing-teaser__card-title{font-size:var(--wf-text-2xl);margin:var(--wf-space-4) 0 var(--wf-space-2)}
+.c-hero-pricing-teaser__price{font-family:var(--wf-font-display);font-size:var(--wf-text-5xl);font-weight:var(--wf-weight-bold);letter-spacing:var(--wf-tracking-tight);line-height:1;color:var(--wf-primary);margin:0 0 var(--wf-space-3)}
+.c-hero-pricing-teaser__from{font-size:var(--wf-text-base);font-weight:var(--wf-weight-normal);color:var(--wf-text-muted);letter-spacing:var(--wf-tracking-normal)}
+.c-hero-pricing-teaser__card-note{color:var(--wf-text-muted);margin-bottom:var(--wf-space-5)}
+.c-hero-pricing-teaser__list{list-style:none;padding:0;margin:0 0 var(--wf-space-6);display:grid;gap:var(--wf-space-3);width:100%}
+.c-hero-pricing-teaser__list li{display:flex;align-items:flex-start;gap:var(--wf-space-2)}
+.c-hero-pricing-teaser__list .wf-icon{color:var(--wf-success);width:1.25rem;height:1.25rem;margin-top:.15rem}
+@media (max-width:900px){
+  .c-hero-pricing-teaser__grid{grid-template-columns:1fr;gap:var(--wf-space-8)}
+}
+@media (max-width:600px){
+  .c-hero-pricing-teaser__chips li{flex:1 1 40%;min-width:0}
+  .c-hero-pricing-teaser__copy .wf-btn{width:100%}
+  .c-hero-pricing-teaser__card{padding:var(--wf-space-6)}
+}

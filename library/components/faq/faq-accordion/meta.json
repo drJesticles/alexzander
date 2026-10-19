@@ -1,0 +1,11 @@
+{
+  "slug": "faq-accordion",
+  "name": "FAQ: accordion",
+  "category": "faq",
+  "description": "Six questions in a single-column accordion. Buttons toggle aria-expanded and the panel's hidden state; script re-keys ids so several copies can share a page.",
+  "tags": ["faq", "accordion", "questions", "interactive", "accessible"],
+  "previewHeight": 600,
+  "hasScript": true,
+  "fields": ["business.phone"],
+  "version": 1
+}

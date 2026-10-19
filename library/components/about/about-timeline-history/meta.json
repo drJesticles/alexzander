@@ -1,0 +1,11 @@
+{
+  "slug": "about-timeline-history",
+  "name": "About: company history",
+  "category": "about",
+  "description": "Year milestones alternating left and right of a center line on desktop; single left-aligned column with the line on mobile.",
+  "tags": ["about", "history", "timeline", "years", "milestones"],
+  "previewHeight": 760,
+  "hasScript": false,
+  "fields": ["business.name", "business.year"],
+  "version": 1
+}

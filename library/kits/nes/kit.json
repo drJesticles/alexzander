@@ -1,0 +1,12 @@
+{
+  "slug": "nes",
+  "name": "NES 8-bit",
+  "family": "off-the-wall",
+  "description": "NES.css flavored 8-bit: Press Start 2P headlines, system mono body, 4px black borders, pixel-step box-shadows, red/blue/green game-cartridge colors, zero radius.",
+  "source": "https://nostalgic-css.github.io/NES.css/",
+  "fonts": [{ "family": "Press Start 2P", "weights": [400] }],
+  "dark": true,
+  "swatch": ["#e76e55", "#209cee", "#92cc41", "#212529"],
+  "tags": ["8-bit", "pixel", "retro", "game", "nes"],
+  "version": 1
+}

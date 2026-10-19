@@ -1,0 +1,31 @@
+.c-form-multistep__head{margin-bottom:var(--wf-space-8)}
+.c-form-multistep__lead{margin-inline:auto}
+.c-form-multistep__form{background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);box-shadow:var(--wf-card-shadow);padding:var(--wf-space-8)}
+.c-form-multistep__progress{margin-bottom:var(--wf-space-8)}
+.c-form-multistep__steps{list-style:none;margin:0 0 var(--wf-space-3);padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:var(--wf-space-2)}
+.c-form-multistep__step{display:flex;align-items:center;gap:var(--wf-space-2);font-size:var(--wf-text-sm);color:var(--wf-text-muted)}
+.c-form-multistep__num{display:grid;place-items:center;width:1.75rem;height:1.75rem;border-radius:var(--wf-radius-full);border:var(--wf-border-w) solid var(--wf-border);background:var(--wf-surface);font-weight:var(--wf-weight-bold);font-size:var(--wf-text-xs);flex:none}
+.c-form-multistep__step.is-active{color:var(--wf-text);font-weight:var(--wf-weight-medium)}
+.c-form-multistep__step.is-active .c-form-multistep__num{background:var(--wf-primary);border-color:var(--wf-primary);color:var(--wf-on-primary)}
+.c-form-multistep__step.is-done .c-form-multistep__num{background:color-mix(in srgb, var(--wf-primary) 15%, transparent);border-color:var(--wf-primary);color:var(--wf-primary)}
+.c-form-multistep__bar{height:.375rem;border-radius:var(--wf-radius-full);background:var(--wf-surface-2);overflow:hidden}
+.c-form-multistep__bar-fill{display:block;height:100%;width:33.333%;background:var(--wf-primary);border-radius:inherit;transition:width var(--wf-dur-base) var(--wf-ease)}
+.c-form-multistep__panel{border:0;padding:0;margin:0;min-width:0}
+.c-form-multistep__panel[hidden]{display:none}
+.c-form-multistep__legend{font-family:var(--wf-font-display);font-size:var(--wf-text-xl);font-weight:var(--wf-weight-bold);padding:0;margin-bottom:var(--wf-space-5)}
+.c-form-multistep__row{display:grid;grid-template-columns:1fr 1fr;gap:0 var(--wf-space-4)}
+.c-form-multistep__textarea{min-height:6rem}
+.c-form-multistep .is-invalid{border-color:var(--wf-danger);outline:2px solid color-mix(in srgb, var(--wf-danger) 35%, transparent)}
+.c-form-multistep__error{color:var(--wf-danger);font-size:var(--wf-text-sm);margin:0 0 var(--wf-space-4)}
+.c-form-multistep__done{color:var(--wf-success);font-weight:var(--wf-weight-medium);margin:0 0 var(--wf-space-4)}
+.c-form-multistep__error[hidden],.c-form-multistep__done[hidden],.c-form-multistep__nav [hidden]{display:none}
+.c-form-multistep__nav{display:flex;align-items:center;justify-content:space-between;gap:var(--wf-space-4);padding-top:var(--wf-space-5);border-top:var(--wf-border-w) solid var(--wf-border)}
+.c-form-multistep__count{font-size:var(--wf-text-sm);color:var(--wf-text-muted);white-space:nowrap}
+.c-form-multistep__nav .wf-btn[disabled]{opacity:.4;cursor:not-allowed}
+@media (max-width:600px){
+  .c-form-multistep__form{padding:var(--wf-space-5)}
+  .c-form-multistep__row{grid-template-columns:1fr}
+  .c-form-multistep__step-label{display:none}
+  .c-form-multistep__steps{display:flex;justify-content:space-between}
+  .c-form-multistep__nav{gap:var(--wf-space-2)}
+}

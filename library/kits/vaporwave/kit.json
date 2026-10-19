@@ -1,0 +1,12 @@
+{
+  "slug": "vaporwave",
+  "name": "Vaporwave",
+  "family": "off-the-wall",
+  "description": "A E S T H E T I C: pastel pink, cyan, purple and yellow, perspective-grid background, Monoton neon h1, VT323 pixel headings, Inter body. Sunset dark scheme.",
+  "source": "https://en.wikipedia.org/wiki/Vaporwave",
+  "fonts": [{ "family": "Monoton", "weights": [400] }, { "family": "VT323", "weights": [400] }, { "family": "Inter", "weights": [400, 500, 700] }],
+  "dark": true,
+  "swatch": ["#ff71ce", "#01cdfe", "#b967ff", "#fffb96"],
+  "tags": ["vaporwave", "retro", "pastel", "neon", "80s"],
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "about-split-story",
+  "name": "About: split story",
+  "category": "about",
+  "description": "Job-site photo on the left, company story with three checkmark bullets and a button on the right. Photo stacks on top on mobile.",
+  "tags": ["about", "story", "image", "bullets", "split"],
+  "previewHeight": 600,
+  "hasScript": false,
+  "fields": ["business.name", "business.city", "business.year"],
+  "version": 1
+}

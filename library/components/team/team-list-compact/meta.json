@@ -1,0 +1,11 @@
+{
+  "slug": "team-list-compact",
+  "name": "Team: compact list",
+  "category": "team",
+  "description": "Six staff rows with small round photo, name, role, specialty and a direct email link. Tight enough for a sidebar or an about page.",
+  "tags": ["team", "list", "rows", "compact", "directory"],
+  "previewHeight": 620,
+  "hasScript": false,
+  "fields": ["business.email"],
+  "version": 1
+}

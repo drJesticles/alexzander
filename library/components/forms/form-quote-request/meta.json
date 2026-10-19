@@ -1,0 +1,11 @@
+{
+  "slug": "form-quote-request",
+  "name": "Form: quote request",
+  "category": "forms",
+  "description": "Two-column quote request: service select, address, preferred date, photo upload, description and budget range. Sidebar explains what happens next.",
+  "tags": ["form", "quote", "estimate", "upload", "home-services"],
+  "previewHeight": 960,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone", "business.city"],
+  "version": 1
+}

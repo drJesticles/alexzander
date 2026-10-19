@@ -1,0 +1,12 @@
+{
+  "slug": "neo-brutalism",
+  "name": "Neo-Brutalism",
+  "family": "off-the-wall",
+  "description": "Stark cream and white, 3px black borders, hard offset shadows, acid yellow and hot pink. Archivo Black headlines, Space Grotesk body, zero radius.",
+  "source": "https://www.nngroup.com/articles/brutalism-antidesign/",
+  "fonts": [{ "family": "Archivo Black", "weights": [400] }, { "family": "Space Grotesk", "weights": [400, 500, 700] }],
+  "dark": true,
+  "swatch": ["#FFE600", "#FF5DA2", "#fffdf5", "#000000"],
+  "tags": ["brutalist", "bold", "offset-shadow", "loud"],
+  "version": 1
+}

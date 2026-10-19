@@ -1,0 +1,11 @@
+{
+  "slug": "pricing-single-card",
+  "name": "Pricing: single offer card",
+  "category": "pricing",
+  "description": "One centered offer: price, short pitch, bullet list of what is included, button and fine print.",
+  "tags": ["pricing", "single", "offer", "card", "cta"],
+  "previewHeight": 620,
+  "hasScript": false,
+  "fields": ["business.phone"],
+  "version": 1
+}

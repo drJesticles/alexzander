@@ -1,0 +1,31 @@
+.c-pricing-table-compare__head{max-width:46rem;margin:0 auto var(--wf-space-10)}
+.c-pricing-table-compare__head .wf-lead{margin-inline:auto}
+.c-pricing-table-compare__wrap{border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);background:var(--wf-bg);overflow:hidden}
+.c-pricing-table-compare__table{width:100%;border-collapse:collapse;text-align:center}
+.c-pricing-table-compare__table th,.c-pricing-table-compare__table td{padding:var(--wf-space-4) var(--wf-space-5);border-top:var(--wf-border-w) solid var(--wf-border);vertical-align:middle}
+.c-pricing-table-compare__table thead th{border-top:0;background:var(--wf-surface);vertical-align:bottom}
+.c-pricing-table-compare__table tbody th{text-align:left;font-weight:var(--wf-weight-medium)}
+.c-pricing-table-compare__feature-head{text-align:left;color:var(--wf-text-muted);font-size:var(--wf-text-sm);font-weight:var(--wf-weight-medium);text-transform:uppercase;letter-spacing:var(--wf-tracking-wide)}
+.c-pricing-table-compare__plan{display:block;font-family:var(--wf-font-display);font-size:var(--wf-text-xl);font-weight:var(--wf-weight-bold)}
+.c-pricing-table-compare__price{display:block;color:var(--wf-text-muted);font-size:var(--wf-text-sm);font-weight:var(--wf-weight-normal)}
+.c-pricing-table-compare__col--featured{background:color-mix(in srgb,var(--wf-primary) 8%,transparent)}
+.c-pricing-table-compare__table thead .c-pricing-table-compare__col--featured{box-shadow:inset 0 3px 0 var(--wf-primary)}
+.c-pricing-table-compare__table td .wf-icon{margin-inline:auto}
+.c-pricing-table-compare__yes{color:var(--wf-success)}
+.c-pricing-table-compare__no{color:var(--wf-text-muted);opacity:.5}
+.c-pricing-table-compare__table tfoot td{padding-block:var(--wf-space-5)}
+@media (max-width:767px){
+  .c-pricing-table-compare__wrap{border:0;background:transparent;overflow:visible}
+  .c-pricing-table-compare__table,.c-pricing-table-compare__table tbody,.c-pricing-table-compare__table tfoot,.c-pricing-table-compare__table tr,.c-pricing-table-compare__table th,.c-pricing-table-compare__table td{display:block;text-align:left}
+  .c-pricing-table-compare__table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+  .c-pricing-table-compare__table tr{border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);background:var(--wf-bg);margin-bottom:var(--wf-space-4);overflow:hidden}
+  .c-pricing-table-compare__table tbody th{border-top:0;background:var(--wf-surface);padding-block:var(--wf-space-3)}
+  .c-pricing-table-compare__table td{display:flex;align-items:center;justify-content:space-between;gap:var(--wf-space-4);padding-block:var(--wf-space-3)}
+  .c-pricing-table-compare__table td::before{content:attr(data-label);color:var(--wf-text-muted);font-size:var(--wf-text-sm);font-weight:var(--wf-weight-medium)}
+  .c-pricing-table-compare__table td .wf-icon{margin-inline:0}
+  .c-pricing-table-compare__table tfoot th{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+  .c-pricing-table-compare__table tfoot td{border-top:0;padding-block:var(--wf-space-2)}
+  .c-pricing-table-compare__table tfoot tr{padding-block:var(--wf-space-2);background:transparent;border:0}
+  .c-pricing-table-compare__table tfoot td::before{content:none}
+  .c-pricing-table-compare__table tfoot .wf-btn{width:100%}
+}

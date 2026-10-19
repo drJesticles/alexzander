@@ -1,0 +1,11 @@
+{
+  "slug": "process-before-during-after",
+  "name": "Process: before, during, after",
+  "category": "process",
+  "description": "Three phase panels for a remodel job, each with a photo, phase label, title and a short checklist. One column on phones.",
+  "tags": ["process", "remodel", "phases", "before-after", "checklist"],
+  "previewHeight": 720,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

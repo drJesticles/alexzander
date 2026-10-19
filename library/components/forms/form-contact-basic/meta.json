@@ -1,0 +1,11 @@
+{
+  "slug": "form-contact-basic",
+  "name": "Form: basic contact",
+  "category": "forms",
+  "description": "Centered contact form with name, email, phone and message, plus a short reassurance line under the submit button.",
+  "tags": ["form", "contact", "message", "simple"],
+  "previewHeight": 720,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone"],
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "content-quote-block",
+  "name": "Content: large quote block",
+  "category": "content",
+  "description": "A single large pull quote on a surface background with an oversized opening mark, attribution with avatar, and a short context line. Works as a testimonial or an owner statement.",
+  "tags": ["content", "quote", "pull-quote", "testimonial", "statement"],
+  "previewHeight": 460,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

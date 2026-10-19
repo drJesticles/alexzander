@@ -1,0 +1,11 @@
+{
+  "slug": "el-card-basic",
+  "name": "Element: basic card",
+  "category": "elements",
+  "description": "Plain .wf-card with eyebrow, title, short paragraph and a text link. The simplest building block for lists and grids.",
+  "tags": ["element", "card", "text", "link"],
+  "previewHeight": 240,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

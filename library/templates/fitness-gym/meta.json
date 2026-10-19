@@ -1,0 +1,38 @@
+{
+  "slug": "fitness-gym",
+  "name": "Fitness Gym",
+  "vertical": "local",
+  "description": "Six-page gym site: stats hero, class catalog with level tabs, three-tier memberships with comparison table and FAQ, coach grid with hiring block, weekly schedule tables, and a join page with callback form.",
+  "kit": "aaa-hs-bold",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "classes.html", "title": "Classes", "path": "/classes" },
+    { "file": "memberships.html", "title": "Memberships", "path": "/memberships" },
+    { "file": "trainers.html", "title": "Trainers", "path": "/trainers" },
+    { "file": "schedule.html", "title": "Schedule", "path": "/schedule" },
+    { "file": "join.html", "title": "Join", "path": "/join" }
+  ],
+  "tags": ["gym", "fitness", "classes", "memberships", "pricing", "schedule", "local"],
+  "components": [
+    "nav/nav-topbar-contact",
+    "hero/hero-split-stats",
+    "features/features-cards-hover",
+    "stats/stats-dark-band",
+    "testimonials/testimonials-masonry",
+    "cta/cta-split-image",
+    "services/services-grid-cards",
+    "content/content-tabs",
+    "pricing/pricing-three-tier",
+    "pricing/pricing-table-compare",
+    "faq/faq-accordion",
+    "team/team-grid",
+    "team/team-hiring-cta",
+    "elements/el-table-striped",
+    "content/content-accordion-text",
+    "forms/form-callback-request",
+    "process/process-steps-horizontal",
+    "cta/cta-phone-big",
+    "footer/footer-mega"
+  ],
+  "version": 1
+}

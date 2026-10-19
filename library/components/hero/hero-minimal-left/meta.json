@@ -1,0 +1,11 @@
+{
+  "slug": "hero-minimal-left",
+  "name": "Hero: minimal left",
+  "category": "hero",
+  "description": "One oversized headline, one supporting line and one button, left-aligned with generous whitespace. No image, no clutter.",
+  "tags": ["hero", "minimal", "typography", "whitespace", "left"],
+  "previewHeight": 560,
+  "hasScript": false,
+  "fields": ["business.city"],
+  "version": 1
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "dental-clinic",
+  "name": "Dental Clinic",
+  "vertical": "local",
+  "description": "Six-page dental practice site: appointment-request hero, service accordion with cash prices, new patient checklist and registration form, team page, insurance logos with FAQ, and contact with hours.",
+  "kit": "apple-hig",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "services.html", "title": "Services", "path": "/services" },
+    { "file": "new-patients.html", "title": "New Patients", "path": "/new-patients" },
+    { "file": "team.html", "title": "Team", "path": "/team" },
+    { "file": "insurance.html", "title": "Insurance & FAQ", "path": "/insurance" },
+    { "file": "contact.html", "title": "Contact", "path": "/contact" }
+  ],
+  "tags": ["dental", "dentist", "clinic", "healthcare", "appointments", "insurance", "local"],
+  "components": [
+    "nav/nav-simple",
+    "hero/hero-form-right",
+    "services/services-icon-row",
+    "about/about-values-grid",
+    "testimonials/testimonials-google-style",
+    "cta/cta-band",
+    "services/services-accordion",
+    "process/process-steps-horizontal",
+    "content/content-checklist-columns",
+    "forms/form-quote-request",
+    "team/team-single-founder",
+    "team/team-list-compact",
+    "logos/logos-grid-bordered",
+    "faq/faq-with-contact-card",
+    "contact/contact-split-form-info",
+    "contact/contact-hours-table",
+    "footer/footer-columns"
+  ],
+  "version": 1
+}

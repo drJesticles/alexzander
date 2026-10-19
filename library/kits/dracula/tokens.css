@@ -1,0 +1,36 @@
+:root {
+  --wf-bg: #282a36;
+  --wf-surface: #21222c;
+  --wf-surface-2: #343746;
+  --wf-text: #f8f8f2;
+  --wf-text-muted: #bfc7e6;
+  --wf-primary: #bd93f9;
+  --wf-on-primary: #282a36;
+  --wf-primary-hover: #d1b3ff;
+  --wf-secondary: #44475a;
+  --wf-on-secondary: #f8f8f2;
+  --wf-accent: #ff79c6;
+  --wf-on-accent: #282a36;
+  --wf-border: #44475a;
+  --wf-success: #50fa7b;
+  --wf-warning: #f1fa8c;
+  --wf-danger: #ff5555;
+  --wf-info: #8be9fd;
+  --wf-overlay: rgba(33, 34, 44, 0.75);
+  --wf-font-sans: "Fira Sans", system-ui, sans-serif;
+  --wf-font-mono: "Fira Code", ui-monospace, Menlo, monospace;
+  --wf-font-display: "Fira Sans", system-ui, sans-serif;
+  --wf-font-body: "Fira Sans", system-ui, sans-serif;
+  --wf-radius-sm: 0.25rem;
+  --wf-radius-md: 0.5rem;
+  --wf-radius-lg: 0.75rem;
+  --wf-radius-xl: 1.25rem;
+  --wf-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --wf-shadow-md: 0 8px 20px rgba(0, 0, 0, 0.45);
+  --wf-shadow-lg: 0 24px 48px rgba(0, 0, 0, 0.55);
+  --wf-btn-radius: 0.5rem;
+  --wf-btn-weight: 600;
+  --wf-card-radius: 0.75rem;
+  --wf-card-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --wf-input-radius: 0.5rem;
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "team-cards-social",
+  "name": "Team: cards with social links",
+  "category": "team",
+  "description": "Three member cards with photo, name, role, short bio and a row of icon links (email, phone, Facebook, Instagram).",
+  "tags": ["team", "cards", "social", "icons", "three-column"],
+  "previewHeight": 680,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

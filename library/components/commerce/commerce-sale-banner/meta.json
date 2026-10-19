@@ -1,0 +1,11 @@
+{
+  "slug": "commerce-sale-banner",
+  "name": "Commerce: sale banner",
+  "category": "commerce",
+  "description": "Full-width primary-color band with eyebrow, sale headline, promo code chip and a shop button. Tight vertical padding so it slots between sections.",
+  "tags": ["commerce", "sale", "banner", "promo", "cta"],
+  "previewHeight": 260,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

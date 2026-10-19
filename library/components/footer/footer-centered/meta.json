@@ -1,0 +1,11 @@
+{
+  "slug": "footer-centered",
+  "name": "Footer: centered",
+  "category": "footer",
+  "description": "Everything centered: business name, a row of six links, three social icons, a contact line and the copyright. Light surface background.",
+  "tags": ["footer", "centered", "links", "social", "copyright"],
+  "previewHeight": 320,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone", "business.address", "business.year"],
+  "version": 1
+}

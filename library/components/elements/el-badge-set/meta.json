@@ -1,0 +1,11 @@
+{
+  "slug": "el-badge-set",
+  "name": "Element: badge set",
+  "category": "elements",
+  "description": "Base, primary and accent badges plus tinted success/warning/danger/info variants and a status-dot badge.",
+  "tags": ["element", "badge", "tag", "status", "pill"],
+  "previewHeight": 180,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "content-accordion-text",
+  "name": "Content: accordion text blocks",
+  "category": "content",
+  "description": "Heading and intro on the left, four expandable text sections on the right built on native details/summary with a rotating chevron. Script keeps one section open at a time; without it, all sections still work.",
+  "tags": ["content", "accordion", "details", "expandable", "policies"],
+  "previewHeight": 640,
+  "hasScript": true,
+  "fields": ["business.name"],
+  "version": 1
+}

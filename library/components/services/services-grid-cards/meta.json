@@ -1,0 +1,11 @@
+{
+  "slug": "services-grid-cards",
+  "name": "Services: card grid",
+  "category": "services",
+  "description": "Six service cards in a three-column grid, each with an icon, title, two-line description and a 'Learn more' link. Two columns on tablet, one on phone.",
+  "tags": ["services", "cards", "grid", "icons", "learn-more"],
+  "previewHeight": 820,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

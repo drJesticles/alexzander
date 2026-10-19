@@ -1,0 +1,10 @@
+.c-el-button-group{padding:var(--wf-space-4)}
+.c-el-button-group__set{border:0;padding:0;margin:0}
+.c-el-button-group__legend{font-size:var(--wf-text-sm);font-weight:var(--wf-weight-medium);margin-bottom:var(--wf-space-2);padding:0}
+.c-el-button-group__segments{display:inline-flex;border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-btn-radius);background:var(--wf-surface);padding:var(--wf-space-1);gap:var(--wf-space-1);max-width:100%}
+.c-el-button-group__input{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}
+.c-el-button-group__segment{display:inline-flex;align-items:center;justify-content:center;padding:calc(var(--wf-btn-py)*.75) var(--wf-btn-px);border-radius:calc(var(--wf-btn-radius) - 2px);font-size:var(--wf-text-sm);font-weight:var(--wf-btn-weight);color:var(--wf-text-muted);cursor:pointer;user-select:none;white-space:nowrap;transition:background var(--wf-dur-fast) var(--wf-ease),color var(--wf-dur-fast) var(--wf-ease)}
+.c-el-button-group__segment:hover{color:var(--wf-text)}
+.c-el-button-group__input:checked + .c-el-button-group__segment{background:var(--wf-bg);color:var(--wf-text);box-shadow:var(--wf-shadow-sm)}
+.c-el-button-group__input:focus-visible + .c-el-button-group__segment{outline:2px solid var(--wf-primary);outline-offset:2px}
+@media (max-width:480px){.c-el-button-group__segments{display:flex}.c-el-button-group__segment{flex:1}}

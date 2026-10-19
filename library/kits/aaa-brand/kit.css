@@ -1,0 +1,5 @@
+h1,h2{text-transform:uppercase;letter-spacing:.01em}
+.wf-eyebrow{color:var(--wf-accent)}
+.wf-btn--primary{background:var(--wf-accent);color:var(--wf-on-accent)}
+.wf-btn--primary:hover{background:#d85a12}
+.wf-btn--secondary{background:var(--wf-primary);color:var(--wf-on-primary)}

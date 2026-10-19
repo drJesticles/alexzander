@@ -1,0 +1,11 @@
+{
+  "slug": "hero-emergency-bar",
+  "name": "Hero: emergency bar",
+  "category": "hero",
+  "description": "Service-business hero with a 24/7 phone strip across the top, headline, lead and two buttons, then a row of four trust badges (licensed, same-day, rated, warranty).",
+  "tags": ["hero", "emergency", "phone", "trust-badges", "service"],
+  "previewHeight": 640,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone", "business.city"],
+  "version": 1
+}

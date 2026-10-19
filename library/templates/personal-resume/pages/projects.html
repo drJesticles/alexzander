@@ -1,0 +1,122 @@
+<header class="c-nav-simple" data-wf-component="nav-simple">
+  <div class="wf-container c-nav-simple__bar">
+    <a class="c-nav-simple__brand" href="/" data-wf-field="business.name">Jordan Reyes</a>
+    <button class="c-nav-simple__toggle" type="button" aria-expanded="false" aria-controls="nav-simple-menu" aria-label="Open menu">
+      <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="c-nav-simple__menu" id="nav-simple-menu">
+      <a href="/">About</a>
+      <a href="/experience">Experience</a>
+      <a href="/projects">Projects</a>
+      <a href="/contact">Contact</a>
+      <a class="wf-btn wf-btn--primary wf-btn--sm" href="#">Download résumé</a>
+    </nav>
+  </div>
+</header>
+
+<section class="wf-section c-blog-cards-grid" data-wf-component="blog-cards-grid">
+  <div class="wf-container">
+    <div class="c-blog-cards-grid__head">
+      <div>
+        <span class="wf-eyebrow">Selected work</span>
+        <h2>Projects I'd happily talk about for an hour.</h2>
+      </div>
+      <a class="c-blog-cards-grid__all" href="#">All projects on GitHub
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+    <div class="wf-grid wf-grid--3">
+      <article class="c-blog-cards-grid__card">
+        <a class="c-blog-cards-grid__media" href="#" tabindex="-1" aria-hidden="true">
+          <img src="/ph/800/500/patient-scheduling-app.svg" alt="" width="800" height="500">
+        </a>
+        <div class="c-blog-cards-grid__body">
+          <span class="wf-badge wf-badge--primary">Work</span>
+          <h3 class="c-blog-cards-grid__title"><a href="#">Patient scheduling rebuild, Northstar Health</a></h3>
+          <p class="c-blog-cards-grid__excerpt">Nine screens down to four, 40,000 bookings a month, passed an outside WCAG AA audit. React, TypeScript, a lot of listening to nurses.</p>
+          <p class="c-blog-cards-grid__meta"><time datetime="2024-06-01">2024</time> · Lead engineer</p>
+        </div>
+      </article>
+      <article class="c-blog-cards-grid__card">
+        <a class="c-blog-cards-grid__media" href="#" tabindex="-1" aria-hidden="true">
+          <img src="/ph/800/500/dispatch-dashboard-map.svg" alt="" width="800" height="500">
+        </a>
+        <div class="c-blog-cards-grid__body">
+          <span class="wf-badge wf-badge--primary">Work</span>
+          <h3 class="c-blog-cards-grid__title"><a href="#">Live dispatch dashboard, Ledgerline</a></h3>
+          <p class="c-blog-cards-grid__excerpt">Real-time truck positions for 300 carriers, WebSocket updates, forms that survive a dead cell signal. Second engineer at the company.</p>
+          <p class="c-blog-cards-grid__meta"><time datetime="2020-03-01">2020</time> · Front-end engineer</p>
+        </div>
+      </article>
+      <article class="c-blog-cards-grid__card">
+        <a class="c-blog-cards-grid__media" href="#" tabindex="-1" aria-hidden="true">
+          <img src="/ph/800/500/design-system-storybook.svg" alt="" width="800" height="500">
+        </a>
+        <div class="c-blog-cards-grid__body">
+          <span class="wf-badge">Open source</span>
+          <h3 class="c-blog-cards-grid__title"><a href="#">Tokenbase: design tokens to CSS, Swift and Kotlin</a></h3>
+          <p class="c-blog-cards-grid__excerpt">A small CLI that turns one JSON token file into platform code. 1,200 stars, used by three companies I know of and probably a few I don't.</p>
+          <p class="c-blog-cards-grid__meta"><time datetime="2022-09-01">2022</time> · Maintainer</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="wf-section c-features-cards-hover" data-wf-component="features-cards-hover">
+  <div class="wf-container">
+    <div class="c-features-cards-hover__head">
+      <span class="wf-eyebrow">Side projects</span>
+      <h2>Things I built because I wanted them to exist.</h2>
+    </div>
+    <div class="wf-grid wf-grid--4 c-features-cards-hover__grid">
+      <a class="wf-card c-features-cards-hover__card" href="#">
+        <span class="c-features-cards-hover__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+        <h3>River Valley Trails</h3>
+        <p>Offline-first trail map for Mount Nebo and Petit Jean. 4,000 installs, no ads, no account.</p>
+        <span class="c-features-cards-hover__more">PWA, Svelte <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="wf-card c-features-cards-hover__card" href="#">
+        <span class="c-features-cards-hover__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg></span>
+        <h3>a11y-snapshot</h3>
+        <p>Playwright helper that diffs the accessibility tree between builds so regressions fail CI.</p>
+        <span class="c-features-cards-hover__more">TypeScript, npm <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="wf-card c-features-cards-hover__card" href="#">
+        <span class="c-features-cards-hover__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span>
+        <h3>ATU Hack Night</h3>
+        <p>Monthly meetup I run at Arkansas Tech. Thirty regulars, two of whom I've since hired.</p>
+        <span class="c-features-cards-hover__more">Community <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="wf-card c-features-cards-hover__card" href="#">
+        <span class="c-features-cards-hover__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 4l6 6-9 9H5v-6z"/><path d="M12 6l6 6"/></svg></span>
+        <h3>Writing</h3>
+        <p>Occasional posts on front-end performance and leading small teams. One made the front page once.</p>
+        <span class="c-features-cards-hover__more">Blog <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="wf-section wf-section--tight wf-section--primary c-cta-band" data-wf-component="cta-band">
+  <div class="wf-container c-cta-band__inner">
+    <div class="c-cta-band__copy">
+      <h2 class="c-cta-band__title">Want the code walkthrough?</h2>
+      <p class="c-cta-band__text">I'm happy to screen-share any of these, including the parts I'd do differently now.</p>
+    </div>
+    <a class="wf-btn wf-btn--accent wf-btn--lg" href="/contact">Book a call</a>
+  </div>
+</section>
+
+<footer class="wf-section wf-section--tight wf-section--surface c-footer-simple" data-wf-component="footer-simple">
+  <div class="wf-container c-footer-simple__inner">
+    <a class="c-footer-simple__brand" href="/" data-wf-field="business.name">Jordan Reyes</a>
+    <nav class="c-footer-simple__links" aria-label="Footer">
+      <a href="/experience">Experience</a>
+      <a href="/projects">Projects</a>
+      <a href="/contact">Contact</a>
+      <a href="#">Privacy</a>
+    </nav>
+    <span class="c-footer-simple__copy">&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">Jordan Reyes</span></span>
+  </div>
+</footer>

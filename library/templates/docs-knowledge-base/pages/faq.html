@@ -1,0 +1,141 @@
+<header class="c-nav-sidebar-drawer" data-wf-component="nav-sidebar-drawer">
+  <div class="wf-container c-nav-sidebar-drawer__bar">
+    <button class="c-nav-sidebar-drawer__open" type="button" aria-expanded="false" aria-controls="nav-sidebar-drawer-panel" aria-label="Open menu">
+      <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <span class="c-nav-sidebar-drawer__open-label">Docs</span>
+    </button>
+    <a class="c-nav-sidebar-drawer__brand" href="/" data-wf-field="business.name">Beacon Docs</a>
+    <a class="wf-btn wf-btn--primary wf-btn--sm c-nav-sidebar-drawer__cta" href="/support">
+      <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M12 8v3M12 13.5v.5"/></svg>
+      <span>Get support</span>
+    </a>
+  </div>
+  <div class="c-nav-sidebar-drawer__backdrop" hidden></div>
+  <aside class="c-nav-sidebar-drawer__panel" id="nav-sidebar-drawer-panel" aria-label="Site menu" aria-hidden="true">
+    <div class="c-nav-sidebar-drawer__panel-head">
+      <span class="c-nav-sidebar-drawer__panel-brand" data-wf-field="business.name">Beacon Docs</span>
+      <button class="c-nav-sidebar-drawer__close" type="button" aria-label="Close menu">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <nav class="c-nav-sidebar-drawer__links" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/getting-started">Getting started</a>
+      <a href="/guides">Guides</a>
+      <a href="/api">API reference</a>
+      <a href="/faq">FAQ</a>
+      <a href="/support">Support</a>
+    </nav>
+    <div class="c-nav-sidebar-drawer__contact">
+      <p class="c-nav-sidebar-drawer__contact-label">Support hours</p>
+      <p data-wf-field="business.hours">Mon to Fri, 6am to 6pm Pacific</p>
+      <p class="c-nav-sidebar-drawer__contact-label">Phone</p>
+      <p><a href="tel:+18555550170" data-wf-field="business.phone">(855) 555-0170</a></p>
+      <p class="c-nav-sidebar-drawer__contact-label">Email</p>
+      <p><a href="mailto:support@beacon.dev" data-wf-field="business.email">support@beacon.dev</a></p>
+    </div>
+  </aside>
+</header>
+
+<section class="wf-section c-faq-accordion" data-wf-component="faq-accordion">
+  <div class="wf-container wf-container--narrow">
+    <div class="wf-center c-faq-accordion__head">
+      <span class="wf-eyebrow">FAQ</span>
+      <h2>Questions we answer most.</h2>
+    </div>
+    <div class="c-faq-accordion__list">
+      <div class="c-faq-accordion__item">
+        <h3 class="c-faq-accordion__q"><button class="c-faq-accordion__btn" type="button" aria-expanded="true" aria-controls="faq-accordion-p1" id="faq-accordion-b1">How is uptime calculated?<svg class="wf-icon c-faq-accordion__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></h3>
+        <div class="c-faq-accordion__panel" id="faq-accordion-p1" role="region" aria-labelledby="faq-accordion-b1"><p>Time outside confirmed incidents divided by total time, excluding maintenance windows. A blip that fails from one region only and recovers before confirmation does not count. The dashboard shows the exact seconds of downtime per incident so you can audit the number.</p></div>
+      </div>
+      <div class="c-faq-accordion__item">
+        <h3 class="c-faq-accordion__q"><button class="c-faq-accordion__btn" type="button" aria-expanded="false" aria-controls="faq-accordion-p2" id="faq-accordion-b2">Which regions do checks come from?<svg class="wf-icon c-faq-accordion__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></h3>
+        <div class="c-faq-accordion__panel" id="faq-accordion-p2" role="region" aria-labelledby="faq-accordion-b2" hidden><p>Fourteen: six in North America, four in Europe, three in Asia-Pacific and one in South America. You can restrict a monitor to specific regions, for example if your site geo-blocks traffic. The current list of IP ranges is published for allow-listing.</p></div>
+      </div>
+      <div class="c-faq-accordion__item">
+        <h3 class="c-faq-accordion__q"><button class="c-faq-accordion__btn" type="button" aria-expanded="false" aria-controls="faq-accordion-p3" id="faq-accordion-b3">Can I monitor something behind a login or a firewall?<svg class="wf-icon c-faq-accordion__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></h3>
+        <div class="c-faq-accordion__panel" id="faq-accordion-p3" role="region" aria-labelledby="faq-accordion-b3" hidden><p>Behind a login: yes, HTTP monitors can send custom headers, basic auth or a bearer token. Behind a firewall: allow-list the Beacon IP ranges, or run the private agent inside your network on the Business plan; it checks internal services and reports results outbound.</p></div>
+      </div>
+      <div class="c-faq-accordion__item">
+        <h3 class="c-faq-accordion__q"><button class="c-faq-accordion__btn" type="button" aria-expanded="false" aria-controls="faq-accordion-p4" id="faq-accordion-b4">What happens when I hit my plan's monitor limit?<svg class="wf-icon c-faq-accordion__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></h3>
+        <div class="c-faq-accordion__panel" id="faq-accordion-p4" role="region" aria-labelledby="faq-accordion-b4" hidden><p>Existing monitors keep running. You cannot create new ones until you upgrade or pause one. Nothing is deleted and nobody is paged about it except you, by email, once.</p></div>
+      </div>
+      <div class="c-faq-accordion__item">
+        <h3 class="c-faq-accordion__q"><button class="c-faq-accordion__btn" type="button" aria-expanded="false" aria-controls="faq-accordion-p5" id="faq-accordion-b5">How long is data kept?<svg class="wf-icon c-faq-accordion__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></h3>
+        <div class="c-faq-accordion__panel" id="faq-accordion-p5" role="region" aria-labelledby="faq-accordion-b5" hidden><p>Raw check results for 90 days on Team, 13 months on Business. Daily uptime summaries and incident history are kept for the life of the account. Everything is exportable as CSV or through the API.</p></div>
+      </div>
+      <div class="c-faq-accordion__item">
+        <h3 class="c-faq-accordion__q"><button class="c-faq-accordion__btn" type="button" aria-expanded="false" aria-controls="faq-accordion-p6" id="faq-accordion-b6">Is Beacon itself monitored?<svg class="wf-icon c-faq-accordion__chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button></h3>
+        <div class="c-faq-accordion__panel" id="faq-accordion-p6" role="region" aria-labelledby="faq-accordion-b6" hidden><p>By a separate system on different infrastructure, and by two competitors we pay for. Our own status page is public and shows every incident we have had, including the embarrassing ones. Trailing 12-month uptime is 99.99 percent.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wf-section wf-section--surface c-faq-two-column" data-wf-component="faq-two-column">
+  <div class="wf-container">
+    <div class="c-faq-two-column__head">
+      <span class="wf-eyebrow">Billing and account</span>
+      <h2>The admin questions.</h2>
+      <p class="wf-lead">Plans, invoices, seats and cancelling. For anything about your specific account, email <a href="mailto:support@beacon.dev" data-wf-field="business.email">support@beacon.dev</a> from the address on the account.</p>
+    </div>
+    <dl class="c-faq-two-column__grid">
+      <div class="c-faq-two-column__item">
+        <dt>Is there a free plan?</dt>
+        <dd>Yes: 10 monitors at a 3-minute interval, one status page, email and Slack alerts. No card, no expiry.</dd>
+      </div>
+      <div class="c-faq-two-column__item">
+        <dt>How do seats work?</dt>
+        <dd>Team and Business are priced per account, not per user. Invite as many people as you like; only monitors and status pages are metered.</dd>
+      </div>
+      <div class="c-faq-two-column__item">
+        <dt>Can I get an invoice instead of paying by card?</dt>
+        <dd>On yearly Business plans, yes. Net-30 invoicing and purchase orders are set up by support in about a day.</dd>
+      </div>
+      <div class="c-faq-two-column__item">
+        <dt>What if I cancel mid-year?</dt>
+        <dd>Yearly plans are refunded pro rata for unused whole months. Monthly plans run to the end of the period. Data stays exportable for 90 days.</dd>
+      </div>
+      <div class="c-faq-two-column__item">
+        <dt>Do you have a security questionnaire ready?</dt>
+        <dd>Yes. SOC 2 Type II report, pen-test summary and a completed CAIQ are available under Settings, then Security, on the Business plan, or by request.</dd>
+      </div>
+      <div class="c-faq-two-column__item">
+        <dt>Can I transfer the account to someone else?</dt>
+        <dd>Any owner can make another member an owner and then leave. If the only owner has left the company, support can reassign it after verifying with your domain's admin.</dd>
+      </div>
+      <div class="c-faq-two-column__item">
+        <dt>Where is data stored?</dt>
+        <dd>US data centres by default; EU residency is available on Business. Check results are encrypted at rest and in transit.</dd>
+      </div>
+      <div class="c-faq-two-column__item">
+        <dt>Do you offer discounts?</dt>
+        <dd>Open-source projects and registered nonprofits get Team free. Yearly billing is two months off on every plan.</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<section class="wf-section wf-section--tight wf-section--primary c-cta-band" data-wf-component="cta-band">
+  <div class="wf-container c-cta-band__inner">
+    <div class="c-cta-band__copy">
+      <h2 class="c-cta-band__title">Can't find it? A person can.</h2>
+      <p class="c-cta-band__text">Support at <span data-wf-field="business.name">Beacon</span> is staffed by engineers, weekdays 6am to 6pm Pacific. Median first reply is nine minutes.</p>
+    </div>
+    <a class="wf-btn wf-btn--accent wf-btn--lg" href="/support">Contact support</a>
+  </div>
+</section>
+
+<footer class="wf-section wf-section--tight wf-section--surface c-footer-simple" data-wf-component="footer-simple">
+  <div class="wf-container c-footer-simple__inner">
+    <a class="c-footer-simple__brand" href="/" data-wf-field="business.name">Beacon Docs</a>
+    <nav class="c-footer-simple__links" aria-label="Footer">
+      <a href="/getting-started">Getting started</a>
+      <a href="/guides">Guides</a>
+      <a href="/api">API</a>
+      <a href="/faq">FAQ</a>
+      <a href="/support">Support</a>
+    </nav>
+    <span class="c-footer-simple__copy">&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">Beacon Docs</span></span>
+  </div>
+</footer>

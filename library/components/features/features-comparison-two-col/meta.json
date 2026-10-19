@@ -1,0 +1,11 @@
+{
+  "slug": "features-comparison-two-col",
+  "name": "Features: us vs. them",
+  "category": "features",
+  "description": "Two side-by-side columns comparing the typical contractor experience (muted, crossed items) with yours (highlighted, checked items). Stacks on mobile.",
+  "tags": ["features", "comparison", "versus", "two-column", "trust"],
+  "previewHeight": 620,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

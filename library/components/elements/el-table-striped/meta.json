@@ -1,0 +1,11 @@
+{
+  "slug": "el-table-striped",
+  "name": "Element: striped table",
+  "category": "elements",
+  "description": "Zebra-striped price table with a caption, sticky-feeling header row and a horizontal scroll wrapper for phones.",
+  "tags": ["element", "table", "pricing", "data"],
+  "previewHeight": 320,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

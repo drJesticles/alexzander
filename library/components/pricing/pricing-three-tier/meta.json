@@ -1,0 +1,11 @@
+{
+  "slug": "pricing-three-tier",
+  "name": "Pricing: three tiers",
+  "category": "pricing",
+  "description": "Three plan cards with price, feature list and button; the middle card is lifted and badged \"Most popular\". Stacks on mobile.",
+  "tags": ["pricing", "plans", "cards", "three-column", "popular"],
+  "previewHeight": 760,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

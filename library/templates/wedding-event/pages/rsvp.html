@@ -1,0 +1,104 @@
+<header class="c-nav-centered-logo" data-wf-component="nav-centered-logo">
+  <div class="wf-container c-nav-centered-logo__bar">
+    <nav class="c-nav-centered-logo__links c-nav-centered-logo__links--left" aria-label="Primary">
+      <a href="/story">Our Story</a>
+      <a href="/details">Details</a>
+    </nav>
+    <a class="c-nav-centered-logo__brand" href="/" data-wf-field="business.name">Claire &amp; Mateo</a>
+    <nav class="c-nav-centered-logo__links c-nav-centered-logo__links--right" aria-label="Secondary">
+      <a href="/registry">Registry</a>
+      <a class="wf-btn wf-btn--primary wf-btn--sm" href="/rsvp">RSVP</a>
+    </nav>
+  </div>
+</header>
+
+<section class="wf-section c-form-booking-appointment" data-wf-component="form-booking-appointment">
+  <div class="wf-container c-form-booking-appointment__grid">
+    <div class="c-form-booking-appointment__intro">
+      <span class="wf-eyebrow">RSVP</span>
+      <h2>Will you be there?</h2>
+      <p class="wf-lead">Please reply by May 1, 2027. One form per household is fine; just list everyone coming. <span data-wf-field="business.name">Claire &amp; Mateo</span> will send a confirmation and the shuttle times in early June.</p>
+      <div class="wf-card c-form-booking-appointment__card">
+        <h3 class="c-form-booking-appointment__card-title">The essentials</h3>
+        <p data-wf-field="business.hours">Ceremony at 4:00pm, reception until 11:00pm</p>
+        <p class="wf-muted">Questions or a change of plans after you reply? Text Jess at <a href="tel:+14795550100" data-wf-field="business.phone">(479) 555-0100</a>.</p>
+      </div>
+    </div>
+    <form class="c-form-booking-appointment__form" data-wf-form="rsvp" action="#" method="post">
+      <div class="c-form-booking-appointment__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-date">Attending?</label>
+          <select class="wf-select" id="form-booking-appointment-date" name="attending" required>
+            <option value="">Choose one</option>
+            <option value="yes">Joyfully accept</option>
+            <option value="no">Regretfully decline</option>
+          </select>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-slot">How many in your party?</label>
+          <select class="wf-select" id="form-booking-appointment-slot" name="party_size" required>
+            <option value="">Choose a number</option>
+            <option value="1">Just me</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five or more</option>
+          </select>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-service">Dinner choice</label>
+        <select class="wf-select" id="form-booking-appointment-service" name="meal" required>
+          <option value="">Pick a main</option>
+          <option value="brisket">Mateo's smoked brisket</option>
+          <option value="chicken">Herb-roasted chicken</option>
+          <option value="vegetarian">Vegetarian: grilled vegetable stack</option>
+          <option value="kids">Kids' plate</option>
+        </select>
+      </div>
+      <div class="c-form-booking-appointment__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-name">Your name(s)</label>
+          <input class="wf-input" id="form-booking-appointment-name" name="name" type="text" autocomplete="name" placeholder="As they appear on the invitation" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-phone">Mobile number</label>
+          <input class="wf-input" id="form-booking-appointment-phone" name="phone" type="tel" autocomplete="tel" placeholder="For shuttle and rain updates" required>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-address">Email</label>
+        <input class="wf-input" id="form-booking-appointment-address" name="email" type="email" autocomplete="email">
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-notes">Allergies, song requests, anything else <span class="wf-muted">(optional)</span></label>
+        <textarea class="wf-textarea c-form-booking-appointment__notes" id="form-booking-appointment-notes" name="notes" placeholder="Example: one gluten-free, and please play something by Tyler Childers."></textarea>
+      </div>
+      <button class="wf-btn wf-btn--primary wf-btn--lg wf-btn--block" type="submit">Send my RSVP</button>
+    </form>
+  </div>
+</section>
+
+<footer class="wf-section wf-section--surface c-footer-centered" data-wf-component="footer-centered">
+  <div class="wf-container c-footer-centered__inner">
+    <a class="c-footer-centered__brand" href="/" data-wf-field="business.name">Claire &amp; Mateo</a>
+    <nav class="c-footer-centered__links" aria-label="Footer">
+      <a href="/">Home</a>
+      <a href="/story">Our Story</a>
+      <a href="/details">Details</a>
+      <a href="/rsvp">RSVP</a>
+      <a href="/registry">Registry</a>
+    </nav>
+    <div class="c-footer-centered__social">
+      <a href="#" aria-label="Instagram" data-wf-field="social.instagram"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+      <a href="#" aria-label="Facebook" data-wf-field="social.facebook"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+      <a href="mailto:hello@example.com" aria-label="Email"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+    </div>
+    <p class="c-footer-centered__contact">
+      <a href="mailto:hello@example.com" data-wf-field="business.email">hello@example.com</a>
+      <span class="c-footer-centered__sep" aria-hidden="true">·</span>
+      <span data-wf-field="business.address">Lake Dardanelle, Russellville, AR</span>
+    </p>
+    <p class="c-footer-centered__copy">&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">Claire &amp; Mateo</span>. Saturday, June 13, 2027. #ClaireAndMateoSayIDo</p>
+  </div>
+</footer>

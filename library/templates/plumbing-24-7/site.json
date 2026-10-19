@@ -1,0 +1,43 @@
+{
+  "business": {
+    "name": "Arkansas River Plumbing",
+    "tagline": "Water where it should not be? We pick up.",
+    "phone": "(479) 555-0199",
+    "email": "dispatch@arkansasriverplumbing.com",
+    "address": "915 W Parkway Dr, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Office Mon–Fri 7am–5pm · Emergency line 24/7",
+    "year": "2026"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "google": ""
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Services",
+      "path": "/services"
+    },
+    {
+      "label": "Pricing",
+      "path": "/pricing"
+    },
+    {
+      "label": "Service Area",
+      "path": "/service-area"
+    },
+    {
+      "label": "Reviews",
+      "path": "/reviews"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ]
+}

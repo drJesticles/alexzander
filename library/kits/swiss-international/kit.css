@@ -1,0 +1,29 @@
+body{background-color:var(--wf-bg)}
+h1,h2,h3{letter-spacing:-.04em;font-weight:700}
+h1{font-size:clamp(var(--wf-text-5xl),9vw,7.5rem);line-height:.9;font-weight:800}
+h2{line-height:.95}
+.wf-eyebrow{color:var(--wf-text);border-top:2px solid var(--wf-text);padding-top:.5rem;font-weight:500;letter-spacing:.04em;margin-bottom:var(--wf-space-4)}
+.wf-lead{color:var(--wf-text);font-size:var(--wf-text-xl);line-height:1.35;max-width:50ch}
+.wf-btn{text-transform:uppercase;letter-spacing:.08em;font-size:var(--wf-text-sm);border-width:1px}
+.wf-btn--primary:hover{background:var(--wf-text);color:var(--wf-bg)}
+.wf-btn--secondary:hover{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-btn--outline{border-color:currentColor}
+.wf-btn--outline:hover{background:var(--wf-text);color:var(--wf-bg);border-color:var(--wf-text)}
+.wf-btn--ghost{padding-inline:0;text-decoration:underline;text-underline-offset:.35em}
+.wf-btn--ghost:hover{background:transparent;text-decoration-color:var(--wf-primary)}
+.wf-card{background:transparent;border:0;border-top:1px solid var(--wf-border);padding-inline:0;padding-top:var(--wf-space-5)}
+.wf-card--raised{border-top:4px solid var(--wf-primary)}
+.wf-section--surface .wf-card{border-top-color:var(--wf-text)}
+.wf-input,.wf-select,.wf-textarea{background:transparent;border:0;border-bottom:1px solid var(--wf-border);padding-inline:0}
+.wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-bottom:2px solid var(--wf-primary)}
+.wf-label{text-transform:uppercase;letter-spacing:.08em;font-size:var(--wf-text-xs)}
+.wf-badge{border-radius:0;background:var(--wf-text);color:var(--wf-bg);text-transform:uppercase;letter-spacing:.08em;padding:.3rem .6rem}
+.wf-badge--primary{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-badge--accent{background:transparent;color:var(--wf-text);border:1px solid var(--wf-text)}
+.wf-section--dark{background:var(--wf-secondary);color:var(--wf-on-secondary)}
+.wf-section--primary h1,.wf-section--primary h2{color:var(--wf-on-primary)}
+hr{border-top:1px solid var(--wf-border);margin-block:var(--wf-space-12)}
+a{color:var(--wf-text);text-decoration:underline;text-underline-offset:.2em;text-decoration-color:var(--wf-primary)}
+a:hover{color:var(--wf-primary)}
+.wf-avatar{border-radius:0}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}

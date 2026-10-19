@@ -1,0 +1,11 @@
+{
+  "slug": "hero-pricing-teaser",
+  "name": "Hero: pricing teaser",
+  "category": "hero",
+  "description": "Headline and lead with three starting-price chips and a button on the left; a highlighted 'most booked' package card with a bullet list on the right.",
+  "tags": ["hero", "pricing", "package", "two-column", "cta"],
+  "previewHeight": 640,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

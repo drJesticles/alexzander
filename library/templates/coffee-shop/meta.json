@@ -1,0 +1,36 @@
+{
+  "slug": "coffee-shop",
+  "name": "Coffee Shop",
+  "vertical": "local",
+  "description": "Six-page site for a neighborhood coffee roaster: priced menu, bean sourcing story, loyalty program sign-up, gallery and visit page with hours.",
+  "kit": "daisyui",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "menu.html", "title": "Menu", "path": "/menu" },
+    { "file": "beans.html", "title": "Our Beans", "path": "/beans" },
+    { "file": "loyalty.html", "title": "Loyalty", "path": "/loyalty" },
+    { "file": "gallery.html", "title": "Gallery", "path": "/gallery" },
+    { "file": "visit.html", "title": "Visit", "path": "/visit" }
+  ],
+  "tags": ["coffee", "cafe", "roaster", "bakery", "loyalty", "local"],
+  "components": [
+    "nav/nav-minimal-pill",
+    "hero/hero-split-image",
+    "features/features-grid-icons",
+    "pricing/pricing-service-menu",
+    "testimonials/testimonials-grid-cards",
+    "cta/cta-newsletter",
+    "content/content-tabs",
+    "media/media-image-text-split",
+    "process/process-steps-horizontal",
+    "about/about-timeline-history",
+    "features/features-checklist",
+    "faq/faq-accordion",
+    "gallery/gallery-grid",
+    "testimonials/testimonials-google-style",
+    "contact/contact-map-top",
+    "contact/contact-hours-table",
+    "footer/footer-simple"
+  ],
+  "version": 1
+}

@@ -1,0 +1,165 @@
+<header class="c-nav-minimal-pill" data-wf-component="nav-minimal-pill">
+  <div class="c-nav-minimal-pill__pill">
+    <a class="c-nav-minimal-pill__brand" href="/" data-wf-field="business.name">Sparrow Home Cleaning</a>
+    <nav class="c-nav-minimal-pill__links" aria-label="Primary">
+      <a href="/services">Services</a>
+      <a href="/pricing">Pricing</a>
+      <a href="/faq">FAQ</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <a class="wf-btn wf-btn--primary wf-btn--sm c-nav-minimal-pill__cta" href="/booking">Book a clean</a>
+  </div>
+</header>
+
+<section class="wf-section c-form-booking-appointment" data-wf-component="form-booking-appointment">
+  <div class="wf-container c-form-booking-appointment__grid">
+    <div class="c-form-booking-appointment__intro">
+      <span class="wf-eyebrow">Book online</span>
+      <h2>Pick a day. We handle the rest.</h2>
+      <p class="wf-lead">Choose a date and a window. <span data-wf-field="business.name">Sparrow Home Cleaning</span> confirms by text the same day and your team texts when they are ten minutes out.</p>
+      <div class="wf-card c-form-booking-appointment__card">
+        <h3 class="c-form-booking-appointment__card-title">Cleaning hours</h3>
+        <p data-wf-field="business.hours">Mon–Fri 8am–5pm · Sat 8am–2pm</p>
+        <p class="wf-muted">Need it sooner than the calendar shows? Text <a href="tel:+14795550121" data-wf-field="business.phone">(479) 555-0121</a> and we will try to squeeze you in.</p>
+      </div>
+    </div>
+    <form class="c-form-booking-appointment__form" data-wf-form="booking" action="#" method="post">
+      <div class="c-form-booking-appointment__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-date">Preferred date</label>
+          <input class="wf-input" id="form-booking-appointment-date" name="date" type="date" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-slot">Time window</label>
+          <select class="wf-select" id="form-booking-appointment-slot" name="time_slot" required>
+            <option value="">Choose a window</option>
+            <option value="morning">Morning, 8am to 11am</option>
+            <option value="midday">Midday, 11am to 2pm</option>
+            <option value="afternoon">Afternoon, 1pm to 4pm</option>
+          </select>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-service">Service</label>
+        <select class="wf-select" id="form-booking-appointment-service" name="service" required>
+          <option value="">What kind of clean?</option>
+          <option value="recurring">Recurring clean (weekly, every other week, monthly)</option>
+          <option value="deep">Deep clean</option>
+          <option value="move">Move-in or move-out clean</option>
+          <option value="onetime">One-time standard clean</option>
+          <option value="construction">Post-construction clean</option>
+        </select>
+      </div>
+      <div class="c-form-booking-appointment__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-name">Name</label>
+          <input class="wf-input" id="form-booking-appointment-name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-phone">Mobile number</label>
+          <input class="wf-input" id="form-booking-appointment-phone" name="phone" type="tel" autocomplete="tel" required>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-address">Service address</label>
+        <input class="wf-input" id="form-booking-appointment-address" name="address" type="text" autocomplete="street-address">
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-notes">Notes <span class="wf-muted">(bedrooms and baths, pets, door code, allergies)</span></label>
+        <textarea class="wf-textarea c-form-booking-appointment__notes" id="form-booking-appointment-notes" name="notes"></textarea>
+      </div>
+      <button class="wf-btn wf-btn--primary wf-btn--lg wf-btn--block" type="submit">Request this clean</button>
+    </form>
+  </div>
+</section>
+
+<section class="wf-section c-features-grid-icons" data-wf-component="features-grid-icons">
+  <div class="wf-container">
+    <div class="c-features-grid-icons__head">
+      <span class="wf-eyebrow">What to expect</span>
+      <h2>How the first visit goes.</h2>
+      <p class="wf-lead">Six things <span data-wf-field="business.name">Sparrow Home Cleaning</span> does on every visit, from a monthly tidy to a move-out.</p>
+    </div>
+    <div class="wf-grid wf-grid--3 c-features-grid-icons__grid">
+      <div class="c-features-grid-icons__item">
+        <span class="c-features-grid-icons__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <h3>Three-hour arrival windows</h3>
+        <p>You get a text when the team leaves the last house. No sitting home all day waiting on "sometime between 8 and 5."</p>
+      </div>
+      <div class="c-features-grid-icons__item">
+        <span class="c-features-grid-icons__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2v20M17 6.5c-1-1.5-3-2-5-2-3 0-5 1.5-5 3.5s2 3 5 3.5 5 1.5 5 3.5-2 3.5-5 3.5-4.5-1-5.5-2.5"/></svg></span>
+        <h3>The price you saw is the price</h3>
+        <p>Flat rate by home size, shown before you book. If the house needs more than a standard clean the first time, we tell you before we start.</p>
+      </div>
+      <div class="c-features-grid-icons__item">
+        <span class="c-features-grid-icons__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
+        <h3>Bonded and insured</h3>
+        <p>Every cleaner is a background-checked W-2 employee covered by our liability and workers' comp. Ask for the certificate; we'll email it.</p>
+      </div>
+      <div class="c-features-grid-icons__item">
+        <span class="c-features-grid-icons__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.3 5.3L3 18l3 3 6.4-6.4a4 4 0 0 0 5.3-5.3l-2.6 2.6-2.1-.6-.6-2.1z"/></svg></span>
+        <h3>Same two cleaners</h3>
+        <p>Your team is assigned to your home. They learn the house, the pets and the way you like the pillows.</p>
+      </div>
+      <div class="c-features-grid-icons__item">
+        <span class="c-features-grid-icons__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg></span>
+        <h3>We bring everything</h3>
+        <p>Plant-based products, microfiber, a HEPA vacuum and our own mop. If you prefer your products, leave them on the counter.</p>
+      </div>
+      <div class="c-features-grid-icons__item">
+        <span class="c-features-grid-icons__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8 14l-1.5 7L12 18l5.5 3L16 14"/></svg></span>
+        <h3>24-hour re-clean guarantee</h3>
+        <p>If anything on the checklist was missed, text a photo within 24 hours and we come back and fix it at no charge.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wf-section wf-section--tight c-stats-row" data-wf-component="stats-row">
+  <div class="wf-container">
+    <h2 class="wf-sr-only">By the numbers</h2>
+    <dl class="c-stats-row__list">
+      <div class="c-stats-row__item">
+        <dt>Cleans completed</dt>
+        <dd>6,000+</dd>
+      </div>
+      <div class="c-stats-row__item">
+        <dt>Years in business</dt>
+        <dd>8</dd>
+      </div>
+      <div class="c-stats-row__item">
+        <dt>Average rating</dt>
+        <dd>4.9<span class="c-stats-row__unit">/5</span></dd>
+      </div>
+      <div class="c-stats-row__item">
+        <dt>Customers on a recurring plan</dt>
+        <dd>82<span class="c-stats-row__unit">%</span></dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<footer class="wf-section wf-section--surface c-footer-centered" data-wf-component="footer-centered">
+  <div class="wf-container c-footer-centered__inner">
+    <a class="c-footer-centered__brand" href="/" data-wf-field="business.name">Sparrow Home Cleaning</a>
+    <nav class="c-footer-centered__links" aria-label="Footer">
+      <a href="/">Home</a>
+      <a href="/services">Services</a>
+      <a href="/pricing">Pricing</a>
+      <a href="/booking">Booking</a>
+      <a href="/faq">FAQ</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <div class="c-footer-centered__social">
+      <a href="#" aria-label="Facebook" data-wf-field="social.facebook"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+      <a href="#" aria-label="Instagram" data-wf-field="social.instagram"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+      <a href="#" aria-label="Google reviews" data-wf-field="social.google"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg></a>
+    </div>
+    <p class="c-footer-centered__contact">
+      <a href="tel:+14795550121" data-wf-field="business.phone">(479) 555-0121</a>
+      <span class="c-footer-centered__sep" aria-hidden="true">·</span>
+      <span data-wf-field="business.address">108 N Commerce Ave, Russellville, AR 72801</span>
+    </p>
+    <p class="c-footer-centered__copy">&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">Sparrow Home Cleaning</span>. Bonded, insured and background-checked.</p>
+  </div>
+</footer>

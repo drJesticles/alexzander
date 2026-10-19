@@ -1,0 +1,12 @@
+.c-pricing-single-card__card{display:grid;grid-template-columns:1.4fr 1fr;gap:var(--wf-space-10);max-width:56rem;margin-inline:auto;padding:var(--wf-space-10);background:var(--wf-bg)}
+.c-pricing-single-card__copy h2{margin-bottom:var(--wf-space-4)}
+.c-pricing-single-card__list{list-style:none;padding:0;margin:var(--wf-space-6) 0 0;display:grid;gap:var(--wf-space-3)}
+.c-pricing-single-card__list li{display:flex;gap:var(--wf-space-3);align-items:flex-start}
+.c-pricing-single-card__list .wf-icon{color:var(--wf-success)}
+.c-pricing-single-card__offer{display:flex;flex-direction:column;justify-content:center;text-align:center;padding:var(--wf-space-8);border-radius:var(--wf-radius-lg);background:var(--wf-surface);border:var(--wf-border-w) solid var(--wf-border)}
+.c-pricing-single-card__price{display:flex;flex-direction:column;align-items:center;margin:0}
+.c-pricing-single-card__amount{font-family:var(--wf-font-display);font-size:var(--wf-text-6xl);font-weight:var(--wf-weight-bold);letter-spacing:var(--wf-tracking-tight);line-height:1}
+.c-pricing-single-card__per{color:var(--wf-text-muted);font-size:var(--wf-text-sm);margin-top:var(--wf-space-2)}
+.c-pricing-single-card__compare{color:var(--wf-text-muted);text-decoration:line-through;font-size:var(--wf-text-sm);margin:var(--wf-space-2) 0 var(--wf-space-6)}
+.c-pricing-single-card__fine{color:var(--wf-text-muted);font-size:var(--wf-text-xs);margin:var(--wf-space-4) 0 0}
+@media (max-width:767px){.c-pricing-single-card__card{grid-template-columns:1fr;padding:var(--wf-space-6);gap:var(--wf-space-6)}}

@@ -1,0 +1,38 @@
+{
+  "slug": "church-community",
+  "name": "Church Community",
+  "vertical": "local",
+  "description": "Six-page church site: video hero, what-to-expect grid, beliefs and history with leadership, ministries with connection steps, events calendar and newsletter, sermon video and archive, visit page with schedule, map and FAQ.",
+  "kit": "nord",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "about.html", "title": "About & Beliefs", "path": "/about" },
+    { "file": "ministries.html", "title": "Ministries", "path": "/ministries" },
+    { "file": "events.html", "title": "Events", "path": "/events" },
+    { "file": "sermons.html", "title": "Sermons", "path": "/sermons" },
+    { "file": "visit.html", "title": "Visit", "path": "/visit" }
+  ],
+  "tags": ["church", "community", "nonprofit", "sermons", "events", "ministry", "local"],
+  "components": [
+    "nav/nav-centered-logo",
+    "hero/hero-video-bg",
+    "features/features-grid-icons",
+    "about/about-split-story",
+    "blog/blog-cards-grid",
+    "cta/cta-band",
+    "about/about-values-grid",
+    "about/about-timeline-history",
+    "team/team-grid",
+    "services/services-grid-cards",
+    "features/features-alternating-rows",
+    "content/content-timeline",
+    "cta/cta-newsletter",
+    "media/media-video-embed",
+    "blog/blog-list-horizontal",
+    "contact/contact-hours-table",
+    "contact/contact-map-top",
+    "faq/faq-accordion",
+    "footer/footer-centered"
+  ],
+  "version": 1
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "atlassian",
+  "name": "Atlassian Design System",
+  "family": "web-dev",
+  "description": "Atlassian Design System: brand blue #0C66E4, N800 #172B4D text, 3px radius, Charlie-like sans falling back to system, lozenge badges, 2px-border fields, dark surfaces #1D2125.",
+  "source": "https://atlassian.design/foundations/color-new",
+  "fonts": [],
+  "dark": true,
+  "swatch": ["#0C66E4", "#172B4D", "#F7F8F9", "#579DFF"],
+  "tags": ["atlassian", "jira", "confluence", "blue", "enterprise"],
+  "version": 1
+}

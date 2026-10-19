@@ -1,0 +1,19 @@
+# WebForge on alex.
+# 1. cp .env.example .env  and set WEBFORGE_PORT (claim it first: ssh alex port-claim alex-server <port> tcp webforge) and WEBFORGE_BIND.
+# 2. docker compose up -d --build
+# The bind in "ports" is the only thing protecting the container from the LAN (Docker bypasses ufw). Keep it 127.0.0.1 or the Tailscale IP.
+services:
+  webforge:
+    build: .
+    container_name: webforge
+    restart: unless-stopped
+    ports:
+      - "${WEBFORGE_BIND:-127.0.0.1}:${WEBFORGE_PORT:-24310}:3100"
+    environment:
+      - WEBFORGE_DATA_DIR=/app/data
+      - WEBFORGE_LIBRARY_DIR=/app/library
+      - WEBFORGE_SECRETS_FILE=/secrets/webforge.env
+    volumes:
+      - ./data:/app/data                 # projects, published sites, imported kits (back this up)
+      - ./library:/app/library:ro        # edit library files on the host; the app reads them live
+      - ${WEBFORGE_SECRETS_DIR:-${HOME}/.drJesticles}:/secrets:ro

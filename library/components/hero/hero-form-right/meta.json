@@ -1,0 +1,11 @@
+{
+  "slug": "hero-form-right",
+  "name": "Hero: quote form right",
+  "category": "hero",
+  "description": "Headline, lead and three trust points on the left; a four-field quote-request card (name, phone, service, details) on the right. Form stacks under the copy on mobile.",
+  "tags": ["hero", "form", "quote", "lead-capture", "two-column"],
+  "previewHeight": 680,
+  "hasScript": false,
+  "fields": ["business.name", "business.city"],
+  "version": 1
+}

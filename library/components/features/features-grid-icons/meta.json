@@ -1,0 +1,11 @@
+{
+  "slug": "features-grid-icons",
+  "name": "Features: icon grid",
+  "category": "features",
+  "description": "Centered eyebrow, headline and lead above a 3x2 grid of icon, title and short text. Two columns on tablet, one on phone.",
+  "tags": ["features", "icons", "grid", "benefits", "why-us"],
+  "previewHeight": 720,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

@@ -1,0 +1,19 @@
+.c-faq-with-contact-card__grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:var(--wf-space-12);align-items:start}
+.c-faq-with-contact-card__main h2{margin-bottom:var(--wf-space-6)}
+.c-faq-with-contact-card__list{border-top:var(--wf-border-w) solid var(--wf-border)}
+.c-faq-with-contact-card__item{border-bottom:var(--wf-border-w) solid var(--wf-border)}
+.c-faq-with-contact-card__q{margin:0;font-size:var(--wf-text-lg)}
+.c-faq-with-contact-card__btn{display:flex;align-items:center;justify-content:space-between;gap:var(--wf-space-4);width:100%;padding:var(--wf-space-5) 0;border:0;background:none;color:var(--wf-text);font:inherit;font-weight:var(--wf-weight-medium);text-align:left;cursor:pointer}
+.c-faq-with-contact-card__btn:hover{color:var(--wf-primary)}
+.c-faq-with-contact-card__chev{color:var(--wf-text-muted);transition:transform var(--wf-dur-base) var(--wf-ease)}
+.c-faq-with-contact-card__btn[aria-expanded="true"] .c-faq-with-contact-card__chev{transform:rotate(180deg);color:var(--wf-primary)}
+.c-faq-with-contact-card__panel{padding:0 0 var(--wf-space-5);color:var(--wf-text-muted);max-width:60ch}
+.c-faq-with-contact-card__panel[hidden]{display:none}
+.c-faq-with-contact-card__panel p{margin:0}
+.c-faq-with-contact-card__card{position:sticky;top:var(--wf-space-6);background:var(--wf-bg)}
+.c-faq-with-contact-card__icon{color:var(--wf-primary);margin-bottom:var(--wf-space-4)}
+.c-faq-with-contact-card__title{font-size:var(--wf-text-xl);margin-bottom:var(--wf-space-2)}
+.c-faq-with-contact-card__contact{list-style:none;padding:0;margin:var(--wf-space-5) 0 var(--wf-space-6);display:grid;gap:var(--wf-space-3)}
+.c-faq-with-contact-card__contact li{display:flex;align-items:center;gap:var(--wf-space-3);font-size:var(--wf-text-sm)}
+.c-faq-with-contact-card__contact .wf-icon{color:var(--wf-text-muted);width:1.25rem;height:1.25rem}
+@media (max-width:900px){.c-faq-with-contact-card__grid{grid-template-columns:1fr;gap:var(--wf-space-8)}.c-faq-with-contact-card__card{position:static}}

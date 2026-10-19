@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "Bluebird Coffee Roasters",
+    "tagline": "Small-batch coffee roasted three blocks from where you drink it.",
+    "phone": "(479) 555-0177",
+    "email": "hello@bluebirdcoffee.com",
+    "address": "118 North Commerce Avenue, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Mon to Sat 6:30am to 6pm · Sun 8am to 2pm",
+    "year": "2017"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Menu", "path": "/menu" },
+    { "label": "Our Beans", "path": "/beans" },
+    { "label": "Loyalty", "path": "/loyalty" },
+    { "label": "Gallery", "path": "/gallery" },
+    { "label": "Visit", "path": "/visit" }
+  ]
+}

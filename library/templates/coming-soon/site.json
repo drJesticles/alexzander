@@ -1,0 +1,17 @@
+{
+  "business": {
+    "name": "Signal Coffee Roasters",
+    "tagline": "Roastery and espresso bar on West Main. Opening January 15.",
+    "phone": "(479) 555-0100",
+    "email": "hello@example.com",
+    "address": "West Main Street, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Opening January 15, 2027",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Coming Soon", "path": "/" },
+    { "label": "Privacy", "path": "/privacy" }
+  ]
+}

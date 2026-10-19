@@ -1,0 +1,11 @@
+{
+  "slug": "commerce-product-detail",
+  "name": "Commerce: product detail",
+  "category": "commerce",
+  "description": "Image gallery with four thumbnails that switch the main photo (radio inputs, no JS), plus title, price, rating, size select, quantity and Add to cart. Details list below.",
+  "tags": ["commerce", "product", "gallery", "add-to-cart", "detail"],
+  "previewHeight": 760,
+  "hasScript": false,
+  "fields": ["business.city"],
+  "version": 1
+}

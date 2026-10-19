@@ -1,0 +1,17 @@
+.c-testimonials-slider__head{margin-bottom:var(--wf-space-8)}
+.c-testimonials-slider__viewport{background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);box-shadow:var(--wf-card-shadow);padding:var(--wf-space-10) var(--wf-space-8) var(--wf-space-6)}
+.c-testimonials-slider__slide{margin:0;text-align:center;display:flex;flex-direction:column;align-items:center;gap:var(--wf-space-4);min-height:12rem;justify-content:center}
+.c-testimonials-slider__slide[hidden]{display:none}
+.c-testimonials-slider__stars{display:inline-flex;gap:2px;color:var(--wf-accent)}
+.c-testimonials-slider__stars .wf-icon{width:1.25rem;height:1.25rem}
+.c-testimonials-slider__quote{margin:0;max-width:40rem}
+.c-testimonials-slider__quote p{margin:0;font-size:var(--wf-text-xl);line-height:var(--wf-leading-normal)}
+.c-testimonials-slider__who{display:flex;flex-direction:column;gap:var(--wf-space-1);font-size:var(--wf-text-sm)}
+.c-testimonials-slider__who span{color:var(--wf-text-muted)}
+.c-testimonials-slider__controls{display:flex;align-items:center;justify-content:center;gap:var(--wf-space-6);margin-top:var(--wf-space-8)}
+.c-testimonials-slider__btn{display:inline-flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;border-radius:var(--wf-radius-full);border:var(--wf-border-w) solid var(--wf-border);background:var(--wf-bg);color:var(--wf-text);cursor:pointer;transition:background var(--wf-dur-fast) var(--wf-ease),border-color var(--wf-dur-fast) var(--wf-ease)}
+.c-testimonials-slider__btn:hover{background:var(--wf-surface-2);border-color:var(--wf-primary)}
+.c-testimonials-slider__dots{display:flex;gap:var(--wf-space-2)}
+.c-testimonials-slider__dot{width:.75rem;height:.75rem;padding:0;border:0;border-radius:var(--wf-radius-full);background:var(--wf-border);cursor:pointer;transition:background var(--wf-dur-fast) var(--wf-ease),transform var(--wf-dur-fast) var(--wf-ease)}
+.c-testimonials-slider__dot.is-active{background:var(--wf-primary);transform:scale(1.25)}
+@media (max-width:600px){.c-testimonials-slider__viewport{padding:var(--wf-space-8) var(--wf-space-5) var(--wf-space-5)}.c-testimonials-slider__quote p{font-size:var(--wf-text-lg)}}

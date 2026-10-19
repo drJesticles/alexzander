@@ -1,0 +1,11 @@
+{
+  "slug": "team-hiring-cta",
+  "name": "Team: we're hiring",
+  "category": "team",
+  "description": "Recruiting band: headline, three reasons to join, two open roles with pay and a button to apply. Dark band on the secondary color.",
+  "tags": ["team", "hiring", "careers", "cta", "jobs"],
+  "previewHeight": 520,
+  "hasScript": false,
+  "fields": ["business.name", "business.email", "business.city"],
+  "version": 1
+}

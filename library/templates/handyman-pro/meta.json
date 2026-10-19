@@ -1,0 +1,72 @@
+{
+  "slug": "handyman-pro",
+  "name": "Handyman Pro",
+  "vertical": "trades",
+  "description": "Six-page site for a handyman or small repair outfit: service cards with starting prices, before/after slider, crew page, Google-style reviews and a photo quote form.",
+  "kit": "aaa-brand",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "services.html",
+      "title": "Services",
+      "path": "/services"
+    },
+    {
+      "file": "gallery.html",
+      "title": "Gallery",
+      "path": "/gallery"
+    },
+    {
+      "file": "about.html",
+      "title": "About",
+      "path": "/about"
+    },
+    {
+      "file": "reviews.html",
+      "title": "Reviews",
+      "path": "/reviews"
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "tags": [
+    "handyman",
+    "repairs",
+    "contractor",
+    "quote-form",
+    "before-after"
+  ],
+  "components": [
+    "about/about-split-story",
+    "about/about-values-grid",
+    "contact/contact-cards-three",
+    "contact/contact-hours-table",
+    "cta/cta-band",
+    "cta/cta-split-image",
+    "faq/faq-accordion",
+    "features/features-cards-hover",
+    "features/features-checklist",
+    "footer/footer-columns",
+    "forms/form-quote-request",
+    "gallery/gallery-before-after",
+    "gallery/gallery-grid",
+    "hero/hero-split-image",
+    "nav/nav-simple",
+    "process/process-steps-horizontal",
+    "services/services-grid-cards",
+    "services/services-list-prices",
+    "stats/stats-row",
+    "team/team-grid",
+    "testimonials/testimonials-google-style",
+    "testimonials/testimonials-grid-cards",
+    "testimonials/testimonials-masonry"
+  ],
+  "version": 1
+}

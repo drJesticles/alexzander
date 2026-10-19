@@ -1,0 +1,157 @@
+<header class="c-nav-centered-logo" data-wf-component="nav-centered-logo">
+  <div class="wf-container c-nav-centered-logo__bar">
+    <nav class="c-nav-centered-logo__links c-nav-centered-logo__links--left" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/packages">Packages</a>
+    </nav>
+    <a class="c-nav-centered-logo__brand" href="/" data-wf-field="business.name">Hollis Reed Photography</a>
+    <nav class="c-nav-centered-logo__links c-nav-centered-logo__links--right" aria-label="Secondary">
+      <a href="/about">About</a>
+      <a href="/book">Book</a>
+      <a class="wf-btn wf-btn--primary wf-btn--sm" href="tel:+14795550177" data-wf-field="business.phone">(479) 555-0177</a>
+    </nav>
+  </div>
+</header>
+
+<section class="wf-section c-form-booking-appointment" data-wf-component="form-booking-appointment">
+  <div class="wf-container c-form-booking-appointment__grid">
+    <div class="c-form-booking-appointment__intro">
+      <span class="wf-eyebrow">Book</span>
+      <h2>Check a date or book a session.</h2>
+      <p class="wf-lead">Tell <span data-wf-field="business.name">Hollis Reed Photography</span> the date and what you are planning. You will hear back within one business day with availability and a link to schedule a call.</p>
+      <div class="wf-card c-form-booking-appointment__card">
+        <h3 class="c-form-booking-appointment__card-title">Studio hours</h3>
+        <p data-wf-field="business.hours">Tue to Sat, 9am to 6pm. Sessions by appointment, including golden hour.</p>
+        <p class="wf-muted">Rather talk? Call or text <a href="tel:+14795550177" data-wf-field="business.phone">(479) 555-0177</a>.</p>
+      </div>
+    </div>
+    <form class="c-form-booking-appointment__form" data-wf-form="booking" action="#" method="post">
+      <div class="c-form-booking-appointment__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-date">Event or session date</label>
+          <input class="wf-input" id="form-booking-appointment-date" name="date" type="date" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-slot">Preferred time</label>
+          <select class="wf-select" id="form-booking-appointment-slot" name="time_slot" required>
+            <option value="">Choose a window</option>
+            <option value="morning">Morning light, 7am to 10am</option>
+            <option value="midday">Midday, 10am to 3pm</option>
+            <option value="golden">Golden hour, two hours before sunset</option>
+            <option value="allday">All day (weddings)</option>
+          </select>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-service">What are we photographing?</label>
+        <select class="wf-select" id="form-booking-appointment-service" name="service" required>
+          <option value="">Pick one</option>
+          <option value="wedding">Wedding day</option>
+          <option value="weekend">Full wedding weekend</option>
+          <option value="portrait">Portrait session: family, couple, senior, newborn</option>
+          <option value="commercial">Business, product or editorial</option>
+        </select>
+      </div>
+      <div class="c-form-booking-appointment__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-name">Your name</label>
+          <input class="wf-input" id="form-booking-appointment-name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-phone">Mobile number</label>
+          <input class="wf-input" id="form-booking-appointment-phone" name="phone" type="tel" autocomplete="tel" required>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-address">Venue or location, if you know it</label>
+        <input class="wf-input" id="form-booking-appointment-address" name="address" type="text" autocomplete="street-address">
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-notes">Tell me about the day <span class="wf-muted">(guest count, timeline, anything you are nervous about)</span></label>
+        <textarea class="wf-textarea c-form-booking-appointment__notes" id="form-booking-appointment-notes" name="notes"></textarea>
+      </div>
+      <button class="wf-btn wf-btn--primary wf-btn--lg wf-btn--block" type="submit">Check availability</button>
+    </form>
+  </div>
+</section>
+
+<section class="wf-section c-contact-hours-table" data-wf-component="contact-hours-table">
+  <div class="wf-container c-contact-hours-table__grid">
+    <div class="c-contact-hours-table__copy">
+      <span class="wf-eyebrow">Hours</span>
+      <h2>When the studio is open.</h2>
+      <p class="wf-lead"><span data-wf-field="business.name">Hollis Reed Photography</span> works from a small studio off Dickson Street. Weddings fall on weekends, so calls and consultations happen Tuesday through Friday.</p>
+      <p class="c-contact-hours-table__summary"><strong>In short:</strong> <span data-wf-field="business.hours">Tue to Sat, 9am to 6pm. Sessions by appointment, including golden hour.</span></p>
+      <p class="c-contact-hours-table__note wf-muted">Closed the week of Thanksgiving and from December 23 to January 2. Editing continues; replies may be slower.</p>
+    </div>
+    <div class="c-contact-hours-table__card">
+      <table class="c-contact-hours-table__table">
+        <caption class="wf-sr-only">Weekly studio hours</caption>
+        <tbody>
+          <tr class="is-closed"><th scope="row">Monday</th><td>Editing day, closed</td></tr>
+          <tr><th scope="row">Tuesday</th><td>9:00am to 6:00pm</td></tr>
+          <tr class="is-today"><th scope="row">Wednesday <span class="wf-badge wf-badge--primary">Today</span></th><td>9:00am to 6:00pm</td></tr>
+          <tr><th scope="row">Thursday</th><td>9:00am to 6:00pm</td></tr>
+          <tr><th scope="row">Friday</th><td>9:00am to 6:00pm</td></tr>
+          <tr><th scope="row">Saturday</th><td>Sessions and weddings</td></tr>
+          <tr class="is-closed"><th scope="row">Sunday</th><td>Closed</td></tr>
+        </tbody>
+      </table>
+      <p class="c-contact-hours-table__emergency">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 9v4M12 17h.01M10.3 3.9L2.6 17a2 2 0 0 0 1.7 3h15.4a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
+        <span>Wedding this weekend and need to reach me? Text <a href="tel:+14795550177" data-wf-field="business.phone">(479) 555-0177</a>; the phone is on during every event.</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="wf-section c-testimonials-grid-cards" data-wf-component="testimonials-grid-cards">
+  <div class="wf-container">
+    <div class="wf-center c-testimonials-grid-cards__head">
+      <span class="wf-eyebrow">Kind words</span>
+      <h2>From couples and families.</h2>
+    </div>
+    <div class="wf-grid wf-grid--3 c-testimonials-grid-cards__grid">
+      <figure class="wf-card c-testimonials-grid-cards__card">
+        <span class="c-testimonials-grid-cards__stars" role="img" aria-label="Rated 5 out of 5 stars"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg></span>
+        <blockquote class="c-testimonials-grid-cards__quote"><p>We barely noticed Hollis all day, and then the gallery came and it was everything. My dad crying during the toast. My grandmother dancing. Things we did not even see ourselves.</p></blockquote>
+        <figcaption class="c-testimonials-grid-cards__who"><strong>Claire &amp; Tomas</strong><span>Wedding, Elkins</span></figcaption>
+      </figure>
+      <figure class="wf-card c-testimonials-grid-cards__card">
+        <span class="c-testimonials-grid-cards__stars" role="img" aria-label="Rated 5 out of 5 stars"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg></span>
+        <blockquote class="c-testimonials-grid-cards__quote"><p>Our toddler would not sit still for anyone. Hollis just followed him around the yard for an hour and we ended up with the best family photos we have ever had.</p></blockquote>
+        <figcaption class="c-testimonials-grid-cards__who"><strong>The Okafor family</strong><span>Portraits, Bentonville</span></figcaption>
+      </figure>
+      <figure class="wf-card c-testimonials-grid-cards__card">
+        <span class="c-testimonials-grid-cards__stars" role="img" aria-label="Rated 5 out of 5 stars"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg></span>
+        <blockquote class="c-testimonials-grid-cards__quote"><p>We needed photos for a new menu and a website in a week. Hollis shot the whole bakery in a morning and the gallery was in our inbox two days later. Sales of the pistachio croissant doubled.</p></blockquote>
+        <figcaption class="c-testimonials-grid-cards__who"><strong>Dana M.</strong><span>Owner, Dickson Street Bakehouse</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<footer class="wf-section wf-section--surface c-footer-centered" data-wf-component="footer-centered">
+  <div class="wf-container c-footer-centered__inner">
+    <a class="c-footer-centered__brand" href="/" data-wf-field="business.name">Hollis Reed Photography</a>
+    <nav class="c-footer-centered__links" aria-label="Footer">
+      <a href="/">Home</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/packages">Packages</a>
+      <a href="/about">About</a>
+      <a href="/book">Book</a>
+    </nav>
+    <div class="c-footer-centered__social">
+      <a href="#" aria-label="Facebook" data-wf-field="social.facebook"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+      <a href="#" aria-label="Instagram" data-wf-field="social.instagram"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+      <a href="#" aria-label="Google reviews" data-wf-field="social.google"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg></a>
+    </div>
+    <p class="c-footer-centered__contact">
+      <a href="tel:+14795550177" data-wf-field="business.phone">(479) 555-0177</a>
+      <span class="c-footer-centered__sep" aria-hidden="true">·</span>
+      <span data-wf-field="business.address">Fayetteville, AR 72701</span>
+    </p>
+    <p class="c-footer-centered__copy">&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">Hollis Reed Photography</span>. Weddings, portraits and editorial across Northwest Arkansas.</p>
+  </div>
+</footer>

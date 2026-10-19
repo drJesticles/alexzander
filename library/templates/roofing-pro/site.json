@@ -1,0 +1,43 @@
+{
+  "business": {
+    "name": "Summit Ridge Roofing",
+    "tagline": "A roof that outlasts the next three hail seasons.",
+    "phone": "(479) 555-0163",
+    "email": "office@summitridgeroofing.com",
+    "address": "2201 E Main St, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Mon–Fri 7am–6pm · Sat 8am–2pm · Storm line 24/7",
+    "year": "2026"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "google": ""
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Services",
+      "path": "/services"
+    },
+    {
+      "label": "Storm Damage",
+      "path": "/storm-damage"
+    },
+    {
+      "label": "Financing & FAQ",
+      "path": "/financing"
+    },
+    {
+      "label": "Gallery",
+      "path": "/gallery"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ]
+}

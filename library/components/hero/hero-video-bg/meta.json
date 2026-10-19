@@ -1,0 +1,11 @@
+{
+  "slug": "hero-video-bg",
+  "name": "Hero: video background",
+  "category": "hero",
+  "description": "Muted, looping, autoplaying background video with a poster placeholder and dark overlay; headline, lead and buttons sit left-aligned on top. Swap the source for your own clip.",
+  "tags": ["hero", "video", "overlay", "cta", "background"],
+  "previewHeight": 640,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone"],
+  "version": 1
+}

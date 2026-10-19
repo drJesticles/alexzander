@@ -1,0 +1,36 @@
+{
+  "slug": "creative-agency",
+  "name": "Creative Agency",
+  "vertical": "creative",
+  "description": "Six-page studio site written as AAA Graphic Co's own pitch: web design, logos, marketing and smart-home installs, nationwide by teleconference. Filterable work gallery, posted price list, team, journal and a contact form.",
+  "kit": "aaa-gc-studio",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "work.html", "title": "Work", "path": "/work" },
+    { "file": "services.html", "title": "Services", "path": "/services" },
+    { "file": "about.html", "title": "About", "path": "/about" },
+    { "file": "journal.html", "title": "Journal", "path": "/journal" },
+    { "file": "contact.html", "title": "Contact", "path": "/contact" }
+  ],
+  "tags": ["agency", "studio", "design", "portfolio", "pricing", "blog", "aaa-graphic-co"],
+  "components": [
+    "nav/nav-minimal-pill",
+    "hero/hero-split-stats",
+    "services/services-grid-cards",
+    "gallery/gallery-grid",
+    "process/process-steps-horizontal",
+    "testimonials/testimonials-single-large",
+    "cta/cta-band",
+    "gallery/gallery-filterable",
+    "stats/stats-row",
+    "services/services-split-image",
+    "pricing/pricing-service-menu",
+    "faq/faq-two-column",
+    "about/about-split-story",
+    "team/team-grid",
+    "blog/blog-cards-grid",
+    "contact/contact-split-form-info",
+    "footer/footer-columns"
+  ],
+  "version": 1
+}

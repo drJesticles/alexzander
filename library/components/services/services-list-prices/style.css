@@ -1,0 +1,16 @@
+.c-services-list-prices__head{margin-bottom:var(--wf-space-10)}
+.c-services-list-prices__list{list-style:none;margin:0;padding:0;background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);overflow:hidden}
+.c-services-list-prices__row{display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:var(--wf-space-6);padding:var(--wf-space-5) var(--wf-space-6)}
+.c-services-list-prices__row + .c-services-list-prices__row{border-top:var(--wf-border-w) solid var(--wf-border)}
+.c-services-list-prices__row:hover{background:color-mix(in srgb,var(--wf-primary) 5%,transparent)}
+.c-services-list-prices__info h3{font-size:var(--wf-text-lg);margin-bottom:var(--wf-space-1)}
+.c-services-list-prices__info p{margin:0;color:var(--wf-text-muted);font-size:var(--wf-text-sm)}
+.c-services-list-prices__price{margin:0;font-family:var(--wf-font-display);font-weight:var(--wf-weight-bold);font-size:var(--wf-text-2xl);letter-spacing:var(--wf-tracking-tight);white-space:nowrap;color:var(--wf-text)}
+.c-services-list-prices__price span{font-size:var(--wf-text-sm);font-weight:var(--wf-weight-normal);color:var(--wf-text-muted);letter-spacing:var(--wf-tracking-normal);margin-right:.15em}
+.c-services-list-prices__note{margin:var(--wf-space-5) 0 0;font-size:var(--wf-text-sm);color:var(--wf-text-muted)}
+@media (max-width:600px){
+  .c-services-list-prices__row{grid-template-columns:1fr auto;gap:var(--wf-space-3) var(--wf-space-4);padding:var(--wf-space-4)}
+  .c-services-list-prices__info{grid-column:1/-1}
+  .c-services-list-prices__price{font-size:var(--wf-text-xl)}
+  .c-services-list-prices__row .wf-btn{justify-self:end}
+}

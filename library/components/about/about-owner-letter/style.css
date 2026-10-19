@@ -1,0 +1,12 @@
+.c-about-owner-letter__head{margin-bottom:var(--wf-space-8)}
+.c-about-owner-letter__paper{position:relative;background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-radius-md);box-shadow:var(--wf-shadow-md);padding:var(--wf-space-12) var(--wf-space-12) var(--wf-space-10);font-family:var(--wf-font-serif);font-size:var(--wf-text-lg);line-height:var(--wf-leading-loose)}
+.c-about-owner-letter__paper::before{content:"";position:absolute;top:0;left:0;right:0;height:6px;background:var(--wf-primary);border-radius:var(--wf-radius-md) var(--wf-radius-md) 0 0}
+.c-about-owner-letter__date{font-family:var(--wf-font-body);font-size:var(--wf-text-sm);color:var(--wf-text-muted);margin-bottom:var(--wf-space-6)}
+.c-about-owner-letter__greeting{font-weight:var(--wf-weight-bold)}
+.c-about-owner-letter__paper p{margin-bottom:var(--wf-space-5)}
+.c-about-owner-letter__sign{display:flex;align-items:flex-end;justify-content:space-between;gap:var(--wf-space-6);margin-top:var(--wf-space-10);padding-top:var(--wf-space-6);border-top:var(--wf-border-w) solid var(--wf-border)}
+.c-about-owner-letter__sig{font-style:italic;font-size:var(--wf-text-4xl);line-height:1;margin:0 0 var(--wf-space-3);color:var(--wf-primary)}
+.c-about-owner-letter__who{display:flex;flex-direction:column;margin:0;font-family:var(--wf-font-body);font-size:var(--wf-text-sm);line-height:var(--wf-leading-normal)}
+.c-about-owner-letter__who span{color:var(--wf-text-muted)}
+.c-about-owner-letter__photo{width:5rem;height:5rem;border-radius:var(--wf-radius-full);object-fit:cover;flex:none;background:var(--wf-surface-2)}
+@media (max-width:600px){.c-about-owner-letter__paper{padding:var(--wf-space-8) var(--wf-space-5) var(--wf-space-6);font-size:var(--wf-text-base)}.c-about-owner-letter__sign{flex-direction:column-reverse;align-items:flex-start}}

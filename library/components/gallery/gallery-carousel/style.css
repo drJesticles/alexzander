@@ -1,0 +1,17 @@
+.c-gallery-carousel__head{display:flex;justify-content:space-between;align-items:end;gap:var(--wf-space-6);margin-bottom:var(--wf-space-8)}
+.c-gallery-carousel__head h2{margin:0}
+.c-gallery-carousel__controls{display:flex;gap:var(--wf-space-2);flex:none}
+.c-gallery-carousel__arrow{appearance:none;display:grid;place-items:center;width:2.75rem;height:2.75rem;border-radius:var(--wf-radius-full);border:var(--wf-border-w) solid var(--wf-border);background:var(--wf-bg);color:var(--wf-text);cursor:pointer;transition:background var(--wf-dur-fast) var(--wf-ease),color var(--wf-dur-fast) var(--wf-ease),opacity var(--wf-dur-fast) var(--wf-ease)}
+.c-gallery-carousel__arrow:hover{background:var(--wf-primary);border-color:var(--wf-primary);color:var(--wf-on-primary)}
+.c-gallery-carousel__arrow[disabled]{opacity:.35;cursor:default;background:var(--wf-bg);border-color:var(--wf-border);color:var(--wf-text)}
+.c-gallery-carousel__viewport{width:100%}
+.c-gallery-carousel__track{--c-gallery-carousel-pad:max(var(--wf-gutter), calc((100% - var(--wf-container)) / 2 + var(--wf-gutter)));list-style:none;margin:0;display:flex;gap:var(--wf-space-5);overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:var(--wf-space-1) var(--c-gallery-carousel-pad) var(--wf-space-4);scroll-padding-inline:var(--c-gallery-carousel-pad);scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.c-gallery-carousel__track::-webkit-scrollbar{display:none}
+.c-gallery-carousel__slide{flex:0 0 min(22rem, 78vw);scroll-snap-align:start;background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);overflow:hidden;box-shadow:var(--wf-card-shadow)}
+.c-gallery-carousel__slide img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.c-gallery-carousel__caption{display:grid;gap:var(--wf-space-1);padding:var(--wf-space-4)}
+.c-gallery-carousel__caption strong{font-weight:var(--wf-weight-medium)}
+.c-gallery-carousel__caption span{font-size:var(--wf-text-sm);color:var(--wf-text-muted)}
+@media (max-width:600px){
+  .c-gallery-carousel__head{flex-direction:column;align-items:flex-start;gap:var(--wf-space-4)}
+}

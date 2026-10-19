@@ -1,0 +1,12 @@
+{
+  "slug": "aaa-gc-studio",
+  "name": "AAA Graphic Co: Studio",
+  "family": "brand",
+  "description": "Creative-studio variant for AAA Graphic Co: near-black on white, electric violet primary, the family orange as accent, Syne display, DM Sans body, 12px radii, playful hover lifts.",
+  "source": "library/kits/aaa-brand (house style); business/GC/graphicCo/aaaBrandDNA.md",
+  "fonts": [{ "family": "Syne", "weights": [600, 700, 800] }, { "family": "DM Sans", "weights": [400, 500, 700] }],
+  "dark": true,
+  "swatch": ["#6d28d9", "#f26a1b", "#ffffff", "#111111"],
+  "tags": ["aaa", "brand", "studio", "creative", "violet"],
+  "version": 1
+}

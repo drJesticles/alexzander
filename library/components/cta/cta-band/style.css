@@ -1,0 +1,8 @@
+.c-cta-band__inner{display:flex;align-items:center;justify-content:space-between;gap:var(--wf-space-8)}
+.c-cta-band__title{font-size:var(--wf-text-2xl);margin-bottom:var(--wf-space-1);color:inherit}
+.c-cta-band__text{margin:0;opacity:.88}
+.c-cta-band .wf-btn{flex:none}
+@media (max-width:700px){
+  .c-cta-band__inner{flex-direction:column;text-align:center;gap:var(--wf-space-5)}
+  .c-cta-band .wf-btn{width:100%}
+}

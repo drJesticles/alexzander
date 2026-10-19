@@ -1,0 +1,11 @@
+{
+  "slug": "cta-phone-big",
+  "name": "CTA: big phone number",
+  "category": "cta",
+  "description": "Dark section with a giant tappable phone number, a 'Call or text' prompt above it, hours beneath and a secondary online-quote link. The number scales with the viewport.",
+  "tags": ["cta", "phone", "call", "text", "hours", "dark"],
+  "previewHeight": 420,
+  "hasScript": false,
+  "fields": ["business.phone", "business.hours", "business.name"],
+  "version": 1
+}

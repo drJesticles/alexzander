@@ -1,0 +1,12 @@
+{
+  "slug": "ant-design",
+  "name": "Ant Design",
+  "family": "web-dev",
+  "description": "Ant Design 5: system stack, daybreak blue #1677ff, 6px radius, compact spacing, light #d9d9d9 borders, white default buttons.",
+  "source": "https://ant.design/docs/spec/colors",
+  "fonts": [],
+  "dark": true,
+  "swatch": ["#1677FF", "#1F1F1F", "#FAFAFA", "#001529"],
+  "tags": ["ant", "antd", "enterprise", "blue", "compact"],
+  "version": 1
+}

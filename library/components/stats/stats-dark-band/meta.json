@@ -1,0 +1,11 @@
+{
+  "slug": "stats-dark-band",
+  "name": "Stats: dark band",
+  "category": "stats",
+  "description": "Full-width band on the secondary color with a short line of copy and three large stats in accent color. Stacks on phones.",
+  "tags": ["stats", "dark", "band", "three-column", "proof"],
+  "previewHeight": 320,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

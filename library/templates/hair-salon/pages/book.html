@@ -1,0 +1,157 @@
+<header class="c-nav-transparent-overlay" data-wf-component="nav-transparent-overlay">
+  <div class="wf-container c-nav-transparent-overlay__bar">
+    <a class="c-nav-transparent-overlay__brand" href="/" data-wf-field="business.name">Lumen Hair Studio</a>
+    <button class="c-nav-transparent-overlay__toggle" type="button" aria-expanded="false" aria-controls="nav-transparent-overlay-menu" aria-label="Open menu">
+      <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="c-nav-transparent-overlay__menu" id="nav-transparent-overlay-menu" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/services">Services &amp; prices</a>
+      <a href="/stylists">Stylists</a>
+      <a href="/gallery">Gallery</a>
+      <a href="/contact">Contact</a>
+      <a class="wf-btn wf-btn--primary wf-btn--sm" href="/book">Book online</a>
+    </nav>
+  </div>
+</header>
+
+<section class="wf-section c-form-booking-appointment" data-wf-component="form-booking-appointment">
+  <div class="wf-container c-form-booking-appointment__grid">
+    <div class="c-form-booking-appointment__intro">
+      <span class="wf-eyebrow">Book online</span>
+      <h2>Pick a day, a service, and a stylist.</h2>
+      <p class="wf-lead">Request a slot and <span data-wf-field="business.name">Lumen Hair Studio</span> confirms by text within a couple of hours during studio time. New clients get a free 15-minute consultation added automatically.</p>
+      <div class="wf-card c-form-booking-appointment__card">
+        <h3 class="c-form-booking-appointment__card-title">Studio hours</h3>
+        <p data-wf-field="business.hours">Tue to Fri 9am to 6pm · Thu until 8pm · Sat 8am to 4pm</p>
+        <p class="wf-muted">Same-day openings, bridal parties, or color correction: call or text <a href="tel:+14795550163" data-wf-field="business.phone">(479) 555-0163</a>.</p>
+      </div>
+    </div>
+    <form class="c-form-booking-appointment__form" data-wf-form="booking" action="#" method="post">
+      <div class="c-form-booking-appointment__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-date">Preferred date</label>
+          <input class="wf-input" id="form-booking-appointment-date" name="date" type="date" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-slot">Time of day</label>
+          <select class="wf-select" id="form-booking-appointment-slot" name="time_slot" required>
+            <option value="">Choose a window</option>
+            <option value="morning">Morning, 9am to noon</option>
+            <option value="midday">Midday, noon to 3pm</option>
+            <option value="afternoon">Afternoon, 3pm to 6pm</option>
+            <option value="evening">Thursday evening, 6pm to 8pm</option>
+          </select>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-service">Service</label>
+        <select class="wf-select" id="form-booking-appointment-service" name="service" required>
+          <option value="">What are we doing?</option>
+          <option value="cut">Haircut and blowout</option>
+          <option value="mens">Men's cut or fade</option>
+          <option value="root">Root touch-up or all-over color</option>
+          <option value="balayage">Highlights or balayage</option>
+          <option value="gloss">Gloss or toner refresh</option>
+          <option value="extensions">Extensions consultation or move-up</option>
+          <option value="event">Updo or event styling</option>
+          <option value="consult">Free consultation only</option>
+        </select>
+      </div>
+      <div class="c-form-booking-appointment__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-name">Name</label>
+          <input class="wf-input" id="form-booking-appointment-name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-booking-appointment-phone">Mobile number</label>
+          <input class="wf-input" id="form-booking-appointment-phone" name="phone" type="tel" autocomplete="tel" required>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-address">Preferred stylist <span class="wf-muted">(optional)</span></label>
+        <input class="wf-input" id="form-booking-appointment-address" name="stylist" type="text" placeholder="Renee, Jordan, Maya, Chloe, Marcus, Sofia, or no preference">
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-booking-appointment-notes">Notes <span class="wf-muted">(hair history, inspiration, allergies)</span></label>
+        <textarea class="wf-textarea c-form-booking-appointment__notes" id="form-booking-appointment-notes" name="notes"></textarea>
+      </div>
+      <button class="wf-btn wf-btn--primary wf-btn--lg wf-btn--block" type="submit">Request this appointment</button>
+    </form>
+  </div>
+</section>
+
+<section class="wf-section wf-section--surface c-contact-hours-table" data-wf-component="contact-hours-table">
+  <div class="wf-container c-contact-hours-table__grid">
+    <div class="c-contact-hours-table__copy">
+      <span class="wf-eyebrow">Hours</span>
+      <h2>Closed Sunday and Monday. Late on Thursday.</h2>
+      <p class="wf-lead">The front desk at <span data-wf-field="business.name">Lumen Hair Studio</span> answers texts from 8:30am on studio days. Thursday evenings are our easiest slots to get.</p>
+      <p class="c-contact-hours-table__summary"><strong>In short:</strong> <span data-wf-field="business.hours">Tue to Fri 9am to 6pm · Thu until 8pm · Sat 8am to 4pm</span></p>
+      <p class="c-contact-hours-table__note wf-muted">Closed major holidays and the week after Christmas for education. Bridal parties can book Sunday mornings by arrangement.</p>
+    </div>
+    <div class="c-contact-hours-table__card">
+      <table class="c-contact-hours-table__table">
+        <caption class="wf-sr-only">Weekly studio hours</caption>
+        <tbody>
+          <tr class="is-closed"><th scope="row">Monday</th><td>Closed</td></tr>
+          <tr><th scope="row">Tuesday</th><td>9:00am to 6:00pm</td></tr>
+          <tr><th scope="row">Wednesday</th><td>9:00am to 6:00pm</td></tr>
+          <tr class="is-today"><th scope="row">Thursday <span class="wf-badge wf-badge--primary">Today</span></th><td>9:00am to 8:00pm</td></tr>
+          <tr><th scope="row">Friday</th><td>9:00am to 6:00pm</td></tr>
+          <tr><th scope="row">Saturday</th><td>8:00am to 4:00pm</td></tr>
+          <tr class="is-closed"><th scope="row">Sunday</th><td>Closed</td></tr>
+        </tbody>
+      </table>
+      <p class="c-contact-hours-table__emergency">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 9v4M12 17h.01M10.3 3.9L2.6 17a2 2 0 0 0 1.7 3h15.4a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
+        <span>Running late? Text <a href="tel:+14795550163" data-wf-field="business.phone">(479) 555-0163</a>. We hold the chair 15 minutes; after that we may need to shorten the service.</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<footer class="wf-section wf-section--dark c-footer-columns" data-wf-component="footer-columns">
+  <div class="wf-container">
+    <div class="wf-grid wf-grid--4 c-footer-columns__grid">
+      <div>
+        <h3 class="c-footer-columns__brand" data-wf-field="business.name">Lumen Hair Studio</h3>
+        <p class="c-footer-columns__blurb">Color, cuts and extensions in downtown Russellville. Open Tuesday through Saturday.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul class="c-footer-columns__links">
+          <li><a href="/services">Haircuts</a></li>
+          <li><a href="/services">Color &amp; balayage</a></li>
+          <li><a href="/services">Extensions</a></li>
+          <li><a href="/services">Bridal &amp; event</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Studio</h4>
+        <ul class="c-footer-columns__links">
+          <li><a href="/stylists">Stylists</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+          <li><a href="/book">Book online</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="c-footer-columns__links">
+          <li><a href="tel:+14795550163" data-wf-field="business.phone">(479) 555-0163</a></li>
+          <li><a href="mailto:hello@lumenhair.com" data-wf-field="business.email">hello@lumenhair.com</a></li>
+          <li data-wf-field="business.address">410 North Arkansas Avenue, Russellville, AR 72801</li>
+        </ul>
+      </div>
+    </div>
+    <div class="c-footer-columns__bar">
+      <span>&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">Lumen Hair Studio</span>. All rights reserved.</span>
+      <span class="c-footer-columns__social">
+        <a href="#" aria-label="Facebook" data-wf-field="social.facebook"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+        <a href="#" aria-label="Instagram" data-wf-field="social.instagram"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+      </span>
+    </div>
+  </div>
+</footer>

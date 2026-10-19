@@ -1,0 +1,43 @@
+{
+  "business": {
+    "name": "Skyline Kitchen & Bath",
+    "tagline": "Kitchens and baths, done in weeks, not months.",
+    "phone": "(479) 555-0177",
+    "email": "hello@skylinekb.com",
+    "address": "420 N Arkansas Ave, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Mon–Fri 8am–5pm · Showroom Sat 9am–1pm",
+    "year": "2026"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "google": ""
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Kitchens",
+      "path": "/kitchens"
+    },
+    {
+      "label": "Bathrooms",
+      "path": "/bathrooms"
+    },
+    {
+      "label": "Process",
+      "path": "/process"
+    },
+    {
+      "label": "Portfolio",
+      "path": "/portfolio"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ]
+}

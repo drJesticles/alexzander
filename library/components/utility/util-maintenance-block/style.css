@@ -1,0 +1,13 @@
+.c-util-maintenance-block__inner{text-align:center;display:flex;flex-direction:column;align-items:center}
+.c-util-maintenance-block__icon{display:inline-flex;align-items:center;justify-content:center;width:4.5rem;height:4.5rem;border-radius:var(--wf-radius-full);background:color-mix(in srgb, var(--wf-accent) 18%, transparent);color:var(--wf-accent);margin-bottom:var(--wf-space-5)}
+.c-util-maintenance-block__title{font-size:clamp(var(--wf-text-2xl),4vw,var(--wf-text-4xl));margin-bottom:var(--wf-space-3)}
+.c-util-maintenance-block__lead{margin-inline:auto;margin-bottom:var(--wf-space-8)}
+.c-util-maintenance-block__lead strong{color:var(--wf-text)}
+.c-util-maintenance-block__contacts{display:grid;grid-template-columns:1fr 1fr;gap:var(--wf-space-4);width:100%;max-width:30rem;margin-bottom:var(--wf-space-6)}
+.c-util-maintenance-block__contact{display:grid;justify-items:center;gap:var(--wf-space-1);padding:var(--wf-space-5);color:var(--wf-text);text-decoration:none;transition:border-color var(--wf-dur-fast) var(--wf-ease),box-shadow var(--wf-dur-fast) var(--wf-ease)}
+.c-util-maintenance-block__contact:hover{text-decoration:none;border-color:var(--wf-primary);box-shadow:var(--wf-shadow-md)}
+.c-util-maintenance-block__contact .wf-icon{color:var(--wf-primary);margin-bottom:var(--wf-space-1)}
+.c-util-maintenance-block__contact-label{font-size:var(--wf-text-xs);letter-spacing:var(--wf-tracking-wide);text-transform:uppercase;color:var(--wf-text-muted)}
+.c-util-maintenance-block__contact-value{font-weight:var(--wf-weight-bold)}
+.c-util-maintenance-block__note{margin:0;font-size:var(--wf-text-sm);color:var(--wf-text-muted)}
+@media (max-width:480px){.c-util-maintenance-block__contacts{grid-template-columns:1fr}}

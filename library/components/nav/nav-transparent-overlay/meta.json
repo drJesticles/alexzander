@@ -1,0 +1,11 @@
+{
+  "slug": "nav-transparent-overlay",
+  "name": "Nav: transparent overlay",
+  "category": "nav",
+  "description": "Absolutely positioned over the hero with white text on a soft black gradient; becomes a fixed solid bar once the page scrolls. Hamburger menu below 900px.",
+  "tags": ["nav", "header", "transparent", "overlay", "scroll", "mobile-menu"],
+  "previewHeight": 120,
+  "hasScript": true,
+  "fields": ["business.name", "business.phone"],
+  "version": 1
+}

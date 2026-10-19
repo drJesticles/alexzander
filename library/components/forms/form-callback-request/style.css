@@ -1,0 +1,15 @@
+.c-form-callback-request__grid{display:grid;grid-template-columns:1.1fr 1fr;gap:var(--wf-space-12);align-items:center}
+.c-form-callback-request__title{color:inherit;font-size:var(--wf-text-3xl);margin-bottom:var(--wf-space-3)}
+.c-form-callback-request__text{opacity:.85;max-width:52ch}
+.c-form-callback-request__direct{display:flex;align-items:center;gap:var(--wf-space-2);margin:0;font-weight:var(--wf-weight-medium)}
+.c-form-callback-request__direct a{color:inherit;text-decoration:underline}
+.c-form-callback-request__direct .wf-icon{color:var(--wf-accent)}
+.c-form-callback-request__form{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:var(--wf-card-radius);padding:var(--wf-space-6)}
+.c-form-callback-request__form .wf-label{color:inherit}
+.c-form-callback-request__fields{display:grid;grid-template-columns:1fr 1fr;gap:0 var(--wf-space-4)}
+@media (max-width:900px){
+  .c-form-callback-request__grid{grid-template-columns:1fr;gap:var(--wf-space-6)}
+}
+@media (max-width:520px){
+  .c-form-callback-request__fields{grid-template-columns:1fr}
+}

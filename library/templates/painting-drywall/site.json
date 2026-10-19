@@ -1,0 +1,43 @@
+{
+  "business": {
+    "name": "Fresh Coat Painting & Drywall",
+    "tagline": "Crisp lines. Smooth walls. Done in days.",
+    "phone": "(479) 555-0136",
+    "email": "hello@freshcoatar.com",
+    "address": "711 S Knoxville Ave, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Mon–Fri 7am–5pm · Estimates Sat by appointment",
+    "year": "2026"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "google": ""
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Interior",
+      "path": "/interior"
+    },
+    {
+      "label": "Exterior",
+      "path": "/exterior"
+    },
+    {
+      "label": "Color Help",
+      "path": "/color-help"
+    },
+    {
+      "label": "Gallery",
+      "path": "/gallery"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ]
+}

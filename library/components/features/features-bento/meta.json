@@ -1,0 +1,11 @@
+{
+  "slug": "features-bento",
+  "name": "Features: bento grid",
+  "category": "features",
+  "description": "Asymmetric five-cell grid: one large image-backed cell, a tall stat cell, two medium text cells and a wide dark CTA cell. Reflows to two columns on tablet and one on phone.",
+  "tags": ["features", "bento", "grid", "asymmetric", "showcase"],
+  "previewHeight": 760,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone"],
+  "version": 1
+}

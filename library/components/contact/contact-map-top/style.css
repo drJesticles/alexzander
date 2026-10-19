@@ -1,0 +1,22 @@
+.c-contact-map-top__map{position:relative;height:clamp(16rem, 40vw, 26rem);background:var(--wf-surface-2);background-image:linear-gradient(color-mix(in srgb, var(--wf-text) 6%, transparent) 1px, transparent 1px),linear-gradient(90deg, color-mix(in srgb, var(--wf-text) 6%, transparent) 1px, transparent 1px);background-size:2.5rem 2.5rem;border-bottom:var(--wf-border-w) solid var(--wf-border);overflow:hidden}
+.c-contact-map-top__map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.c-contact-map-top__pin{position:absolute;left:50%;top:50%;transform:translate(-50%,-100%);display:grid;place-items:center;width:3rem;height:3rem;border-radius:var(--wf-radius-full);background:var(--wf-primary);color:var(--wf-on-primary);box-shadow:var(--wf-shadow-md)}
+.c-contact-map-top__pin .wf-icon{width:1.5rem;height:1.5rem}
+.c-contact-map-top__chip{position:absolute;left:var(--wf-gutter);bottom:var(--wf-space-5);display:grid;gap:.1rem;padding:var(--wf-space-3) var(--wf-space-4);background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-radius-md);box-shadow:var(--wf-shadow-md);font-size:var(--wf-text-sm);max-width:calc(100% - var(--wf-gutter) * 2)}
+.c-contact-map-top__chip span{color:var(--wf-text-muted)}
+.c-contact-map-top__grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:var(--wf-space-12);align-items:start}
+.c-contact-map-top__details{margin:var(--wf-space-6) 0 0;display:grid;gap:var(--wf-space-4)}
+.c-contact-map-top__details div{display:grid;grid-template-columns:5rem 1fr;gap:var(--wf-space-3);padding-bottom:var(--wf-space-4);border-bottom:var(--wf-border-w) solid var(--wf-border)}
+.c-contact-map-top__details div:last-child{border-bottom:0;padding-bottom:0}
+.c-contact-map-top__details dt{font-size:var(--wf-text-sm);font-weight:var(--wf-weight-medium);color:var(--wf-text-muted)}
+.c-contact-map-top__details dd{margin:0}
+.c-contact-map-top__form{background:var(--wf-surface);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);box-shadow:var(--wf-card-shadow);padding:var(--wf-space-8)}
+.c-contact-map-top__row{display:grid;grid-template-columns:1fr 1fr;gap:0 var(--wf-space-4)}
+@media (max-width:900px){
+  .c-contact-map-top__grid{grid-template-columns:1fr;gap:var(--wf-space-8)}
+}
+@media (max-width:600px){
+  .c-contact-map-top__row{grid-template-columns:1fr}
+  .c-contact-map-top__form{padding:var(--wf-space-5)}
+  .c-contact-map-top__form .wf-btn{width:100%}
+}

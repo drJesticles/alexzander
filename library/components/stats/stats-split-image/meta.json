@@ -1,0 +1,11 @@
+{
+  "slug": "stats-split-image",
+  "name": "Stats: beside image",
+  "category": "stats",
+  "description": "Headline and a two-by-two block of stats on the left, framed job-site photo on the right. Image stacks on top on mobile.",
+  "tags": ["stats", "image", "split", "two-column", "proof"],
+  "previewHeight": 560,
+  "hasScript": false,
+  "fields": ["business.city"],
+  "version": 1
+}

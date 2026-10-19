@@ -1,0 +1,11 @@
+{
+  "slug": "blog-list-horizontal",
+  "name": "Blog: horizontal list rows",
+  "category": "blog",
+  "description": "Four post rows, each with a thumbnail on the left and category, title, excerpt and meta on the right. Divider lines between rows; thumbnails shrink on phones.",
+  "tags": ["blog", "list", "rows", "thumbnail", "archive"],
+  "previewHeight": 900,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

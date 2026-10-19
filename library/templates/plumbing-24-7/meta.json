@@ -1,0 +1,72 @@
+{
+  "slug": "plumbing-24-7",
+  "name": "Plumbing 24/7",
+  "vertical": "trades",
+  "description": "Emergency-first plumbing site: 24/7 phone strip hero, service accordion with starting prices, flat-rate price menu, service-area map, review wall and callback form.",
+  "kit": "bootstrap5",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "services.html",
+      "title": "Services",
+      "path": "/services"
+    },
+    {
+      "file": "pricing.html",
+      "title": "Pricing",
+      "path": "/pricing"
+    },
+    {
+      "file": "service-area.html",
+      "title": "Service Area",
+      "path": "/service-area"
+    },
+    {
+      "file": "reviews.html",
+      "title": "Reviews",
+      "path": "/reviews"
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "tags": [
+    "plumbing",
+    "emergency",
+    "24-7",
+    "pricing",
+    "service-area"
+  ],
+  "components": [
+    "contact/contact-hours-table",
+    "cta/cta-band",
+    "cta/cta-phone-big",
+    "faq/faq-two-column",
+    "features/features-checklist",
+    "features/features-tabs",
+    "footer/footer-columns",
+    "forms/form-callback-request",
+    "forms/form-contact-basic",
+    "hero/hero-emergency-bar",
+    "media/media-map-embed",
+    "nav/nav-mega-menu",
+    "pricing/pricing-service-menu",
+    "pricing/pricing-single-card",
+    "services/services-accordion",
+    "services/services-area-list",
+    "services/services-grid-cards",
+    "stats/stats-dark-band",
+    "stats/stats-with-icons",
+    "testimonials/testimonials-google-style",
+    "testimonials/testimonials-grid-cards",
+    "testimonials/testimonials-masonry",
+    "testimonials/testimonials-video-cards"
+  ],
+  "version": 1
+}

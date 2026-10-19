@@ -1,0 +1,11 @@
+{
+  "slug": "nav-simple",
+  "name": "Nav: simple with CTA",
+  "category": "nav",
+  "description": "Logo text left, five links, phone button right. Hamburger below 900px.",
+  "tags": ["nav", "header", "mobile-menu", "cta"],
+  "previewHeight": 120,
+  "hasScript": true,
+  "fields": ["business.name", "business.phone"],
+  "version": 1
+}

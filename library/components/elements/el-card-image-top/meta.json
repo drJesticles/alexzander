@@ -1,0 +1,11 @@
+{
+  "slug": "el-card-image-top",
+  "name": "Element: card with image on top",
+  "category": "elements",
+  "description": "Card with a 3:2 image bleeding to the edges, a badge, title, blurb and a button. Good for services and blog teasers.",
+  "tags": ["element", "card", "image", "service"],
+  "previewHeight": 320,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

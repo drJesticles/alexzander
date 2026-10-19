@@ -1,0 +1,311 @@
+<header class="c-nav-topbar-contact" data-wf-component="nav-topbar-contact">
+  <div class="c-nav-topbar-contact__topbar">
+    <div class="wf-container c-nav-topbar-contact__topbar-inner">
+      <a class="c-nav-topbar-contact__item" href="tel:+14795550121">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+        <span data-wf-field="business.phone">(479) 555-0121</span>
+      </a>
+      <span class="c-nav-topbar-contact__item c-nav-topbar-contact__hours">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <span data-wf-field="business.hours">Mon to Sat 9am to 6pm · Sun noon to 5pm</span>
+      </span>
+      <span class="c-nav-topbar-contact__item c-nav-topbar-contact__city">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span data-wf-field="business.city">Bentonville, AR</span>
+      </span>
+      <span class="c-nav-topbar-contact__social">
+        <a href="#" aria-label="Facebook" data-wf-field="social.facebook"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+        <a href="#" aria-label="Instagram" data-wf-field="social.instagram"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Google reviews" data-wf-field="social.google"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg></a>
+      </span>
+    </div>
+  </div>
+  <div class="wf-container c-nav-topbar-contact__bar">
+    <a class="c-nav-topbar-contact__brand" href="/" data-wf-field="business.name">Hollow Creek Mercantile</a>
+    <nav class="c-nav-topbar-contact__menu" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/shop">Shop</a>
+      <a href="/product">Featured</a>
+      <a href="/about">About</a>
+      <a href="/cart">Cart</a>
+    </nav>
+    <a class="wf-btn wf-btn--primary wf-btn--sm c-nav-topbar-contact__cta" href="/checkout">Checkout</a>
+  </div>
+</header>
+
+<section class="wf-section c-commerce-checkout-form" data-wf-component="commerce-checkout-form">
+  <div class="wf-container">
+    <h2 class="c-commerce-checkout-form__title">Checkout</h2>
+    <div class="c-commerce-checkout-form__grid">
+      <form class="c-commerce-checkout-form__form" action="#" method="post" data-wf-form="checkout">
+        <fieldset class="c-commerce-checkout-form__group">
+          <legend class="c-commerce-checkout-form__legend"><span class="c-commerce-checkout-form__step">1</span> Contact</legend>
+          <div class="c-commerce-checkout-form__row">
+            <div class="wf-field">
+              <label class="wf-label" for="commerce-checkout-form-email">Email</label>
+              <input class="wf-input" id="commerce-checkout-form-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="wf-field">
+              <label class="wf-label" for="commerce-checkout-form-phone">Phone <span class="c-commerce-checkout-form__opt">(for pickup texts)</span></label>
+              <input class="wf-input" id="commerce-checkout-form-phone" name="phone" type="tel" autocomplete="tel">
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="c-commerce-checkout-form__group">
+          <legend class="c-commerce-checkout-form__legend"><span class="c-commerce-checkout-form__step">2</span> Delivery</legend>
+          <div class="c-commerce-checkout-form__methods">
+            <label class="c-commerce-checkout-form__method">
+              <input type="radio" name="delivery" value="ship" checked>
+              <span class="c-commerce-checkout-form__method-body">
+                <span class="c-commerce-checkout-form__method-name">Ship to me</span>
+                <span class="c-commerce-checkout-form__method-note">USPS Ground, 3 to 5 days</span>
+              </span>
+              <span class="c-commerce-checkout-form__method-price">Free</span>
+            </label>
+            <label class="c-commerce-checkout-form__method">
+              <input type="radio" name="delivery" value="pickup">
+              <span class="c-commerce-checkout-form__method-body">
+                <span class="c-commerce-checkout-form__method-name">Pick up in store</span>
+                <span class="c-commerce-checkout-form__method-note" data-wf-field="business.address">112 West Central Avenue, Bentonville, AR 72712</span>
+              </span>
+              <span class="c-commerce-checkout-form__method-price">Free</span>
+            </label>
+          </div>
+          <div class="c-commerce-checkout-form__row">
+            <div class="wf-field">
+              <label class="wf-label" for="commerce-checkout-form-first">First name</label>
+              <input class="wf-input" id="commerce-checkout-form-first" name="first_name" type="text" autocomplete="given-name" required>
+            </div>
+            <div class="wf-field">
+              <label class="wf-label" for="commerce-checkout-form-last">Last name</label>
+              <input class="wf-input" id="commerce-checkout-form-last" name="last_name" type="text" autocomplete="family-name" required>
+            </div>
+          </div>
+          <div class="wf-field">
+            <label class="wf-label" for="commerce-checkout-form-address">Street address</label>
+            <input class="wf-input" id="commerce-checkout-form-address" name="address" type="text" autocomplete="street-address">
+          </div>
+          <div class="c-commerce-checkout-form__row c-commerce-checkout-form__row--3">
+            <div class="wf-field">
+              <label class="wf-label" for="commerce-checkout-form-city">City</label>
+              <input class="wf-input" id="commerce-checkout-form-city" name="city" type="text" autocomplete="address-level2">
+            </div>
+            <div class="wf-field">
+              <label class="wf-label" for="commerce-checkout-form-state">State</label>
+              <select class="wf-select" id="commerce-checkout-form-state" name="state" autocomplete="address-level1">
+                <option value="AR" selected>Arkansas</option>
+                <option value="OK">Oklahoma</option>
+                <option value="MO">Missouri</option>
+                <option value="TX">Texas</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="wf-field">
+              <label class="wf-label" for="commerce-checkout-form-zip">ZIP</label>
+              <input class="wf-input" id="commerce-checkout-form-zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code">
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="c-commerce-checkout-form__group">
+          <legend class="c-commerce-checkout-form__legend"><span class="c-commerce-checkout-form__step">3</span> Payment</legend>
+          <div class="c-commerce-checkout-form__payment">
+            <svg class="wf-icon wf-icon--lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+            <div>
+              <strong>Secure card payment goes here.</strong>
+              <p>Connect Stripe or Square in Site Settings and their hosted card field will load in this spot. No card numbers are ever typed into this page.</p>
+            </div>
+          </div>
+          <label class="c-commerce-checkout-form__check">
+            <input type="checkbox" name="save_info" value="1">
+            <span>Save my details for next time</span>
+          </label>
+        </fieldset>
+        <button class="wf-btn wf-btn--primary wf-btn--lg c-commerce-checkout-form__submit" type="submit">Place order</button>
+        <p class="c-commerce-checkout-form__fine">By placing your order you agree to our <a href="#">terms</a> and <a href="#">return policy</a>.</p>
+      </form>
+      <aside class="wf-card c-commerce-checkout-form__summary">
+        <h3 class="c-commerce-checkout-form__summary-title">Order summary</h3>
+        <ul class="c-commerce-checkout-form__items">
+          <li>
+            <img src="/ph/120/120/ozark-pine-candle.svg" alt="Ozark Pine soy candle" width="120" height="120">
+            <span class="c-commerce-checkout-form__item-name">Ozark Pine Soy Candle <small>12 oz &times; 2</small></span>
+            <span class="c-commerce-checkout-form__item-price">$48</span>
+          </li>
+          <li>
+            <img src="/ph/120/120/wildflower-honey.svg" alt="Wildflower honey" width="120" height="120">
+            <span class="c-commerce-checkout-form__item-name">Ozark Wildflower Honey <small>16 oz &times; 1</small></span>
+            <span class="c-commerce-checkout-form__item-price">$14</span>
+          </li>
+          <li>
+            <img src="/ph/120/120/natural-state-tee.svg" alt="Natural State tee" width="120" height="120">
+            <span class="c-commerce-checkout-form__item-name">Natural State Tee <small>Gray, L &times; 1</small></span>
+            <span class="c-commerce-checkout-form__item-price">$28</span>
+          </li>
+        </ul>
+        <dl class="c-commerce-checkout-form__lines">
+          <div><dt>Subtotal</dt><dd>$90</dd></div>
+          <div><dt>Shipping</dt><dd>Free</dd></div>
+          <div><dt>Tax</dt><dd>$9</dd></div>
+          <div class="c-commerce-checkout-form__total"><dt>Total</dt><dd>$99</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="wf-section wf-section--surface c-faq-two-column" data-wf-component="faq-two-column">
+  <div class="wf-container">
+    <div class="c-faq-two-column__head">
+      <span class="wf-eyebrow">Before you place the order</span>
+      <h2>Shipping, pickup and returns.</h2>
+      <p class="wf-lead">The short version. Anything else, call <a href="tel:+14795550121" data-wf-field="business.phone">(479) 555-0121</a> during store hours.</p>
+    </div>
+    <dl class="c-faq-two-column__grid">
+      <div class="c-faq-two-column__item">
+        <dt>When will it ship?</dt>
+        <dd>Orders placed before 2pm Central ship the same business day by USPS Ground. Most of Arkansas, Missouri and Oklahoma sees it in two days; the coasts in four or five.</dd>
+      </div>
+      <div class="c-faq-two-column__item">
+        <dt>How does pickup work?</dt>
+        <dd>Choose pickup at checkout and we text you when it is bagged, usually within the hour during store hours. Bring the order number or just tell us your name.</dd>
+      </div>
+      <div class="c-faq-two-column__item">
+        <dt>Can I return something?</dt>
+        <dd>Yes, within 30 days, in store or by mail. Unopened pantry items, unburned candles and unworn apparel get a full refund. Opened food cannot be returned, but tell us if something was off and we will make it right.</dd>
+      </div>
+      <div class="c-faq-two-column__item">
+        <dt>Do you gift wrap?</dt>
+        <dd>Free on any order with three or more items: kraft box, tissue and a handwritten card. Add a note in the order comments and we will write it out.</dd>
+      </div>
+      <div class="c-faq-two-column__item">
+        <dt>Is my card information safe?</dt>
+        <dd>Card details are entered into a field hosted by our payment processor and never touch our servers. We see the last four digits and nothing more.</dd>
+      </div>
+      <div class="c-faq-two-column__item">
+        <dt>Do you ship candles in summer?</dt>
+        <dd>Yes, in insulated packaging from June through September. If a candle arrives warped or sweating, send a photo and we replace it.</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<section class="wf-section wf-section--tight wf-section--surface c-commerce-trust-badges-row" data-wf-component="commerce-trust-badges-row">
+  <div class="wf-container">
+    <h2 class="wf-sr-only">Why shop with us</h2>
+    <ul class="wf-grid wf-grid--4 c-commerce-trust-badges-row__list">
+      <li class="c-commerce-trust-badges-row__item">
+        <span class="c-commerce-trust-badges-row__icon">
+          <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h11v10H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>
+        </span>
+        <div>
+          <strong class="c-commerce-trust-badges-row__title">Free shipping over $60</strong>
+          <span class="c-commerce-trust-badges-row__text">Flat $7 under that. Ships in one business day.</span>
+        </div>
+      </li>
+      <li class="c-commerce-trust-badges-row__item">
+        <span class="c-commerce-trust-badges-row__icon">
+          <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 14-5l2 2M20 4v5h-5"/><path d="M20 12a8 8 0 0 1-14 5l-2-2M4 20v-5h5"/></svg>
+        </span>
+        <div>
+          <strong class="c-commerce-trust-badges-row__title">30-day returns</strong>
+          <span class="c-commerce-trust-badges-row__text">Bring it back or mail it back. No restocking fee.</span>
+        </div>
+      </li>
+      <li class="c-commerce-trust-badges-row__item">
+        <span class="c-commerce-trust-badges-row__icon">
+          <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+        </span>
+        <div>
+          <strong class="c-commerce-trust-badges-row__title">Secure checkout</strong>
+          <span class="c-commerce-trust-badges-row__text">Cards handled by our payment processor, never stored here.</span>
+        </div>
+      </li>
+      <li class="c-commerce-trust-badges-row__item">
+        <span class="c-commerce-trust-badges-row__icon">
+          <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        </span>
+        <div>
+          <strong class="c-commerce-trust-badges-row__title">Free local pickup</strong>
+          <span class="c-commerce-trust-badges-row__text">Downtown <span data-wf-field="business.city">Bentonville</span>, usually ready the same day.</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<footer class="wf-section wf-section--dark c-footer-mega" data-wf-component="footer-mega">
+  <div class="wf-container">
+    <div class="c-footer-mega__newsletter">
+      <div>
+        <h3 class="c-footer-mega__newsletter-title">New arrivals, twice a month</h3>
+        <p class="c-footer-mega__newsletter-text">What came in from the makers, what is on sale, and first dibs on holiday boxes before they hit the shelf.</p>
+      </div>
+      <form class="c-footer-mega__form" action="#" method="post" data-wf-form="newsletter">
+        <label class="wf-sr-only" for="footer-mega-email">Email address</label>
+        <input class="wf-input c-footer-mega__input" id="footer-mega-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+        <button class="wf-btn wf-btn--accent" type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="c-footer-mega__grid">
+      <div class="c-footer-mega__brand-col">
+        <h3 class="c-footer-mega__brand" data-wf-field="business.name">Hollow Creek Mercantile</h3>
+        <p class="c-footer-mega__blurb" data-wf-field="business.tagline">Small-batch goods from Ozark makers. Shop online, pick up downtown, or we ship anywhere in the lower 48.</p>
+        <p class="c-footer-mega__hours">
+          <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <span data-wf-field="business.hours">Mon to Sat 9am to 6pm · Sun noon to 5pm</span>
+        </p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul class="c-footer-mega__links">
+          <li><a href="/shop">All products</a></li>
+          <li><a href="/shop">Candles &amp; home</a></li>
+          <li><a href="/shop">Pantry</a></li>
+          <li><a href="/shop">Apparel</a></li>
+          <li><a href="/shop">Gifts under $50</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <ul class="c-footer-mega__links">
+          <li><a href="/cart">Your cart</a></li>
+          <li><a href="/checkout">Checkout</a></li>
+          <li><a href="#">Shipping &amp; returns</a></li>
+          <li><a href="#">Gift cards</a></li>
+          <li><a href="#">Wholesale</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Store</h4>
+        <ul class="c-footer-mega__links">
+          <li><a href="/about">About us</a></li>
+          <li><a href="/about">Our makers</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="c-footer-mega__links">
+          <li><a href="tel:+14795550121" data-wf-field="business.phone">(479) 555-0121</a></li>
+          <li><a href="mailto:hello@hollowcreekmercantile.com" data-wf-field="business.email">hello@hollowcreekmercantile.com</a></li>
+          <li data-wf-field="business.address">112 West Central Avenue, Bentonville, AR 72712</li>
+        </ul>
+      </div>
+    </div>
+    <div class="c-footer-mega__bar">
+      <span>&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">Hollow Creek Mercantile</span>. All rights reserved.</span>
+      <nav class="c-footer-mega__legal" aria-label="Legal">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Accessibility</a>
+      </nav>
+      <span class="c-footer-mega__social">
+        <a href="#" aria-label="Facebook" data-wf-field="social.facebook"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+        <a href="#" aria-label="Instagram" data-wf-field="social.instagram"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Google reviews" data-wf-field="social.google"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg></a>
+      </span>
+    </div>
+  </div>
+</footer>

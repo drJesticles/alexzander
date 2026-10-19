@@ -1,0 +1,43 @@
+{
+  "business": {
+    "name": "Green Acre Lawn & Landscape",
+    "tagline": "The best-looking yard on the street, every week.",
+    "phone": "(479) 555-0184",
+    "email": "hello@greenacrelawn.com",
+    "address": "2890 Highway 7 N, Russellville, AR 72802",
+    "city": "Russellville, AR",
+    "hours": "Mon–Fri 7am–5pm · Sat 8am–noon, March–November",
+    "year": "2026"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "google": ""
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Services",
+      "path": "/services"
+    },
+    {
+      "label": "Seasonal Plans",
+      "path": "/seasonal-plans"
+    },
+    {
+      "label": "Gallery",
+      "path": "/gallery"
+    },
+    {
+      "label": "About",
+      "path": "/about"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ]
+}

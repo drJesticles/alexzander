@@ -1,0 +1,26 @@
+{
+  "slug": "startup-one-pager",
+  "name": "Startup One-Pager",
+  "vertical": "tech",
+  "description": "A single long home page with anchor navigation (#product, #team, #investors, #contact) for an early-stage startup, plus a plain-language privacy page. Full-bleed hero, alternating product rows, traction stats, founder cards, investor logos and a contact form.",
+  "kit": "radix",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "privacy.html", "title": "Privacy", "path": "/privacy" }
+  ],
+  "tags": ["startup", "one-page", "anchors", "investors", "pitch", "privacy"],
+  "components": [
+    "nav/nav-transparent-overlay",
+    "hero/hero-centered-bg-image",
+    "features/features-alternating-rows",
+    "stats/stats-row",
+    "team/team-cards-social",
+    "logos/logos-grid-bordered",
+    "forms/form-contact-basic",
+    "content/content-prose",
+    "content/content-accordion-text",
+    "cta/cta-band",
+    "footer/footer-simple"
+  ],
+  "version": 1
+}

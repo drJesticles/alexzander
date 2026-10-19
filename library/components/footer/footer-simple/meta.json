@@ -1,0 +1,11 @@
+{
+  "slug": "footer-simple",
+  "name": "Footer: simple line",
+  "category": "footer",
+  "description": "One-line footer on a light surface: business name left, four links in the middle, copyright right. Wraps to centered rows on phones.",
+  "tags": ["footer", "simple", "one-line", "links", "copyright"],
+  "previewHeight": 140,
+  "hasScript": false,
+  "fields": ["business.name", "business.year"],
+  "version": 1
+}

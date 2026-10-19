@@ -1,0 +1,23 @@
+.c-contact-split-form-info__head{margin-bottom:var(--wf-space-10)}
+.c-contact-split-form-info__grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:var(--wf-space-10);align-items:start}
+.c-contact-split-form-info__form{background:var(--wf-surface);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);box-shadow:var(--wf-card-shadow);padding:var(--wf-space-8)}
+.c-contact-split-form-info__row{display:grid;grid-template-columns:1fr 1fr;gap:0 var(--wf-space-4)}
+.c-contact-split-form-info__cards{display:grid;gap:var(--wf-space-4)}
+.c-contact-split-form-info__card{display:flex;gap:var(--wf-space-4);align-items:flex-start;padding:var(--wf-space-5);background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);color:var(--wf-text);text-decoration:none;transition:border-color var(--wf-dur-fast) var(--wf-ease),box-shadow var(--wf-dur-fast) var(--wf-ease)}
+a.c-contact-split-form-info__card:hover{border-color:var(--wf-primary);box-shadow:var(--wf-shadow-sm);text-decoration:none}
+.c-contact-split-form-info__icon{display:grid;place-items:center;width:2.75rem;height:2.75rem;flex:none;border-radius:var(--wf-radius-md);background:color-mix(in srgb, var(--wf-primary) 12%, transparent);color:var(--wf-primary)}
+.c-contact-split-form-info__card-body{display:grid;gap:.15rem;min-width:0}
+.c-contact-split-form-info__card-title{font-size:var(--wf-text-xs);font-weight:var(--wf-weight-medium);letter-spacing:var(--wf-tracking-wide);text-transform:uppercase;color:var(--wf-text-muted)}
+.c-contact-split-form-info__card-value{font-weight:var(--wf-weight-bold);font-size:var(--wf-text-lg);overflow-wrap:anywhere}
+.c-contact-split-form-info__card-note{font-size:var(--wf-text-sm);color:var(--wf-text-muted)}
+.c-contact-split-form-info__hours{display:flex;align-items:flex-start;gap:var(--wf-space-2);margin:var(--wf-space-2) 0 0;padding:0 var(--wf-space-2);font-size:var(--wf-text-sm);color:var(--wf-text-muted)}
+.c-contact-split-form-info__hours .wf-icon{width:1.1rem;height:1.1rem;margin-top:.15rem}
+@media (max-width:900px){
+  .c-contact-split-form-info__grid{grid-template-columns:1fr;gap:var(--wf-space-8)}
+  .c-contact-split-form-info__cards{order:-1}
+}
+@media (max-width:600px){
+  .c-contact-split-form-info__row{grid-template-columns:1fr}
+  .c-contact-split-form-info__form{padding:var(--wf-space-5)}
+  .c-contact-split-form-info__form .wf-btn{width:100%}
+}

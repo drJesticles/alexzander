@@ -1,0 +1,99 @@
+/* WebForge token contract. Every kit overrides these on :root (and optionally [data-theme="dark"]).
+   Components and templates ONLY use these variables plus the base classes in base.css.
+   Never hard-code a color, font, or radius in a component. */
+:root {
+  /* color */
+  --wf-bg: #ffffff;
+  --wf-surface: #f7f7f8;
+  --wf-surface-2: #ececef;
+  --wf-text: #16181d;
+  --wf-text-muted: #5b6070;
+  --wf-primary: #2457f5;
+  --wf-on-primary: #ffffff;
+  --wf-primary-hover: #1b47cc;
+  --wf-secondary: #0f172a;
+  --wf-on-secondary: #ffffff;
+  --wf-accent: #f59e0b;
+  --wf-on-accent: #1a1200;
+  --wf-border: #d9dbe3;
+  --wf-success: #15803d;
+  --wf-warning: #b45309;
+  --wf-danger: #b91c1c;
+  --wf-info: #0369a1;
+  --wf-overlay: rgba(10, 12, 20, 0.55);
+
+  /* type */
+  --wf-font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Inter, sans-serif;
+  --wf-font-serif: ui-serif, Georgia, "Times New Roman", serif;
+  --wf-font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --wf-font-display: var(--wf-font-sans);
+  --wf-font-body: var(--wf-font-sans);
+  --wf-text-xs: 0.75rem;
+  --wf-text-sm: 0.875rem;
+  --wf-text-base: 1rem;
+  --wf-text-lg: 1.125rem;
+  --wf-text-xl: 1.25rem;
+  --wf-text-2xl: 1.5rem;
+  --wf-text-3xl: 1.875rem;
+  --wf-text-4xl: 2.25rem;
+  --wf-text-5xl: 3rem;
+  --wf-text-6xl: 3.75rem;
+  --wf-leading-tight: 1.15;
+  --wf-leading-normal: 1.55;
+  --wf-leading-loose: 1.8;
+  --wf-weight-normal: 400;
+  --wf-weight-medium: 500;
+  --wf-weight-bold: 700;
+  --wf-tracking-tight: -0.02em;
+  --wf-tracking-normal: 0;
+  --wf-tracking-wide: 0.06em;
+
+  /* space + layout */
+  --wf-space-1: 0.25rem;
+  --wf-space-2: 0.5rem;
+  --wf-space-3: 0.75rem;
+  --wf-space-4: 1rem;
+  --wf-space-5: 1.25rem;
+  --wf-space-6: 1.5rem;
+  --wf-space-8: 2rem;
+  --wf-space-10: 2.5rem;
+  --wf-space-12: 3rem;
+  --wf-space-16: 4rem;
+  --wf-space-20: 5rem;
+  --wf-space-24: 6rem;
+  --wf-section-y: clamp(3rem, 8vw, 6rem);
+  --wf-container: 72rem;
+  --wf-container-narrow: 48rem;
+  --wf-gutter: clamp(1rem, 4vw, 2rem);
+
+  /* shape */
+  --wf-radius-sm: 0.25rem;
+  --wf-radius-md: 0.5rem;
+  --wf-radius-lg: 1rem;
+  --wf-radius-xl: 1.5rem;
+  --wf-radius-full: 9999px;
+  --wf-border-w: 1px;
+
+  /* elevation */
+  --wf-shadow-sm: 0 1px 2px rgba(0,0,0,.06);
+  --wf-shadow-md: 0 6px 16px rgba(0,0,0,.10);
+  --wf-shadow-lg: 0 20px 40px rgba(0,0,0,.14);
+
+  /* motion */
+  --wf-ease: cubic-bezier(.2,.7,.2,1);
+  --wf-dur-fast: 120ms;
+  --wf-dur-base: 220ms;
+  --wf-dur-slow: 420ms;
+
+  /* buttons (kit may restyle) */
+  --wf-btn-radius: var(--wf-radius-md);
+  --wf-btn-py: 0.7rem;
+  --wf-btn-px: 1.25rem;
+  --wf-btn-weight: var(--wf-weight-medium);
+  --wf-btn-shadow: none;
+
+  /* cards / inputs */
+  --wf-card-radius: var(--wf-radius-lg);
+  --wf-card-shadow: var(--wf-shadow-sm);
+  --wf-input-radius: var(--wf-radius-md);
+}

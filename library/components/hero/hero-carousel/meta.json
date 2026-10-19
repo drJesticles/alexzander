@@ -1,0 +1,11 @@
+{
+  "slug": "hero-carousel",
+  "name": "Hero: carousel",
+  "category": "hero",
+  "description": "Three full-width slides, each with its own image, overlay, headline and button. Dots and arrows switch slides; keyboard arrows work. Autoplays every 7 seconds only when reduced motion is off, pausing on hover and focus.",
+  "tags": ["hero", "carousel", "slider", "image", "cta"],
+  "previewHeight": 600,
+  "hasScript": true,
+  "fields": ["business.name"],
+  "version": 1
+}

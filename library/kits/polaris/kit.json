@@ -1,0 +1,12 @@
+{
+  "slug": "polaris",
+  "name": "Shopify Polaris",
+  "family": "web-dev",
+  "description": "Shopify Polaris admin feel: Inter, green #008060 primary, interactive blue accent, white cards on soft gray, 8px radius, inset button shadows.",
+  "source": "https://polaris.shopify.com/tokens/color",
+  "fonts": [{ "family": "Inter", "weights": [400, 500, 600, 700] }],
+  "dark": true,
+  "swatch": ["#008060", "#202223", "#F6F6F7", "#2C6ECB"],
+  "tags": ["shopify", "polaris", "admin", "green", "dashboard"],
+  "version": 1
+}

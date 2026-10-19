@@ -1,0 +1,35 @@
+{
+  "slug": "restaurant-bistro",
+  "name": "Restaurant Bistro",
+  "vertical": "local",
+  "description": "Six-page site for a chef-driven bistro: weekly menu with prices, reservation form, events calendar, gallery and contact with map.",
+  "kit": "paper-newsprint",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "menu.html", "title": "Menu", "path": "/menu" },
+    { "file": "reservations.html", "title": "Reservations", "path": "/reservations" },
+    { "file": "events.html", "title": "Events", "path": "/events" },
+    { "file": "gallery.html", "title": "Gallery", "path": "/gallery" },
+    { "file": "contact.html", "title": "Contact", "path": "/contact" }
+  ],
+  "tags": ["restaurant", "bistro", "menu", "reservations", "dining", "local"],
+  "components": [
+    "nav/nav-centered-logo",
+    "hero/hero-centered-bg-image",
+    "about/about-split-story",
+    "pricing/pricing-service-menu",
+    "testimonials/testimonials-single-large",
+    "cta/cta-band",
+    "services/services-list-prices",
+    "forms/form-booking-appointment",
+    "contact/contact-hours-table",
+    "content/content-timeline",
+    "cta/cta-newsletter",
+    "gallery/gallery-masonry",
+    "media/media-image-grid-four",
+    "contact/contact-split-form-info",
+    "media/media-map-embed",
+    "footer/footer-centered"
+  ],
+  "version": 1
+}

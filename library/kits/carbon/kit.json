@@ -1,0 +1,12 @@
+{
+  "slug": "carbon",
+  "name": "IBM Carbon",
+  "family": "big-four",
+  "description": "IBM Carbon: IBM Plex Sans and Mono, Blue 60, zero border radius, dense spacing, left-aligned buttons, Gray 100 dark theme.",
+  "source": "https://carbondesignsystem.com",
+  "fonts": [{ "family": "IBM Plex Sans", "weights": [300, 400, 600] }, { "family": "IBM Plex Mono", "weights": [400] }],
+  "dark": true,
+  "swatch": ["#0F62FE", "#161616", "#F4F4F4", "#8A3FFC"],
+  "tags": ["ibm", "carbon", "enterprise", "square", "dense"],
+  "version": 1
+}

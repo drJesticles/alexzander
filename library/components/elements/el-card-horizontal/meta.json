@@ -1,0 +1,11 @@
+{
+  "slug": "el-card-horizontal",
+  "name": "Element: horizontal card",
+  "category": "elements",
+  "description": "Image on the left, copy and link on the right. Stacks with the image on top below 600px.",
+  "tags": ["element", "card", "image", "horizontal", "media-object"],
+  "previewHeight": 240,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

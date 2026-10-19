@@ -1,0 +1,11 @@
+{
+  "slug": "testimonials-slider",
+  "name": "Testimonials: slider",
+  "category": "testimonials",
+  "description": "One review at a time with previous/next buttons and dot indicators. Keyboard friendly, announces changes, works with several copies per page.",
+  "tags": ["testimonials", "reviews", "slider", "carousel", "interactive"],
+  "previewHeight": 520,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "commerce-trust-badges-row",
+  "name": "Commerce: trust badges row",
+  "category": "commerce",
+  "description": "Four icon-and-text reassurances on a surface band: free shipping, easy returns, secure checkout, local pickup. Two across on tablet, stacked on phones.",
+  "tags": ["commerce", "trust", "shipping", "returns", "icons"],
+  "previewHeight": 220,
+  "hasScript": false,
+  "fields": ["business.city"],
+  "version": 1
+}

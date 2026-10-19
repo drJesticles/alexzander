@@ -1,0 +1,11 @@
+{
+  "slug": "el-toast",
+  "name": "Element: toast notification",
+  "category": "elements",
+  "description": "Button that fires a bottom-corner toast inside an aria-live region. Auto-hides after four seconds or on the close button; repeat clicks reset the timer.",
+  "tags": ["element", "toast", "notification", "feedback"],
+  "previewHeight": 200,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

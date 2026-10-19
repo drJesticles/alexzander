@@ -1,0 +1,26 @@
+.c-hero-emergency-bar{padding-top:0}
+.c-hero-emergency-bar__strip{background:var(--wf-danger);color:var(--wf-on-primary);font-size:var(--wf-text-sm);margin-bottom:var(--wf-section-y)}
+.c-hero-emergency-bar__strip-inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:var(--wf-space-2) var(--wf-space-3);min-height:2.75rem;padding-block:var(--wf-space-2);text-align:center}
+.c-hero-emergency-bar__pulse{width:.6rem;height:.6rem;border-radius:var(--wf-radius-full);background:var(--wf-on-primary);box-shadow:0 0 0 0 rgba(255,255,255,.6);animation:c-hero-emergency-bar-pulse 1.6s infinite}
+@keyframes c-hero-emergency-bar-pulse{0%{box-shadow:0 0 0 0 rgba(255,255,255,.6)}100%{box-shadow:0 0 0 .5rem rgba(255,255,255,0)}}
+.c-hero-emergency-bar__strip-phone{color:inherit;font-weight:var(--wf-weight-bold);text-decoration:underline;text-underline-offset:.15em}
+.c-hero-emergency-bar__inner{display:flex;flex-direction:column;align-items:flex-start}
+.c-hero-emergency-bar h1{max-width:20ch;margin-bottom:var(--wf-space-5)}
+.c-hero-emergency-bar .wf-lead{margin-bottom:var(--wf-space-8)}
+.c-hero-emergency-bar .wf-btn .wf-icon{width:1.1rem;height:1.1rem}
+.c-hero-emergency-bar__badges{list-style:none;padding:var(--wf-space-6) 0 0;margin:var(--wf-space-10) 0 0;width:100%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--wf-space-6);border-top:var(--wf-border-w) solid var(--wf-border)}
+.c-hero-emergency-bar__badges li{display:flex;align-items:center;gap:var(--wf-space-3)}
+.c-hero-emergency-bar__badges .wf-icon{width:2rem;height:2rem;color:var(--wf-primary)}
+.c-hero-emergency-bar__badges span{display:flex;flex-direction:column;line-height:var(--wf-leading-tight)}
+.c-hero-emergency-bar__badges small{color:var(--wf-text-muted);font-size:var(--wf-text-sm)}
+@media (max-width:900px){
+  .c-hero-emergency-bar__badges{grid-template-columns:1fr 1fr}
+}
+@media (max-width:600px){
+  .c-hero-emergency-bar__strip-sep{display:none}
+  .c-hero-emergency-bar__actions .wf-btn{width:100%}
+  .c-hero-emergency-bar__badges{grid-template-columns:1fr;gap:var(--wf-space-4)}
+}
+@media (prefers-reduced-motion:reduce){
+  .c-hero-emergency-bar__pulse{animation:none}
+}

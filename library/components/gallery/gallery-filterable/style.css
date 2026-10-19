@@ -1,0 +1,22 @@
+.c-gallery-filterable__head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:var(--wf-space-6);margin-bottom:var(--wf-space-4)}
+.c-gallery-filterable__head h2{margin:0}
+.c-gallery-filterable__filters{display:flex;flex-wrap:wrap;gap:var(--wf-space-2)}
+.c-gallery-filterable__filter{appearance:none;font:inherit;font-size:var(--wf-text-sm);font-weight:var(--wf-weight-medium);padding:.45rem .9rem;border-radius:var(--wf-radius-full);border:var(--wf-border-w) solid var(--wf-border);background:var(--wf-bg);color:var(--wf-text);cursor:pointer;transition:background var(--wf-dur-fast) var(--wf-ease),color var(--wf-dur-fast) var(--wf-ease),border-color var(--wf-dur-fast) var(--wf-ease)}
+.c-gallery-filterable__filter:hover{border-color:var(--wf-primary);color:var(--wf-primary)}
+.c-gallery-filterable__filter.is-active{background:var(--wf-primary);border-color:var(--wf-primary);color:var(--wf-on-primary)}
+.c-gallery-filterable__count{font-size:var(--wf-text-sm);margin:0 0 var(--wf-space-6)}
+.c-gallery-filterable__grid{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--wf-space-5)}
+.c-gallery-filterable__item{background:var(--wf-surface);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);overflow:hidden;box-shadow:var(--wf-card-shadow);animation:c-gallery-filterable-in var(--wf-dur-base) var(--wf-ease)}
+.c-gallery-filterable__item[hidden]{display:none}
+.c-gallery-filterable__item img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.c-gallery-filterable__body{padding:var(--wf-space-4)}
+.c-gallery-filterable__title{font-size:var(--wf-text-base);margin:var(--wf-space-2) 0 0}
+.c-gallery-filterable__empty{padding:var(--wf-space-10) 0}
+.c-gallery-filterable__empty[hidden]{display:none}
+@keyframes c-gallery-filterable-in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (max-width:900px){
+  .c-gallery-filterable__grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:480px){
+  .c-gallery-filterable__grid{grid-template-columns:1fr}
+}

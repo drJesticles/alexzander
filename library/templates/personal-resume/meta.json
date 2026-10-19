@@ -1,0 +1,52 @@
+{
+  "slug": "personal-resume",
+  "name": "Personal Résumé",
+  "vertical": "personal",
+  "description": "Four-page personal site for a job seeker or freelancer: about with stats and a career timeline, detailed experience with a skills checklist, projects, and a contact form.",
+  "kit": "primer",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "About",
+      "path": "/"
+    },
+    {
+      "file": "experience.html",
+      "title": "Experience",
+      "path": "/experience"
+    },
+    {
+      "file": "projects.html",
+      "title": "Projects",
+      "path": "/projects"
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "tags": [
+    "personal",
+    "resume",
+    "cv",
+    "portfolio",
+    "developer",
+    "timeline"
+  ],
+  "components": [
+    "nav/nav-simple",
+    "forms/form-contact-basic",
+    "contact/contact-cards-three",
+    "footer/footer-simple",
+    "hero/hero-minimal-left",
+    "content/content-timeline",
+    "content/content-checklist-columns",
+    "about/about-split-story",
+    "stats/stats-row",
+    "cta/cta-band",
+    "blog/blog-cards-grid",
+    "features/features-cards-hover"
+  ],
+  "version": 1
+}

@@ -1,0 +1,11 @@
+.c-el-countdown{padding:var(--wf-space-4);text-align:center}
+.c-el-countdown__label{font-size:var(--wf-text-sm);font-weight:var(--wf-weight-medium);letter-spacing:var(--wf-tracking-wide);text-transform:uppercase;color:var(--wf-text-muted);margin-bottom:var(--wf-space-3)}
+.c-el-countdown__units{display:inline-flex;align-items:flex-start;gap:var(--wf-space-2)}
+.c-el-countdown__unit{display:grid;gap:var(--wf-space-1);min-width:4.25rem;padding:var(--wf-space-3) var(--wf-space-2);background:var(--wf-surface);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-radius-md)}
+.c-el-countdown__num{font-family:var(--wf-font-display);font-size:var(--wf-text-3xl);font-weight:var(--wf-weight-bold);line-height:1;font-variant-numeric:tabular-nums;color:var(--wf-text)}
+.c-el-countdown__name{font-size:var(--wf-text-xs);letter-spacing:var(--wf-tracking-wide);text-transform:uppercase;color:var(--wf-text-muted)}
+.c-el-countdown__sep{font-size:var(--wf-text-2xl);font-weight:var(--wf-weight-bold);color:var(--wf-text-muted);padding-top:var(--wf-space-3)}
+.c-el-countdown__ended{margin:var(--wf-space-3) 0 0;color:var(--wf-text-muted)}
+.c-el-countdown__ended[hidden]{display:none}
+.c-el-countdown.is-ended .c-el-countdown__units{opacity:.5}
+@media (max-width:420px){.c-el-countdown__unit{min-width:3.25rem}.c-el-countdown__num{font-size:var(--wf-text-2xl)}.c-el-countdown__sep{display:none}}

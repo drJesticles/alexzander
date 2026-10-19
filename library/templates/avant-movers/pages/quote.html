@@ -1,0 +1,255 @@
+<header class="c-nav-simple" data-wf-component="nav-simple">
+  <div class="wf-container c-nav-simple__bar">
+    <a class="c-nav-simple__brand" href="/" data-wf-field="business.name">Avant Movers</a>
+    <button class="c-nav-simple__toggle" type="button" aria-expanded="false" aria-controls="nav-simple-menu" aria-label="Open menu">
+      <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="c-nav-simple__menu" id="nav-simple-menu">
+      <a href="/">Home</a>
+      <a href="/services">Services</a>
+      <a href="/pricing">Pricing</a>
+      <a href="/checklist">Moving checklist</a>
+      <a href="/reviews">Reviews</a>
+      <a href="/quote">Get a quote</a>
+      <a class="wf-btn wf-btn--primary wf-btn--sm" href="tel:+14795550168" data-wf-field="business.phone">(479) 555-0168</a>
+    </nav>
+  </div>
+</header>
+
+<section class="wf-section wf-section--surface c-form-multistep" data-wf-component="form-multistep">
+  <div class="wf-container wf-container--narrow">
+    <div class="c-form-multistep__head wf-center">
+      <span class="wf-eyebrow">Two minutes, three steps</span>
+      <h2>Get a moving quote.</h2>
+      <p class="wf-lead c-form-multistep__lead">Answer a few questions and a coordinator from <span data-wf-field="business.name">Avant Movers</span> will call with a written price, usually the same day.</p>
+    </div>
+    <form class="c-form-multistep__form" data-wf-form="moving-quote" action="#" method="post" novalidate>
+      <div class="c-form-multistep__progress">
+        <ol class="c-form-multistep__steps" data-wf-steps>
+          <li class="c-form-multistep__step is-active" aria-current="step"><span class="c-form-multistep__num">1</span><span class="c-form-multistep__step-label">The move</span></li>
+          <li class="c-form-multistep__step"><span class="c-form-multistep__num">2</span><span class="c-form-multistep__step-label">The addresses</span></li>
+          <li class="c-form-multistep__step"><span class="c-form-multistep__num">3</span><span class="c-form-multistep__step-label">Contact</span></li>
+        </ol>
+        <div class="c-form-multistep__bar" role="progressbar" aria-label="Form progress" aria-valuemin="1" aria-valuemax="3" aria-valuenow="1" data-wf-bar><span class="c-form-multistep__bar-fill" data-wf-bar-fill></span></div>
+      </div>
+
+      <fieldset class="c-form-multistep__panel is-active" data-wf-step="1">
+        <legend class="c-form-multistep__legend">What are we moving?</legend>
+        <div class="wf-field">
+          <label class="wf-label" for="form-multistep-type">Home size</label>
+          <select class="wf-select" id="form-multistep-type" name="project_type" required>
+            <option value="">Choose one</option>
+            <option value="studio">Studio or one bedroom</option>
+            <option value="2bed">Two bedrooms</option>
+            <option value="3bed">Three bedrooms</option>
+            <option value="4bed">Four or more bedrooms</option>
+            <option value="partial">A few items or a single room</option>
+            <option value="office">Office or commercial</option>
+          </select>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-multistep-details">Anything heavy, fragile or unusual?</label>
+          <textarea class="wf-textarea c-form-multistep__textarea" id="form-multistep-details" name="details" placeholder="Example: upright piano, a gun safe in the garage, and a glass dining table. Second-floor apartment with an elevator." required></textarea>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-multistep-timeline">When is the move?</label>
+          <select class="wf-select" id="form-multistep-timeline" name="timeline">
+            <option value="asap">This week</option>
+            <option value="month">Within the next month</option>
+            <option value="quarter">In the next few months</option>
+            <option value="planning">Just pricing it out</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset class="c-form-multistep__panel" data-wf-step="2" hidden>
+        <legend class="c-form-multistep__legend">From and to</legend>
+        <div class="wf-field">
+          <label class="wf-label" for="form-multistep-address">Moving from (street address)</label>
+          <input class="wf-input" id="form-multistep-address" name="address" type="text" autocomplete="street-address" required>
+        </div>
+        <div class="c-form-multistep__row">
+          <div class="wf-field">
+            <label class="wf-label" for="form-multistep-city">City</label>
+            <input class="wf-input" id="form-multistep-city" name="city" type="text" autocomplete="address-level2" value="Russellville" required>
+          </div>
+          <div class="wf-field">
+            <label class="wf-label" for="form-multistep-zip">From ZIP</label>
+            <input class="wf-input" id="form-multistep-zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" placeholder="72801" required>
+          </div>
+        </div>
+        <div class="c-form-multistep__row">
+          <div class="wf-field">
+            <label class="wf-label" for="form-multistep-home-type">Moving to</label>
+            <select class="wf-select" id="form-multistep-home-type" name="destination">
+              <option value="local">Within the River Valley</option>
+              <option value="lr">Little Rock area</option>
+              <option value="fs-nwa">Fort Smith or Northwest Arkansas</option>
+              <option value="long">Out of state</option>
+            </select>
+          </div>
+          <div class="wf-field">
+            <label class="wf-label" for="form-multistep-owner">Stairs or elevator?</label>
+            <select class="wf-select" id="form-multistep-owner" name="access">
+              <option value="ground">Ground floor at both ends</option>
+              <option value="stairs">Stairs at one or both</option>
+              <option value="elevator">Elevator at one or both</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="c-form-multistep__panel" data-wf-step="3" hidden>
+        <legend class="c-form-multistep__legend">How do we reach you?</legend>
+        <div class="wf-field">
+          <label class="wf-label" for="form-multistep-name">Full name</label>
+          <input class="wf-input" id="form-multistep-name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="c-form-multistep__row">
+          <div class="wf-field">
+            <label class="wf-label" for="form-multistep-phone">Phone</label>
+            <input class="wf-input" id="form-multistep-phone" name="phone" type="tel" autocomplete="tel" required>
+          </div>
+          <div class="wf-field">
+            <label class="wf-label" for="form-multistep-email">Email</label>
+            <input class="wf-input" id="form-multistep-email" name="email" type="email" autocomplete="email" required>
+          </div>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-multistep-contact-pref">Best way to reach you</label>
+          <select class="wf-select" id="form-multistep-contact-pref" name="contact_pref">
+            <option value="text">Text message</option>
+            <option value="call">Phone call</option>
+            <option value="email">Email</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <p class="c-form-multistep__error" data-wf-error hidden role="alert">Please fill in the highlighted fields before continuing.</p>
+      <p class="c-form-multistep__done" data-wf-done hidden role="status">Thanks. Your request is in; a coordinator will call or text with a written price, usually today.</p>
+
+      <div class="c-form-multistep__nav">
+        <button class="wf-btn wf-btn--ghost" type="button" data-wf-back disabled>Back</button>
+        <span class="c-form-multistep__count" data-wf-count>Step 1 of 3</span>
+        <button class="wf-btn wf-btn--primary" type="button" data-wf-next>Continue</button>
+        <button class="wf-btn wf-btn--primary" type="submit" data-wf-submit hidden>Send request</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="wf-section wf-section--surface c-contact-cards-three" data-wf-component="contact-cards-three">
+  <div class="wf-container">
+    <div class="c-contact-cards-three__head wf-center">
+      <span class="wf-eyebrow">Three ways to reach us</span>
+      <h2>Call for a quote, email the details, or come see the trucks.</h2>
+    </div>
+    <div class="wf-grid wf-grid--3">
+      <div class="c-contact-cards-three__card">
+        <span class="c-contact-cards-three__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+        <h3 class="c-contact-cards-three__title">Call</h3>
+        <p class="c-contact-cards-three__text">Seven days during moving season. After hours, text and a coordinator replies first thing.</p>
+        <p class="c-contact-cards-three__value" data-wf-field="business.phone">(479) 555-0168</p>
+        <a class="wf-btn wf-btn--primary" href="tel:+14795550168">Call now</a>
+      </div>
+      <div class="c-contact-cards-three__card">
+        <span class="c-contact-cards-three__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+        <h3 class="c-contact-cards-three__title">Email</h3>
+        <p class="c-contact-cards-three__text">Best for photos of the house, inventory lists and anything you want in writing.</p>
+        <p class="c-contact-cards-three__value" data-wf-field="business.email">quotes@avantmovers.com</p>
+        <a class="wf-btn wf-btn--outline" href="mailto:quotes@avantmovers.com">Send an email</a>
+      </div>
+      <div class="c-contact-cards-three__card">
+        <span class="c-contact-cards-three__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+        <h3 class="c-contact-cards-three__title">Visit</h3>
+        <p class="c-contact-cards-three__text">Our yard and warehouse on South Arkansas Avenue. Boxes and supplies sold at cost.</p>
+        <p class="c-contact-cards-three__value"><span data-wf-field="business.address">2400 S Arkansas Ave</span></p>
+        <a class="wf-btn wf-btn--outline" href="#">Get directions</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wf-section c-contact-hours-table" data-wf-component="contact-hours-table">
+  <div class="wf-container c-contact-hours-table__grid">
+    <div class="c-contact-hours-table__copy">
+      <span class="wf-eyebrow">Hours</span>
+      <h2>When we answer the phone.</h2>
+      <p class="wf-lead">The office at <span data-wf-field="business.name">Avant Movers</span> is staffed six days a week. Crews roll at 7:30, so the quietest time to talk through a long-distance move is mid-afternoon.</p>
+      <p class="c-contact-hours-table__summary"><strong>In short:</strong> <span data-wf-field="business.hours">Mon–Sat 7am–7pm · Sun by appointment</span></p>
+      <p class="c-contact-hours-table__note wf-muted">Closed Thanksgiving, Christmas Day and New Year's Day. The last weekend of every month books out first; call early if your closing lands there.</p>
+    </div>
+    <div class="c-contact-hours-table__card">
+      <table class="c-contact-hours-table__table">
+        <caption class="wf-sr-only">Weekly business hours</caption>
+        <tbody>
+          <tr><th scope="row">Monday</th><td>7:00am to 7:00pm</td></tr>
+          <tr><th scope="row">Tuesday</th><td>7:00am to 7:00pm</td></tr>
+          <tr class="is-today"><th scope="row">Wednesday <span class="wf-badge wf-badge--primary">Today</span></th><td>7:00am to 7:00pm</td></tr>
+          <tr><th scope="row">Thursday</th><td>7:00am to 7:00pm</td></tr>
+          <tr><th scope="row">Friday</th><td>7:00am to 7:00pm</td></tr>
+          <tr><th scope="row">Saturday</th><td>7:00am to 7:00pm</td></tr>
+          <tr class="is-closed"><th scope="row">Sunday</th><td>By appointment</td></tr>
+        </tbody>
+      </table>
+      <p class="c-contact-hours-table__emergency">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 9v4M12 17h.01M10.3 3.9L2.6 17a2 2 0 0 0 1.7 3h15.4a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
+        <span>Closing date moved or movers no-showed? Call <a href="tel:+14795550168" data-wf-field="business.phone">(479) 555-0168</a>; we keep one crew open for same-week emergencies.</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer class="wf-section wf-section--dark c-footer-cta-above" data-wf-component="footer-cta-above">
+  <div class="wf-container">
+    <div class="c-footer-cta-above__cta">
+      <div class="c-footer-cta-above__cta-copy">
+        <h2 class="c-footer-cta-above__cta-title">Moving day is closer than it looks. Lock in a crew.</h2>
+        <p class="c-footer-cta-above__cta-text">Tell us the two addresses and the date. A coordinator from <span data-wf-field="business.name">Avant Movers</span> will put a written price on it today.</p>
+      </div>
+      <div class="c-footer-cta-above__cta-actions">
+        <a class="wf-btn wf-btn--accent wf-btn--lg" href="/quote">Get a free quote</a>
+        <a class="wf-btn wf-btn--outline wf-btn--lg" href="tel:+14795550168" data-wf-field="business.phone">(479) 555-0168</a>
+      </div>
+    </div>
+    <div class="c-footer-cta-above__grid">
+      <div>
+        <h3 class="c-footer-cta-above__brand" data-wf-field="business.name">Avant Movers</h3>
+        <p class="c-footer-cta-above__blurb">Local and long-distance moving, packing and storage out of Russellville, Arkansas. Licensed, insured, and careful with the piano.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul class="c-footer-cta-above__links">
+          <li><a href="/services">Local moves</a></li>
+          <li><a href="/services">Long-distance moves</a></li>
+          <li><a href="/services">Packing &amp; unpacking</a></li>
+          <li><a href="/services">Storage</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul class="c-footer-cta-above__links">
+          <li><a href="/pricing">Pricing</a></li>
+          <li><a href="/checklist">Moving checklist</a></li>
+          <li><a href="/reviews">Reviews</a></li>
+          <li><a href="/quote">Get a quote</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="c-footer-cta-above__links">
+          <li><a href="tel:+14795550168" data-wf-field="business.phone">(479) 555-0168</a></li>
+          <li><a href="mailto:quotes@avantmovers.com" data-wf-field="business.email">quotes@avantmovers.com</a></li>
+          <li data-wf-field="business.address">2400 S Arkansas Ave, Russellville, AR 72802</li>
+        </ul>
+      </div>
+    </div>
+    <div class="c-footer-cta-above__bar">
+      <span>&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">Avant Movers</span>. All rights reserved.</span>
+      <span class="c-footer-cta-above__social">
+        <a href="#" aria-label="Facebook" data-wf-field="social.facebook"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+        <a href="#" aria-label="Instagram" data-wf-field="social.instagram"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+      </span>
+    </div>
+  </div>
+</footer>

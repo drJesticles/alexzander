@@ -1,0 +1,38 @@
+{
+  "slug": "pricing-page",
+  "name": "Pricing Page",
+  "vertical": "utility",
+  "description": "Two-page pricing site: monthly/yearly plan toggle, full comparison table, FAQ and a CTA band, plus an enterprise page with a contact form and client logos. Drop it into any site that sells plans.",
+  "kit": "tailwind-shadcn",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Pricing",
+      "path": "/"
+    },
+    {
+      "file": "enterprise.html",
+      "title": "Enterprise",
+      "path": "/enterprise"
+    }
+  ],
+  "tags": [
+    "utility",
+    "pricing",
+    "plans",
+    "comparison",
+    "faq",
+    "enterprise"
+  ],
+  "components": [
+    "nav/nav-minimal-pill",
+    "forms/form-contact-basic",
+    "logos/logos-row",
+    "footer/footer-simple",
+    "pricing/pricing-toggle-monthly-yearly",
+    "pricing/pricing-table-compare",
+    "faq/faq-accordion",
+    "cta/cta-band"
+  ],
+  "version": 1
+}

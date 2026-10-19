@@ -1,0 +1,11 @@
+{
+  "slug": "cta-newsletter",
+  "name": "CTA: newsletter",
+  "category": "cta",
+  "description": "Centered headline and short pitch with an inline email field and subscribe button, plus a privacy line. Field and button stack on phones.",
+  "tags": ["cta", "newsletter", "email", "form", "subscribe"],
+  "previewHeight": 360,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "el-button-icon",
+  "name": "Element: button with icon",
+  "category": "elements",
+  "description": "Buttons with a leading icon (phone, calendar, mail) plus one with a trailing arrow. Icons inherit the button color.",
+  "tags": ["element", "button", "icon", "phone"],
+  "previewHeight": 140,
+  "hasScript": false,
+  "fields": ["business.phone"],
+  "version": 1
+}

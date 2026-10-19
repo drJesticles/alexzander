@@ -1,0 +1,32 @@
+{
+  "slug": "design-portfolio",
+  "name": "Design Portfolio",
+  "vertical": "creative",
+  "description": "Five-page portfolio for an independent designer: minimal hero, project grid, lightbox gallery, a long-form case study, founder bio with timeline, and a contact form.",
+  "kit": "swiss-international",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "projects.html", "title": "Projects", "path": "/projects" },
+    { "file": "case-study.html", "title": "Case Study", "path": "/case-study" },
+    { "file": "about.html", "title": "About", "path": "/about" },
+    { "file": "contact.html", "title": "Contact", "path": "/contact" }
+  ],
+  "tags": ["portfolio", "designer", "freelance", "case-study", "minimal"],
+  "components": [
+    "nav/nav-simple",
+    "hero/hero-minimal-left",
+    "gallery/gallery-grid",
+    "logos/logos-row",
+    "cta/cta-floating-card",
+    "gallery/gallery-lightbox",
+    "media/media-image-grid-four",
+    "blog/blog-post-article",
+    "stats/stats-row",
+    "team/team-single-founder",
+    "about/about-timeline-history",
+    "forms/form-contact-basic",
+    "contact/contact-cards-three",
+    "footer/footer-simple"
+  ],
+  "version": 1
+}

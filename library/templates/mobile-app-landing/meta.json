@@ -1,0 +1,31 @@
+{
+  "slug": "mobile-app-landing",
+  "name": "Mobile App Landing",
+  "vertical": "tech",
+  "description": "Five-page app marketing site: split hero with a phone shot, feature grid, animated stats, review slider, screen carousel with video, a review wall and a download page with store badges and FAQ.",
+  "kit": "material3",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "features.html", "title": "Features", "path": "/features" },
+    { "file": "screens.html", "title": "Screens", "path": "/screens" },
+    { "file": "reviews.html", "title": "Reviews", "path": "/reviews" },
+    { "file": "download.html", "title": "Download", "path": "/download" }
+  ],
+  "tags": ["app", "mobile", "ios", "android", "startup", "download"],
+  "components": [
+    "nav/nav-simple",
+    "hero/hero-split-image",
+    "features/features-grid-icons",
+    "stats/stats-counter",
+    "testimonials/testimonials-slider",
+    "cta/cta-app-badges",
+    "features/features-cards-hover",
+    "features/features-comparison-two-col",
+    "gallery/gallery-carousel",
+    "media/media-video-embed",
+    "testimonials/testimonials-masonry",
+    "faq/faq-two-column",
+    "footer/footer-cta-above"
+  ],
+  "version": 1
+}

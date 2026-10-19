@@ -1,0 +1,226 @@
+<header class="c-nav-sidebar-drawer" data-wf-component="nav-sidebar-drawer">
+  <div class="wf-container c-nav-sidebar-drawer__bar">
+    <button class="c-nav-sidebar-drawer__open" type="button" aria-expanded="false" aria-controls="nav-sidebar-drawer-panel" aria-label="Open menu">
+      <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <span class="c-nav-sidebar-drawer__open-label">Docs</span>
+    </button>
+    <a class="c-nav-sidebar-drawer__brand" href="/" data-wf-field="business.name">Beacon Docs</a>
+    <a class="wf-btn wf-btn--primary wf-btn--sm c-nav-sidebar-drawer__cta" href="/support">
+      <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M12 8v3M12 13.5v.5"/></svg>
+      <span>Get support</span>
+    </a>
+  </div>
+  <div class="c-nav-sidebar-drawer__backdrop" hidden></div>
+  <aside class="c-nav-sidebar-drawer__panel" id="nav-sidebar-drawer-panel" aria-label="Site menu" aria-hidden="true">
+    <div class="c-nav-sidebar-drawer__panel-head">
+      <span class="c-nav-sidebar-drawer__panel-brand" data-wf-field="business.name">Beacon Docs</span>
+      <button class="c-nav-sidebar-drawer__close" type="button" aria-label="Close menu">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <nav class="c-nav-sidebar-drawer__links" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/getting-started">Getting started</a>
+      <a href="/guides">Guides</a>
+      <a href="/api">API reference</a>
+      <a href="/faq">FAQ</a>
+      <a href="/support">Support</a>
+    </nav>
+    <div class="c-nav-sidebar-drawer__contact">
+      <p class="c-nav-sidebar-drawer__contact-label">Support hours</p>
+      <p data-wf-field="business.hours">Mon to Fri, 6am to 6pm Pacific</p>
+      <p class="c-nav-sidebar-drawer__contact-label">Phone</p>
+      <p><a href="tel:+18555550170" data-wf-field="business.phone">(855) 555-0170</a></p>
+      <p class="c-nav-sidebar-drawer__contact-label">Email</p>
+      <p><a href="mailto:support@beacon.dev" data-wf-field="business.email">support@beacon.dev</a></p>
+    </div>
+  </aside>
+</header>
+
+<section class="wf-section c-content-tabs" data-wf-component="content-tabs">
+  <div class="wf-container">
+    <div class="c-content-tabs__head">
+      <span class="wf-eyebrow">API reference</span>
+      <h2>Three ways to talk to Beacon.</h2>
+    </div>
+    <div class="c-content-tabs__tablist" role="tablist" aria-label="API surfaces">
+      <button class="c-content-tabs__tab is-active" type="button" role="tab" id="content-tabs-tab-repairs" aria-selected="true" aria-controls="content-tabs-panel-repairs" data-wf-tab="repairs">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></svg>
+        REST API
+      </button>
+      <button class="c-content-tabs__tab" type="button" role="tab" id="content-tabs-tab-remodels" aria-selected="false" aria-controls="content-tabs-panel-remodels" tabindex="-1" data-wf-tab="remodels">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h6l2-4 2 8 2-4h4"/></svg>
+        Webhooks
+      </button>
+      <button class="c-content-tabs__tab" type="button" role="tab" id="content-tabs-tab-plans" aria-selected="false" aria-controls="content-tabs-panel-plans" tabindex="-1" data-wf-tab="plans">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M12 15h5"/></svg>
+        CLI
+      </button>
+    </div>
+    <div class="c-content-tabs__panels">
+      <div class="c-content-tabs__panel is-active" role="tabpanel" id="content-tabs-panel-repairs" aria-labelledby="content-tabs-tab-repairs" data-wf-panel="repairs" tabindex="0">
+        <div class="c-content-tabs__panel-grid">
+          <div>
+            <h3 class="c-content-tabs__title">JSON over HTTPS, versioned, boring on purpose.</h3>
+            <p>Base URL api.beacon.dev/v1. Authenticate with a bearer token from Settings, then API keys. Every list endpoint paginates with a cursor; every write returns the full object. Rate limit is 600 requests per minute per key, with the remaining count in a response header.</p>
+            <a class="wf-btn wf-btn--primary" href="/getting-started">Make your first request</a>
+          </div>
+          <ul class="c-content-tabs__list">
+            <li>GET /monitors, POST /monitors, PATCH /monitors/:id</li>
+            <li>GET /incidents, POST /incidents/:id/acknowledge</li>
+            <li>GET /status-pages, POST /status-pages/:id/updates</li>
+            <li>POST /maintenance-windows for deploy automation</li>
+            <li>GET /uptime?monitor=:id&amp;range=90d for reports</li>
+          </ul>
+        </div>
+      </div>
+      <div class="c-content-tabs__panel" role="tabpanel" id="content-tabs-panel-remodels" aria-labelledby="content-tabs-tab-remodels" data-wf-panel="remodels" tabindex="0">
+        <div class="c-content-tabs__panel-grid">
+          <div>
+            <h3 class="c-content-tabs__title">Signed POSTs when something changes.</h3>
+            <p>Add a URL under Settings, then Webhooks, and Beacon sends a JSON payload on incident.opened, incident.updated, incident.resolved and monitor.paused. Each request carries an X-Beacon-Signature header: an HMAC-SHA256 of the body using your webhook secret. Failed deliveries retry with exponential backoff for 24 hours.</p>
+            <a class="wf-btn wf-btn--primary" href="/guides">Webhook guide</a>
+          </div>
+          <ul class="c-content-tabs__list">
+            <li>Events: incident.opened, updated, resolved</li>
+            <li>Verify with HMAC-SHA256 and your secret</li>
+            <li>Idempotency key on every delivery</li>
+            <li>Replay any delivery from the dashboard</li>
+            <li>Test button sends a sample payload</li>
+          </ul>
+        </div>
+      </div>
+      <div class="c-content-tabs__panel" role="tabpanel" id="content-tabs-panel-plans" aria-labelledby="content-tabs-tab-plans" data-wf-panel="plans" tabindex="0">
+        <div class="c-content-tabs__panel-grid">
+          <div>
+            <h3 class="c-content-tabs__title">The same API from your terminal.</h3>
+            <p>Install with brew install beacon or npm install -g @beacon/cli. Run beacon login once; after that beacon monitors list, beacon incidents ack and beacon maintenance open are all one line. Output is a table by default or JSON with --json for scripts. The <span data-wf-field="business.name">Beacon</span> CLI is open source.</p>
+            <a class="wf-btn wf-btn--primary" href="/guides">CLI guide</a>
+          </div>
+          <ul class="c-content-tabs__list">
+            <li>beacon monitors create --url https://example.com</li>
+            <li>beacon incidents list --open</li>
+            <li>beacon maintenance open --monitor web --minutes 15</li>
+            <li>beacon status post "Investigating elevated errors"</li>
+            <li>beacon uptime --range 30d --json</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="c-el-table-striped" data-wf-component="el-table-striped">
+  <div class="c-el-table-striped__scroll" role="region" aria-label="Core API endpoints" tabindex="0">
+    <table class="c-el-table-striped__table">
+      <caption class="c-el-table-striped__caption">Core endpoints. All paths are relative to https://api.beacon.dev/v1 and require a bearer token.</caption>
+      <thead>
+        <tr>
+          <th scope="col">Endpoint</th>
+          <th scope="col">Method</th>
+          <th scope="col">What it does</th>
+          <th scope="col" class="c-el-table-striped__num">Scope</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">/monitors</th>
+          <td>GET, POST</td>
+          <td>List monitors or create one; body matches the dashboard form</td>
+          <td class="c-el-table-striped__num">read / write</td>
+        </tr>
+        <tr>
+          <th scope="row">/monitors/:id</th>
+          <td>GET, PATCH, DELETE</td>
+          <td>Read, update or remove a monitor; PATCH accepts partial objects</td>
+          <td class="c-el-table-striped__num">read / write</td>
+        </tr>
+        <tr>
+          <th scope="row">/incidents</th>
+          <td>GET</td>
+          <td>Incidents with filters for state, monitor and date range</td>
+          <td class="c-el-table-striped__num">read</td>
+        </tr>
+        <tr>
+          <th scope="row">/incidents/:id/acknowledge</th>
+          <td>POST</td>
+          <td>Stop escalation and record who acknowledged</td>
+          <td class="c-el-table-striped__num">write</td>
+        </tr>
+        <tr>
+          <th scope="row">/maintenance-windows</th>
+          <td>POST</td>
+          <td>Open a window now or schedule one; pass monitor ids and minutes</td>
+          <td class="c-el-table-striped__num">write</td>
+        </tr>
+        <tr>
+          <th scope="row">/status-pages/:id/updates</th>
+          <td>POST</td>
+          <td>Post an incident update to a status page and notify subscribers</td>
+          <td class="c-el-table-striped__num">write</td>
+        </tr>
+        <tr>
+          <th scope="row">/uptime</th>
+          <td>GET</td>
+          <td>Uptime percentage and response-time percentiles for a range</td>
+          <td class="c-el-table-striped__num">read</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="c-el-alert" data-wf-component="el-alert">
+  <div class="c-el-alert__box c-el-alert__box--info" role="status">
+    <svg class="wf-icon c-el-alert__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+    <div class="c-el-alert__body">
+      <strong class="c-el-alert__title">Versioning</strong>
+      <p class="c-el-alert__text">v1 is stable. Fields are only ever added, never removed or renamed. Breaking changes would ship as v2 with at least twelve months of overlap.</p>
+    </div>
+  </div>
+  <div class="c-el-alert__box c-el-alert__box--success" role="status">
+    <svg class="wf-icon c-el-alert__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg>
+    <div class="c-el-alert__body">
+      <strong class="c-el-alert__title">New in October</strong>
+      <p class="c-el-alert__text">POST /maintenance-windows now accepts a duration in minutes and returns the window id so your deploy script can close it early.</p>
+    </div>
+  </div>
+  <div class="c-el-alert__box c-el-alert__box--warning" role="alert">
+    <svg class="wf-icon c-el-alert__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20z"/><path d="M12 9v5M12 17h.01"/></svg>
+    <div class="c-el-alert__body">
+      <strong class="c-el-alert__title">Rate limits</strong>
+      <p class="c-el-alert__text">600 requests per minute per key. Exceeding it returns 429 with a Retry-After header. Polling /incidents every second is the usual cause; use webhooks instead.</p>
+    </div>
+  </div>
+  <div class="c-el-alert__box c-el-alert__box--danger" role="alert">
+    <svg class="wf-icon c-el-alert__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m9 9 6 6M15 9l-6 6"/></svg>
+    <div class="c-el-alert__body">
+      <strong class="c-el-alert__title">Deprecated: legacy API keys</strong>
+      <p class="c-el-alert__text">Keys created before March 2025 stop working on January 31, 2027. Create a scoped key under Settings, then API keys, and rotate it in. Email <a href="mailto:support@beacon.dev" data-wf-field="business.email">support@beacon.dev</a> if you need help finding where the old one is used.</p>
+    </div>
+  </div>
+</div>
+
+<section class="wf-section wf-section--tight wf-section--primary c-cta-band" data-wf-component="cta-band">
+  <div class="wf-container c-cta-band__inner">
+    <div class="c-cta-band__copy">
+      <h2 class="c-cta-band__title">Can't find it? A person can.</h2>
+      <p class="c-cta-band__text">Support at <span data-wf-field="business.name">Beacon</span> is staffed by engineers, weekdays 6am to 6pm Pacific. Median first reply is nine minutes.</p>
+    </div>
+    <a class="wf-btn wf-btn--accent wf-btn--lg" href="/support">Contact support</a>
+  </div>
+</section>
+
+<footer class="wf-section wf-section--tight wf-section--surface c-footer-simple" data-wf-component="footer-simple">
+  <div class="wf-container c-footer-simple__inner">
+    <a class="c-footer-simple__brand" href="/" data-wf-field="business.name">Beacon Docs</a>
+    <nav class="c-footer-simple__links" aria-label="Footer">
+      <a href="/getting-started">Getting started</a>
+      <a href="/guides">Guides</a>
+      <a href="/api">API</a>
+      <a href="/faq">FAQ</a>
+      <a href="/support">Support</a>
+    </nav>
+    <span class="c-footer-simple__copy">&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">Beacon Docs</span></span>
+  </div>
+</footer>

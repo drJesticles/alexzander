@@ -1,0 +1,221 @@
+<header class="c-nav-topbar-contact" data-wf-component="nav-topbar-contact">
+  <div class="c-nav-topbar-contact__topbar">
+    <div class="wf-container c-nav-topbar-contact__topbar-inner">
+      <a class="c-nav-topbar-contact__item" href="tel:+14795550199">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>
+        <span data-wf-field="business.phone">(479) 555-0199</span>
+      </a>
+      <span class="c-nav-topbar-contact__item c-nav-topbar-contact__hours">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <span data-wf-field="business.hours">Mon–Sat 8am–7pm · Sun by appointment</span>
+      </span>
+      <span class="c-nav-topbar-contact__item c-nav-topbar-contact__city">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span data-wf-field="business.city">Russellville, AR</span>
+      </span>
+      <span class="c-nav-topbar-contact__social">
+        <a href="#" aria-label="Facebook" data-wf-field="social.facebook"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+        <a href="#" aria-label="Instagram" data-wf-field="social.instagram"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Google reviews" data-wf-field="social.google"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg></a>
+      </span>
+    </div>
+  </div>
+  <div class="wf-container c-nav-topbar-contact__bar">
+    <a class="c-nav-topbar-contact__brand" href="/" data-wf-field="business.name">Pike Realty Group</a>
+    <nav class="c-nav-topbar-contact__menu" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/listings">Listings</a>
+      <a href="/buy">Buy</a>
+      <a href="/sell">Sell</a>
+      <a href="/about">About</a>
+    </nav>
+    <a class="wf-btn wf-btn--primary wf-btn--sm c-nav-topbar-contact__cta" href="/contact">Contact</a>
+  </div>
+</header>
+
+<section class="wf-section c-contact-split-form-info" data-wf-component="contact-split-form-info">
+  <div class="wf-container">
+    <div class="c-contact-split-form-info__head">
+      <span class="wf-eyebrow">Contact</span>
+      <h2>Reach <span data-wf-field="business.name">Pike Realty Group</span>.</h2>
+      <p class="wf-lead">Ask about a listing, set up alerts, or get a valuation started. An agent replies the same day, seven days a week.</p>
+    </div>
+    <div class="c-contact-split-form-info__grid">
+      <form class="c-contact-split-form-info__form" data-wf-form="contact" action="#" method="post">
+        <div class="c-contact-split-form-info__row">
+          <div class="wf-field">
+            <label class="wf-label" for="contact-split-form-info-name">Name</label>
+            <input class="wf-input" id="contact-split-form-info-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="wf-field">
+            <label class="wf-label" for="contact-split-form-info-phone">Phone</label>
+            <input class="wf-input" id="contact-split-form-info-phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="contact-split-form-info-email">Email</label>
+          <input class="wf-input" id="contact-split-form-info-email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="contact-split-form-info-topic">What is this about?</label>
+          <select class="wf-select" id="contact-split-form-info-topic" name="topic">
+            <option value="buying">I want to buy</option>
+            <option value="selling">I want to sell</option>
+            <option value="listing">A question about a listing</option>
+            <option value="alerts">Set up listing alerts</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="contact-split-form-info-message">Message</label>
+          <textarea class="wf-textarea" id="contact-split-form-info-message" name="message" required></textarea>
+        </div>
+        <button class="wf-btn wf-btn--primary wf-btn--lg" type="submit">Send message</button>
+      </form>
+      <div class="c-contact-split-form-info__cards">
+        <a class="c-contact-split-form-info__card" href="tel:+14795550199">
+          <span class="c-contact-split-form-info__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg></span>
+          <span class="c-contact-split-form-info__card-body">
+            <span class="c-contact-split-form-info__card-title">Call or text</span>
+            <span class="c-contact-split-form-info__card-value" data-wf-field="business.phone">(479) 555-0199</span>
+            <span class="c-contact-split-form-info__card-note">Fastest for same-day showings</span>
+          </span>
+        </a>
+        <a class="c-contact-split-form-info__card" href="mailto:hadley@pikerealtygroup.com">
+          <span class="c-contact-split-form-info__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+          <span class="c-contact-split-form-info__card-body">
+            <span class="c-contact-split-form-info__card-title">Email</span>
+            <span class="c-contact-split-form-info__card-value" data-wf-field="business.email">hadley@pikerealtygroup.com</span>
+            <span class="c-contact-split-form-info__card-note">Replies the same day</span>
+          </span>
+        </a>
+        <div class="c-contact-split-form-info__card">
+          <span class="c-contact-split-form-info__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+          <span class="c-contact-split-form-info__card-body">
+            <span class="c-contact-split-form-info__card-title">The office</span>
+            <span class="c-contact-split-form-info__card-value" data-wf-field="business.address">505 North Arkansas Avenue</span>
+            <span class="c-contact-split-form-info__card-note" data-wf-field="business.city">Russellville, AR 72801</span>
+          </span>
+        </div>
+        <p class="c-contact-split-form-info__hours">
+          <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <span data-wf-field="business.hours">Mon–Sat 8am–7pm · Sun by appointment</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wf-section wf-section--surface c-media-map-embed" data-wf-component="media-map-embed">
+  <div class="wf-container c-media-map-embed__grid">
+    <div class="c-media-map-embed__map" data-wf-embed="" data-wf-embed-title="Map to the office" role="img" aria-label="Map placeholder showing the office location">
+      <div class="c-media-map-embed__placeholder">
+        <span class="c-media-map-embed__pin">
+          <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        </span>
+        <span class="c-media-map-embed__placeholder-text">Map loads here</span>
+      </div>
+    </div>
+    <div class="c-media-map-embed__card">
+      <span class="wf-eyebrow">Find us</span>
+      <h2 class="c-media-map-embed__title">Downtown, next to the title company.</h2>
+      <p class="c-media-map-embed__text">Street parking on Arkansas Avenue, or the lot behind the building. Most closings happen two doors down, so you will get to know the block.</p>
+      <ul class="c-media-map-embed__details">
+        <li>
+          <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <span><span data-wf-field="business.address">505 North Arkansas Avenue</span><br><span data-wf-field="business.city">Russellville, AR 72801</span></span>
+        </li>
+        <li>
+          <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <span data-wf-field="business.hours">Mon–Sat 8am–7pm · Sun by appointment</span>
+        </li>
+        <li>
+          <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>
+          <a href="tel:+14795550199" data-wf-field="business.phone">(479) 555-0199</a>
+        </li>
+      </ul>
+      <a class="wf-btn wf-btn--primary" href="https://www.google.com/maps/search/?api=1&amp;query=505+North+Arkansas+Avenue+Russellville+AR+72801" target="_blank" rel="noopener">
+        Open in Google Maps<span class="wf-sr-only">: <span data-wf-field="business.address">505 North Arkansas Avenue</span></span>
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<footer class="wf-section wf-section--dark c-footer-mega" data-wf-component="footer-mega">
+  <div class="wf-container">
+    <div class="c-footer-mega__newsletter">
+      <div>
+        <h3 class="c-footer-mega__newsletter-title">New listings every Thursday</h3>
+        <p class="c-footer-mega__newsletter-text">One email a week with what just hit the market in Pope and Yell counties, before it shows up on the big sites.</p>
+      </div>
+      <form class="c-footer-mega__form" action="#" method="post" data-wf-form="newsletter">
+        <label class="wf-sr-only" for="footer-mega-email">Email address</label>
+        <input class="wf-input c-footer-mega__input" id="footer-mega-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+        <button class="wf-btn wf-btn--accent" type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="c-footer-mega__grid">
+      <div class="c-footer-mega__brand-col">
+        <h3 class="c-footer-mega__brand" data-wf-field="business.name">Pike Realty Group</h3>
+        <p class="c-footer-mega__blurb" data-wf-field="business.tagline">A four-agent brokerage helping River Valley families buy and sell since 2012.</p>
+        <p class="c-footer-mega__hours">
+          <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <span data-wf-field="business.hours">Mon–Sat 8am–7pm · Sun by appointment</span>
+        </p>
+      </div>
+      <div>
+        <h4>Buyers</h4>
+        <ul class="c-footer-mega__links">
+          <li><a href="/listings">Search listings</a></li>
+          <li><a href="/buy">How buying works</a></li>
+          <li><a href="/buy">First-time buyers</a></li>
+          <li><a href="/buy">Lake &amp; acreage</a></li>
+          <li><a href="/contact">Get alerts</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Sellers</h4>
+        <ul class="c-footer-mega__links">
+          <li><a href="/sell">What is my home worth?</a></li>
+          <li><a href="/sell">How selling works</a></li>
+          <li><a href="/sell">Our marketing</a></li>
+          <li><a href="/about">Recent sales</a></li>
+          <li><a href="/contact">Talk to an agent</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Areas</h4>
+        <ul class="c-footer-mega__links">
+          <li><a href="/listings">Russellville</a></li>
+          <li><a href="/listings">Dardanelle &amp; the lake</a></li>
+          <li><a href="/listings">Atkins &amp; Pottsville</a></li>
+          <li><a href="/listings">London &amp; Dover</a></li>
+          <li><a href="/listings">Danville &amp; Hector</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="c-footer-mega__links">
+          <li><a href="tel:+14795550199" data-wf-field="business.phone">(479) 555-0199</a></li>
+          <li><a href="mailto:hadley@pikerealtygroup.com" data-wf-field="business.email">hadley@pikerealtygroup.com</a></li>
+          <li data-wf-field="business.address">505 North Arkansas Avenue, Russellville, AR 72801</li>
+        </ul>
+      </div>
+    </div>
+    <div class="c-footer-mega__bar">
+      <span>&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">Pike Realty Group</span>. Licensed Arkansas real estate brokerage. Equal Housing Opportunity.</span>
+      <nav class="c-footer-mega__legal" aria-label="Legal">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Accessibility</a>
+      </nav>
+      <span class="c-footer-mega__social">
+        <a href="#" aria-label="Facebook" data-wf-field="social.facebook"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+        <a href="#" aria-label="Instagram" data-wf-field="social.instagram"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Google reviews" data-wf-field="social.google"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg></a>
+      </span>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "River Valley Family Dental",
+    "tagline": "General, cosmetic and children's dentistry with the price before the chair.",
+    "phone": "(479) 555-0121",
+    "email": "office@rivervalleyfamilydental.com",
+    "address": "1801 West Main Street, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Mon to Thu 8am to 5pm · Fri 8am to noon",
+    "year": "2008"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Services", "path": "/services" },
+    { "label": "New Patients", "path": "/new-patients" },
+    { "label": "Team", "path": "/team" },
+    { "label": "Insurance & FAQ", "path": "/insurance" },
+    { "label": "Contact", "path": "/contact" }
+  ]
+}

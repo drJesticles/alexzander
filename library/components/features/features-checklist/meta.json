@@ -1,0 +1,11 @@
+{
+  "slug": "features-checklist",
+  "name": "Features: checklist",
+  "category": "features",
+  "description": "Headline, lead and button on the left; a two-column list of eight checked items on the right. List collapses to one column on phones.",
+  "tags": ["features", "checklist", "list", "included", "two-column"],
+  "previewHeight": 560,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

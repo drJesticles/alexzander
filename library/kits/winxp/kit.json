@@ -1,0 +1,12 @@
+{
+  "slug": "winxp",
+  "name": "Windows XP (Luna)",
+  "family": "off-the-wall",
+  "description": "Luna blue: navy-to-blue gradient buttons, green start-button accent, 3px radii, light bluish surfaces, Tahoma and Trebuchet.",
+  "source": "https://botoxparty.github.io/XP.css/",
+  "fonts": [],
+  "dark": false,
+  "swatch": ["#0A246A", "#3B6EA5", "#3C9D3C", "#eef4fc"],
+  "tags": ["retro", "windows", "luna", "gradient"],
+  "version": 1
+}

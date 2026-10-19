@@ -1,0 +1,69 @@
+{
+  "slug": "saas-landing",
+  "name": "SaaS Landing",
+  "vertical": "tech",
+  "description": "Six-page software marketing site: gradient hero with product shot, logo row, bento features, monthly/yearly pricing toggle and compare table, FAQ, changelog, getting-started docs and a sign-up form.",
+  "kit": "tailwind-shadcn",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "features.html",
+      "title": "Features",
+      "path": "/features"
+    },
+    {
+      "file": "pricing.html",
+      "title": "Pricing",
+      "path": "/pricing"
+    },
+    {
+      "file": "changelog.html",
+      "title": "Changelog",
+      "path": "/changelog"
+    },
+    {
+      "file": "docs.html",
+      "title": "Docs",
+      "path": "/docs"
+    },
+    {
+      "file": "signup.html",
+      "title": "Sign up",
+      "path": "/signup"
+    }
+  ],
+  "tags": [
+    "saas",
+    "software",
+    "startup",
+    "pricing",
+    "changelog",
+    "docs",
+    "signup"
+  ],
+  "components": [
+    "nav/nav-mega-menu",
+    "hero/hero-gradient-text",
+    "logos/logos-row",
+    "features/features-bento",
+    "pricing/pricing-toggle-monthly-yearly",
+    "faq/faq-accordion",
+    "cta/cta-band",
+    "features/features-tabs",
+    "features/features-alternating-rows",
+    "features/features-checklist",
+    "pricing/pricing-table-compare",
+    "faq/faq-two-column",
+    "blog/blog-list-horizontal",
+    "content/content-prose",
+    "content/content-accordion-text",
+    "forms/form-login-signup",
+    "footer/footer-mega",
+    "stats/stats-row"
+  ],
+  "version": 1
+}

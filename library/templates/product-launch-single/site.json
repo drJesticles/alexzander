@@ -1,0 +1,20 @@
+{
+  "business": {
+    "name": "Hearth One",
+    "tagline": "The smokeless fire pit, made in Arkansas.",
+    "phone": "(833) 555-0155",
+    "email": "hello@hearthone.com",
+    "address": "4410 Towson Avenue, Fort Smith, AR 72901",
+    "city": "Fort Smith, Arkansas",
+    "hours": "Mon to Fri 8am to 5pm Central",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Specs", "path": "/specs" },
+    { "label": "Reviews", "path": "/reviews" },
+    { "label": "FAQ", "path": "/faq" },
+    { "label": "Buy", "path": "/buy" }
+  ]
+}

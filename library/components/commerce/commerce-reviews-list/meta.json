@@ -1,0 +1,11 @@
+{
+  "slug": "commerce-reviews-list",
+  "name": "Commerce: reviews list",
+  "category": "commerce",
+  "description": "Rating summary with a five-to-one star breakdown (bar widths from a custom property) beside three customer reviews with avatar, stars, date and verified badge.",
+  "tags": ["commerce", "reviews", "rating", "testimonials", "social-proof"],
+  "previewHeight": 720,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

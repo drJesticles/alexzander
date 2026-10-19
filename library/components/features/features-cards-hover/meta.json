@@ -1,0 +1,11 @@
+{
+  "slug": "features-cards-hover",
+  "name": "Features: hover cards",
+  "category": "features",
+  "description": "Four linked cards with icon, title, text and an arrow. Cards lift and gain a shadow and primary border on hover. Two columns on tablet, one on phone.",
+  "tags": ["features", "cards", "hover", "grid", "links"],
+  "previewHeight": 560,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}
