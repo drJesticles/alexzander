@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "River Valley Dev Conf",
+    "tagline": "Two days of talks for developers who ship. April 16–17, 2027.",
+    "phone": "(479) 555-0100",
+    "email": "hello@example.com",
+    "address": "Arkansas Tech University, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Doors 8:00am Friday and 8:30am Saturday",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Speakers", "path": "/speakers" },
+    { "label": "Schedule", "path": "/schedule" },
+    { "label": "Tickets", "path": "/tickets" },
+    { "label": "Venue", "path": "/venue" },
+    { "label": "Register", "path": "/register" }
+  ]
+}

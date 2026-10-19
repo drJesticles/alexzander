@@ -1,0 +1,35 @@
+{
+  "slug": "coming-soon",
+  "name": "Coming Soon",
+  "vertical": "utility",
+  "description": "Launch holding page: coming-soon block with countdown and notify form, a second countdown for a pre-launch event, an inline newsletter band, plus a privacy page. Drop it in front of any site before launch.",
+  "kit": "cyberpunk",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Coming Soon",
+      "path": "/"
+    },
+    {
+      "file": "privacy.html",
+      "title": "Privacy",
+      "path": "/privacy"
+    }
+  ],
+  "tags": [
+    "utility",
+    "coming-soon",
+    "launch",
+    "countdown",
+    "newsletter"
+  ],
+  "components": [
+    "nav/nav-minimal-pill",
+    "utility/util-coming-soon-block",
+    "elements/el-countdown",
+    "forms/form-newsletter-inline",
+    "footer/footer-simple",
+    "content/content-prose"
+  ],
+  "version": 1
+}

@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "Kestrel Robotics",
+    "tagline": "Autonomous weeding robots for row-crop farms.",
+    "phone": "(515) 555-0133",
+    "email": "hello@kestrelrobotics.com",
+    "address": "2321 North Loop Drive, Ames, IA 50010",
+    "city": "Ames, Iowa",
+    "hours": "Mon to Fri, 8am to 5pm Central",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Product", "path": "/#product" },
+    { "label": "Team", "path": "/#team" },
+    { "label": "Investors", "path": "/#investors" },
+    { "label": "Contact", "path": "/#contact" },
+    { "label": "Privacy", "path": "/privacy" }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "newsletter-landing",
+  "name": "Newsletter Landing",
+  "vertical": "utility",
+  "description": "Three-page newsletter site: a subscribe hero with the form on the right, reader testimonials and FAQ, an archive list of past issues, and a privacy page.",
+  "kit": "dracula",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Subscribe",
+      "path": "/"
+    },
+    {
+      "file": "archive.html",
+      "title": "Archive",
+      "path": "/archive"
+    },
+    {
+      "file": "privacy.html",
+      "title": "Privacy",
+      "path": "/privacy"
+    }
+  ],
+  "tags": [
+    "utility",
+    "newsletter",
+    "subscribe",
+    "email",
+    "archive"
+  ],
+  "components": [
+    "nav/nav-minimal-pill",
+    "blog/blog-list-horizontal",
+    "footer/footer-simple",
+    "hero/hero-form-right",
+    "testimonials/testimonials-grid-cards",
+    "faq/faq-accordion",
+    "content/content-prose"
+  ],
+  "version": 1
+}

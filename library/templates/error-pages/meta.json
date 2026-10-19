@@ -1,0 +1,37 @@
+{
+  "slug": "error-pages",
+  "name": "Error Pages",
+  "vertical": "utility",
+  "description": "Three drop-in error pages built on the 404 block: not found (index), server error (500) and offline, each with a search box, quick links and the phone number.",
+  "kit": "base",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "404 Not Found",
+      "path": "/"
+    },
+    {
+      "file": "500.html",
+      "title": "500 Server Error",
+      "path": "/500"
+    },
+    {
+      "file": "offline.html",
+      "title": "Offline",
+      "path": "/offline"
+    }
+  ],
+  "tags": [
+    "utility",
+    "404",
+    "500",
+    "offline",
+    "error"
+  ],
+  "components": [
+    "nav/nav-minimal-pill",
+    "utility/util-404-block",
+    "footer/footer-simple"
+  ],
+  "version": 1
+}

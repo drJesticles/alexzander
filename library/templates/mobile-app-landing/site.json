@@ -1,0 +1,20 @@
+{
+  "business": {
+    "name": "Pace",
+    "tagline": "A running coach for people who don't run.",
+    "phone": "(303) 555-0164",
+    "email": "help@pace.run",
+    "address": "1911 11th Street, Suite 200, Boulder, CO 80302",
+    "city": "Boulder, CO",
+    "hours": "Support Mon to Fri, 8am to 6pm Mountain",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Features", "path": "/features" },
+    { "label": "Screens", "path": "/screens" },
+    { "label": "Reviews", "path": "/reviews" },
+    { "label": "Download", "path": "/download" }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "landscaping-lawn",
+  "name": "Landscaping & Lawn",
+  "vertical": "trades",
+  "description": "Six-page lawn care and landscaping site: three-slide hero, service grid with per-lot prices, season-by-season tabs with three mowing plans, masonry gallery and before/after, owner letter and a square-footage estimate calculator.",
+  "kit": "nord",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "services.html",
+      "title": "Services",
+      "path": "/services"
+    },
+    {
+      "file": "seasonal-plans.html",
+      "title": "Seasonal Plans",
+      "path": "/seasonal-plans"
+    },
+    {
+      "file": "gallery.html",
+      "title": "Gallery",
+      "path": "/gallery"
+    },
+    {
+      "file": "about.html",
+      "title": "About",
+      "path": "/about"
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "tags": [
+    "landscaping",
+    "lawn-care",
+    "mowing",
+    "seasonal",
+    "estimate-calculator"
+  ],
+  "components": [
+    "about/about-owner-letter",
+    "about/about-values-grid",
+    "contact/contact-cards-three",
+    "content/content-tabs",
+    "cta/cta-band",
+    "cta/cta-split-image",
+    "faq/faq-accordion",
+    "features/features-checklist",
+    "footer/footer-centered",
+    "forms/form-estimate-calculator",
+    "gallery/gallery-before-after",
+    "gallery/gallery-carousel",
+    "gallery/gallery-masonry",
+    "hero/hero-carousel",
+    "media/media-map-embed",
+    "nav/nav-transparent-overlay",
+    "pricing/pricing-three-tier",
+    "process/process-steps-horizontal",
+    "services/services-grid-cards",
+    "services/services-list-prices",
+    "services/services-split-image",
+    "stats/stats-split-image",
+    "team/team-grid",
+    "testimonials/testimonials-grid-cards"
+  ],
+  "version": 1
+}

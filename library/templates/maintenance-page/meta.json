@@ -1,0 +1,34 @@
+{
+  "slug": "maintenance-page",
+  "name": "Maintenance Page",
+  "vertical": "utility",
+  "description": "Two-page maintenance holding site: a maintenance block with phone and email cards, and a status page with headline numbers, per-service alerts and a running update log.",
+  "kit": "base",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Maintenance",
+      "path": "/"
+    },
+    {
+      "file": "status.html",
+      "title": "Status",
+      "path": "/status"
+    }
+  ],
+  "tags": [
+    "utility",
+    "maintenance",
+    "status",
+    "downtime"
+  ],
+  "components": [
+    "nav/nav-minimal-pill",
+    "utility/util-maintenance-block",
+    "footer/footer-simple",
+    "stats/stats-row",
+    "elements/el-alert",
+    "content/content-prose"
+  ],
+  "version": 1
+}

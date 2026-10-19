@@ -1,0 +1,40 @@
+{
+  "slug": "thank-you-pages",
+  "name": "Thank-You Pages",
+  "vertical": "utility",
+  "description": "Three post-action pages to drop into any site: thank-you after a quote request (with what-happens-next steps), appointment confirmation, and an unsubscribe page with a resubscribe box.",
+  "kit": "base",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Thank You",
+      "path": "/"
+    },
+    {
+      "file": "confirmation.html",
+      "title": "Confirmation",
+      "path": "/confirmation"
+    },
+    {
+      "file": "unsubscribe.html",
+      "title": "Unsubscribe",
+      "path": "/unsubscribe"
+    }
+  ],
+  "tags": [
+    "utility",
+    "thank-you",
+    "confirmation",
+    "unsubscribe",
+    "post-form"
+  ],
+  "components": [
+    "nav/nav-minimal-pill",
+    "elements/el-alert",
+    "content/content-prose",
+    "footer/footer-simple",
+    "process/process-steps-horizontal",
+    "forms/form-newsletter-inline"
+  ],
+  "version": 1
+}

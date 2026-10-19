@@ -1,0 +1,43 @@
+{
+  "business": {
+    "name": "Comfort Zone Heating & Air",
+    "tagline": "Too hot, too cold, or just too loud? We can be there today.",
+    "phone": "(479) 555-0150",
+    "email": "service@comfortzonehvac.com",
+    "address": "1500 E Parkway Dr, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Mon–Fri 7am–6pm · Sat 8am–noon · No-heat/no-cool 24/7",
+    "year": "2026"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "google": ""
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Heating",
+      "path": "/heating"
+    },
+    {
+      "label": "Cooling",
+      "path": "/cooling"
+    },
+    {
+      "label": "Maintenance Plans",
+      "path": "/maintenance-plans"
+    },
+    {
+      "label": "About",
+      "path": "/about"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ]
+}

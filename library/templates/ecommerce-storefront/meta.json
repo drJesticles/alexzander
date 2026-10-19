@@ -1,0 +1,35 @@
+{
+  "slug": "ecommerce-storefront",
+  "name": "E-commerce Storefront",
+  "vertical": "commerce",
+  "description": "Six-page store for a small retailer: hero carousel, category tiles, product grid, trust badges and sale banner on the home page, plus Shop, Product (gallery, add-to-cart, reviews), Cart, Checkout and About pages.",
+  "kit": "polaris",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "shop.html", "title": "Shop", "path": "/shop" },
+    { "file": "product.html", "title": "Product", "path": "/product" },
+    { "file": "cart.html", "title": "Cart", "path": "/cart" },
+    { "file": "checkout.html", "title": "Checkout", "path": "/checkout" },
+    { "file": "about.html", "title": "About", "path": "/about" }
+  ],
+  "tags": ["store", "shop", "ecommerce", "cart", "checkout", "retail", "makers"],
+  "components": [
+    "nav/nav-topbar-contact",
+    "hero/hero-carousel",
+    "commerce/commerce-category-tiles",
+    "commerce/commerce-product-grid",
+    "commerce/commerce-trust-badges-row",
+    "commerce/commerce-sale-banner",
+    "commerce/commerce-featured-product-split",
+    "commerce/commerce-product-detail",
+    "commerce/commerce-reviews-list",
+    "commerce/commerce-cart-summary",
+    "commerce/commerce-checkout-form",
+    "faq/faq-two-column",
+    "about/about-split-story",
+    "about/about-values-grid",
+    "team/team-grid",
+    "footer/footer-mega"
+  ],
+  "version": 1
+}

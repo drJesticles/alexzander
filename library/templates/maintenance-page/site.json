@@ -1,0 +1,17 @@
+{
+  "business": {
+    "name": "AAA Home Specialists",
+    "tagline": "Tech-centric handyman and remodel service for the Arkansas River Valley.",
+    "phone": "(479) 555-0100",
+    "email": "hello@example.com",
+    "address": "Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Mon–Fri 7:30am–5:30pm · Sat 8am–noon",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Maintenance", "path": "/" },
+    { "label": "Status", "path": "/status" }
+  ]
+}

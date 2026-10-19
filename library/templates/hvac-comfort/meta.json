@@ -1,0 +1,73 @@
+{
+  "slug": "hvac-comfort",
+  "name": "HVAC Comfort",
+  "vertical": "trades",
+  "description": "Six-page heating and air site: booking-form hero, separate heating and cooling pages, three maintenance plans with a comparison table and a 21-point tune-up checklist, team page and map contact.",
+  "kit": "material3",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "heating.html",
+      "title": "Heating",
+      "path": "/heating"
+    },
+    {
+      "file": "cooling.html",
+      "title": "Cooling",
+      "path": "/cooling"
+    },
+    {
+      "file": "maintenance-plans.html",
+      "title": "Maintenance Plans",
+      "path": "/maintenance-plans"
+    },
+    {
+      "file": "about.html",
+      "title": "About",
+      "path": "/about"
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "tags": [
+    "hvac",
+    "heating",
+    "cooling",
+    "maintenance-plans",
+    "pricing"
+  ],
+  "components": [
+    "about/about-split-story",
+    "about/about-values-grid",
+    "contact/contact-hours-table",
+    "contact/contact-map-top",
+    "content/content-checklist-columns",
+    "content/content-tabs",
+    "cta/cta-band",
+    "cta/cta-phone-big",
+    "faq/faq-accordion",
+    "faq/faq-two-column",
+    "features/features-alternating-rows",
+    "features/features-grid-icons",
+    "footer/footer-mega",
+    "forms/form-callback-request",
+    "hero/hero-form-right",
+    "logos/logos-row",
+    "nav/nav-topbar-contact",
+    "pricing/pricing-table-compare",
+    "pricing/pricing-three-tier",
+    "services/services-icon-row",
+    "services/services-split-image",
+    "stats/stats-with-icons",
+    "team/team-cards-social",
+    "testimonials/testimonials-google-style"
+  ],
+  "version": 1
+}
