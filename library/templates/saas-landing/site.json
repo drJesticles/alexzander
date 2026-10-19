@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "Fieldnote",
+    "tagline": "Scheduling, quotes and invoicing for service businesses with one to fifty trucks.",
+    "phone": "(888) 555-0190",
+    "email": "hello@fieldnote.app",
+    "address": "600 Congress Avenue, Suite 1400",
+    "city": "Austin, TX 78701",
+    "hours": "Support Mon to Fri, 7am to 7pm Central",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Features", "path": "/features" },
+    { "label": "Pricing", "path": "/pricing" },
+    { "label": "Changelog", "path": "/changelog" },
+    { "label": "Docs", "path": "/docs" },
+    { "label": "Sign up", "path": "/signup" }
+  ]
+}

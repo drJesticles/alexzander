@@ -9,7 +9,7 @@
   --wf-primary-hover: #ce372b;
   --wf-secondary: #212529;
   --wf-on-secondary: #ffffff;
-  --wf-accent: #209cee;
+  --wf-accent: #1b8fe0;
   --wf-on-accent: #ffffff;
   --wf-border: #212529;
   --wf-success: #76c442;
@@ -55,10 +55,10 @@
   --wf-text-muted: #ced4da;
   --wf-primary: #e76e55;
   --wf-on-primary: #ffffff;
-  --wf-primary-hover: #ff8a70;
-  --wf-secondary: #ffffff;
-  --wf-on-secondary: #212529;
-  --wf-accent: #209cee;
+  --wf-primary-hover: #c94d3a;
+  --wf-secondary: #343a40;
+  --wf-on-secondary: #ffffff;
+  --wf-accent: #1b8fe0;
   --wf-on-accent: #ffffff;
   --wf-border: #ffffff;
   --wf-success: #92cc41;

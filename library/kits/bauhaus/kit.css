@@ -23,3 +23,4 @@ h1{font-size:clamp(var(--wf-text-5xl),7vw,6rem);line-height:1}
 hr{border-top:var(--wf-border-w) solid var(--wf-border)}
 a{color:var(--wf-secondary);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:.2em}
 a:hover{color:var(--wf-primary)}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}

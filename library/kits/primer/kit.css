@@ -17,3 +17,7 @@ h1,h2,h3,h4{font-weight:600}
 .wf-input,.wf-select,.wf-textarea{padding:.3125rem .75rem;font-size:.875rem;line-height:1.43;background:var(--wf-bg);box-shadow:inset 0 1px 0 rgba(208,215,222,.2)}
 .wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-color:var(--wf-primary);box-shadow:0 0 0 3px var(--primer-focus-ring)}
 :focus-visible{outline:2px solid var(--wf-primary);outline-offset:-2px}
+.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}
+.wf-badge--primary{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-badge--accent{background:var(--wf-accent);color:var(--wf-on-accent)}

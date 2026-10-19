@@ -24,3 +24,4 @@ h1,h2,h3{letter-spacing:0}
 hr{border:0;border-top:1px solid var(--w98-dark);border-bottom:1px solid var(--w98-light)}
 a{color:var(--wf-primary);text-decoration:underline}
 .wf-avatar{border-radius:0}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}

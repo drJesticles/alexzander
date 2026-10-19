@@ -1,0 +1,73 @@
+{
+  "slug": "roofing-pro",
+  "name": "Roofing Pro",
+  "vertical": "trades",
+  "description": "Six-page roofing contractor site: stats hero, storm-damage claim guide, roof packages with financing, insurance FAQ, filterable gallery and a free-inspection request form.",
+  "kit": "neo-brutalism",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "services.html",
+      "title": "Services",
+      "path": "/services"
+    },
+    {
+      "file": "storm-damage.html",
+      "title": "Storm Damage",
+      "path": "/storm-damage"
+    },
+    {
+      "file": "financing.html",
+      "title": "Financing & FAQ",
+      "path": "/financing"
+    },
+    {
+      "file": "gallery.html",
+      "title": "Gallery",
+      "path": "/gallery"
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "tags": [
+    "roofing",
+    "storm-damage",
+    "insurance",
+    "contractor",
+    "financing"
+  ],
+  "components": [
+    "contact/contact-hours-table",
+    "content/content-accordion-text",
+    "content/content-two-column-text",
+    "cta/cta-phone-big",
+    "faq/faq-with-contact-card",
+    "features/features-checklist",
+    "features/features-comparison-two-col",
+    "features/features-grid-icons",
+    "footer/footer-cta-above",
+    "forms/form-callback-request",
+    "forms/form-quote-request",
+    "gallery/gallery-filterable",
+    "gallery/gallery-video-grid",
+    "hero/hero-split-stats",
+    "logos/logos-row",
+    "media/media-map-embed",
+    "nav/nav-topbar-contact",
+    "pricing/pricing-three-tier",
+    "process/process-cards-arrows",
+    "process/process-steps-horizontal",
+    "services/services-grid-cards",
+    "services/services-icon-row",
+    "stats/stats-row",
+    "testimonials/testimonials-slider"
+  ],
+  "version": 1
+}

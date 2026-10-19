@@ -1,0 +1,59 @@
+{
+  "slug": "wedding-event",
+  "name": "Wedding",
+  "vertical": "personal",
+  "description": "Five-page wedding site: hero with countdown, the couple's story on a timeline with photos, day-of schedule and map, an RSVP form and a registry page.",
+  "kit": "paper-newsprint",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "story.html",
+      "title": "Our Story",
+      "path": "/story"
+    },
+    {
+      "file": "details.html",
+      "title": "Details",
+      "path": "/details"
+    },
+    {
+      "file": "rsvp.html",
+      "title": "RSVP",
+      "path": "/rsvp"
+    },
+    {
+      "file": "registry.html",
+      "title": "Registry",
+      "path": "/registry"
+    }
+  ],
+  "tags": [
+    "personal",
+    "wedding",
+    "event",
+    "rsvp",
+    "countdown",
+    "registry"
+  ],
+  "components": [
+    "nav/nav-centered-logo",
+    "contact/contact-hours-table",
+    "media/media-map-embed",
+    "faq/faq-accordion",
+    "footer/footer-centered",
+    "hero/hero-centered-bg-image",
+    "elements/el-countdown",
+    "content/content-two-column-text",
+    "cta/cta-band",
+    "features/features-cards-hover",
+    "content/content-quote-block",
+    "forms/form-booking-appointment",
+    "about/about-timeline-history",
+    "gallery/gallery-grid"
+  ],
+  "version": 1
+}

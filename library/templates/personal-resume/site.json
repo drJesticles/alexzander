@@ -1,0 +1,19 @@
+{
+  "business": {
+    "name": "Jordan Reyes",
+    "tagline": "Front-end engineer. Remote from the Arkansas River Valley.",
+    "phone": "(479) 555-0100",
+    "email": "hello@example.com",
+    "address": "Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Mon–Fri 9am–5pm Central",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "About", "path": "/" },
+    { "label": "Experience", "path": "/experience" },
+    { "label": "Projects", "path": "/projects" },
+    { "label": "Contact", "path": "/contact" }
+  ]
+}

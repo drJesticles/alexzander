@@ -1,6 +1,6 @@
 body{background-color:var(--wf-bg);background-image:var(--y2k-page);background-attachment:fixed}
 h1,h2{letter-spacing:.02em;font-weight:400}
-h1{background:linear-gradient(180deg,var(--wf-text) 0%,var(--wf-text-muted) 48%,var(--wf-primary) 52%,var(--wf-text) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+h1{background:linear-gradient(180deg,currentColor 0%,color-mix(in srgb,currentColor 65%,transparent) 48%,var(--wf-primary) 52%,currentColor 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 .wf-section--dark h1,.wf-section--primary h1{background:linear-gradient(180deg,#ffffff,#c7d2e4 50%,#ffffff);-webkit-background-clip:text;background-clip:text}
 .wf-eyebrow{color:var(--wf-primary);font-family:var(--wf-font-display);font-size:var(--wf-text-xs);letter-spacing:.2em}
 .wf-btn{border:1px solid rgba(255,255,255,.6);background-image:var(--y2k-gloss);font-family:var(--wf-font-display);font-weight:400;font-size:var(--wf-text-sm);text-transform:uppercase;letter-spacing:.08em;text-shadow:0 1px 0 rgba(0,0,0,.15)}
@@ -27,3 +27,4 @@ h1{background:linear-gradient(180deg,var(--wf-text) 0%,var(--wf-text-muted) 48%,
 .wf-section--dark{background:linear-gradient(180deg,#1b2334,#0b0f1a);color:#eef1f6}
 hr{border:0;height:3px;background:var(--y2k-chrome);border-radius:999px}
 .wf-avatar{border:3px solid #ffffff;box-shadow:var(--wf-shadow-sm)}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}

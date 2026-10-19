@@ -22,3 +22,8 @@ a{color:#89b4fa}
 a:hover{color:#b4befe}
 code,pre{color:#a6e3a1;background:var(--wf-surface);border-radius:var(--wf-radius-sm);padding:.1em .35em}
 hr{border-top-color:var(--wf-border)}
+.wf-section--dark .wf-btn--outline,.wf-section--primary .wf-btn--outline{color:inherit;border-color:currentColor}
+.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit}
+.wf-badge--primary{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-badge--accent{background:var(--wf-accent);color:var(--wf-on-accent)}
+.wf-section--primary h1,.wf-section--primary h2,.wf-section--primary h3,.wf-section--primary .wf-eyebrow{color:inherit}

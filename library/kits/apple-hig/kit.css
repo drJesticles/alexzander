@@ -16,3 +16,8 @@ hr{border-top-width:1px}
 .wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-color:var(--wf-primary);box-shadow:0 0 0 4px rgba(0,125,250,.35)}
 :focus-visible{outline:0;box-shadow:0 0 0 4px rgba(0,125,250,.5);border-radius:var(--wf-radius-sm)}
 .wf-btn:focus-visible{border-radius:var(--wf-btn-radius)}
+.wf-section--dark .wf-btn--outline,.wf-section--primary .wf-btn--outline{color:inherit;border-color:currentColor}
+.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}
+.wf-badge--primary{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-badge--accent{background:var(--wf-accent);color:var(--wf-on-accent)}

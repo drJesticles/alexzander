@@ -13,3 +13,5 @@ h1,h2,h3,h4{font-weight:600}
 .wf-input,.wf-select,.wf-textarea{padding:.45rem .75rem;border-bottom-color:var(--wf-text-muted);background:var(--wf-bg)}
 .wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-color:var(--wf-border);border-bottom:2px solid var(--wf-primary);padding-bottom:calc(.45rem - 1px)}
 :focus-visible{outline:2px solid var(--wf-text);outline-offset:1px;border-radius:var(--wf-radius-md)}
+.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}

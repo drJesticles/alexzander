@@ -1,0 +1,75 @@
+{
+  "slug": "electrical-services",
+  "name": "Electrical Services",
+  "vertical": "trades",
+  "description": "Six-page electrician site: minimal hero, service grid with starting prices, a safety and inspection page with plain-English guides, a commercial page with bid CTA, history timeline and contact.",
+  "kit": "carbon",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "services.html",
+      "title": "Services",
+      "path": "/services"
+    },
+    {
+      "file": "safety.html",
+      "title": "Safety & Inspections",
+      "path": "/safety"
+    },
+    {
+      "file": "commercial.html",
+      "title": "Commercial",
+      "path": "/commercial"
+    },
+    {
+      "file": "about.html",
+      "title": "About",
+      "path": "/about"
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "tags": [
+    "electrician",
+    "electrical",
+    "commercial",
+    "inspections",
+    "ev-charger"
+  ],
+  "components": [
+    "about/about-timeline-history",
+    "about/about-values-grid",
+    "contact/contact-cards-three",
+    "contact/contact-hours-table",
+    "content/content-accordion-text",
+    "content/content-checklist-columns",
+    "cta/cta-band",
+    "cta/cta-phone-big",
+    "faq/faq-accordion",
+    "features/features-alternating-rows",
+    "features/features-cards-hover",
+    "footer/footer-simple",
+    "forms/form-callback-request",
+    "forms/form-contact-basic",
+    "hero/hero-minimal-left",
+    "logos/logos-grid-bordered",
+    "logos/logos-row",
+    "media/media-image-text-split",
+    "nav/nav-simple",
+    "pricing/pricing-single-card",
+    "services/services-grid-cards",
+    "services/services-list-prices",
+    "stats/stats-dark-band",
+    "stats/stats-with-icons",
+    "team/team-list-compact",
+    "testimonials/testimonials-slider"
+  ],
+  "version": 1
+}

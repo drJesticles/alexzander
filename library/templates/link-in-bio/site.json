@@ -1,0 +1,17 @@
+{
+  "business": {
+    "name": "@maya.makes",
+    "tagline": "Ceramics, process videos and the occasional cat. Studio in Russellville, AR. Shop drops on the first Friday of the month.",
+    "phone": "(479) 555-0100",
+    "email": "hello@example.com",
+    "address": "Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Studio visits by appointment",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Links", "path": "/" },
+    { "label": "Privacy", "path": "/privacy" }
+  ]
+}

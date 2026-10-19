@@ -13,3 +13,7 @@ h1,h2,h3,h4{font-weight:600}
 .wf-input,.wf-select,.wf-textarea{padding:.5rem .75rem;border-color:var(--polaris-input-border);font-size:.875rem}
 .wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:2px solid var(--polaris-focus);outline-offset:1px;border-color:var(--polaris-input-border)}
 :focus-visible{outline:2px solid var(--polaris-focus);outline-offset:1px}
+.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}
+.wf-badge--primary{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-badge--accent{background:var(--wf-accent);color:var(--wf-on-accent)}

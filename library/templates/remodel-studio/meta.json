@@ -1,0 +1,75 @@
+{
+  "slug": "remodel-studio",
+  "name": "Remodel Studio",
+  "vertical": "trades",
+  "description": "Six-page site for a kitchen and bath remodel outfit: option tabs, lightbox galleries, a fixed-price package, before/during/after process page and a filterable portfolio.",
+  "kit": "aaa-hs-bold",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "kitchens.html",
+      "title": "Kitchens",
+      "path": "/kitchens"
+    },
+    {
+      "file": "bathrooms.html",
+      "title": "Bathrooms",
+      "path": "/bathrooms"
+    },
+    {
+      "file": "process.html",
+      "title": "Process",
+      "path": "/process"
+    },
+    {
+      "file": "portfolio.html",
+      "title": "Portfolio",
+      "path": "/portfolio"
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "tags": [
+    "remodel",
+    "kitchen",
+    "bathroom",
+    "contractor",
+    "portfolio"
+  ],
+  "components": [
+    "contact/contact-split-form-info",
+    "content/content-accordion-text",
+    "content/content-prose",
+    "cta/cta-band",
+    "cta/cta-phone-big",
+    "cta/cta-split-image",
+    "faq/faq-two-column",
+    "features/features-alternating-rows",
+    "features/features-checklist",
+    "features/features-tabs",
+    "footer/footer-mega",
+    "gallery/gallery-carousel",
+    "gallery/gallery-filterable",
+    "gallery/gallery-lightbox",
+    "gallery/gallery-masonry",
+    "hero/hero-centered-bg-image",
+    "media/media-map-embed",
+    "nav/nav-centered-logo",
+    "pricing/pricing-single-card",
+    "process/process-before-during-after",
+    "process/process-timeline-vertical",
+    "services/services-split-image",
+    "stats/stats-counter",
+    "stats/stats-dark-band",
+    "testimonials/testimonials-single-large",
+    "testimonials/testimonials-slider"
+  ],
+  "version": 1
+}

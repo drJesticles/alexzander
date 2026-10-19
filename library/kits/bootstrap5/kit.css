@@ -13,3 +13,6 @@ h1,h2,h3,h4{font-weight:500}
 .wf-eyebrow{font-weight:700}
 .wf-input,.wf-select,.wf-textarea{padding:.375rem .75rem;line-height:1.5}
 .wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-color:var(--wf-primary);box-shadow:0 0 0 .25rem var(--bs-focus-ring)}
+.wf-section--dark .wf-btn--outline,.wf-section--primary .wf-btn--outline{color:inherit;border-color:currentColor}
+.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}

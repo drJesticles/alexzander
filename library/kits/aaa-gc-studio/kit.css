@@ -1,7 +1,7 @@
 body{background-color:var(--wf-bg)}
 h1,h2{font-weight:800;letter-spacing:-.03em}
 h1{font-size:clamp(var(--wf-text-5xl),7vw,5.5rem)}
-.wf-eyebrow{color:var(--wf-accent);font-weight:700;background:var(--wf-surface-2);padding:.3rem .75rem;border-radius:var(--wf-radius-full)}
+.wf-eyebrow{color:var(--wf-text);font-weight:700;background:var(--wf-surface-2);padding:.3rem .75rem;border-radius:var(--wf-radius-full)}
 .wf-btn{transition:transform var(--wf-dur-fast) var(--wf-ease),box-shadow var(--wf-dur-fast) var(--wf-ease),background var(--wf-dur-fast) var(--wf-ease),color var(--wf-dur-fast) var(--wf-ease)}
 .wf-btn:hover{transform:translate(-2px,-2px);box-shadow:4px 4px 0 var(--wf-accent)}
 .wf-btn:active{transform:translate(0,0);box-shadow:none}

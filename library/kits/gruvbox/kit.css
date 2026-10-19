@@ -14,3 +14,6 @@ h1,h2,h3{font-weight:600;letter-spacing:-.01em}
 .wf-section--primary{background:var(--wf-primary);color:var(--wf-on-primary)}
 code,pre{background:var(--wf-surface-2);border-radius:var(--wf-radius-sm);padding:.1em .35em}
 hr{border-top:1px solid var(--wf-border)}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}
+.wf-badge--primary{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-badge--accent{background:var(--wf-accent);color:var(--wf-on-accent)}

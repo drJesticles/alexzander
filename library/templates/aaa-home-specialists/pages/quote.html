@@ -1,0 +1,231 @@
+<header class="c-nav-topbar-contact" data-wf-component="nav-topbar-contact">
+  <div class="c-nav-topbar-contact__topbar">
+    <div class="wf-container c-nav-topbar-contact__topbar-inner">
+      <a class="c-nav-topbar-contact__item" href="tel:+14795550100">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+        <span data-wf-field="business.phone">(479) 555-0100</span>
+      </a>
+      <span class="c-nav-topbar-contact__item c-nav-topbar-contact__hours">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <span data-wf-field="business.hours">Mon–Fri 7:30am–5:30pm · Sat 8am–noon</span>
+      </span>
+      <span class="c-nav-topbar-contact__item c-nav-topbar-contact__city">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span data-wf-field="business.city">Russellville, AR</span>
+      </span>
+      <span class="c-nav-topbar-contact__social">
+        <a href="#" aria-label="Facebook" data-wf-field="social.facebook"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+        <a href="#" aria-label="Instagram" data-wf-field="social.instagram"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Google reviews" data-wf-field="social.google"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg></a>
+      </span>
+    </div>
+  </div>
+  <div class="wf-container c-nav-topbar-contact__bar">
+    <a class="c-nav-topbar-contact__brand" href="/" data-wf-field="business.name">AAA Home Specialists</a>
+    <nav class="c-nav-topbar-contact__menu" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/services">Services</a>
+      <a href="/smart-home">Smart Home</a>
+      <a href="/gallery">Gallery</a>
+      <a href="/reviews">Reviews</a>
+    </nav>
+    <a class="wf-btn wf-btn--primary wf-btn--sm c-nav-topbar-contact__cta" href="/quote">Get a quote</a>
+  </div>
+</header>
+
+<section class="wf-section wf-section--surface c-form-quote-request" data-wf-component="form-quote-request">
+  <div class="wf-container c-form-quote-request__grid">
+    <aside class="c-form-quote-request__aside">
+      <span class="wf-eyebrow">Free quotes</span>
+      <h2>Request a quote</h2>
+      <p class="wf-lead">Tell us about the job and <span data-wf-field="business.name">AAA Home Specialists</span> will send a written estimate, usually within 24 hours.</p>
+      <ol class="c-form-quote-request__steps">
+        <li><strong>Describe the job.</strong> Photos help us price it accurately the first time.</li>
+        <li><strong>We review it.</strong> A real tech reads every request, not a call center.</li>
+        <li><strong>You get a number.</strong> Flat-rate pricing, no surprises on the invoice.</li>
+      </ol>
+      <p class="c-form-quote-request__phone">Rather talk it through? <a href="tel:+14795550100" data-wf-field="business.phone">(479) 555-0100</a></p>
+    </aside>
+    <form class="c-form-quote-request__form" data-wf-form="quote" action="#" method="post" enctype="multipart/form-data">
+      <div class="c-form-quote-request__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-quote-request-name">Full name</label>
+          <input class="wf-input" id="form-quote-request-name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-quote-request-phone">Phone</label>
+          <input class="wf-input" id="form-quote-request-phone" name="phone" type="tel" autocomplete="tel" required>
+        </div>
+      </div>
+      <div class="c-form-quote-request__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-quote-request-email">Email</label>
+          <input class="wf-input" id="form-quote-request-email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-quote-request-service">Service needed</label>
+          <select class="wf-select" id="form-quote-request-service" name="service" required>
+            <option value="">Choose a service</option>
+            <option value="handyman">Handyman repairs</option>
+            <option value="kitchen-bath">Kitchen or bath remodel</option>
+            <option value="smart-home">Smart home install</option>
+            <option value="painting">Painting and drywall</option>
+            <option value="deck-fence">Deck and fence</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-quote-request-address">Job address</label>
+        <input class="wf-input" id="form-quote-request-address" name="address" type="text" autocomplete="street-address" placeholder="Street address, Russellville, AR 72801">
+      </div>
+      <div class="c-form-quote-request__row">
+        <div class="wf-field">
+          <label class="wf-label" for="form-quote-request-date">Preferred date</label>
+          <input class="wf-input" id="form-quote-request-date" name="preferred_date" type="date">
+        </div>
+        <div class="wf-field">
+          <label class="wf-label" for="form-quote-request-budget">Budget range</label>
+          <select class="wf-select" id="form-quote-request-budget" name="budget">
+            <option value="">Not sure yet</option>
+            <option value="under-500">Under $500</option>
+            <option value="500-2000">$500 to $2,000</option>
+            <option value="2000-10000">$2,000 to $10,000</option>
+            <option value="over-10000">Over $10,000</option>
+          </select>
+        </div>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-quote-request-photos">Photos of the job <span class="wf-muted">(up to 5)</span></label>
+        <input class="wf-input c-form-quote-request__file" id="form-quote-request-photos" name="photos" type="file" accept="image/*" multiple>
+        <p class="c-form-quote-request__hint">A wide shot and a close-up are plenty.</p>
+      </div>
+      <div class="wf-field">
+        <label class="wf-label" for="form-quote-request-description">Describe the work</label>
+        <textarea class="wf-textarea" id="form-quote-request-description" name="description" placeholder="Example: replace the rotted boards on a 12 by 16 deck and restain it, and install a video doorbell." required></textarea>
+      </div>
+      <div class="c-form-quote-request__actions">
+        <button class="wf-btn wf-btn--primary wf-btn--lg" type="submit">Send my quote request</button>
+        <span class="c-form-quote-request__hint">Serving <span data-wf-field="business.city">Russellville, AR</span> and the River Valley. Travel to NWA, Little Rock and Fort Smith by appointment.</span>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="wf-section c-process-steps-horizontal" data-wf-component="process-steps-horizontal">
+  <div class="wf-container">
+    <div class="wf-center c-process-steps-horizontal__head">
+      <span class="wf-eyebrow">What happens next</span>
+      <h2>From this form to a finished job.</h2>
+    </div>
+    <ol class="c-process-steps-horizontal__steps">
+      <li class="c-process-steps-horizontal__step">
+        <span class="c-process-steps-horizontal__num" aria-hidden="true">1</span>
+        <h3 class="c-process-steps-horizontal__title">We read it today</h3>
+        <p>Requests sent before 3pm get a reply the same business day, usually by text.</p>
+      </li>
+      <li class="c-process-steps-horizontal__step">
+        <span class="c-process-steps-horizontal__num" aria-hidden="true">2</span>
+        <h3 class="c-process-steps-horizontal__title">Price in writing</h3>
+        <p>Flat rate for common jobs. Remodels and anything over $1,500 get a short visit first.</p>
+      </li>
+      <li class="c-process-steps-horizontal__step">
+        <span class="c-process-steps-horizontal__num" aria-hidden="true">3</span>
+        <h3 class="c-process-steps-horizontal__title">Pick a slot</h3>
+        <p>Morning or afternoon window. You get a text when the tech is ten minutes out.</p>
+      </li>
+      <li class="c-process-steps-horizontal__step">
+        <span class="c-process-steps-horizontal__num" aria-hidden="true">4</span>
+        <h3 class="c-process-steps-horizontal__title">Walk it with us</h3>
+        <p>We show you what was done, clean up, and send the invoice with a pay link that evening.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="wf-section wf-section--surface c-contact-cards-three" data-wf-component="contact-cards-three">
+  <div class="wf-container">
+    <div class="c-contact-cards-three__head wf-center">
+      <span class="wf-eyebrow">Three ways to reach us</span>
+      <h2>Pick up the phone, send a note, or text a photo.</h2>
+    </div>
+    <div class="wf-grid wf-grid--3">
+      <div class="c-contact-cards-three__card">
+        <span class="c-contact-cards-three__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span>
+        <h3 class="c-contact-cards-three__title">Call or text</h3>
+        <p class="c-contact-cards-three__text">Weekdays 7:30 to 5:30. After hours, leave a voicemail or text and we reply first thing.</p>
+        <p class="c-contact-cards-three__value" data-wf-field="business.phone">(479) 555-0100</p>
+        <a class="wf-btn wf-btn--primary" href="tel:+14795550100">Call now</a>
+      </div>
+      <div class="c-contact-cards-three__card">
+        <span class="c-contact-cards-three__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+        <h3 class="c-contact-cards-three__title">Email</h3>
+        <p class="c-contact-cards-three__text">Best for photos, plans and anything you want in writing.</p>
+        <p class="c-contact-cards-three__value" data-wf-field="business.email">hello@example.com</p>
+        <a class="wf-btn wf-btn--outline" href="mailto:hello@example.com">Send an email</a>
+      </div>
+      <div class="c-contact-cards-three__card">
+        <span class="c-contact-cards-three__icon"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+        <h3 class="c-contact-cards-three__title">Based in</h3>
+        <p class="c-contact-cards-three__text">Two trucks out of Pope County. Regular area: Dardanelle, London, Atkins, Pottsville, Danville and Hector.</p>
+        <p class="c-contact-cards-three__value"><span data-wf-field="business.address">Russellville, AR 72801</span></p>
+        <a class="wf-btn wf-btn--outline" href="/">See the service map</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="wf-section wf-section--dark c-footer-cta-above" data-wf-component="footer-cta-above">
+  <div class="wf-container">
+    <div class="c-footer-cta-above__cta">
+      <div class="c-footer-cta-above__cta-copy">
+        <h2 class="c-footer-cta-above__cta-title">Still reading? Your to-do list isn't getting shorter.</h2>
+        <p class="c-footer-cta-above__cta-text">Call, text or send the list. A tech from <span data-wf-field="business.name">AAA Home Specialists</span> will put a flat price on it today.</p>
+      </div>
+      <div class="c-footer-cta-above__cta-actions">
+        <a class="wf-btn wf-btn--accent wf-btn--lg" href="/quote">Get a free quote</a>
+        <a class="wf-btn wf-btn--outline wf-btn--lg" href="tel:+14795550100" data-wf-field="business.phone">(479) 555-0100</a>
+      </div>
+    </div>
+    <div class="c-footer-cta-above__grid">
+      <div>
+        <h3 class="c-footer-cta-above__brand" data-wf-field="business.name">AAA Home Specialists</h3>
+        <p class="c-footer-cta-above__blurb">Tech-centric handyman and remodel service for Russellville and the Arkansas River Valley. Travel to NWA, Little Rock and Fort Smith by appointment.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul class="c-footer-cta-above__links">
+          <li><a href="/services">Handyman repairs</a></li>
+          <li><a href="/services">Kitchen &amp; bath</a></li>
+          <li><a href="/smart-home">Smart home</a></li>
+          <li><a href="/services">Painting &amp; drywall</a></li>
+          <li><a href="/services">Decks &amp; fences</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul class="c-footer-cta-above__links">
+          <li><a href="/gallery">Before &amp; after</a></li>
+          <li><a href="/reviews">Reviews</a></li>
+          <li><a href="/quote">Get a quote</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="c-footer-cta-above__links">
+          <li><a href="tel:+14795550100" data-wf-field="business.phone">(479) 555-0100</a></li>
+          <li><a href="mailto:hello@example.com" data-wf-field="business.email">hello@example.com</a></li>
+          <li data-wf-field="business.address">Russellville, AR 72801</li>
+        </ul>
+      </div>
+    </div>
+    <div class="c-footer-cta-above__bar">
+      <span>&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">AAA Home Specialists</span>. All rights reserved.</span>
+      <span class="c-footer-cta-above__social">
+        <a href="#" aria-label="Facebook" data-wf-field="social.facebook"><svg class="wf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+        <a href="#" aria-label="Instagram" data-wf-field="social.instagram"><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+      </span>
+    </div>
+  </div>
+</footer>

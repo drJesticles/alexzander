@@ -10,6 +10,7 @@
 .c-hero-video-bg .wf-btn .wf-icon{width:1.1rem;height:1.1rem}
 @media (max-width:600px){
   .c-hero-video-bg__actions .wf-btn{width:100%}
+  .c-hero-video-bg__overlay{background:linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.6))}
 }
 @media (prefers-reduced-motion:reduce){
   .c-hero-video-bg__video{display:none}

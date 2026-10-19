@@ -19,3 +19,4 @@ h1{font-size:clamp(var(--wf-text-5xl),7vw,6rem)}
 .wf-badge--accent{background:var(--wf-accent)}
 hr{border-top-width:var(--wf-border-w)}
 .wf-section--primary .wf-btn,.wf-section--dark .wf-btn{border-color:currentColor;box-shadow:6px 6px 0 currentColor}
+a{color:var(--wf-text);text-decoration:underline;text-decoration-thickness:.15em;text-decoration-color:var(--wf-primary)}

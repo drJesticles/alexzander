@@ -17,6 +17,7 @@
 .c-hero-carousel__dot.is-active{background:var(--wf-accent);transform:scale(1.25)}
 @media (max-width:600px){
   .c-hero-carousel__content .wf-btn{width:100%}
+  .c-hero-carousel__overlay{background:linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.6))}
 }
 @media (prefers-reduced-motion:reduce){
   .c-hero-carousel__slide{transition:none}

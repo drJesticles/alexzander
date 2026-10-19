@@ -13,3 +13,6 @@ h1,h2{font-weight:600;letter-spacing:-.02em}
 .wf-badge--accent{background:var(--wf-accent);color:var(--wf-on-accent)}
 .wf-section--primary{background:linear-gradient(135deg,#5e81ac,#81a1c1)}
 a:hover{color:var(--wf-primary-hover)}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}
+.wf-badge--primary{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-badge--accent{background:var(--wf-accent);color:var(--wf-on-accent)}

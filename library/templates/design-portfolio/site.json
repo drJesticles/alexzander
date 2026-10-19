@@ -1,0 +1,20 @@
+{
+  "business": {
+    "name": "Elin Marren",
+    "tagline": "Brand and interface design with nothing left to remove.",
+    "phone": "(503) 555-0188",
+    "email": "hello@elinmarren.com",
+    "address": "1120 SE Division Street, Portland, OR 97202",
+    "city": "Portland, OR",
+    "hours": "Weekdays 10am to 4pm Pacific",
+    "year": "2019"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Projects", "path": "/projects" },
+    { "label": "Case study", "path": "/case-study" },
+    { "label": "About", "path": "/about" },
+    { "label": "Contact", "path": "/contact" }
+  ]
+}

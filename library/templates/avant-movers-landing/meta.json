@@ -1,0 +1,43 @@
+{
+  "slug": "avant-movers-landing",
+  "name": "Avant Movers: Landing",
+  "vertical": "brand",
+  "description": "One-page landing for Avant Movers, a Russellville, AR moving company: anchored sections for services, process, hourly price list, reviews, FAQ and a callback quote form, plus a privacy page.",
+  "kit": "aaa-hs-bold",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "privacy.html",
+      "title": "Privacy",
+      "path": "/privacy"
+    }
+  ],
+  "tags": [
+    "aaa",
+    "brand",
+    "movers",
+    "landing",
+    "one-page",
+    "anchors",
+    "callback-form"
+  ],
+  "components": [
+    "nav/nav-simple",
+    "hero/hero-centered-bg-image",
+    "stats/stats-row",
+    "services/services-grid-cards",
+    "process/process-steps-horizontal",
+    "pricing/pricing-service-menu",
+    "testimonials/testimonials-slider",
+    "faq/faq-accordion",
+    "forms/form-callback-request",
+    "cta/cta-phone-big",
+    "footer/footer-simple",
+    "content/content-prose"
+  ],
+  "version": 1
+}

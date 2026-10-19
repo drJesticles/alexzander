@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "Avant Movers",
+    "tagline": "Local and long-distance moving out of Russellville, Arkansas.",
+    "phone": "(479) 555-0100",
+    "email": "hello@example.com",
+    "address": "Russellville, AR 72802",
+    "city": "Russellville, AR",
+    "hours": "Mon–Sat 7am–7pm",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Services", "path": "/#services" },
+    { "label": "How it works", "path": "/#process" },
+    { "label": "Pricing", "path": "/#pricing" },
+    { "label": "Reviews", "path": "/#reviews" },
+    { "label": "FAQ", "path": "/#faq" },
+    { "label": "Privacy", "path": "/privacy" }
+  ]
+}

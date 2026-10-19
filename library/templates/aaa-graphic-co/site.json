@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "AAA Graphic Co",
+    "tagline": "Design and marketing for small businesses, nationwide by teleconference.",
+    "phone": "(479) 555-0100",
+    "email": "hello@example.com",
+    "address": "Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Mon–Fri 9am–5pm Central",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Web Design", "path": "/web-design" },
+    { "label": "Branding & Logos", "path": "/branding" },
+    { "label": "Marketing", "path": "/marketing" },
+    { "label": "Work", "path": "/work" },
+    { "label": "Start a Project", "path": "/start" }
+  ]
+}

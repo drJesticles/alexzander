@@ -1,0 +1,20 @@
+{
+  "business": {
+    "name": "Claire & Mateo",
+    "tagline": "Saturday, June 13, 2027 · Lake Dardanelle, Russellville, AR",
+    "phone": "(479) 555-0100",
+    "email": "hello@example.com",
+    "address": "Lake Dardanelle State Park Pavilion",
+    "city": "Russellville, AR",
+    "hours": "Ceremony at 4:00pm, reception until 11:00pm",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Our Story", "path": "/story" },
+    { "label": "Details", "path": "/details" },
+    { "label": "RSVP", "path": "/rsvp" },
+    { "label": "Registry", "path": "/registry" }
+  ]
+}

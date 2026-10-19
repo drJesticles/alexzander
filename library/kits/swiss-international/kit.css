@@ -26,3 +26,4 @@ hr{border-top:1px solid var(--wf-border);margin-block:var(--wf-space-12)}
 a{color:var(--wf-text);text-decoration:underline;text-underline-offset:.2em;text-decoration-color:var(--wf-primary)}
 a:hover{color:var(--wf-primary)}
 .wf-avatar{border-radius:0}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}

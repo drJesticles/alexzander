@@ -19,3 +19,6 @@ h3,h4{font-weight:500}
 .wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border:2px solid var(--wf-primary);padding:calc(.9rem - 1px) calc(1rem - 1px)}
 .wf-label{color:var(--wf-text-muted);font-size:.75rem}
 :focus-visible{outline:2px solid var(--wf-primary);outline-offset:2px}
+.wf-section--dark .wf-btn--outline,.wf-section--primary .wf-btn--outline{color:inherit;border-color:currentColor}
+.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}

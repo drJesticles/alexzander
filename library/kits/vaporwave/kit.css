@@ -17,7 +17,7 @@ h2,h3{text-transform:uppercase;letter-spacing:.06em}
 .wf-card--flat,.wf-card--flat:hover{transform:none;box-shadow:none;border-color:var(--wf-border)}
 .wf-input,.wf-select,.wf-textarea{border:var(--wf-border-w) solid var(--wf-text);background:var(--wf-surface)}
 .wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-color:var(--vw-cyan);box-shadow:4px 4px 0 var(--vw-pink)}
-.wf-badge{background:linear-gradient(90deg,var(--vw-cyan),var(--vw-purple));color:#ffffff;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.wf-badge{background:linear-gradient(90deg,var(--vw-cyan),var(--vw-purple));color:#1a0b2e;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
 .wf-badge--accent{background:var(--vw-pink);color:#2b1b4d}
 .wf-section--primary{background:linear-gradient(135deg,var(--vw-purple),var(--vw-pink) 60%,var(--vw-cyan));color:#ffffff}
 .wf-section--dark{background:linear-gradient(180deg,#1a0b2e,#3a1659);color:#fdf4ff}

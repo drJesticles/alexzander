@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "AAA Graphic Co",
+    "tagline": "Web design, logos, marketing and smart-home installs. Nationwide by teleconference.",
+    "phone": "(479) 555-0142",
+    "email": "hello@aaagraphic.co",
+    "address": "208 North Arkansas Avenue, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Mon to Fri 9am to 5pm Central, video calls by appointment",
+    "year": "2016"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Work", "path": "/work" },
+    { "label": "Services", "path": "/services" },
+    { "label": "About", "path": "/about" },
+    { "label": "Journal", "path": "/journal" },
+    { "label": "Contact", "path": "/contact" }
+  ]
+}

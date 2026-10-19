@@ -20,3 +20,5 @@ a{color:#8be9fd}
 a:hover{color:#ff79c6}
 code,pre{color:#50fa7b;background:var(--wf-surface);border-radius:var(--wf-radius-sm);padding:.1em .35em}
 hr{border-top-color:var(--wf-border)}
+.wf-badge--primary{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-badge--accent{background:var(--wf-accent);color:var(--wf-on-accent)}

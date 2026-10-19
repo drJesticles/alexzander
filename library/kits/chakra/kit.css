@@ -15,3 +15,6 @@ h1,h2,h3,h4{letter-spacing:-0.025em}
 .wf-input:hover,.wf-select:hover,.wf-textarea:hover{border-color:var(--wf-text-muted)}
 .wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-color:var(--chakra-focus);box-shadow:0 0 0 1px var(--chakra-focus)}
 :focus-visible{outline:0;box-shadow:0 0 0 3px rgba(66,153,225,.6);border-radius:var(--wf-radius-md)}
+.wf-section--dark .wf-btn--outline,.wf-section--primary .wf-btn--outline{color:inherit;border-color:currentColor}
+.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}

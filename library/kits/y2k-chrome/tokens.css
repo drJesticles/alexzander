@@ -1,6 +1,6 @@
 :root {
   --y2k-chrome: linear-gradient(180deg, #ffffff 0%, #dde2ea 45%, #a9b2c0 50%, #e4e8ee 100%);
-  --y2k-gloss: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.25) 48%, rgba(255, 255, 255, 0) 52%, rgba(255, 255, 255, 0.12) 100%);
+  --y2k-gloss: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.12) 48%, rgba(255, 255, 255, 0) 52%, rgba(255, 255, 255, 0.12) 100%);
   --y2k-blue-light: #5a93ff;
   --y2k-page: radial-gradient(circle at 20% 0%, #ffffff, #eef1f6 60%);
   --wf-bg: #eef1f6;
@@ -44,7 +44,7 @@
   --wf-input-radius: 999px;
 }
 [data-theme="dark"] {
-  --y2k-chrome: linear-gradient(180deg, #8d97a8 0%, #4a5468 45%, #2b3344 50%, #5c6779 100%);
+  --y2k-chrome: linear-gradient(180deg, #6b7689 0%, #4a5468 45%, #2b3344 50%, #5c6779 100%);
   --y2k-gloss: linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.12) 48%, rgba(255, 255, 255, 0) 52%, rgba(255, 255, 255, 0.06) 100%);
   --y2k-page: radial-gradient(circle at 20% 0%, #1b2334, #0b0f1a 60%);
   --wf-bg: #0b0f1a;
@@ -55,8 +55,8 @@
   --wf-primary: #4d8dff;
   --wf-on-primary: #0b0f1a;
   --wf-primary-hover: #6ea3ff;
-  --wf-secondary: #eef1f6;
-  --wf-on-secondary: #0b0f1a;
+  --wf-secondary: #1f2738;
+  --wf-on-secondary: #eef1f6;
   --wf-accent: #b6ff00;
   --wf-on-accent: #0b0f1a;
   --wf-border: #2b3447;

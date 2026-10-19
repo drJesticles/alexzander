@@ -5,6 +5,7 @@
 .c-features-tabs__tab:hover{color:var(--wf-text)}
 .c-features-tabs__tab[aria-selected="true"]{background:var(--wf-primary);color:var(--wf-on-primary);box-shadow:var(--wf-shadow-sm)}
 .c-features-tabs__panel{display:grid;grid-template-columns:1fr 1fr;gap:var(--wf-space-12);align-items:center}
+.c-features-tabs__panel[hidden]{display:none}
 .c-features-tabs__panel:focus-visible{outline-offset:var(--wf-space-2)}
 .c-features-tabs__media img{width:100%;aspect-ratio:10/7;object-fit:cover;border-radius:var(--wf-radius-xl);box-shadow:var(--wf-shadow-md)}
 .c-features-tabs__copy h3{font-size:var(--wf-text-3xl);margin-bottom:var(--wf-space-4)}

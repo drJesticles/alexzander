@@ -27,3 +27,4 @@ hr{border:0;border-top:3px double var(--wf-border)}
 a{color:var(--wf-text);text-decoration:underline;text-decoration-color:var(--wf-accent);text-underline-offset:.2em}
 a:hover{color:var(--wf-accent)}
 .wf-avatar{border-radius:0;filter:grayscale(1) contrast(1.1)}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}

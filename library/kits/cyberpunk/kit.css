@@ -27,3 +27,5 @@ h1{font-weight:900}
 hr{border-top:1px solid var(--wf-primary);box-shadow:0 0 10px rgba(0,240,255,.5)}
 a:hover{text-shadow:0 0 8px currentColor;text-decoration:none}
 .wf-avatar{border-radius:0;clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,10px 100%,0 calc(100% - 10px))}
+.wf-section--dark .wf-btn--outline,.wf-section--primary .wf-btn--outline{color:inherit;border-color:currentColor}
+.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit}

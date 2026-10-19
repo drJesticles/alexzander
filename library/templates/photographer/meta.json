@@ -1,0 +1,32 @@
+{
+  "slug": "photographer",
+  "name": "Photographer",
+  "vertical": "creative",
+  "description": "Five-page site for a wedding and portrait photographer: full-bleed hero, masonry portfolio, three packages with FAQ, an about page with a personal quote, and a booking form with studio hours.",
+  "kit": "paper-newsprint",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "portfolio.html", "title": "Portfolio", "path": "/portfolio" },
+    { "file": "packages.html", "title": "Packages", "path": "/packages" },
+    { "file": "about.html", "title": "About", "path": "/about" },
+    { "file": "book.html", "title": "Book", "path": "/book" }
+  ],
+  "tags": ["photographer", "wedding", "portrait", "portfolio", "booking", "pricing"],
+  "components": [
+    "nav/nav-centered-logo",
+    "hero/hero-centered-bg-image",
+    "media/media-image-grid-four",
+    "testimonials/testimonials-grid-cards",
+    "cta/cta-split-image",
+    "gallery/gallery-masonry",
+    "content/content-quote-block",
+    "pricing/pricing-three-tier",
+    "faq/faq-accordion",
+    "about/about-split-story",
+    "stats/stats-with-icons",
+    "forms/form-booking-appointment",
+    "contact/contact-hours-table",
+    "footer/footer-centered"
+  ],
+  "version": 1
+}

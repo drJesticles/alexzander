@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "The Depot Bistro",
+    "tagline": "Arkansas farm cooking with a French accent, served in a 1912 train depot.",
+    "phone": "(479) 555-0142",
+    "email": "hello@depotbistro.com",
+    "address": "220 West B Street, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Dinner Tue to Sat 5pm to 9pm · Brunch Sun 10am to 2pm",
+    "year": "2014"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Menu", "path": "/menu" },
+    { "label": "Reservations", "path": "/reservations" },
+    { "label": "Events", "path": "/events" },
+    { "label": "Gallery", "path": "/gallery" },
+    { "label": "Contact", "path": "/contact" }
+  ]
+}

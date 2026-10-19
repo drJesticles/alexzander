@@ -16,3 +16,7 @@ h1,h2,h3,h4{font-weight:600}
 .wf-input,.wf-select,.wf-textarea{padding:.3rem .7rem;line-height:1.5714;font-size:.875rem}
 .wf-input:hover,.wf-select:hover,.wf-textarea:hover{border-color:var(--wf-primary-hover)}
 .wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:0;border-color:var(--wf-primary);box-shadow:0 0 0 2px var(--ant-focus-ring)}
+.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}
+.wf-badge--primary{background:var(--wf-primary);color:var(--wf-on-primary)}
+.wf-badge--accent{background:var(--wf-accent);color:var(--wf-on-accent)}

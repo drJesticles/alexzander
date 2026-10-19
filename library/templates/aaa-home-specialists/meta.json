@@ -1,0 +1,76 @@
+{
+  "slug": "aaa-home-specialists",
+  "name": "AAA Home Specialists",
+  "vertical": "brand",
+  "description": "Six-page brand demo for AAA Home Specialists, a tech-centric handyman and remodel service in Russellville, AR: services with starting prices, a smart home page, before/after gallery, reviews and a quote form.",
+  "kit": "aaa-brand",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "services.html",
+      "title": "Services",
+      "path": "/services"
+    },
+    {
+      "file": "smart-home.html",
+      "title": "Smart Home",
+      "path": "/smart-home"
+    },
+    {
+      "file": "gallery.html",
+      "title": "Gallery",
+      "path": "/gallery"
+    },
+    {
+      "file": "reviews.html",
+      "title": "Reviews",
+      "path": "/reviews"
+    },
+    {
+      "file": "quote.html",
+      "title": "Get a Quote",
+      "path": "/quote"
+    }
+  ],
+  "tags": [
+    "aaa",
+    "brand",
+    "handyman",
+    "remodel",
+    "smart-home",
+    "quote-form",
+    "russellville"
+  ],
+  "components": [
+    "nav/nav-topbar-contact",
+    "gallery/gallery-before-after",
+    "gallery/gallery-filterable",
+    "process/process-before-during-after",
+    "cta/cta-band",
+    "footer/footer-cta-above",
+    "hero/hero-split-stats",
+    "services/services-grid-cards",
+    "features/features-grid-icons",
+    "testimonials/testimonials-slider",
+    "services/services-area-list",
+    "forms/form-quote-request",
+    "process/process-steps-horizontal",
+    "contact/contact-cards-three",
+    "testimonials/testimonials-google-style",
+    "stats/stats-row",
+    "testimonials/testimonials-grid-cards",
+    "hero/hero-minimal-left",
+    "services/services-accordion",
+    "services/services-list-prices",
+    "hero/hero-split-image",
+    "features/features-alternating-rows",
+    "process/process-cards-arrows",
+    "features/features-checklist",
+    "faq/faq-accordion"
+  ],
+  "version": 1
+}

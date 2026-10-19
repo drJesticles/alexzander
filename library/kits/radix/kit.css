@@ -14,3 +14,6 @@ h3,h4{letter-spacing:-0.01em;font-weight:600}
 .wf-input,.wf-select,.wf-textarea{padding:.5rem .75rem;border-color:var(--radix-input-border);font-size:.9375rem}
 .wf-input:focus,.wf-select:focus,.wf-textarea:focus{outline:2px solid var(--wf-primary);outline-offset:-1px;border-color:var(--wf-primary)}
 :focus-visible{outline:2px solid var(--wf-primary);outline-offset:1px}
+.wf-section--dark .wf-btn--outline,.wf-section--primary .wf-btn--outline{color:inherit;border-color:currentColor}
+.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;border-color:currentColor}
