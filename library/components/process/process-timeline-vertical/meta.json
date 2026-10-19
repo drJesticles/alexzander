@@ -1,0 +1,11 @@
+{
+  "slug": "process-timeline-vertical",
+  "name": "Process: vertical timeline",
+  "category": "process",
+  "description": "Five milestones on a vertical line with dots, each with a day label, title and copy. Narrow column, reads top to bottom on every screen.",
+  "tags": ["process", "timeline", "vertical", "milestones", "schedule"],
+  "previewHeight": 720,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

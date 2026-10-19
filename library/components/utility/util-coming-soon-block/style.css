@@ -1,0 +1,15 @@
+.c-util-coming-soon-block{min-height:70vh;display:flex;align-items:center}
+.c-util-coming-soon-block__inner{text-align:center;display:flex;flex-direction:column;align-items:center}
+.c-util-coming-soon-block__eyebrow{display:inline-block;font-size:var(--wf-text-sm);font-weight:var(--wf-weight-medium);letter-spacing:var(--wf-tracking-wide);text-transform:uppercase;color:var(--wf-accent);margin-bottom:var(--wf-space-4)}
+.c-util-coming-soon-block__title{color:inherit;margin-bottom:var(--wf-space-4)}
+.c-util-coming-soon-block__lead{font-size:var(--wf-text-lg);opacity:.8;max-width:50ch;margin-bottom:var(--wf-space-8)}
+.c-util-coming-soon-block__units{display:flex;gap:var(--wf-space-3);margin-bottom:var(--wf-space-8)}
+.c-util-coming-soon-block__unit{display:grid;gap:var(--wf-space-1);min-width:5rem;padding:var(--wf-space-4) var(--wf-space-3);border-radius:var(--wf-radius-md);background:color-mix(in srgb, var(--wf-on-secondary) 8%, transparent);border:1px solid color-mix(in srgb, var(--wf-on-secondary) 15%, transparent)}
+.c-util-coming-soon-block__num{font-family:var(--wf-font-display);font-size:var(--wf-text-4xl);font-weight:var(--wf-weight-bold);line-height:1;font-variant-numeric:tabular-nums}
+.c-util-coming-soon-block__name{font-size:var(--wf-text-xs);letter-spacing:var(--wf-tracking-wide);text-transform:uppercase;opacity:.7}
+.c-util-coming-soon-block.is-ended .c-util-coming-soon-block__units{opacity:.5}
+.c-util-coming-soon-block__form{display:flex;gap:var(--wf-space-2);width:100%;max-width:28rem;margin-bottom:var(--wf-space-5)}
+.c-util-coming-soon-block__form .wf-btn{flex:none}
+.c-util-coming-soon-block__note{margin:0;font-size:var(--wf-text-sm);opacity:.75}
+.c-util-coming-soon-block__note a{color:inherit;text-decoration:underline}
+@media (max-width:480px){.c-util-coming-soon-block__units{gap:var(--wf-space-2)}.c-util-coming-soon-block__unit{min-width:0;flex:1;padding:var(--wf-space-3) var(--wf-space-1)}.c-util-coming-soon-block__num{font-size:var(--wf-text-2xl)}.c-util-coming-soon-block__form{flex-direction:column}}

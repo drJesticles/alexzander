@@ -1,0 +1,11 @@
+{
+  "slug": "logos-grid-bordered",
+  "name": "Logos: bordered grid",
+  "category": "logos",
+  "description": "Six wordmarks in a three-by-two grid of hairline-bordered cells with a heading on the left. Three columns on tablet, two on phone.",
+  "tags": ["logos", "grid", "bordered", "partners", "trust"],
+  "previewHeight": 400,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

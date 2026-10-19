@@ -1,0 +1,11 @@
+{
+  "slug": "content-prose",
+  "name": "Content: rich text prose",
+  "category": "content",
+  "description": "Article-width rich text sample with h2, h3s, paragraphs, an unordered list, an ordered list, a blockquote, inline links and a small note. Use as a starting block for any long-form page.",
+  "tags": ["content", "prose", "rich-text", "article", "typography"],
+  "previewHeight": 1100,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

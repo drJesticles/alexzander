@@ -1,0 +1,11 @@
+{
+  "slug": "util-announcement-bar",
+  "name": "Utility: announcement bar",
+  "category": "utility",
+  "description": "Slim bar for the top of the page with an icon, a short message, a link and a close button. Dismissal is remembered for the session.",
+  "tags": ["utility", "announcement", "bar", "promo", "notice"],
+  "previewHeight": 120,
+  "hasScript": true,
+  "fields": ["business.phone"],
+  "version": 1
+}

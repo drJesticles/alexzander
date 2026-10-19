@@ -1,0 +1,23 @@
+.c-contact-hours-table__grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--wf-space-12);align-items:center}
+.c-contact-hours-table__summary{margin-bottom:var(--wf-space-3)}
+.c-contact-hours-table__note{font-size:var(--wf-text-sm);margin:0}
+.c-contact-hours-table__card{background:var(--wf-surface);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);box-shadow:var(--wf-card-shadow);padding:var(--wf-space-6)}
+.c-contact-hours-table__table{width:100%;border-collapse:collapse}
+.c-contact-hours-table__table th,.c-contact-hours-table__table td{padding:var(--wf-space-3) var(--wf-space-2);border-bottom:var(--wf-border-w) solid var(--wf-border);text-align:left;vertical-align:middle}
+.c-contact-hours-table__table th{font-weight:var(--wf-weight-medium)}
+.c-contact-hours-table__table td{text-align:right;font-variant-numeric:tabular-nums;color:var(--wf-text-muted)}
+.c-contact-hours-table__table tr:last-child th,.c-contact-hours-table__table tr:last-child td{border-bottom:0}
+.c-contact-hours-table__table .is-today th,.c-contact-hours-table__table .is-today td{background:color-mix(in srgb, var(--wf-primary) 10%, transparent);color:var(--wf-text);font-weight:var(--wf-weight-bold)}
+.c-contact-hours-table__table .is-today th{border-radius:var(--wf-radius-sm) 0 0 var(--wf-radius-sm)}
+.c-contact-hours-table__table .is-today td{border-radius:0 var(--wf-radius-sm) var(--wf-radius-sm) 0}
+.c-contact-hours-table__table .is-today .wf-badge{margin-left:var(--wf-space-2);vertical-align:middle}
+.c-contact-hours-table__table .is-closed td{color:var(--wf-danger)}
+.c-contact-hours-table__emergency{display:flex;gap:var(--wf-space-3);align-items:flex-start;margin:var(--wf-space-5) 0 0;padding:var(--wf-space-4);border-radius:var(--wf-radius-md);background:color-mix(in srgb, var(--wf-warning) 12%, transparent);font-size:var(--wf-text-sm)}
+.c-contact-hours-table__emergency .wf-icon{color:var(--wf-warning);margin-top:.1rem}
+@media (max-width:900px){
+  .c-contact-hours-table__grid{grid-template-columns:1fr;gap:var(--wf-space-8)}
+}
+@media (max-width:480px){
+  .c-contact-hours-table__card{padding:var(--wf-space-4)}
+  .c-contact-hours-table__table th,.c-contact-hours-table__table td{font-size:var(--wf-text-sm)}
+}

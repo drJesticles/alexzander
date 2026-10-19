@@ -1,0 +1,11 @@
+{
+  "slug": "process-cards-arrows",
+  "name": "Process: cards with arrows",
+  "category": "process",
+  "description": "Three icon cards linked by arrow icons that point right on desktop and down when the cards stack on mobile.",
+  "tags": ["process", "cards", "arrows", "icons", "three-step"],
+  "previewHeight": 460,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

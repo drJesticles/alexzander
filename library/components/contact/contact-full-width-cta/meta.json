@@ -1,0 +1,11 @@
+{
+  "slug": "contact-full-width-cta",
+  "name": "Contact: full-width call CTA",
+  "category": "contact",
+  "description": "Primary-colored band with a big headline, a large phone number link, a short promise and a secondary button. Centered, stacks on mobile.",
+  "tags": ["contact", "cta", "phone", "band", "full-width"],
+  "previewHeight": 420,
+  "hasScript": false,
+  "fields": ["business.phone", "business.city"],
+  "version": 1
+}

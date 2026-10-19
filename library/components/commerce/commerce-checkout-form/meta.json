@@ -1,0 +1,11 @@
+{
+  "slug": "commerce-checkout-form",
+  "name": "Commerce: checkout form",
+  "category": "commerce",
+  "description": "Contact, shipping address and delivery method fields with a payment placeholder (no card inputs; connect Stripe or Square) beside a sticky order summary.",
+  "tags": ["commerce", "checkout", "form", "shipping", "payment"],
+  "previewHeight": 900,
+  "hasScript": false,
+  "fields": ["business.address"],
+  "version": 1
+}

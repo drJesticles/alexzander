@@ -1,0 +1,11 @@
+{
+  "slug": "contact-hours-table",
+  "name": "Contact: hours table",
+  "category": "contact",
+  "description": "Heading and holiday note on the left; a seven-row hours table on the right with today's row highlighted by a class, closed days muted, and an emergency line under it.",
+  "tags": ["contact", "hours", "table", "schedule", "open"],
+  "previewHeight": 560,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone", "business.hours"],
+  "version": 1
+}

@@ -1,0 +1,10 @@
+.c-commerce-sale-banner{position:relative;overflow:hidden}
+.c-commerce-sale-banner::before{content:"";position:absolute;right:-8rem;top:-8rem;width:24rem;height:24rem;border-radius:var(--wf-radius-full);background:color-mix(in srgb, var(--wf-on-primary) 8%, transparent);pointer-events:none}
+.c-commerce-sale-banner__inner{position:relative;display:flex;align-items:center;justify-content:space-between;gap:var(--wf-space-8)}
+.c-commerce-sale-banner__eyebrow{display:inline-block;font-size:var(--wf-text-sm);font-weight:var(--wf-weight-medium);letter-spacing:var(--wf-tracking-wide);text-transform:uppercase;opacity:.85;margin-bottom:var(--wf-space-2)}
+.c-commerce-sale-banner__title{color:inherit;font-size:clamp(var(--wf-text-2xl),3vw,var(--wf-text-4xl));margin-bottom:var(--wf-space-2)}
+.c-commerce-sale-banner__text{margin:0;opacity:.9;max-width:50ch}
+.c-commerce-sale-banner__action{display:flex;align-items:center;gap:var(--wf-space-4);flex:none}
+.c-commerce-sale-banner__code{display:inline-flex;align-items:center;gap:var(--wf-space-2);padding:var(--wf-space-2) var(--wf-space-4);border:2px dashed color-mix(in srgb, var(--wf-on-primary) 60%, transparent);border-radius:var(--wf-radius-md);font-family:var(--wf-font-mono);letter-spacing:var(--wf-tracking-wide)}
+.c-commerce-sale-banner__code-label{font-family:var(--wf-font-body);font-size:var(--wf-text-xs);text-transform:uppercase;opacity:.8}
+@media (max-width:768px){.c-commerce-sale-banner__inner{flex-direction:column;align-items:flex-start}.c-commerce-sale-banner__action{flex-wrap:wrap}}

@@ -1,0 +1,11 @@
+{
+  "slug": "about-owner-letter",
+  "name": "About: letter from the owner",
+  "category": "about",
+  "description": "Narrow letter-style note from the owner on a paper-like card: greeting, three short paragraphs, cursive signature line, name and title, small portrait.",
+  "tags": ["about", "letter", "owner", "signature", "personal"],
+  "previewHeight": 700,
+  "hasScript": false,
+  "fields": ["business.name", "business.city", "business.phone"],
+  "version": 1
+}

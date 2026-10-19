@@ -1,0 +1,11 @@
+{
+  "slug": "util-404-block",
+  "name": "Utility: 404 block",
+  "category": "utility",
+  "description": "Oversized 404, a friendly headline, a site search box and quick links to the pages people actually want, plus the phone number.",
+  "tags": ["utility", "404", "error", "search", "not-found"],
+  "previewHeight": 560,
+  "hasScript": false,
+  "fields": ["business.phone"],
+  "version": 1
+}

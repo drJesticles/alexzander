@@ -1,0 +1,11 @@
+{
+  "slug": "content-checklist-columns",
+  "name": "Content: checklist in columns",
+  "category": "content",
+  "description": "Heading on the left, two titled checklists on the right (what is included / what to have ready) with check icons. A footnote sits under the lists.",
+  "tags": ["content", "checklist", "list", "columns", "included"],
+  "previewHeight": 560,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "contact-split-form-info",
+  "name": "Contact: form with info cards",
+  "category": "contact",
+  "description": "Contact form on the left; three stacked info cards (call, email, visit) with icons on the right, plus hours. Stacks on mobile with the cards first.",
+  "tags": ["contact", "form", "info", "two-column", "cards"],
+  "previewHeight": 820,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone", "business.email", "business.address", "business.city", "business.hours"],
+  "version": 1
+}

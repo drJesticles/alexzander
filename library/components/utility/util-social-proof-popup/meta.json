@@ -1,0 +1,11 @@
+{
+  "slug": "util-social-proof-popup",
+  "name": "Utility: social proof popup",
+  "category": "utility",
+  "description": "Small bottom-left card that cycles through recent-activity lines ('Someone in Dardanelle requested a quote 12 min ago'). Closable, remembered for the session, and it stops cycling when reduced motion is on.",
+  "tags": ["utility", "social-proof", "popup", "notification", "fomo"],
+  "previewHeight": 200,
+  "hasScript": true,
+  "fields": [],
+  "version": 1
+}

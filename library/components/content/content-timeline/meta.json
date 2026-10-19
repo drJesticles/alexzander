@@ -1,0 +1,11 @@
+{
+  "slug": "content-timeline",
+  "name": "Content: year timeline",
+  "category": "content",
+  "description": "Vertical timeline of five milestones, each with a year marker on the line, a title and a sentence. Alternates sides on desktop, single column on mobile.",
+  "tags": ["content", "timeline", "history", "milestones", "years"],
+  "previewHeight": 900,
+  "hasScript": false,
+  "fields": ["business.name"],
+  "version": 1
+}

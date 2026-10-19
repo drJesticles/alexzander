@@ -1,0 +1,10 @@
+.c-about-values-grid__layout{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:var(--wf-space-12);align-items:center}
+.c-about-values-grid__mission h2{margin-bottom:var(--wf-space-4)}
+.c-about-values-grid__mission .wf-lead{margin:0}
+.c-about-values-grid__grid{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--wf-space-5)}
+.c-about-values-grid__card{background:var(--wf-bg)}
+.c-about-values-grid__icon{display:inline-flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;margin-bottom:var(--wf-space-4);border-radius:var(--wf-radius-md);background:color-mix(in srgb,var(--wf-primary) 15%,transparent);color:var(--wf-primary)}
+.c-about-values-grid__title{font-size:var(--wf-text-lg);margin-bottom:var(--wf-space-2)}
+.c-about-values-grid__card p{margin:0;color:var(--wf-text-muted);font-size:var(--wf-text-sm)}
+@media (max-width:900px){.c-about-values-grid__layout{grid-template-columns:1fr;gap:var(--wf-space-8)}}
+@media (max-width:600px){.c-about-values-grid__grid{grid-template-columns:1fr}}

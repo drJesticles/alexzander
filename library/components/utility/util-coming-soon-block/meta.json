@@ -1,0 +1,11 @@
+{
+  "slug": "util-coming-soon-block",
+  "name": "Utility: coming soon block",
+  "category": "utility",
+  "description": "Launch page section: eyebrow, headline, live countdown to the date in data-wf-date, an email notify form and a phone line for the meantime.",
+  "tags": ["utility", "coming-soon", "launch", "countdown", "email"],
+  "previewHeight": 600,
+  "hasScript": true,
+  "fields": ["business.name", "business.phone"],
+  "version": 1
+}

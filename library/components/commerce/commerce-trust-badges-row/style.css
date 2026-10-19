@@ -1,0 +1,5 @@
+.c-commerce-trust-badges-row__list{list-style:none;margin:0;padding:0}
+.c-commerce-trust-badges-row__item{display:flex;align-items:flex-start;gap:var(--wf-space-3)}
+.c-commerce-trust-badges-row__icon{display:inline-flex;align-items:center;justify-content:center;width:2.75rem;height:2.75rem;flex:none;border-radius:var(--wf-radius-full);background:color-mix(in srgb, var(--wf-primary) 12%, transparent);color:var(--wf-primary)}
+.c-commerce-trust-badges-row__title{display:block;font-weight:var(--wf-weight-bold);margin-bottom:var(--wf-space-1)}
+.c-commerce-trust-badges-row__text{display:block;font-size:var(--wf-text-sm);color:var(--wf-text-muted)}

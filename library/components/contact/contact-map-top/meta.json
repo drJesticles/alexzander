@@ -1,0 +1,11 @@
+{
+  "slug": "contact-map-top",
+  "name": "Contact: map on top, form below",
+  "category": "contact",
+  "description": "Edge-to-edge map placeholder (data-wf-embed) with a floating address chip, then a two-column block below: short contact details on the left and a message form on the right.",
+  "tags": ["contact", "map", "form", "address", "full-bleed"],
+  "previewHeight": 980,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone", "business.email", "business.address", "business.city"],
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "util-maintenance-block",
+  "name": "Utility: maintenance block",
+  "category": "utility",
+  "description": "Down-for-maintenance page section with an icon, headline, expected return time and phone/email contact cards so customers can still reach you.",
+  "tags": ["utility", "maintenance", "downtime", "status"],
+  "previewHeight": 520,
+  "hasScript": false,
+  "fields": ["business.name", "business.phone", "business.email"],
+  "version": 1
+}

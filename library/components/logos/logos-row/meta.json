@@ -1,0 +1,11 @@
+{
+  "slug": "logos-row",
+  "name": "Logos: single row",
+  "category": "logos",
+  "description": "Caption plus six placeholder partner wordmarks as inline SVG in one muted row. Wraps to two and three rows on smaller screens.",
+  "tags": ["logos", "partners", "row", "trust", "svg"],
+  "previewHeight": 260,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

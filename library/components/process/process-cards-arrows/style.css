@@ -1,0 +1,9 @@
+.c-process-cards-arrows__head{max-width:46rem;margin:0 auto var(--wf-space-10)}
+.c-process-cards-arrows__row{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:var(--wf-space-4);align-items:stretch}
+.c-process-cards-arrows__card{display:flex;flex-direction:column;background:var(--wf-bg)}
+.c-process-cards-arrows__icon{display:inline-flex;align-items:center;justify-content:center;width:3rem;height:3rem;margin-bottom:var(--wf-space-4);border-radius:var(--wf-radius-md);background:color-mix(in srgb,var(--wf-primary) 15%,transparent);color:var(--wf-primary)}
+.c-process-cards-arrows__title{font-size:var(--wf-text-lg);margin-bottom:var(--wf-space-2)}
+.c-process-cards-arrows__card p{margin:0;color:var(--wf-text-muted);font-size:var(--wf-text-sm)}
+.c-process-cards-arrows__arrow{display:flex;align-items:center;justify-content:center;color:var(--wf-text-muted)}
+.c-process-cards-arrows__arrow .wf-icon{width:2rem;height:2rem}
+@media (max-width:900px){.c-process-cards-arrows__row{grid-template-columns:1fr;max-width:28rem;margin-inline:auto}.c-process-cards-arrows__arrow .wf-icon{transform:rotate(90deg)}}

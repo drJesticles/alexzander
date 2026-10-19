@@ -1,0 +1,40 @@
+.c-commerce-checkout-form__title{margin-bottom:var(--wf-space-8)}
+.c-commerce-checkout-form__grid{display:grid;grid-template-columns:1fr 22rem;gap:var(--wf-space-10);align-items:start}
+.c-commerce-checkout-form__group{border:0;padding:0;margin:0 0 var(--wf-space-8);min-width:0}
+.c-commerce-checkout-form__legend{display:flex;align-items:center;gap:var(--wf-space-3);font-family:var(--wf-font-display);font-size:var(--wf-text-xl);font-weight:var(--wf-weight-bold);margin-bottom:var(--wf-space-4);padding:0}
+.c-commerce-checkout-form__step{display:inline-flex;align-items:center;justify-content:center;width:1.75rem;height:1.75rem;border-radius:var(--wf-radius-full);background:var(--wf-primary);color:var(--wf-on-primary);font-size:var(--wf-text-sm)}
+.c-commerce-checkout-form__opt{font-weight:var(--wf-weight-normal);color:var(--wf-text-muted)}
+.c-commerce-checkout-form__row{display:grid;grid-template-columns:1fr 1fr;gap:var(--wf-space-4)}
+.c-commerce-checkout-form__row--3{grid-template-columns:2fr 1.5fr 1fr}
+.c-commerce-checkout-form__methods{display:grid;gap:var(--wf-space-2);margin-bottom:var(--wf-space-5)}
+.c-commerce-checkout-form__method{display:flex;align-items:center;gap:var(--wf-space-3);padding:var(--wf-space-3) var(--wf-space-4);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-radius-md);cursor:pointer;background:var(--wf-bg)}
+.c-commerce-checkout-form__method:has(input:checked){border-color:var(--wf-primary);background:color-mix(in srgb, var(--wf-primary) 6%, transparent)}
+.c-commerce-checkout-form__method input{accent-color:var(--wf-primary);margin:0}
+.c-commerce-checkout-form__method-body{display:grid;flex:1;min-width:0}
+.c-commerce-checkout-form__method-name{font-weight:var(--wf-weight-medium)}
+.c-commerce-checkout-form__method-note{font-size:var(--wf-text-sm);color:var(--wf-text-muted)}
+.c-commerce-checkout-form__method-price{font-weight:var(--wf-weight-medium);color:var(--wf-success)}
+.c-commerce-checkout-form__payment{display:flex;gap:var(--wf-space-4);align-items:flex-start;padding:var(--wf-space-5);border:2px dashed var(--wf-border);border-radius:var(--wf-radius-md);background:var(--wf-surface);color:var(--wf-text-muted);margin-bottom:var(--wf-space-4)}
+.c-commerce-checkout-form__payment .wf-icon{color:var(--wf-primary)}
+.c-commerce-checkout-form__payment strong{color:var(--wf-text)}
+.c-commerce-checkout-form__payment p{margin:var(--wf-space-1) 0 0;font-size:var(--wf-text-sm)}
+.c-commerce-checkout-form__check{display:flex;align-items:center;gap:var(--wf-space-2);font-size:var(--wf-text-sm);cursor:pointer}
+.c-commerce-checkout-form__check input{accent-color:var(--wf-primary);margin:0}
+.c-commerce-checkout-form__submit{width:100%}
+.c-commerce-checkout-form__fine{margin:var(--wf-space-3) 0 0;font-size:var(--wf-text-xs);color:var(--wf-text-muted);text-align:center}
+.c-commerce-checkout-form__summary{position:sticky;top:var(--wf-space-6)}
+.c-commerce-checkout-form__summary-title{font-size:var(--wf-text-lg);margin-bottom:var(--wf-space-4)}
+.c-commerce-checkout-form__items{list-style:none;margin:0 0 var(--wf-space-4);padding:0 0 var(--wf-space-4);border-bottom:var(--wf-border-w) solid var(--wf-border);display:grid;gap:var(--wf-space-3)}
+.c-commerce-checkout-form__items li{display:flex;align-items:center;gap:var(--wf-space-3);font-size:var(--wf-text-sm)}
+.c-commerce-checkout-form__items img{width:3rem;height:3rem;border-radius:var(--wf-radius-sm);border:var(--wf-border-w) solid var(--wf-border);object-fit:cover;flex:none}
+.c-commerce-checkout-form__item-name{flex:1;display:grid;font-weight:var(--wf-weight-medium)}
+.c-commerce-checkout-form__item-name small{font-weight:var(--wf-weight-normal);color:var(--wf-text-muted)}
+.c-commerce-checkout-form__item-price{font-variant-numeric:tabular-nums}
+.c-commerce-checkout-form__lines{margin:0;display:grid;gap:var(--wf-space-2);font-size:var(--wf-text-sm)}
+.c-commerce-checkout-form__lines div{display:flex;justify-content:space-between}
+.c-commerce-checkout-form__lines dt{color:var(--wf-text-muted)}
+.c-commerce-checkout-form__lines dd{margin:0;font-variant-numeric:tabular-nums}
+.c-commerce-checkout-form__total{padding-top:var(--wf-space-3);border-top:var(--wf-border-w) solid var(--wf-border);font-size:var(--wf-text-lg);font-weight:var(--wf-weight-bold)}
+.c-commerce-checkout-form__total dt{color:var(--wf-text)}
+@media (max-width:900px){.c-commerce-checkout-form__grid{grid-template-columns:1fr}.c-commerce-checkout-form__summary{position:static;order:-1}}
+@media (max-width:600px){.c-commerce-checkout-form__row,.c-commerce-checkout-form__row--3{grid-template-columns:1fr}}

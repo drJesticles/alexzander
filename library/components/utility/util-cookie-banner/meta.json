@@ -1,0 +1,11 @@
+{
+  "slug": "util-cookie-banner",
+  "name": "Utility: cookie banner",
+  "category": "utility",
+  "description": "Fixed bottom card with a short notice, privacy link, Accept and Decline buttons. The choice is remembered in localStorage so it only shows once.",
+  "tags": ["utility", "cookie", "consent", "privacy", "banner"],
+  "previewHeight": 200,
+  "hasScript": true,
+  "fields": ["business.name"],
+  "version": 1
+}

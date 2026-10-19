@@ -1,0 +1,11 @@
+{
+  "slug": "logos-marquee",
+  "name": "Logos: scrolling marquee",
+  "category": "logos",
+  "description": "Six wordmarks scrolling endlessly with CSS keyframes only; the track is duplicated for a seamless loop. Pauses on hover and stops under prefers-reduced-motion.",
+  "tags": ["logos", "marquee", "animation", "css-only", "partners"],
+  "previewHeight": 220,
+  "hasScript": false,
+  "fields": [],
+  "version": 1
+}

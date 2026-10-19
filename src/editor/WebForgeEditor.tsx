@@ -66,7 +66,7 @@ export default function WebForgeEditor({ id }: { id: string }) {
         canvas: { styles: [`/api/css/kit/${p.kit}`], scripts: ['/api/library/scripts'] },
         pageManager: { pages: p.gjs ? undefined : p.pages.map(pg => ({ id: pg.id, name: pg.name, component: pg.html, styles: pg.css })) },
         deviceManager: { devices: [{ id: 'desktop', name: 'Desktop', width: '' }, { id: 'tablet', name: 'Tablet', width: '820px', widthMedia: '900px' }, { id: 'mobile', name: 'Mobile', width: '390px', widthMedia: '600px' }] },
-        assetManager: { upload: false, assets: [...Array.from({ length: 6 }, (_, i) => `/ph/1200/800/photo-${i + 1}.svg`), '/ph/800/800/square.svg', '/ph/1600/600/banner.svg'] },
+        assetManager: { upload: '/api/assets', uploadName: 'files', multiUpload: true, autoAdd: true, assets: [...Array.from({ length: 6 }, (_, i) => `/ph/1200/800/photo-${i + 1}.svg`), '/ph/800/800/square.svg', '/ph/1600/600/banner.svg'] },
       });
       ed.current = editor;
       if (p.gjs) editor.loadProjectData(p.gjs as Record<string, unknown>);
@@ -92,6 +92,14 @@ export default function WebForgeEditor({ id }: { id: string }) {
       editor.on('page', () => setPages(editor.Pages.getAll().map(x => ({ id: x.getId(), name: x.getName() || x.getId() }))));
       editor.on('update', () => setDirty(true));
       editor.Panels.addButton('options', { id: 'wf-code', className: 'fa fa-code', command: () => openCode(), attributes: { title: 'Edit HTML / CSS' } });
+      // previously uploaded assets (Canva exports etc.)
+      fetch('/api/assets').then(r => r.json()).then((list: { src: string; name: string }[]) => editor.AssetManager.add(list)).catch(() => {});
+      // "Design in Canva": opens Canva sized like the selected image; export from Canva, then drop the file into the asset manager
+      editor.Commands.add('wf-canva', { run(e) { const sel = e.getSelected(); const el = sel?.getEl() as HTMLElement | undefined; const w = el?.clientWidth || 1200, h = el?.clientHeight || 800; window.open(`https://www.canva.com/create/custom-dimensions/`, '_blank'); e.Modal.open({ title: 'Design in Canva', content: `<div style="font-size:13px;line-height:1.5">Canva opened in a new tab. Create a custom-size design of <b>${Math.round(w)} × ${Math.round(h)} px</b> (the size of the selected image), design it, <b>Share → Download</b> (PNG/SVG), then open this image's settings (double-click) and <b>upload</b> the file. It lands in <code>data/assets/</code> and is bundled on export.</div>` }); } });
+      editor.on('component:selected', (c: { is: (t: string) => boolean; get: (k: string) => unknown; set: (k: string, v: unknown) => void }) => {
+        if (!c || !c.is('image')) return; const tb = (c.get('toolbar') as { command: string; label: string }[]) || [];
+        if (!tb.some(t => t.command === 'wf-canva')) c.set('toolbar', [{ command: 'wf-canva', label: 'Canva', attributes: { title: 'Design in Canva' } }, ...tb]);
+      });
       setPages(editor.Pages.getAll().map(x => ({ id: x.getId(), name: x.getName() || x.getId() })));
       setCurPage(editor.Pages.getSelected()?.getId() || '');
       setStatus('Loaded');

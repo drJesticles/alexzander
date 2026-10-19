@@ -1,0 +1,119 @@
+<section class="wf-section c-commerce-checkout-form" data-wf-component="commerce-checkout-form">
+  <div class="wf-container">
+    <h2 class="c-commerce-checkout-form__title">Checkout</h2>
+    <div class="c-commerce-checkout-form__grid">
+      <form class="c-commerce-checkout-form__form" action="#" method="post" data-wf-form="checkout">
+        <fieldset class="c-commerce-checkout-form__group">
+          <legend class="c-commerce-checkout-form__legend"><span class="c-commerce-checkout-form__step">1</span> Contact</legend>
+          <div class="c-commerce-checkout-form__row">
+            <div class="wf-field">
+              <label class="wf-label" for="commerce-checkout-form-email">Email</label>
+              <input class="wf-input" id="commerce-checkout-form-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="wf-field">
+              <label class="wf-label" for="commerce-checkout-form-phone">Phone <span class="c-commerce-checkout-form__opt">(for pickup texts)</span></label>
+              <input class="wf-input" id="commerce-checkout-form-phone" name="phone" type="tel" autocomplete="tel">
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="c-commerce-checkout-form__group">
+          <legend class="c-commerce-checkout-form__legend"><span class="c-commerce-checkout-form__step">2</span> Delivery</legend>
+          <div class="c-commerce-checkout-form__methods">
+            <label class="c-commerce-checkout-form__method">
+              <input type="radio" name="delivery" value="ship" checked>
+              <span class="c-commerce-checkout-form__method-body">
+                <span class="c-commerce-checkout-form__method-name">Ship to me</span>
+                <span class="c-commerce-checkout-form__method-note">USPS Ground, 3 to 5 days</span>
+              </span>
+              <span class="c-commerce-checkout-form__method-price">Free</span>
+            </label>
+            <label class="c-commerce-checkout-form__method">
+              <input type="radio" name="delivery" value="pickup">
+              <span class="c-commerce-checkout-form__method-body">
+                <span class="c-commerce-checkout-form__method-name">Pick up in store</span>
+                <span class="c-commerce-checkout-form__method-note" data-wf-field="business.address">214 W Main St, Russellville, AR 72801</span>
+              </span>
+              <span class="c-commerce-checkout-form__method-price">Free</span>
+            </label>
+          </div>
+          <div class="c-commerce-checkout-form__row">
+            <div class="wf-field">
+              <label class="wf-label" for="commerce-checkout-form-first">First name</label>
+              <input class="wf-input" id="commerce-checkout-form-first" name="first_name" type="text" autocomplete="given-name" required>
+            </div>
+            <div class="wf-field">
+              <label class="wf-label" for="commerce-checkout-form-last">Last name</label>
+              <input class="wf-input" id="commerce-checkout-form-last" name="last_name" type="text" autocomplete="family-name" required>
+            </div>
+          </div>
+          <div class="wf-field">
+            <label class="wf-label" for="commerce-checkout-form-address">Street address</label>
+            <input class="wf-input" id="commerce-checkout-form-address" name="address" type="text" autocomplete="street-address">
+          </div>
+          <div class="c-commerce-checkout-form__row c-commerce-checkout-form__row--3">
+            <div class="wf-field">
+              <label class="wf-label" for="commerce-checkout-form-city">City</label>
+              <input class="wf-input" id="commerce-checkout-form-city" name="city" type="text" autocomplete="address-level2">
+            </div>
+            <div class="wf-field">
+              <label class="wf-label" for="commerce-checkout-form-state">State</label>
+              <select class="wf-select" id="commerce-checkout-form-state" name="state" autocomplete="address-level1">
+                <option value="AR" selected>Arkansas</option>
+                <option value="OK">Oklahoma</option>
+                <option value="MO">Missouri</option>
+                <option value="TX">Texas</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="wf-field">
+              <label class="wf-label" for="commerce-checkout-form-zip">ZIP</label>
+              <input class="wf-input" id="commerce-checkout-form-zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code">
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="c-commerce-checkout-form__group">
+          <legend class="c-commerce-checkout-form__legend"><span class="c-commerce-checkout-form__step">3</span> Payment</legend>
+          <div class="c-commerce-checkout-form__payment">
+            <svg class="wf-icon wf-icon--lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+            <div>
+              <strong>Secure card payment goes here.</strong>
+              <p>Connect Stripe or Square in Site Settings and their hosted card field will load in this spot. No card numbers are ever typed into this page.</p>
+            </div>
+          </div>
+          <label class="c-commerce-checkout-form__check">
+            <input type="checkbox" name="save_info" value="1">
+            <span>Save my details for next time</span>
+          </label>
+        </fieldset>
+        <button class="wf-btn wf-btn--primary wf-btn--lg c-commerce-checkout-form__submit" type="submit">Place order</button>
+        <p class="c-commerce-checkout-form__fine">By placing your order you agree to our <a href="#">terms</a> and <a href="#">return policy</a>.</p>
+      </form>
+      <aside class="wf-card c-commerce-checkout-form__summary">
+        <h3 class="c-commerce-checkout-form__summary-title">Order summary</h3>
+        <ul class="c-commerce-checkout-form__items">
+          <li>
+            <img src="/ph/120/120/ozark-pine-candle.svg" alt="Ozark Pine soy candle" width="120" height="120">
+            <span class="c-commerce-checkout-form__item-name">Ozark Pine Soy Candle <small>12 oz &times; 2</small></span>
+            <span class="c-commerce-checkout-form__item-price">$48</span>
+          </li>
+          <li>
+            <img src="/ph/120/120/wildflower-honey.svg" alt="Wildflower honey" width="120" height="120">
+            <span class="c-commerce-checkout-form__item-name">Wildflower Honey <small>16 oz &times; 1</small></span>
+            <span class="c-commerce-checkout-form__item-price">$14</span>
+          </li>
+          <li>
+            <img src="/ph/120/120/natural-state-tee.svg" alt="Natural State tee" width="120" height="120">
+            <span class="c-commerce-checkout-form__item-name">Natural State Tee <small>Gray, L &times; 1</small></span>
+            <span class="c-commerce-checkout-form__item-price">$28</span>
+          </li>
+        </ul>
+        <dl class="c-commerce-checkout-form__lines">
+          <div><dt>Subtotal</dt><dd>$90</dd></div>
+          <div><dt>Shipping</dt><dd>Free</dd></div>
+          <div><dt>Tax</dt><dd>$8</dd></div>
+          <div class="c-commerce-checkout-form__total"><dt>Total</dt><dd>$98</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>

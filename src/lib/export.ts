@@ -1,14 +1,14 @@
 import JSZip from 'jszip';
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
-import { SITES_DIR, safeSlug } from './paths';
+import { SITES_DIR, DATA_DIR, safeSlug } from './paths';
 import { kitStylesheet, googleFontsHref } from './render';
 import { getComponentsBySlugs, componentSlugsIn } from './library';
 import type { Project } from './projects';
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-export type StaticSite = { files: Record<string, string> };
+export type StaticSite = { files: Record<string, string | Buffer> };
 
 /** Rewrite internal links (/about -> about.html, / -> index.html) for a flat static export. */
 function rewriteLinks(html: string, pages: Project['pages'], prefix = ''): string {
@@ -26,7 +26,7 @@ export async function buildStaticSite(p: Project, opts: { prefix?: string } = {}
   const { css: kitCss, kit } = await kitStylesheet(p.kit);
   const fonts = googleFontsHref(kit);
   const prefix = opts.prefix ?? '';
-  const files: Record<string, string> = {};
+  const files: Record<string, string | Buffer> = {};
   const allHtml = p.pages.map(x => x.html).join('\n');
   const comps = await getComponentsBySlugs(componentSlugsIn(allHtml));
   const scripts = comps.filter(c => c.js).map(c => `/* ${c.slug} */\n${c.js}`).join('\n');
@@ -35,7 +35,7 @@ export async function buildStaticSite(p: Project, opts: { prefix?: string } = {}
   if (scripts) files['assets/scripts.js'] = scripts;
   for (const page of p.pages) {
     const fname = page.id === 'index' || page.path === '/' ? 'index.html' : `${page.id}.html`;
-    const body = rewriteLinks(page.html, p.pages, prefix).replace(/src="\/ph\//g, `src="${prefix}assets/ph/`);
+    const body = rewriteLinks(page.html, p.pages, prefix).replace(/src="\/ph\//g, `src="${prefix}assets/ph/`).replace(/(src|href|poster)="\/assets\//g, `$1="${prefix}assets/uploads/`);
     files[fname] = `<!doctype html>
 <html lang="en" data-theme="${p.theme}">
 <head>
@@ -55,6 +55,10 @@ ${scripts ? `<script src="${prefix}assets/scripts.js"></script>` : ''}
   // placeholder images used -> bake as local SVGs
   for (const m of allHtml.matchAll(/\/ph\/(\d+)\/(\d+)\/([^"'\s]+?)\.svg/g)) {
     files[`assets/ph/${m[1]}/${m[2]}/${m[3]}.svg`] = placeholderSvg(+m[1], +m[2], m[3]);
+  }
+  // uploaded assets used by any page -> bundle the binaries
+  for (const m of allHtml.matchAll(/\/assets\/([A-Za-z0-9._-]+)/g)) {
+    try { files[`assets/uploads/${m[1]}`] = await fs.readFile(path.join(DATA_DIR, 'assets', m[1])); } catch {}
   }
   files['README.md'] = `# ${p.name}\n\nExported from WebForge on ${new Date().toISOString().slice(0, 10)}. Kit: ${p.kit}. Upload this folder to any static host.\n`;
   return { files };
@@ -77,7 +81,7 @@ export function placeholderSvg(w: number, h: number, label: string): string {
 
 export async function zipSite(site: StaticSite): Promise<Buffer> {
   const zip = new JSZip();
-  for (const [name, content] of Object.entries(site.files)) zip.file(name, content);
+  for (const [name, content] of Object.entries(site.files)) zip.file(name, content as string | Buffer);
   return zip.generateAsync({ type: 'nodebuffer', compression: 'DEFLATE' });
 }
 
