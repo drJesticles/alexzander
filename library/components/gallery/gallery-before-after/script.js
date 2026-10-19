@@ -23,6 +23,7 @@
 
     compare.addEventListener('pointerdown', function (e) {
       if (e.button !== undefined && e.button !== 0) return;
+      e.preventDefault();
       dragging = true;
       compare.classList.add('is-dragging');
       try { compare.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ }
@@ -37,6 +38,7 @@
       try { compare.releasePointerCapture(e.pointerId); } catch (err) { /* ignore */ }
     }
     compare.addEventListener('pointerup', end);
+    compare.addEventListener('dragstart', function (e) { e.preventDefault(); });
     compare.addEventListener('pointercancel', end);
     handle.addEventListener('keydown', function (e) {
       var stepSize = e.shiftKey ? 10 : 2;

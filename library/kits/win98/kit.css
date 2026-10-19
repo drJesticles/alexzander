@@ -4,7 +4,8 @@ h1,h2,h3{letter-spacing:0}
 .wf-btn{background:var(--w98-face);color:var(--wf-text);border:2px solid;border-color:var(--w98-light) var(--w98-darker) var(--w98-darker) var(--w98-light);box-shadow:inset -1px -1px 0 var(--w98-dark),inset 1px 1px 0 var(--w98-face);transition:none}
 .wf-btn:hover{background:var(--w98-face)}
 .wf-btn:active{border-color:var(--w98-darker) var(--w98-light) var(--w98-light) var(--w98-darker);box-shadow:inset 1px 1px 0 var(--w98-dark),inset -1px -1px 0 var(--w98-face);padding-top:calc(var(--wf-btn-py) + 1px);padding-bottom:calc(var(--wf-btn-py) - 1px)}
-.wf-btn--primary,.wf-btn--primary:hover{background:var(--w98-face);color:var(--wf-text);box-shadow:inset -1px -1px 0 var(--w98-dark),inset 1px 1px 0 var(--w98-face),0 0 0 1px var(--w98-darker);font-weight:700}
+.wf-btn--primary{background:var(--wf-primary);color:var(--wf-on-primary);box-shadow:inset -1px -1px 0 var(--w98-dark),inset 1px 1px 0 var(--w98-light),0 0 0 1px var(--w98-darker);font-weight:700}
+.wf-btn--primary:hover{background:var(--wf-primary-hover);color:var(--wf-on-primary)}
 .wf-btn--secondary{background:linear-gradient(90deg,var(--wf-primary),var(--wf-accent));color:var(--wf-on-primary);font-weight:700}
 .wf-btn--accent{background:var(--wf-secondary);color:var(--wf-on-secondary)}
 .wf-btn--outline{background:var(--w98-face);color:var(--wf-text)}
