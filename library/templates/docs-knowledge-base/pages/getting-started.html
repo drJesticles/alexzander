@@ -1,0 +1,159 @@
+<header class="c-nav-sidebar-drawer" data-wf-component="nav-sidebar-drawer">
+  <div class="wf-container c-nav-sidebar-drawer__bar">
+    <button class="c-nav-sidebar-drawer__open" type="button" aria-expanded="false" aria-controls="nav-sidebar-drawer-panel" aria-label="Open menu">
+      <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <span class="c-nav-sidebar-drawer__open-label">Docs</span>
+    </button>
+    <a class="c-nav-sidebar-drawer__brand" href="/" data-wf-field="business.name">Beacon Docs</a>
+    <a class="wf-btn wf-btn--primary wf-btn--sm c-nav-sidebar-drawer__cta" href="/support">
+      <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M12 8v3M12 13.5v.5"/></svg>
+      <span>Get support</span>
+    </a>
+  </div>
+  <div class="c-nav-sidebar-drawer__backdrop" hidden></div>
+  <aside class="c-nav-sidebar-drawer__panel" id="nav-sidebar-drawer-panel" aria-label="Site menu" aria-hidden="true">
+    <div class="c-nav-sidebar-drawer__panel-head">
+      <span class="c-nav-sidebar-drawer__panel-brand" data-wf-field="business.name">Beacon Docs</span>
+      <button class="c-nav-sidebar-drawer__close" type="button" aria-label="Close menu">
+        <svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <nav class="c-nav-sidebar-drawer__links" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/getting-started">Getting started</a>
+      <a href="/guides">Guides</a>
+      <a href="/api">API reference</a>
+      <a href="/faq">FAQ</a>
+      <a href="/support">Support</a>
+    </nav>
+    <div class="c-nav-sidebar-drawer__contact">
+      <p class="c-nav-sidebar-drawer__contact-label">Support hours</p>
+      <p data-wf-field="business.hours">Mon to Fri, 6am to 6pm Pacific</p>
+      <p class="c-nav-sidebar-drawer__contact-label">Phone</p>
+      <p><a href="tel:+18555550170" data-wf-field="business.phone">(855) 555-0170</a></p>
+      <p class="c-nav-sidebar-drawer__contact-label">Email</p>
+      <p><a href="mailto:support@beacon.dev" data-wf-field="business.email">support@beacon.dev</a></p>
+    </div>
+  </aside>
+</header>
+
+<section class="wf-section c-content-prose" data-wf-component="content-prose">
+  <div class="wf-container wf-container--narrow c-content-prose__body">
+    <span class="wf-eyebrow">Getting started</span>
+    <h2>From sign-up to your first alert in fifteen minutes.</h2>
+    <p class="wf-lead">This page walks through the four things every <span data-wf-field="business.name">Beacon</span> account needs: a monitor, somewhere to send alerts, a teammate, and a status page. Everything else in the docs assumes these exist.</p>
+    <h3>1. Create your first monitor</h3>
+    <p>From the dashboard, press New monitor, paste a URL and leave everything else on the defaults: a 30-second interval, checks from 14 regions, and a 60-second confirmation delay so a single slow response does not page anyone. Beacon runs the first check immediately and shows the response time by region.</p>
+    <p>For anything that is not a URL, pick a different type: TCP for a database port, DNS for a record you expect to stay put, SSL for certificate expiry, or heartbeat for a cron job. The <a href="/guides">Guides</a> page covers each one.</p>
+    <h3>2. Connect an alert channel</h3>
+    <ul>
+      <li>Settings, then Integrations, then Slack. Authorise the app and pick a channel. Incidents post there with a resolve button.</li>
+      <li>Add your mobile number under your profile for SMS and phone alerts. Beacon sends a code to confirm it.</li>
+      <li>Optionally add a webhook URL to push incidents into your own tooling. Payloads are signed; see the API reference.</li>
+    </ul>
+    <h3>3. Invite the team</h3>
+    <p>Settings, then Team, then Invite. Members can acknowledge and resolve incidents; admins can edit monitors and billing. On the Team plan you can also build an on-call schedule so alerts go to whoever is up this week, with a backup after ten minutes.</p>
+    <blockquote>
+      <p>Put at least two people on every escalation policy from day one. The monitor you forgot about is the one that fails while the only person on it is on a plane.</p>
+    </blockquote>
+    <h3>4. Publish a status page</h3>
+    <ol>
+      <li>Status pages, then New page. Give it a name and pick which monitors it shows.</li>
+      <li>It is live immediately at yourname.beacon.page. Add a CNAME to put it on your own domain; the certificate is automatic.</li>
+      <li>Turn on subscriber emails so customers can get incident updates without asking your support team.</li>
+    </ol>
+    <p>That is the whole setup. Beacon will email you a weekly summary of uptime and response times, and the dashboard shows the last 90 days per monitor.</p>
+    <p class="c-content-prose__note">Stuck? The chat bubble in the bottom-right of the app reaches an engineer, weekdays 6am to 6pm Pacific. Median first reply is nine minutes.</p>
+  </div>
+</section>
+
+<section class="wf-section c-process-steps-horizontal" data-wf-component="process-steps-horizontal">
+  <div class="wf-container">
+    <div class="wf-center c-process-steps-horizontal__head">
+      <span class="wf-eyebrow">What happens during an incident</span>
+      <h2>From a failed check to a resolved page.</h2>
+    </div>
+    <ol class="c-process-steps-horizontal__steps">
+      <li class="c-process-steps-horizontal__step">
+        <span class="c-process-steps-horizontal__num" aria-hidden="true">1</span>
+        <h3 class="c-process-steps-horizontal__title">A check fails</h3>
+        <p>One region reports a timeout or a bad status code. Beacon immediately re-checks from two more regions.</p>
+      </li>
+      <li class="c-process-steps-horizontal__step">
+        <span class="c-process-steps-horizontal__num" aria-hidden="true">2</span>
+        <h3 class="c-process-steps-horizontal__title">Confirmation</h3>
+        <p>If two regions agree and the confirmation delay has passed, an incident opens with the response body and timings attached.</p>
+      </li>
+      <li class="c-process-steps-horizontal__step">
+        <span class="c-process-steps-horizontal__num" aria-hidden="true">3</span>
+        <h3 class="c-process-steps-horizontal__title">Escalation</h3>
+        <p>The policy fires: Slack first, then the on-call phone, then the backup after ten minutes if nobody acknowledges.</p>
+      </li>
+      <li class="c-process-steps-horizontal__step">
+        <span class="c-process-steps-horizontal__num" aria-hidden="true">4</span>
+        <h3 class="c-process-steps-horizontal__title">Resolution</h3>
+        <p>Checks pass again, the incident closes itself, the status page updates and subscribers get the all-clear.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="wf-section c-content-checklist-columns" data-wf-component="content-checklist-columns">
+  <div class="wf-container c-content-checklist-columns__grid">
+    <div class="c-content-checklist-columns__copy">
+      <span class="wf-eyebrow">Before you go live</span>
+      <h2>The launch checklist.</h2>
+      <p class="wf-lead">Twelve things we check on every new account during onboarding calls. Tick them off yourself in about twenty minutes.</p>
+      <a class="wf-btn wf-btn--primary" href="/guides">Read the guides</a>
+    </div>
+    <div class="c-content-checklist-columns__lists">
+      <div class="c-content-checklist-columns__list">
+        <h3 class="c-content-checklist-columns__title">Monitors</h3>
+        <ul>
+          <li><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Every public hostname has an HTTP check</li>
+          <li><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>SSL expiry monitor on each certificate, 14-day warning</li>
+          <li><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Keyword check on the login page, not just a 200</li>
+          <li><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Heartbeat on nightly backups and queue workers</li>
+          <li><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Confirmation delay of at least 60 seconds</li>
+          <li><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Maintenance window set for your deploy slot</li>
+        </ul>
+      </div>
+      <div class="c-content-checklist-columns__list">
+        <h3 class="c-content-checklist-columns__title">People and pages</h3>
+        <ul>
+          <li><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Two or more people on every escalation policy</li>
+          <li><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Phone numbers verified for everyone on call</li>
+          <li><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Quiet hours set so non-critical monitors wait until morning</li>
+          <li><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Status page on your own domain with a logo</li>
+          <li><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Two-factor required for all members</li>
+          <li><svg class="wf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>A test incident run end to end, including the phone call</li>
+        </ul>
+      </div>
+      <p class="c-content-checklist-columns__note wf-muted">Want us to run through it with you? Book a 20-minute onboarding call from the Support page; it is free on every plan.</p>
+    </div>
+  </div>
+</section>
+
+<section class="wf-section wf-section--tight wf-section--primary c-cta-band" data-wf-component="cta-band">
+  <div class="wf-container c-cta-band__inner">
+    <div class="c-cta-band__copy">
+      <h2 class="c-cta-band__title">Can't find it? A person can.</h2>
+      <p class="c-cta-band__text">Support at <span data-wf-field="business.name">Beacon</span> is staffed by engineers, weekdays 6am to 6pm Pacific. Median first reply is nine minutes.</p>
+    </div>
+    <a class="wf-btn wf-btn--accent wf-btn--lg" href="/support">Contact support</a>
+  </div>
+</section>
+
+<footer class="wf-section wf-section--tight wf-section--surface c-footer-simple" data-wf-component="footer-simple">
+  <div class="wf-container c-footer-simple__inner">
+    <a class="c-footer-simple__brand" href="/" data-wf-field="business.name">Beacon Docs</a>
+    <nav class="c-footer-simple__links" aria-label="Footer">
+      <a href="/getting-started">Getting started</a>
+      <a href="/guides">Guides</a>
+      <a href="/api">API</a>
+      <a href="/faq">FAQ</a>
+      <a href="/support">Support</a>
+    </nav>
+    <span class="c-footer-simple__copy">&copy; <span data-wf-field="business.year">2026</span> <span data-wf-field="business.name">Beacon Docs</span></span>
+  </div>
+</footer>

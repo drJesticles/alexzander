@@ -1,0 +1,70 @@
+{
+  "slug": "house-cleaning",
+  "name": "House Cleaning",
+  "vertical": "trades",
+  "description": "Six-page house cleaning site: app-style hero, bento highlights, service checklist, per-visit/per-month pricing toggle with add-on menu, online booking form, searchable FAQ and contact.",
+  "kit": "daisyui",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "services.html",
+      "title": "Services",
+      "path": "/services"
+    },
+    {
+      "file": "pricing.html",
+      "title": "Pricing",
+      "path": "/pricing"
+    },
+    {
+      "file": "booking.html",
+      "title": "Booking",
+      "path": "/booking"
+    },
+    {
+      "file": "faq.html",
+      "title": "FAQ",
+      "path": "/faq"
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "tags": [
+    "cleaning",
+    "maid-service",
+    "booking",
+    "pricing-toggle",
+    "faq"
+  ],
+  "components": [
+    "contact/contact-cards-three",
+    "contact/contact-hours-table",
+    "content/content-checklist-columns",
+    "cta/cta-band",
+    "faq/faq-search-filter",
+    "faq/faq-two-column",
+    "faq/faq-with-contact-card",
+    "features/features-bento",
+    "features/features-checklist",
+    "features/features-grid-icons",
+    "footer/footer-centered",
+    "forms/form-booking-appointment",
+    "forms/form-contact-basic",
+    "hero/hero-gradient-text",
+    "nav/nav-minimal-pill",
+    "pricing/pricing-service-menu",
+    "pricing/pricing-toggle-monthly-yearly",
+    "process/process-cards-arrows",
+    "services/services-grid-cards",
+    "stats/stats-row",
+    "testimonials/testimonials-masonry"
+  ],
+  "version": 1
+}

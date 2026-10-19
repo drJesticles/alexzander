@@ -1,0 +1,39 @@
+{
+  "slug": "real-estate-agent",
+  "name": "Real Estate Agent",
+  "vertical": "local",
+  "description": "Six-page brokerage site: carousel hero, listing cards adapted from the product grid, area tiles with pagination, buyer timeline and FAQ, seller comparison with valuation form, agent profiles and contact with map.",
+  "kit": "radix",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "listings.html", "title": "Listings", "path": "/listings" },
+    { "file": "buy.html", "title": "Buy", "path": "/buy" },
+    { "file": "sell.html", "title": "Sell", "path": "/sell" },
+    { "file": "about.html", "title": "About", "path": "/about" },
+    { "file": "contact.html", "title": "Contact", "path": "/contact" }
+  ],
+  "tags": ["real-estate", "realtor", "listings", "homes", "buy", "sell", "local"],
+  "components": [
+    "nav/nav-topbar-contact",
+    "hero/hero-carousel",
+    "commerce/commerce-product-grid",
+    "stats/stats-row",
+    "testimonials/testimonials-slider",
+    "cta/cta-split-image",
+    "commerce/commerce-category-tiles",
+    "elements/el-pagination",
+    "process/process-timeline-vertical",
+    "features/features-checklist",
+    "faq/faq-accordion",
+    "process/process-steps-horizontal",
+    "features/features-comparison-two-col",
+    "forms/form-quote-request",
+    "team/team-single-founder",
+    "team/team-grid",
+    "about/about-timeline-history",
+    "contact/contact-split-form-info",
+    "media/media-map-embed",
+    "footer/footer-mega"
+  ],
+  "version": 1
+}

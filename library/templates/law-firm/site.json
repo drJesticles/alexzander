@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "Whitaker & Lane",
+    "tagline": "Injury, family and criminal defense attorneys in Russellville since 2006.",
+    "phone": "(479) 555-0133",
+    "email": "intake@whitakerlane.com",
+    "address": "301 West Main Street, Suite 200, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Mon to Fri 8:30am to 5:30pm",
+    "year": "2006"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Practice Areas", "path": "/practice-areas" },
+    { "label": "Attorneys", "path": "/attorneys" },
+    { "label": "Case Results", "path": "/case-results" },
+    { "label": "Resources", "path": "/resources" },
+    { "label": "Consultation", "path": "/consultation" }
+  ]
+}

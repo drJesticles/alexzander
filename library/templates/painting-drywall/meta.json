@@ -1,0 +1,74 @@
+{
+  "slug": "painting-drywall",
+  "name": "Painting & Drywall",
+  "vertical": "trades",
+  "description": "Six-page painting contractor site: minimal headline hero, interior and exterior pages with per-room prices and a prep timeline, a color-help article with palette tabs, before/after and filterable gallery, photo quote form.",
+  "kit": "swiss-international",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "file": "interior.html",
+      "title": "Interior",
+      "path": "/interior"
+    },
+    {
+      "file": "exterior.html",
+      "title": "Exterior",
+      "path": "/exterior"
+    },
+    {
+      "file": "color-help.html",
+      "title": "Color Help",
+      "path": "/color-help"
+    },
+    {
+      "file": "gallery.html",
+      "title": "Gallery",
+      "path": "/gallery"
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "tags": [
+    "painting",
+    "drywall",
+    "cabinets",
+    "color",
+    "before-after"
+  ],
+  "components": [
+    "contact/contact-cards-three",
+    "contact/contact-hours-table",
+    "content/content-accordion-text",
+    "content/content-prose",
+    "content/content-tabs",
+    "cta/cta-band",
+    "cta/cta-phone-big",
+    "cta/cta-split-image",
+    "faq/faq-accordion",
+    "features/features-cards-hover",
+    "features/features-checklist",
+    "footer/footer-simple",
+    "forms/form-quote-request",
+    "gallery/gallery-before-after",
+    "gallery/gallery-carousel",
+    "gallery/gallery-filterable",
+    "hero/hero-minimal-left",
+    "media/media-image-text-split",
+    "nav/nav-centered-logo",
+    "process/process-steps-horizontal",
+    "process/process-timeline-vertical",
+    "services/services-list-prices",
+    "services/services-split-image",
+    "stats/stats-row",
+    "testimonials/testimonials-single-large"
+  ],
+  "version": 1
+}

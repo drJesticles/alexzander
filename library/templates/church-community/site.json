@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "Riverside Community Church",
+    "tagline": "A church for people who are not sure about church. Sundays at 9 and 11.",
+    "phone": "(479) 555-0112",
+    "email": "hello@riversidechurchrsvl.org",
+    "address": "1500 South Knoxville Avenue, Russellville, AR 72802",
+    "city": "Russellville, AR",
+    "hours": "Sun 9am & 11am · Wed 6:30pm students · Office Mon to Thu 9am to 4pm",
+    "year": "2003"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "About & Beliefs", "path": "/about" },
+    { "label": "Ministries", "path": "/ministries" },
+    { "label": "Events", "path": "/events" },
+    { "label": "Sermons", "path": "/sermons" },
+    { "label": "Visit", "path": "/visit" }
+  ]
+}

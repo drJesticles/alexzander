@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "Pike Realty Group",
+    "tagline": "A four-agent brokerage helping River Valley families buy and sell since 2012.",
+    "phone": "(479) 555-0199",
+    "email": "hadley@pikerealtygroup.com",
+    "address": "505 North Arkansas Avenue, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Mon–Sat 8am–7pm · Sun by appointment",
+    "year": "2012"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Listings", "path": "/listings" },
+    { "label": "Buy", "path": "/buy" },
+    { "label": "Sell", "path": "/sell" },
+    { "label": "About", "path": "/about" },
+    { "label": "Contact", "path": "/contact" }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "Beacon Docs",
+    "tagline": "Documentation for Beacon uptime monitoring and status pages.",
+    "phone": "(855) 555-0170",
+    "email": "support@beacon.dev",
+    "address": "548 Market Street, Suite 62000, San Francisco, CA 94104",
+    "city": "San Francisco, CA",
+    "hours": "Mon to Fri, 6am to 6pm Pacific",
+    "year": "2026"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Getting started", "path": "/getting-started" },
+    { "label": "Guides", "path": "/guides" },
+    { "label": "API reference", "path": "/api" },
+    { "label": "FAQ", "path": "/faq" },
+    { "label": "Support", "path": "/support" }
+  ]
+}

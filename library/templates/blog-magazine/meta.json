@@ -1,0 +1,32 @@
+{
+  "slug": "blog-magazine",
+  "name": "Blog / Magazine",
+  "vertical": "creative",
+  "description": "Five-page editorial site for a reader-supported magazine: featured-plus-list front page, category browsing with chips, a long-form article with pull quote and related stories, an editor's letter with masthead, and a subscribe page with membership tiers.",
+  "kit": "gruvbox",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "category.html", "title": "Category", "path": "/category" },
+    { "file": "article.html", "title": "Article", "path": "/article" },
+    { "file": "about.html", "title": "About", "path": "/about" },
+    { "file": "subscribe.html", "title": "Subscribe", "path": "/subscribe" }
+  ],
+  "tags": ["blog", "magazine", "editorial", "newsletter", "membership", "publication"],
+  "components": [
+    "nav/nav-centered-logo",
+    "blog/blog-featured-plus-list",
+    "blog/blog-cards-grid",
+    "cta/cta-newsletter",
+    "blog/blog-category-chips",
+    "blog/blog-list-horizontal",
+    "blog/blog-post-article",
+    "content/content-quote-block",
+    "about/about-owner-letter",
+    "team/team-list-compact",
+    "stats/stats-row",
+    "pricing/pricing-three-tier",
+    "faq/faq-two-column",
+    "footer/footer-centered"
+  ],
+  "version": 1
+}

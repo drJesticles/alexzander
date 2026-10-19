@@ -1,0 +1,43 @@
+{
+  "business": {
+    "name": "Avant Movers",
+    "tagline": "Movers who show up on time and price it before they load.",
+    "phone": "(479) 555-0168",
+    "email": "quotes@avantmovers.com",
+    "address": "2400 S Arkansas Ave, Russellville, AR 72802",
+    "city": "Russellville, AR",
+    "hours": "Mon–Sat 7am–7pm · Sun by appointment",
+    "year": "2026"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "google": ""
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Services",
+      "path": "/services"
+    },
+    {
+      "label": "Pricing",
+      "path": "/pricing"
+    },
+    {
+      "label": "Moving Checklist",
+      "path": "/checklist"
+    },
+    {
+      "label": "Reviews",
+      "path": "/reviews"
+    },
+    {
+      "label": "Get a Quote",
+      "path": "/quote"
+    }
+  ]
+}
