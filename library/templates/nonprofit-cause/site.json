@@ -1,0 +1,21 @@
+{
+  "business": {
+    "name": "River Valley Food Project",
+    "tagline": "A food bank and mobile pantry serving Pope, Yell and Johnson counties since 2011.",
+    "phone": "(479) 555-0166",
+    "email": "hello@rivervalleyfoodproject.org",
+    "address": "900 South Arkansas Avenue, Russellville, AR 72801",
+    "city": "Russellville, AR",
+    "hours": "Tue & Thu 9am–1pm · Sat 8am–11am",
+    "year": "2011"
+  },
+  "social": { "facebook": "#", "instagram": "#", "google": "#" },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Our Work", "path": "/our-work" },
+    { "label": "Impact", "path": "/impact" },
+    { "label": "Get Involved", "path": "/get-involved" },
+    { "label": "Donate", "path": "/donate" },
+    { "label": "Contact", "path": "/contact" }
+  ]
+}

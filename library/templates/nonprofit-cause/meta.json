@@ -1,0 +1,40 @@
+{
+  "slug": "nonprofit-cause",
+  "name": "Nonprofit Cause",
+  "vertical": "local",
+  "description": "Six-page nonprofit site for a food bank: split hero with impact stats, program rows and photo grid, impact counters and history, volunteer paths with callback form and open roles, donate page with monthly card and giving levels, contact with map.",
+  "kit": "bauhaus",
+  "pages": [
+    { "file": "index.html", "title": "Home", "path": "/" },
+    { "file": "our-work.html", "title": "Our Work", "path": "/our-work" },
+    { "file": "impact.html", "title": "Impact", "path": "/impact" },
+    { "file": "get-involved.html", "title": "Get Involved", "path": "/get-involved" },
+    { "file": "donate.html", "title": "Donate", "path": "/donate" },
+    { "file": "contact.html", "title": "Contact", "path": "/contact" }
+  ],
+  "tags": ["nonprofit", "charity", "food-bank", "donate", "volunteer", "impact", "local"],
+  "components": [
+    "nav/nav-sidebar-drawer",
+    "hero/hero-split-image",
+    "stats/stats-with-icons",
+    "services/services-icon-row",
+    "testimonials/testimonials-single-large",
+    "cta/cta-band",
+    "features/features-alternating-rows",
+    "gallery/gallery-grid",
+    "stats/stats-counter",
+    "content/content-timeline",
+    "testimonials/testimonials-grid-cards",
+    "features/features-cards-hover",
+    "forms/form-callback-request",
+    "team/team-hiring-cta",
+    "pricing/pricing-single-card",
+    "pricing/pricing-three-tier",
+    "faq/faq-two-column",
+    "contact/contact-cards-three",
+    "forms/form-contact-basic",
+    "media/media-map-embed",
+    "footer/footer-cta-above"
+  ],
+  "version": 1
+}
