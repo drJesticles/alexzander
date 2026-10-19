@@ -17,11 +17,15 @@ curl -s http://127.0.0.1:${WEBFORGE_PORT:-3100}/api/figma/status   # is the app 
 ```
 The app: Next.js 16 App Router + GrapesJS 0.23. Library is flat files under `library/`. Runtime data under `data/` (gitignored). Rules in `AGENTS.md` and `docs/LIBRARY-SPEC.md` (read the spec before touching `library/`).
 
-## 2. The one idea that makes everything work
+## 2. What is in the library (2026-10-19)
+
+34 kits (brand: aaa-brand, aaa-hs-bold, aaa-gc-studio · big-four: material3, apple-hig, fluent2, carbon · web-dev: tailwind-shadcn, bootstrap5, radix, chakra, ant-design, daisyui, mantine, polaris, primer, atlassian, base · off-the-wall: neo-brutalism, win98, winxp, terminal-green, cyberpunk, swiss-international, bauhaus, catppuccin-mocha, nord, dracula, gruvbox, nes, vaporwave, paper-newsprint, glassmorphism, y2k-chrome). 153 components in 23 categories (full slug list: `docs/COMPONENT-SLUGS.md`). 44 templates: trades (handyman-pro, remodel-studio, roofing-pro, plumbing-24-7, electrical-services, hvac-comfort, landscaping-lawn, house-cleaning, painting-drywall, avant-movers), local (restaurant-bistro, coffee-shop, hair-salon, fitness-gym, dental-clinic, auto-repair, law-firm, real-estate-agent, church-community, nonprofit-cause), creative/tech/commerce (creative-agency, design-portfolio, photographer, saas-landing, mobile-app-landing, startup-one-pager, ecommerce-storefront, product-launch-single, docs-knowledge-base, blog-magazine), brand (aaa-home-specialists, aaa-graphic-co, avant-movers-landing), personal/utility (personal-resume, link-in-bio, wedding-event, conference-event, coming-soon, maintenance-page, error-pages, pricing-page, thank-you-pages, newsletter-landing). `library/index.json` is the machine-readable catalog (`npm run index` refreshes it).
+
+## 3. The one idea that makes everything work
 
 Every kit, component, and template speaks one token contract: `--wf-*` CSS variables (`library/kits/_contract/tokens.css`) and `.wf-*` base classes (`base.css`). A kit = `tokens.css` overrides (+ optional `kit.css` restyle). Components and templates never hard-code colors or fonts. So: any kit reskins any site; swap the kit, nothing else changes. Keep that invariant or the validator fails.
 
-## 3. Do things
+## 4. Do things
 
 ### Make a client site (the common job)
 1. Pick a template: `GET /api/library/templates` or `/templates` in the UI. Verticals: trades, local, creative, tech, commerce, community, personal, utility, brand.
@@ -46,7 +50,7 @@ Folder `library/components/<category>/<slug>/` with `meta.json`, `index.html` (O
 ### Add a template
 Folder `library/templates/<slug>/`: `meta.json` (vertical, default kit, pages[]), `site.json` (defaults), `pages/*.html` (nav … sections … footer, same nav/footer on every page, internal links = page paths), optional `template.css` scoped to `.t-<slug>`. Compose pages by concatenating library component `index.html` files and editing copy. Validate. Preview `/preview/template/<slug>/index?kit=<kit>`.
 
-## 4. Where everything is
+## 5. Where everything is
 
 | thing | path |
 |---|---|
@@ -63,7 +67,7 @@ Folder `library/templates/<slug>/`: `meta.json` (vertical, default kit, pages[])
 
 Full API table: `reference/api.md`. Editor internals and gotchas: `reference/editor.md`. Ops on alex: `reference/ops.md`.
 
-## 5. Rules you keep
+## 6. Rules you keep
 
 - Validator green before any commit touching `library/`. No hex colors in components. No external images.
 - Secrets never in `data/`, `library/`, or git. Say where a token lives, never the token.

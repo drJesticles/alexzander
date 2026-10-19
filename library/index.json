@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-19T16:32:17.803Z",
+  "generatedAt": "2026-10-19T17:17:18.582Z",
   "counts": {
     "kits": 34,
     "components": 153,
-    "templates": 1
+    "templates": 44
   },
   "kits": [
     {
@@ -4150,6 +4150,2704 @@
       ],
       "version": 1,
       "path": "templates/_example"
+    },
+    {
+      "slug": "aaa-graphic-co",
+      "name": "AAA Graphic Co",
+      "vertical": "brand",
+      "description": "Six-page brand demo for AAA Graphic Co, a design and marketing studio in Russellville, AR serving clients nationwide by teleconference: web design with pricing, branding, marketing retainers, a filterable work gallery and a multi-step project form.",
+      "kit": "aaa-gc-studio",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "web-design.html",
+          "title": "Web Design",
+          "path": "/web-design"
+        },
+        {
+          "file": "branding.html",
+          "title": "Branding & Logos",
+          "path": "/branding"
+        },
+        {
+          "file": "marketing.html",
+          "title": "Marketing",
+          "path": "/marketing"
+        },
+        {
+          "file": "work.html",
+          "title": "Work",
+          "path": "/work"
+        },
+        {
+          "file": "start.html",
+          "title": "Start a Project",
+          "path": "/start"
+        }
+      ],
+      "tags": [
+        "aaa",
+        "brand",
+        "design-studio",
+        "agency",
+        "marketing",
+        "portfolio",
+        "multistep-form"
+      ],
+      "components": [
+        "nav/nav-minimal-pill",
+        "hero/hero-split-image",
+        "process/process-cards-arrows",
+        "gallery/gallery-grid",
+        "content/content-quote-block",
+        "cta/cta-band",
+        "footer/footer-columns",
+        "hero/hero-gradient-text",
+        "logos/logos-row",
+        "services/services-icon-row",
+        "features/features-bento",
+        "testimonials/testimonials-single-large",
+        "cta/cta-split-image",
+        "hero/hero-minimal-left",
+        "features/features-cards-hover",
+        "stats/stats-with-icons",
+        "services/services-list-prices",
+        "forms/form-multistep",
+        "contact/contact-cards-three",
+        "features/features-alternating-rows",
+        "pricing/pricing-three-tier",
+        "faq/faq-two-column",
+        "gallery/gallery-filterable",
+        "testimonials/testimonials-grid-cards"
+      ],
+      "version": 1,
+      "path": "templates/aaa-graphic-co"
+    },
+    {
+      "slug": "aaa-home-specialists",
+      "name": "AAA Home Specialists",
+      "vertical": "brand",
+      "description": "Six-page brand demo for AAA Home Specialists, a tech-centric handyman and remodel service in Russellville, AR: services with starting prices, a smart home page, before/after gallery, reviews and a quote form.",
+      "kit": "aaa-brand",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "services.html",
+          "title": "Services",
+          "path": "/services"
+        },
+        {
+          "file": "smart-home.html",
+          "title": "Smart Home",
+          "path": "/smart-home"
+        },
+        {
+          "file": "gallery.html",
+          "title": "Gallery",
+          "path": "/gallery"
+        },
+        {
+          "file": "reviews.html",
+          "title": "Reviews",
+          "path": "/reviews"
+        },
+        {
+          "file": "quote.html",
+          "title": "Get a Quote",
+          "path": "/quote"
+        }
+      ],
+      "tags": [
+        "aaa",
+        "brand",
+        "handyman",
+        "remodel",
+        "smart-home",
+        "quote-form",
+        "russellville"
+      ],
+      "components": [
+        "nav/nav-topbar-contact",
+        "gallery/gallery-before-after",
+        "gallery/gallery-filterable",
+        "process/process-before-during-after",
+        "cta/cta-band",
+        "footer/footer-cta-above",
+        "hero/hero-split-stats",
+        "services/services-grid-cards",
+        "features/features-grid-icons",
+        "testimonials/testimonials-slider",
+        "services/services-area-list",
+        "forms/form-quote-request",
+        "process/process-steps-horizontal",
+        "contact/contact-cards-three",
+        "testimonials/testimonials-google-style",
+        "stats/stats-row",
+        "testimonials/testimonials-grid-cards",
+        "hero/hero-minimal-left",
+        "services/services-accordion",
+        "services/services-list-prices",
+        "hero/hero-split-image",
+        "features/features-alternating-rows",
+        "process/process-cards-arrows",
+        "features/features-checklist",
+        "faq/faq-accordion"
+      ],
+      "version": 1,
+      "path": "templates/aaa-home-specialists"
+    },
+    {
+      "slug": "auto-repair",
+      "name": "Auto Repair",
+      "vertical": "local",
+      "description": "Six-page auto shop site: emergency-bar hero, service cards and accordion with starting prices, posted price list with FAQ, review page with rating breakdown, owner letter and crew directory, map contact with callback form.",
+      "kit": "carbon",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "services.html",
+          "title": "Services",
+          "path": "/services"
+        },
+        {
+          "file": "pricing.html",
+          "title": "Pricing",
+          "path": "/pricing"
+        },
+        {
+          "file": "reviews.html",
+          "title": "Reviews",
+          "path": "/reviews"
+        },
+        {
+          "file": "about.html",
+          "title": "About",
+          "path": "/about"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "auto",
+        "mechanic",
+        "repair",
+        "tires",
+        "pricing",
+        "reviews",
+        "local"
+      ],
+      "components": [
+        "nav/nav-mega-menu",
+        "hero/hero-emergency-bar",
+        "services/services-grid-cards",
+        "process/process-cards-arrows",
+        "stats/stats-row",
+        "testimonials/testimonials-grid-cards",
+        "services/services-accordion",
+        "features/features-checklist",
+        "pricing/pricing-service-menu",
+        "faq/faq-accordion",
+        "commerce/commerce-reviews-list",
+        "testimonials/testimonials-google-style",
+        "about/about-owner-letter",
+        "team/team-list-compact",
+        "logos/logos-row",
+        "contact/contact-map-top",
+        "forms/form-callback-request",
+        "footer/footer-cta-above"
+      ],
+      "version": 1,
+      "path": "templates/auto-repair"
+    },
+    {
+      "slug": "avant-movers",
+      "name": "Avant Movers",
+      "vertical": "brand",
+      "description": "Six-page site for Avant Movers, a local and long-distance moving company in Russellville, AR: posted-rate hero, service tabs, hourly and flat price menu with three packages, printable moving checklist and timeline, review wall and a three-step quote form.",
+      "kit": "aaa-brand",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "services.html",
+          "title": "Services",
+          "path": "/services"
+        },
+        {
+          "file": "pricing.html",
+          "title": "Pricing",
+          "path": "/pricing"
+        },
+        {
+          "file": "checklist.html",
+          "title": "Moving Checklist",
+          "path": "/checklist"
+        },
+        {
+          "file": "reviews.html",
+          "title": "Reviews",
+          "path": "/reviews"
+        },
+        {
+          "file": "quote.html",
+          "title": "Get a Quote",
+          "path": "/quote"
+        }
+      ],
+      "tags": [
+        "movers",
+        "moving",
+        "long-distance",
+        "avant",
+        "quote-form",
+        "checklist"
+      ],
+      "components": [
+        "contact/contact-cards-three",
+        "contact/contact-hours-table",
+        "content/content-checklist-columns",
+        "content/content-timeline",
+        "cta/cta-split-image",
+        "faq/faq-accordion",
+        "faq/faq-two-column",
+        "features/features-checklist",
+        "features/features-grid-icons",
+        "features/features-tabs",
+        "footer/footer-cta-above",
+        "forms/form-multistep",
+        "hero/hero-pricing-teaser",
+        "nav/nav-simple",
+        "pricing/pricing-service-menu",
+        "pricing/pricing-three-tier",
+        "services/services-area-list",
+        "services/services-grid-cards",
+        "stats/stats-dark-band",
+        "testimonials/testimonials-google-style",
+        "testimonials/testimonials-masonry",
+        "testimonials/testimonials-slider",
+        "testimonials/testimonials-video-cards"
+      ],
+      "version": 1,
+      "path": "templates/avant-movers"
+    },
+    {
+      "slug": "avant-movers-landing",
+      "name": "Avant Movers: Landing",
+      "vertical": "brand",
+      "description": "One-page landing for Avant Movers, a Russellville, AR moving company: anchored sections for services, process, hourly price list, reviews, FAQ and a callback quote form, plus a privacy page.",
+      "kit": "aaa-hs-bold",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "privacy.html",
+          "title": "Privacy",
+          "path": "/privacy"
+        }
+      ],
+      "tags": [
+        "aaa",
+        "brand",
+        "movers",
+        "landing",
+        "one-page",
+        "anchors",
+        "callback-form"
+      ],
+      "components": [
+        "nav/nav-simple",
+        "hero/hero-centered-bg-image",
+        "stats/stats-row",
+        "services/services-grid-cards",
+        "process/process-steps-horizontal",
+        "pricing/pricing-service-menu",
+        "testimonials/testimonials-slider",
+        "faq/faq-accordion",
+        "forms/form-callback-request",
+        "cta/cta-phone-big",
+        "footer/footer-simple",
+        "content/content-prose"
+      ],
+      "version": 1,
+      "path": "templates/avant-movers-landing"
+    },
+    {
+      "slug": "blog-magazine",
+      "name": "Blog / Magazine",
+      "vertical": "creative",
+      "description": "Five-page editorial site for a reader-supported magazine: featured-plus-list front page, category browsing with chips, a long-form article with pull quote and related stories, an editor's letter with masthead, and a subscribe page with membership tiers.",
+      "kit": "gruvbox",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "category.html",
+          "title": "Category",
+          "path": "/category"
+        },
+        {
+          "file": "article.html",
+          "title": "Article",
+          "path": "/article"
+        },
+        {
+          "file": "about.html",
+          "title": "About",
+          "path": "/about"
+        },
+        {
+          "file": "subscribe.html",
+          "title": "Subscribe",
+          "path": "/subscribe"
+        }
+      ],
+      "tags": [
+        "blog",
+        "magazine",
+        "editorial",
+        "newsletter",
+        "membership",
+        "publication"
+      ],
+      "components": [
+        "nav/nav-centered-logo",
+        "blog/blog-featured-plus-list",
+        "blog/blog-cards-grid",
+        "cta/cta-newsletter",
+        "blog/blog-category-chips",
+        "blog/blog-list-horizontal",
+        "blog/blog-post-article",
+        "content/content-quote-block",
+        "about/about-owner-letter",
+        "team/team-list-compact",
+        "stats/stats-row",
+        "pricing/pricing-three-tier",
+        "faq/faq-two-column",
+        "footer/footer-centered"
+      ],
+      "version": 1,
+      "path": "templates/blog-magazine"
+    },
+    {
+      "slug": "church-community",
+      "name": "Church Community",
+      "vertical": "local",
+      "description": "Six-page church site: video hero, what-to-expect grid, beliefs and history with leadership, ministries with connection steps, events calendar and newsletter, sermon video and archive, visit page with schedule, map and FAQ.",
+      "kit": "nord",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "about.html",
+          "title": "About & Beliefs",
+          "path": "/about"
+        },
+        {
+          "file": "ministries.html",
+          "title": "Ministries",
+          "path": "/ministries"
+        },
+        {
+          "file": "events.html",
+          "title": "Events",
+          "path": "/events"
+        },
+        {
+          "file": "sermons.html",
+          "title": "Sermons",
+          "path": "/sermons"
+        },
+        {
+          "file": "visit.html",
+          "title": "Visit",
+          "path": "/visit"
+        }
+      ],
+      "tags": [
+        "church",
+        "community",
+        "nonprofit",
+        "sermons",
+        "events",
+        "ministry",
+        "local"
+      ],
+      "components": [
+        "nav/nav-centered-logo",
+        "hero/hero-video-bg",
+        "features/features-grid-icons",
+        "about/about-split-story",
+        "blog/blog-cards-grid",
+        "cta/cta-band",
+        "about/about-values-grid",
+        "about/about-timeline-history",
+        "team/team-grid",
+        "services/services-grid-cards",
+        "features/features-alternating-rows",
+        "content/content-timeline",
+        "cta/cta-newsletter",
+        "media/media-video-embed",
+        "blog/blog-list-horizontal",
+        "contact/contact-hours-table",
+        "contact/contact-map-top",
+        "faq/faq-accordion",
+        "footer/footer-centered"
+      ],
+      "version": 1,
+      "path": "templates/church-community"
+    },
+    {
+      "slug": "coffee-shop",
+      "name": "Coffee Shop",
+      "vertical": "local",
+      "description": "Six-page site for a neighborhood coffee roaster: priced menu, bean sourcing story, loyalty program sign-up, gallery and visit page with hours.",
+      "kit": "daisyui",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "menu.html",
+          "title": "Menu",
+          "path": "/menu"
+        },
+        {
+          "file": "beans.html",
+          "title": "Our Beans",
+          "path": "/beans"
+        },
+        {
+          "file": "loyalty.html",
+          "title": "Loyalty",
+          "path": "/loyalty"
+        },
+        {
+          "file": "gallery.html",
+          "title": "Gallery",
+          "path": "/gallery"
+        },
+        {
+          "file": "visit.html",
+          "title": "Visit",
+          "path": "/visit"
+        }
+      ],
+      "tags": [
+        "coffee",
+        "cafe",
+        "roaster",
+        "bakery",
+        "loyalty",
+        "local"
+      ],
+      "components": [
+        "nav/nav-minimal-pill",
+        "hero/hero-split-image",
+        "features/features-grid-icons",
+        "pricing/pricing-service-menu",
+        "testimonials/testimonials-grid-cards",
+        "cta/cta-newsletter",
+        "content/content-tabs",
+        "media/media-image-text-split",
+        "process/process-steps-horizontal",
+        "about/about-timeline-history",
+        "features/features-checklist",
+        "faq/faq-accordion",
+        "gallery/gallery-grid",
+        "testimonials/testimonials-google-style",
+        "contact/contact-map-top",
+        "contact/contact-hours-table",
+        "footer/footer-simple"
+      ],
+      "version": 1,
+      "path": "templates/coffee-shop"
+    },
+    {
+      "slug": "coming-soon",
+      "name": "Coming Soon",
+      "vertical": "utility",
+      "description": "Launch holding page: coming-soon block with countdown and notify form, a second countdown for a pre-launch event, an inline newsletter band, plus a privacy page. Drop it in front of any site before launch.",
+      "kit": "cyberpunk",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Coming Soon",
+          "path": "/"
+        },
+        {
+          "file": "privacy.html",
+          "title": "Privacy",
+          "path": "/privacy"
+        }
+      ],
+      "tags": [
+        "utility",
+        "coming-soon",
+        "launch",
+        "countdown",
+        "newsletter"
+      ],
+      "components": [
+        "nav/nav-minimal-pill",
+        "utility/util-coming-soon-block",
+        "elements/el-countdown",
+        "forms/form-newsletter-inline",
+        "footer/footer-simple",
+        "content/content-prose"
+      ],
+      "version": 1,
+      "path": "templates/coming-soon"
+    },
+    {
+      "slug": "conference-event",
+      "name": "Conference",
+      "vertical": "personal",
+      "description": "Six-page conference site: hero with live countdown and sponsor logos, speaker grid, tabbed schedule with a session table, three-tier tickets with FAQ, venue map and travel cards, and a registration form.",
+      "kit": "fluent2",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "speakers.html",
+          "title": "Speakers",
+          "path": "/speakers"
+        },
+        {
+          "file": "schedule.html",
+          "title": "Schedule",
+          "path": "/schedule"
+        },
+        {
+          "file": "tickets.html",
+          "title": "Tickets",
+          "path": "/tickets"
+        },
+        {
+          "file": "venue.html",
+          "title": "Venue",
+          "path": "/venue"
+        },
+        {
+          "file": "register.html",
+          "title": "Register",
+          "path": "/register"
+        }
+      ],
+      "tags": [
+        "event",
+        "conference",
+        "countdown",
+        "speakers",
+        "schedule",
+        "tickets",
+        "registration"
+      ],
+      "components": [
+        "nav/nav-simple",
+        "hero/hero-centered-bg-image",
+        "elements/el-countdown",
+        "logos/logos-row",
+        "features/features-grid-icons",
+        "cta/cta-band",
+        "footer/footer-columns",
+        "forms/form-contact-basic",
+        "content/content-tabs",
+        "elements/el-table-striped",
+        "team/team-grid",
+        "pricing/pricing-three-tier",
+        "faq/faq-accordion",
+        "media/media-map-embed",
+        "contact/contact-cards-three"
+      ],
+      "version": 1,
+      "path": "templates/conference-event"
+    },
+    {
+      "slug": "creative-agency",
+      "name": "Creative Agency",
+      "vertical": "creative",
+      "description": "Six-page studio site written as AAA Graphic Co's own pitch: web design, logos, marketing and smart-home installs, nationwide by teleconference. Filterable work gallery, posted price list, team, journal and a contact form.",
+      "kit": "aaa-gc-studio",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "work.html",
+          "title": "Work",
+          "path": "/work"
+        },
+        {
+          "file": "services.html",
+          "title": "Services",
+          "path": "/services"
+        },
+        {
+          "file": "about.html",
+          "title": "About",
+          "path": "/about"
+        },
+        {
+          "file": "journal.html",
+          "title": "Journal",
+          "path": "/journal"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "agency",
+        "studio",
+        "design",
+        "portfolio",
+        "pricing",
+        "blog",
+        "aaa-graphic-co"
+      ],
+      "components": [
+        "nav/nav-minimal-pill",
+        "hero/hero-split-stats",
+        "services/services-grid-cards",
+        "gallery/gallery-grid",
+        "process/process-steps-horizontal",
+        "testimonials/testimonials-single-large",
+        "cta/cta-band",
+        "gallery/gallery-filterable",
+        "stats/stats-row",
+        "services/services-split-image",
+        "pricing/pricing-service-menu",
+        "faq/faq-two-column",
+        "about/about-split-story",
+        "team/team-grid",
+        "blog/blog-cards-grid",
+        "contact/contact-split-form-info",
+        "footer/footer-columns"
+      ],
+      "version": 1,
+      "path": "templates/creative-agency"
+    },
+    {
+      "slug": "dental-clinic",
+      "name": "Dental Clinic",
+      "vertical": "local",
+      "description": "Six-page dental practice site: appointment-request hero, service accordion with cash prices, new patient checklist and registration form, team page, insurance logos with FAQ, and contact with hours.",
+      "kit": "apple-hig",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "services.html",
+          "title": "Services",
+          "path": "/services"
+        },
+        {
+          "file": "new-patients.html",
+          "title": "New Patients",
+          "path": "/new-patients"
+        },
+        {
+          "file": "team.html",
+          "title": "Team",
+          "path": "/team"
+        },
+        {
+          "file": "insurance.html",
+          "title": "Insurance & FAQ",
+          "path": "/insurance"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "dental",
+        "dentist",
+        "clinic",
+        "healthcare",
+        "appointments",
+        "insurance",
+        "local"
+      ],
+      "components": [
+        "nav/nav-simple",
+        "hero/hero-form-right",
+        "services/services-icon-row",
+        "about/about-values-grid",
+        "testimonials/testimonials-google-style",
+        "cta/cta-band",
+        "services/services-accordion",
+        "process/process-steps-horizontal",
+        "content/content-checklist-columns",
+        "forms/form-quote-request",
+        "team/team-single-founder",
+        "team/team-list-compact",
+        "logos/logos-grid-bordered",
+        "faq/faq-with-contact-card",
+        "contact/contact-split-form-info",
+        "contact/contact-hours-table",
+        "footer/footer-columns"
+      ],
+      "version": 1,
+      "path": "templates/dental-clinic"
+    },
+    {
+      "slug": "design-portfolio",
+      "name": "Design Portfolio",
+      "vertical": "creative",
+      "description": "Five-page portfolio for an independent designer: minimal hero, project grid, lightbox gallery, a long-form case study, founder bio with timeline, and a contact form.",
+      "kit": "swiss-international",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "projects.html",
+          "title": "Projects",
+          "path": "/projects"
+        },
+        {
+          "file": "case-study.html",
+          "title": "Case Study",
+          "path": "/case-study"
+        },
+        {
+          "file": "about.html",
+          "title": "About",
+          "path": "/about"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "portfolio",
+        "designer",
+        "freelance",
+        "case-study",
+        "minimal"
+      ],
+      "components": [
+        "nav/nav-simple",
+        "hero/hero-minimal-left",
+        "gallery/gallery-grid",
+        "logos/logos-row",
+        "cta/cta-floating-card",
+        "gallery/gallery-lightbox",
+        "media/media-image-grid-four",
+        "blog/blog-post-article",
+        "stats/stats-row",
+        "team/team-single-founder",
+        "about/about-timeline-history",
+        "forms/form-contact-basic",
+        "contact/contact-cards-three",
+        "footer/footer-simple"
+      ],
+      "version": 1,
+      "path": "templates/design-portfolio"
+    },
+    {
+      "slug": "docs-knowledge-base",
+      "name": "Docs / Knowledge Base",
+      "vertical": "tech",
+      "description": "Six-page documentation site: searchable quick-answer hero, topic grid, popular guides, a getting-started walkthrough with checklist, guides listing, API reference with tabs, endpoint table and alerts, FAQ, and a support page with contact cards, ticket form and hours.",
+      "kit": "primer",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "getting-started.html",
+          "title": "Getting Started",
+          "path": "/getting-started"
+        },
+        {
+          "file": "guides.html",
+          "title": "Guides",
+          "path": "/guides"
+        },
+        {
+          "file": "api.html",
+          "title": "API Reference",
+          "path": "/api"
+        },
+        {
+          "file": "faq.html",
+          "title": "FAQ",
+          "path": "/faq"
+        },
+        {
+          "file": "support.html",
+          "title": "Support",
+          "path": "/support"
+        }
+      ],
+      "tags": [
+        "docs",
+        "documentation",
+        "knowledge-base",
+        "help-center",
+        "api",
+        "support"
+      ],
+      "components": [
+        "nav/nav-sidebar-drawer",
+        "faq/faq-search-filter",
+        "features/features-grid-icons",
+        "blog/blog-cards-grid",
+        "cta/cta-band",
+        "content/content-prose",
+        "process/process-steps-horizontal",
+        "content/content-checklist-columns",
+        "blog/blog-list-horizontal",
+        "content/content-tabs",
+        "elements/el-table-striped",
+        "elements/el-alert",
+        "faq/faq-accordion",
+        "faq/faq-two-column",
+        "contact/contact-cards-three",
+        "forms/form-contact-basic",
+        "contact/contact-hours-table",
+        "footer/footer-simple"
+      ],
+      "version": 1,
+      "path": "templates/docs-knowledge-base"
+    },
+    {
+      "slug": "ecommerce-storefront",
+      "name": "E-commerce Storefront",
+      "vertical": "commerce",
+      "description": "Six-page store for a small retailer: hero carousel, category tiles, product grid, trust badges and sale banner on the home page, plus Shop, Product (gallery, add-to-cart, reviews), Cart, Checkout and About pages.",
+      "kit": "polaris",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "shop.html",
+          "title": "Shop",
+          "path": "/shop"
+        },
+        {
+          "file": "product.html",
+          "title": "Product",
+          "path": "/product"
+        },
+        {
+          "file": "cart.html",
+          "title": "Cart",
+          "path": "/cart"
+        },
+        {
+          "file": "checkout.html",
+          "title": "Checkout",
+          "path": "/checkout"
+        },
+        {
+          "file": "about.html",
+          "title": "About",
+          "path": "/about"
+        }
+      ],
+      "tags": [
+        "store",
+        "shop",
+        "ecommerce",
+        "cart",
+        "checkout",
+        "retail",
+        "makers"
+      ],
+      "components": [
+        "nav/nav-topbar-contact",
+        "hero/hero-carousel",
+        "commerce/commerce-category-tiles",
+        "commerce/commerce-product-grid",
+        "commerce/commerce-trust-badges-row",
+        "commerce/commerce-sale-banner",
+        "commerce/commerce-featured-product-split",
+        "commerce/commerce-product-detail",
+        "commerce/commerce-reviews-list",
+        "commerce/commerce-cart-summary",
+        "commerce/commerce-checkout-form",
+        "faq/faq-two-column",
+        "about/about-split-story",
+        "about/about-values-grid",
+        "team/team-grid",
+        "footer/footer-mega"
+      ],
+      "version": 1,
+      "path": "templates/ecommerce-storefront"
+    },
+    {
+      "slug": "electrical-services",
+      "name": "Electrical Services",
+      "vertical": "trades",
+      "description": "Six-page electrician site: minimal hero, service grid with starting prices, a safety and inspection page with plain-English guides, a commercial page with bid CTA, history timeline and contact.",
+      "kit": "carbon",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "services.html",
+          "title": "Services",
+          "path": "/services"
+        },
+        {
+          "file": "safety.html",
+          "title": "Safety & Inspections",
+          "path": "/safety"
+        },
+        {
+          "file": "commercial.html",
+          "title": "Commercial",
+          "path": "/commercial"
+        },
+        {
+          "file": "about.html",
+          "title": "About",
+          "path": "/about"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "electrician",
+        "electrical",
+        "commercial",
+        "inspections",
+        "ev-charger"
+      ],
+      "components": [
+        "about/about-timeline-history",
+        "about/about-values-grid",
+        "contact/contact-cards-three",
+        "contact/contact-hours-table",
+        "content/content-accordion-text",
+        "content/content-checklist-columns",
+        "cta/cta-band",
+        "cta/cta-phone-big",
+        "faq/faq-accordion",
+        "features/features-alternating-rows",
+        "features/features-cards-hover",
+        "footer/footer-simple",
+        "forms/form-callback-request",
+        "forms/form-contact-basic",
+        "hero/hero-minimal-left",
+        "logos/logos-grid-bordered",
+        "logos/logos-row",
+        "media/media-image-text-split",
+        "nav/nav-simple",
+        "pricing/pricing-single-card",
+        "services/services-grid-cards",
+        "services/services-list-prices",
+        "stats/stats-dark-band",
+        "stats/stats-with-icons",
+        "team/team-list-compact",
+        "testimonials/testimonials-slider"
+      ],
+      "version": 1,
+      "path": "templates/electrical-services"
+    },
+    {
+      "slug": "error-pages",
+      "name": "Error Pages",
+      "vertical": "utility",
+      "description": "Three drop-in error pages built on the 404 block: not found (index), server error (500) and offline, each with a search box, quick links and the phone number.",
+      "kit": "base",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "404 Not Found",
+          "path": "/"
+        },
+        {
+          "file": "500.html",
+          "title": "500 Server Error",
+          "path": "/500"
+        },
+        {
+          "file": "offline.html",
+          "title": "Offline",
+          "path": "/offline"
+        }
+      ],
+      "tags": [
+        "utility",
+        "404",
+        "500",
+        "offline",
+        "error"
+      ],
+      "components": [
+        "nav/nav-minimal-pill",
+        "utility/util-404-block",
+        "footer/footer-simple"
+      ],
+      "version": 1,
+      "path": "templates/error-pages"
+    },
+    {
+      "slug": "fitness-gym",
+      "name": "Fitness Gym",
+      "vertical": "local",
+      "description": "Six-page gym site: stats hero, class catalog with level tabs, three-tier memberships with comparison table and FAQ, coach grid with hiring block, weekly schedule tables, and a join page with callback form.",
+      "kit": "aaa-hs-bold",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "classes.html",
+          "title": "Classes",
+          "path": "/classes"
+        },
+        {
+          "file": "memberships.html",
+          "title": "Memberships",
+          "path": "/memberships"
+        },
+        {
+          "file": "trainers.html",
+          "title": "Trainers",
+          "path": "/trainers"
+        },
+        {
+          "file": "schedule.html",
+          "title": "Schedule",
+          "path": "/schedule"
+        },
+        {
+          "file": "join.html",
+          "title": "Join",
+          "path": "/join"
+        }
+      ],
+      "tags": [
+        "gym",
+        "fitness",
+        "classes",
+        "memberships",
+        "pricing",
+        "schedule",
+        "local"
+      ],
+      "components": [
+        "nav/nav-topbar-contact",
+        "hero/hero-split-stats",
+        "features/features-cards-hover",
+        "stats/stats-dark-band",
+        "testimonials/testimonials-masonry",
+        "cta/cta-split-image",
+        "services/services-grid-cards",
+        "content/content-tabs",
+        "pricing/pricing-three-tier",
+        "pricing/pricing-table-compare",
+        "faq/faq-accordion",
+        "team/team-grid",
+        "team/team-hiring-cta",
+        "elements/el-table-striped",
+        "content/content-accordion-text",
+        "forms/form-callback-request",
+        "process/process-steps-horizontal",
+        "cta/cta-phone-big",
+        "footer/footer-mega"
+      ],
+      "version": 1,
+      "path": "templates/fitness-gym"
+    },
+    {
+      "slug": "hair-salon",
+      "name": "Hair Salon",
+      "vertical": "local",
+      "description": "Six-page salon site: posted service prices, stylist profiles with hiring block, online booking request, lightbox gallery with before/after, and contact.",
+      "kit": "glassmorphism",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "services.html",
+          "title": "Services & Prices",
+          "path": "/services"
+        },
+        {
+          "file": "stylists.html",
+          "title": "Stylists",
+          "path": "/stylists"
+        },
+        {
+          "file": "book.html",
+          "title": "Book",
+          "path": "/book"
+        },
+        {
+          "file": "gallery.html",
+          "title": "Gallery",
+          "path": "/gallery"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "salon",
+        "hair",
+        "beauty",
+        "booking",
+        "stylists",
+        "local"
+      ],
+      "components": [
+        "nav/nav-transparent-overlay",
+        "hero/hero-gradient-text",
+        "services/services-icon-row",
+        "gallery/gallery-carousel",
+        "testimonials/testimonials-slider",
+        "cta/cta-floating-card",
+        "pricing/pricing-service-menu",
+        "faq/faq-two-column",
+        "team/team-cards-social",
+        "team/team-hiring-cta",
+        "forms/form-booking-appointment",
+        "contact/contact-hours-table",
+        "gallery/gallery-lightbox",
+        "gallery/gallery-before-after",
+        "contact/contact-cards-three",
+        "media/media-map-embed",
+        "footer/footer-columns"
+      ],
+      "version": 1,
+      "path": "templates/hair-salon"
+    },
+    {
+      "slug": "handyman-pro",
+      "name": "Handyman Pro",
+      "vertical": "trades",
+      "description": "Six-page site for a handyman or small repair outfit: service cards with starting prices, before/after slider, crew page, Google-style reviews and a photo quote form.",
+      "kit": "aaa-brand",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "services.html",
+          "title": "Services",
+          "path": "/services"
+        },
+        {
+          "file": "gallery.html",
+          "title": "Gallery",
+          "path": "/gallery"
+        },
+        {
+          "file": "about.html",
+          "title": "About",
+          "path": "/about"
+        },
+        {
+          "file": "reviews.html",
+          "title": "Reviews",
+          "path": "/reviews"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "handyman",
+        "repairs",
+        "contractor",
+        "quote-form",
+        "before-after"
+      ],
+      "components": [
+        "about/about-split-story",
+        "about/about-values-grid",
+        "contact/contact-cards-three",
+        "contact/contact-hours-table",
+        "cta/cta-band",
+        "cta/cta-split-image",
+        "faq/faq-accordion",
+        "features/features-cards-hover",
+        "features/features-checklist",
+        "footer/footer-columns",
+        "forms/form-quote-request",
+        "gallery/gallery-before-after",
+        "gallery/gallery-grid",
+        "hero/hero-split-image",
+        "nav/nav-simple",
+        "process/process-steps-horizontal",
+        "services/services-grid-cards",
+        "services/services-list-prices",
+        "stats/stats-row",
+        "team/team-grid",
+        "testimonials/testimonials-google-style",
+        "testimonials/testimonials-grid-cards",
+        "testimonials/testimonials-masonry"
+      ],
+      "version": 1,
+      "path": "templates/handyman-pro"
+    },
+    {
+      "slug": "house-cleaning",
+      "name": "House Cleaning",
+      "vertical": "trades",
+      "description": "Six-page house cleaning site: app-style hero, bento highlights, service checklist, per-visit/per-month pricing toggle with add-on menu, online booking form, searchable FAQ and contact.",
+      "kit": "daisyui",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "services.html",
+          "title": "Services",
+          "path": "/services"
+        },
+        {
+          "file": "pricing.html",
+          "title": "Pricing",
+          "path": "/pricing"
+        },
+        {
+          "file": "booking.html",
+          "title": "Booking",
+          "path": "/booking"
+        },
+        {
+          "file": "faq.html",
+          "title": "FAQ",
+          "path": "/faq"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "cleaning",
+        "maid-service",
+        "booking",
+        "pricing-toggle",
+        "faq"
+      ],
+      "components": [
+        "contact/contact-cards-three",
+        "contact/contact-hours-table",
+        "content/content-checklist-columns",
+        "cta/cta-band",
+        "faq/faq-search-filter",
+        "faq/faq-two-column",
+        "faq/faq-with-contact-card",
+        "features/features-bento",
+        "features/features-checklist",
+        "features/features-grid-icons",
+        "footer/footer-centered",
+        "forms/form-booking-appointment",
+        "forms/form-contact-basic",
+        "hero/hero-gradient-text",
+        "nav/nav-minimal-pill",
+        "pricing/pricing-service-menu",
+        "pricing/pricing-toggle-monthly-yearly",
+        "process/process-cards-arrows",
+        "services/services-grid-cards",
+        "stats/stats-row",
+        "testimonials/testimonials-masonry"
+      ],
+      "version": 1,
+      "path": "templates/house-cleaning"
+    },
+    {
+      "slug": "hvac-comfort",
+      "name": "HVAC Comfort",
+      "vertical": "trades",
+      "description": "Six-page heating and air site: booking-form hero, separate heating and cooling pages, three maintenance plans with a comparison table and a 21-point tune-up checklist, team page and map contact.",
+      "kit": "material3",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "heating.html",
+          "title": "Heating",
+          "path": "/heating"
+        },
+        {
+          "file": "cooling.html",
+          "title": "Cooling",
+          "path": "/cooling"
+        },
+        {
+          "file": "maintenance-plans.html",
+          "title": "Maintenance Plans",
+          "path": "/maintenance-plans"
+        },
+        {
+          "file": "about.html",
+          "title": "About",
+          "path": "/about"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "hvac",
+        "heating",
+        "cooling",
+        "maintenance-plans",
+        "pricing"
+      ],
+      "components": [
+        "about/about-split-story",
+        "about/about-values-grid",
+        "contact/contact-hours-table",
+        "contact/contact-map-top",
+        "content/content-checklist-columns",
+        "content/content-tabs",
+        "cta/cta-band",
+        "cta/cta-phone-big",
+        "faq/faq-accordion",
+        "faq/faq-two-column",
+        "features/features-alternating-rows",
+        "features/features-grid-icons",
+        "footer/footer-mega",
+        "forms/form-callback-request",
+        "hero/hero-form-right",
+        "logos/logos-row",
+        "nav/nav-topbar-contact",
+        "pricing/pricing-table-compare",
+        "pricing/pricing-three-tier",
+        "services/services-icon-row",
+        "services/services-split-image",
+        "stats/stats-with-icons",
+        "team/team-cards-social",
+        "testimonials/testimonials-google-style"
+      ],
+      "version": 1,
+      "path": "templates/hvac-comfort"
+    },
+    {
+      "slug": "landscaping-lawn",
+      "name": "Landscaping & Lawn",
+      "vertical": "trades",
+      "description": "Six-page lawn care and landscaping site: three-slide hero, service grid with per-lot prices, season-by-season tabs with three mowing plans, masonry gallery and before/after, owner letter and a square-footage estimate calculator.",
+      "kit": "nord",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "services.html",
+          "title": "Services",
+          "path": "/services"
+        },
+        {
+          "file": "seasonal-plans.html",
+          "title": "Seasonal Plans",
+          "path": "/seasonal-plans"
+        },
+        {
+          "file": "gallery.html",
+          "title": "Gallery",
+          "path": "/gallery"
+        },
+        {
+          "file": "about.html",
+          "title": "About",
+          "path": "/about"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "landscaping",
+        "lawn-care",
+        "mowing",
+        "seasonal",
+        "estimate-calculator"
+      ],
+      "components": [
+        "about/about-owner-letter",
+        "about/about-values-grid",
+        "contact/contact-cards-three",
+        "content/content-tabs",
+        "cta/cta-band",
+        "cta/cta-split-image",
+        "faq/faq-accordion",
+        "features/features-checklist",
+        "footer/footer-centered",
+        "forms/form-estimate-calculator",
+        "gallery/gallery-before-after",
+        "gallery/gallery-carousel",
+        "gallery/gallery-masonry",
+        "hero/hero-carousel",
+        "media/media-map-embed",
+        "nav/nav-transparent-overlay",
+        "pricing/pricing-three-tier",
+        "process/process-steps-horizontal",
+        "services/services-grid-cards",
+        "services/services-list-prices",
+        "services/services-split-image",
+        "stats/stats-split-image",
+        "team/team-grid",
+        "testimonials/testimonials-grid-cards"
+      ],
+      "version": 1,
+      "path": "templates/landscaping-lawn"
+    },
+    {
+      "slug": "law-firm",
+      "name": "Law Firm",
+      "vertical": "local",
+      "description": "Six-page small law firm site: minimal hero, practice area cards with fee structure, attorney profiles, case results with stats and timeline, resources blog with newsletter, and a consultation request page.",
+      "kit": "swiss-international",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "practice-areas.html",
+          "title": "Practice Areas",
+          "path": "/practice-areas"
+        },
+        {
+          "file": "attorneys.html",
+          "title": "Attorneys",
+          "path": "/attorneys"
+        },
+        {
+          "file": "case-results.html",
+          "title": "Case Results",
+          "path": "/case-results"
+        },
+        {
+          "file": "resources.html",
+          "title": "Resources",
+          "path": "/resources"
+        },
+        {
+          "file": "consultation.html",
+          "title": "Consultation",
+          "path": "/consultation"
+        }
+      ],
+      "tags": [
+        "law",
+        "attorney",
+        "legal",
+        "injury",
+        "family-law",
+        "consultation",
+        "local"
+      ],
+      "components": [
+        "nav/nav-simple",
+        "hero/hero-minimal-left",
+        "services/services-split-image",
+        "stats/stats-counter",
+        "testimonials/testimonials-single-large",
+        "cta/cta-band",
+        "services/services-grid-cards",
+        "content/content-two-column-text",
+        "team/team-cards-social",
+        "about/about-values-grid",
+        "stats/stats-with-icons",
+        "content/content-timeline",
+        "blog/blog-featured-plus-list",
+        "cta/cta-newsletter",
+        "forms/form-contact-basic",
+        "contact/contact-cards-three",
+        "footer/footer-columns"
+      ],
+      "version": 1,
+      "path": "templates/law-firm"
+    },
+    {
+      "slug": "link-in-bio",
+      "name": "Link in Bio",
+      "vertical": "personal",
+      "description": "A single link-in-bio page: avatar, short bio, eight big link buttons and a social row, plus a privacy page. Built for the vaporwave kit but works on any.",
+      "kit": "vaporwave",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Links",
+          "path": "/"
+        },
+        {
+          "file": "privacy.html",
+          "title": "Privacy",
+          "path": "/privacy"
+        }
+      ],
+      "tags": [
+        "personal",
+        "link-in-bio",
+        "creator",
+        "social",
+        "one-page"
+      ],
+      "components": [
+        "nav/nav-minimal-pill",
+        "footer/footer-simple",
+        "content/content-prose"
+      ],
+      "version": 1,
+      "path": "templates/link-in-bio"
+    },
+    {
+      "slug": "maintenance-page",
+      "name": "Maintenance Page",
+      "vertical": "utility",
+      "description": "Two-page maintenance holding site: a maintenance block with phone and email cards, and a status page with headline numbers, per-service alerts and a running update log.",
+      "kit": "base",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Maintenance",
+          "path": "/"
+        },
+        {
+          "file": "status.html",
+          "title": "Status",
+          "path": "/status"
+        }
+      ],
+      "tags": [
+        "utility",
+        "maintenance",
+        "status",
+        "downtime"
+      ],
+      "components": [
+        "nav/nav-minimal-pill",
+        "utility/util-maintenance-block",
+        "footer/footer-simple",
+        "stats/stats-row",
+        "elements/el-alert",
+        "content/content-prose"
+      ],
+      "version": 1,
+      "path": "templates/maintenance-page"
+    },
+    {
+      "slug": "mobile-app-landing",
+      "name": "Mobile App Landing",
+      "vertical": "tech",
+      "description": "Five-page app marketing site: split hero with a phone shot, feature grid, animated stats, review slider, screen carousel with video, a review wall and a download page with store badges and FAQ.",
+      "kit": "material3",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "features.html",
+          "title": "Features",
+          "path": "/features"
+        },
+        {
+          "file": "screens.html",
+          "title": "Screens",
+          "path": "/screens"
+        },
+        {
+          "file": "reviews.html",
+          "title": "Reviews",
+          "path": "/reviews"
+        },
+        {
+          "file": "download.html",
+          "title": "Download",
+          "path": "/download"
+        }
+      ],
+      "tags": [
+        "app",
+        "mobile",
+        "ios",
+        "android",
+        "startup",
+        "download"
+      ],
+      "components": [
+        "nav/nav-simple",
+        "hero/hero-split-image",
+        "features/features-grid-icons",
+        "stats/stats-counter",
+        "testimonials/testimonials-slider",
+        "cta/cta-app-badges",
+        "features/features-cards-hover",
+        "features/features-comparison-two-col",
+        "gallery/gallery-carousel",
+        "media/media-video-embed",
+        "testimonials/testimonials-masonry",
+        "faq/faq-two-column",
+        "footer/footer-cta-above"
+      ],
+      "version": 1,
+      "path": "templates/mobile-app-landing"
+    },
+    {
+      "slug": "newsletter-landing",
+      "name": "Newsletter Landing",
+      "vertical": "utility",
+      "description": "Three-page newsletter site: a subscribe hero with the form on the right, reader testimonials and FAQ, an archive list of past issues, and a privacy page.",
+      "kit": "dracula",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Subscribe",
+          "path": "/"
+        },
+        {
+          "file": "archive.html",
+          "title": "Archive",
+          "path": "/archive"
+        },
+        {
+          "file": "privacy.html",
+          "title": "Privacy",
+          "path": "/privacy"
+        }
+      ],
+      "tags": [
+        "utility",
+        "newsletter",
+        "subscribe",
+        "email",
+        "archive"
+      ],
+      "components": [
+        "nav/nav-minimal-pill",
+        "blog/blog-list-horizontal",
+        "footer/footer-simple",
+        "hero/hero-form-right",
+        "testimonials/testimonials-grid-cards",
+        "faq/faq-accordion",
+        "content/content-prose"
+      ],
+      "version": 1,
+      "path": "templates/newsletter-landing"
+    },
+    {
+      "slug": "nonprofit-cause",
+      "name": "Nonprofit Cause",
+      "vertical": "local",
+      "description": "Six-page nonprofit site for a food bank: split hero with impact stats, program rows and photo grid, impact counters and history, volunteer paths with callback form and open roles, donate page with monthly card and giving levels, contact with map.",
+      "kit": "bauhaus",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "our-work.html",
+          "title": "Our Work",
+          "path": "/our-work"
+        },
+        {
+          "file": "impact.html",
+          "title": "Impact",
+          "path": "/impact"
+        },
+        {
+          "file": "get-involved.html",
+          "title": "Get Involved",
+          "path": "/get-involved"
+        },
+        {
+          "file": "donate.html",
+          "title": "Donate",
+          "path": "/donate"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "nonprofit",
+        "charity",
+        "food-bank",
+        "donate",
+        "volunteer",
+        "impact",
+        "local"
+      ],
+      "components": [
+        "nav/nav-sidebar-drawer",
+        "hero/hero-split-image",
+        "stats/stats-with-icons",
+        "services/services-icon-row",
+        "testimonials/testimonials-single-large",
+        "cta/cta-band",
+        "features/features-alternating-rows",
+        "gallery/gallery-grid",
+        "stats/stats-counter",
+        "content/content-timeline",
+        "testimonials/testimonials-grid-cards",
+        "features/features-cards-hover",
+        "forms/form-callback-request",
+        "team/team-hiring-cta",
+        "pricing/pricing-single-card",
+        "pricing/pricing-three-tier",
+        "faq/faq-two-column",
+        "contact/contact-cards-three",
+        "forms/form-contact-basic",
+        "media/media-map-embed",
+        "footer/footer-cta-above"
+      ],
+      "version": 1,
+      "path": "templates/nonprofit-cause"
+    },
+    {
+      "slug": "painting-drywall",
+      "name": "Painting & Drywall",
+      "vertical": "trades",
+      "description": "Six-page painting contractor site: minimal headline hero, interior and exterior pages with per-room prices and a prep timeline, a color-help article with palette tabs, before/after and filterable gallery, photo quote form.",
+      "kit": "swiss-international",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "interior.html",
+          "title": "Interior",
+          "path": "/interior"
+        },
+        {
+          "file": "exterior.html",
+          "title": "Exterior",
+          "path": "/exterior"
+        },
+        {
+          "file": "color-help.html",
+          "title": "Color Help",
+          "path": "/color-help"
+        },
+        {
+          "file": "gallery.html",
+          "title": "Gallery",
+          "path": "/gallery"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "painting",
+        "drywall",
+        "cabinets",
+        "color",
+        "before-after"
+      ],
+      "components": [
+        "contact/contact-cards-three",
+        "contact/contact-hours-table",
+        "content/content-accordion-text",
+        "content/content-prose",
+        "content/content-tabs",
+        "cta/cta-band",
+        "cta/cta-phone-big",
+        "cta/cta-split-image",
+        "faq/faq-accordion",
+        "features/features-cards-hover",
+        "features/features-checklist",
+        "footer/footer-simple",
+        "forms/form-quote-request",
+        "gallery/gallery-before-after",
+        "gallery/gallery-carousel",
+        "gallery/gallery-filterable",
+        "hero/hero-minimal-left",
+        "media/media-image-text-split",
+        "nav/nav-centered-logo",
+        "process/process-steps-horizontal",
+        "process/process-timeline-vertical",
+        "services/services-list-prices",
+        "services/services-split-image",
+        "stats/stats-row",
+        "testimonials/testimonials-single-large"
+      ],
+      "version": 1,
+      "path": "templates/painting-drywall"
+    },
+    {
+      "slug": "personal-resume",
+      "name": "Personal Résumé",
+      "vertical": "personal",
+      "description": "Four-page personal site for a job seeker or freelancer: about with stats and a career timeline, detailed experience with a skills checklist, projects, and a contact form.",
+      "kit": "primer",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "About",
+          "path": "/"
+        },
+        {
+          "file": "experience.html",
+          "title": "Experience",
+          "path": "/experience"
+        },
+        {
+          "file": "projects.html",
+          "title": "Projects",
+          "path": "/projects"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "personal",
+        "resume",
+        "cv",
+        "portfolio",
+        "developer",
+        "timeline"
+      ],
+      "components": [
+        "nav/nav-simple",
+        "forms/form-contact-basic",
+        "contact/contact-cards-three",
+        "footer/footer-simple",
+        "hero/hero-minimal-left",
+        "content/content-timeline",
+        "content/content-checklist-columns",
+        "about/about-split-story",
+        "stats/stats-row",
+        "cta/cta-band",
+        "blog/blog-cards-grid",
+        "features/features-cards-hover"
+      ],
+      "version": 1,
+      "path": "templates/personal-resume"
+    },
+    {
+      "slug": "photographer",
+      "name": "Photographer",
+      "vertical": "creative",
+      "description": "Five-page site for a wedding and portrait photographer: full-bleed hero, masonry portfolio, three packages with FAQ, an about page with a personal quote, and a booking form with studio hours.",
+      "kit": "paper-newsprint",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "portfolio.html",
+          "title": "Portfolio",
+          "path": "/portfolio"
+        },
+        {
+          "file": "packages.html",
+          "title": "Packages",
+          "path": "/packages"
+        },
+        {
+          "file": "about.html",
+          "title": "About",
+          "path": "/about"
+        },
+        {
+          "file": "book.html",
+          "title": "Book",
+          "path": "/book"
+        }
+      ],
+      "tags": [
+        "photographer",
+        "wedding",
+        "portrait",
+        "portfolio",
+        "booking",
+        "pricing"
+      ],
+      "components": [
+        "nav/nav-centered-logo",
+        "hero/hero-centered-bg-image",
+        "media/media-image-grid-four",
+        "testimonials/testimonials-grid-cards",
+        "cta/cta-split-image",
+        "gallery/gallery-masonry",
+        "content/content-quote-block",
+        "pricing/pricing-three-tier",
+        "faq/faq-accordion",
+        "about/about-split-story",
+        "stats/stats-with-icons",
+        "forms/form-booking-appointment",
+        "contact/contact-hours-table",
+        "footer/footer-centered"
+      ],
+      "version": 1,
+      "path": "templates/photographer"
+    },
+    {
+      "slug": "plumbing-24-7",
+      "name": "Plumbing 24/7",
+      "vertical": "trades",
+      "description": "Emergency-first plumbing site: 24/7 phone strip hero, service accordion with starting prices, flat-rate price menu, service-area map, review wall and callback form.",
+      "kit": "bootstrap5",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "services.html",
+          "title": "Services",
+          "path": "/services"
+        },
+        {
+          "file": "pricing.html",
+          "title": "Pricing",
+          "path": "/pricing"
+        },
+        {
+          "file": "service-area.html",
+          "title": "Service Area",
+          "path": "/service-area"
+        },
+        {
+          "file": "reviews.html",
+          "title": "Reviews",
+          "path": "/reviews"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "plumbing",
+        "emergency",
+        "24-7",
+        "pricing",
+        "service-area"
+      ],
+      "components": [
+        "contact/contact-hours-table",
+        "cta/cta-band",
+        "cta/cta-phone-big",
+        "faq/faq-two-column",
+        "features/features-checklist",
+        "features/features-tabs",
+        "footer/footer-columns",
+        "forms/form-callback-request",
+        "forms/form-contact-basic",
+        "hero/hero-emergency-bar",
+        "media/media-map-embed",
+        "nav/nav-mega-menu",
+        "pricing/pricing-service-menu",
+        "pricing/pricing-single-card",
+        "services/services-accordion",
+        "services/services-area-list",
+        "services/services-grid-cards",
+        "stats/stats-dark-band",
+        "stats/stats-with-icons",
+        "testimonials/testimonials-google-style",
+        "testimonials/testimonials-grid-cards",
+        "testimonials/testimonials-masonry",
+        "testimonials/testimonials-video-cards"
+      ],
+      "version": 1,
+      "path": "templates/plumbing-24-7"
+    },
+    {
+      "slug": "pricing-page",
+      "name": "Pricing Page",
+      "vertical": "utility",
+      "description": "Two-page pricing site: monthly/yearly plan toggle, full comparison table, FAQ and a CTA band, plus an enterprise page with a contact form and client logos. Drop it into any site that sells plans.",
+      "kit": "tailwind-shadcn",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Pricing",
+          "path": "/"
+        },
+        {
+          "file": "enterprise.html",
+          "title": "Enterprise",
+          "path": "/enterprise"
+        }
+      ],
+      "tags": [
+        "utility",
+        "pricing",
+        "plans",
+        "comparison",
+        "faq",
+        "enterprise"
+      ],
+      "components": [
+        "nav/nav-minimal-pill",
+        "forms/form-contact-basic",
+        "logos/logos-row",
+        "footer/footer-simple",
+        "pricing/pricing-toggle-monthly-yearly",
+        "pricing/pricing-table-compare",
+        "faq/faq-accordion",
+        "cta/cta-band"
+      ],
+      "version": 1,
+      "path": "templates/pricing-page"
+    },
+    {
+      "slug": "product-launch-single",
+      "name": "Product Launch (single product)",
+      "vertical": "commerce",
+      "description": "Five-page launch site for one physical product: pricing-teaser hero, feature checklist, dark stat band, a specs page with a striped table, a reviews page, FAQ with contact card, and a buy page with countdown, add-on and trust badges.",
+      "kit": "neo-brutalism",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "specs.html",
+          "title": "Specs",
+          "path": "/specs"
+        },
+        {
+          "file": "reviews.html",
+          "title": "Reviews",
+          "path": "/reviews"
+        },
+        {
+          "file": "faq.html",
+          "title": "FAQ",
+          "path": "/faq"
+        },
+        {
+          "file": "buy.html",
+          "title": "Buy",
+          "path": "/buy"
+        }
+      ],
+      "tags": [
+        "product",
+        "launch",
+        "single-product",
+        "ecommerce",
+        "specs",
+        "countdown"
+      ],
+      "components": [
+        "nav/nav-simple",
+        "hero/hero-pricing-teaser",
+        "features/features-checklist",
+        "stats/stats-dark-band",
+        "testimonials/testimonials-single-large",
+        "cta/cta-band",
+        "content/content-two-column-text",
+        "elements/el-table-striped",
+        "content/content-checklist-columns",
+        "testimonials/testimonials-grid-cards",
+        "commerce/commerce-reviews-list",
+        "faq/faq-with-contact-card",
+        "pricing/pricing-single-card",
+        "elements/el-countdown",
+        "commerce/commerce-featured-product-split",
+        "commerce/commerce-trust-badges-row",
+        "footer/footer-centered"
+      ],
+      "version": 1,
+      "path": "templates/product-launch-single"
+    },
+    {
+      "slug": "real-estate-agent",
+      "name": "Real Estate Agent",
+      "vertical": "local",
+      "description": "Six-page brokerage site: carousel hero, listing cards adapted from the product grid, area tiles with pagination, buyer timeline and FAQ, seller comparison with valuation form, agent profiles and contact with map.",
+      "kit": "radix",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "listings.html",
+          "title": "Listings",
+          "path": "/listings"
+        },
+        {
+          "file": "buy.html",
+          "title": "Buy",
+          "path": "/buy"
+        },
+        {
+          "file": "sell.html",
+          "title": "Sell",
+          "path": "/sell"
+        },
+        {
+          "file": "about.html",
+          "title": "About",
+          "path": "/about"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "real-estate",
+        "realtor",
+        "listings",
+        "homes",
+        "buy",
+        "sell",
+        "local"
+      ],
+      "components": [
+        "nav/nav-topbar-contact",
+        "hero/hero-carousel",
+        "commerce/commerce-product-grid",
+        "stats/stats-row",
+        "testimonials/testimonials-slider",
+        "cta/cta-split-image",
+        "commerce/commerce-category-tiles",
+        "elements/el-pagination",
+        "process/process-timeline-vertical",
+        "features/features-checklist",
+        "faq/faq-accordion",
+        "process/process-steps-horizontal",
+        "features/features-comparison-two-col",
+        "forms/form-quote-request",
+        "team/team-single-founder",
+        "team/team-grid",
+        "about/about-timeline-history",
+        "contact/contact-split-form-info",
+        "media/media-map-embed",
+        "footer/footer-mega"
+      ],
+      "version": 1,
+      "path": "templates/real-estate-agent"
+    },
+    {
+      "slug": "remodel-studio",
+      "name": "Remodel Studio",
+      "vertical": "trades",
+      "description": "Six-page site for a kitchen and bath remodel outfit: option tabs, lightbox galleries, a fixed-price package, before/during/after process page and a filterable portfolio.",
+      "kit": "aaa-hs-bold",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "kitchens.html",
+          "title": "Kitchens",
+          "path": "/kitchens"
+        },
+        {
+          "file": "bathrooms.html",
+          "title": "Bathrooms",
+          "path": "/bathrooms"
+        },
+        {
+          "file": "process.html",
+          "title": "Process",
+          "path": "/process"
+        },
+        {
+          "file": "portfolio.html",
+          "title": "Portfolio",
+          "path": "/portfolio"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "remodel",
+        "kitchen",
+        "bathroom",
+        "contractor",
+        "portfolio"
+      ],
+      "components": [
+        "contact/contact-split-form-info",
+        "content/content-accordion-text",
+        "content/content-prose",
+        "cta/cta-band",
+        "cta/cta-phone-big",
+        "cta/cta-split-image",
+        "faq/faq-two-column",
+        "features/features-alternating-rows",
+        "features/features-checklist",
+        "features/features-tabs",
+        "footer/footer-mega",
+        "gallery/gallery-carousel",
+        "gallery/gallery-filterable",
+        "gallery/gallery-lightbox",
+        "gallery/gallery-masonry",
+        "hero/hero-centered-bg-image",
+        "media/media-map-embed",
+        "nav/nav-centered-logo",
+        "pricing/pricing-single-card",
+        "process/process-before-during-after",
+        "process/process-timeline-vertical",
+        "services/services-split-image",
+        "stats/stats-counter",
+        "stats/stats-dark-band",
+        "testimonials/testimonials-single-large",
+        "testimonials/testimonials-slider"
+      ],
+      "version": 1,
+      "path": "templates/remodel-studio"
+    },
+    {
+      "slug": "restaurant-bistro",
+      "name": "Restaurant Bistro",
+      "vertical": "local",
+      "description": "Six-page site for a chef-driven bistro: weekly menu with prices, reservation form, events calendar, gallery and contact with map.",
+      "kit": "paper-newsprint",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "menu.html",
+          "title": "Menu",
+          "path": "/menu"
+        },
+        {
+          "file": "reservations.html",
+          "title": "Reservations",
+          "path": "/reservations"
+        },
+        {
+          "file": "events.html",
+          "title": "Events",
+          "path": "/events"
+        },
+        {
+          "file": "gallery.html",
+          "title": "Gallery",
+          "path": "/gallery"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "restaurant",
+        "bistro",
+        "menu",
+        "reservations",
+        "dining",
+        "local"
+      ],
+      "components": [
+        "nav/nav-centered-logo",
+        "hero/hero-centered-bg-image",
+        "about/about-split-story",
+        "pricing/pricing-service-menu",
+        "testimonials/testimonials-single-large",
+        "cta/cta-band",
+        "services/services-list-prices",
+        "forms/form-booking-appointment",
+        "contact/contact-hours-table",
+        "content/content-timeline",
+        "cta/cta-newsletter",
+        "gallery/gallery-masonry",
+        "media/media-image-grid-four",
+        "contact/contact-split-form-info",
+        "media/media-map-embed",
+        "footer/footer-centered"
+      ],
+      "version": 1,
+      "path": "templates/restaurant-bistro"
+    },
+    {
+      "slug": "roofing-pro",
+      "name": "Roofing Pro",
+      "vertical": "trades",
+      "description": "Six-page roofing contractor site: stats hero, storm-damage claim guide, roof packages with financing, insurance FAQ, filterable gallery and a free-inspection request form.",
+      "kit": "neo-brutalism",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "services.html",
+          "title": "Services",
+          "path": "/services"
+        },
+        {
+          "file": "storm-damage.html",
+          "title": "Storm Damage",
+          "path": "/storm-damage"
+        },
+        {
+          "file": "financing.html",
+          "title": "Financing & FAQ",
+          "path": "/financing"
+        },
+        {
+          "file": "gallery.html",
+          "title": "Gallery",
+          "path": "/gallery"
+        },
+        {
+          "file": "contact.html",
+          "title": "Contact",
+          "path": "/contact"
+        }
+      ],
+      "tags": [
+        "roofing",
+        "storm-damage",
+        "insurance",
+        "contractor",
+        "financing"
+      ],
+      "components": [
+        "contact/contact-hours-table",
+        "content/content-accordion-text",
+        "content/content-two-column-text",
+        "cta/cta-phone-big",
+        "faq/faq-with-contact-card",
+        "features/features-checklist",
+        "features/features-comparison-two-col",
+        "features/features-grid-icons",
+        "footer/footer-cta-above",
+        "forms/form-callback-request",
+        "forms/form-quote-request",
+        "gallery/gallery-filterable",
+        "gallery/gallery-video-grid",
+        "hero/hero-split-stats",
+        "logos/logos-row",
+        "media/media-map-embed",
+        "nav/nav-topbar-contact",
+        "pricing/pricing-three-tier",
+        "process/process-cards-arrows",
+        "process/process-steps-horizontal",
+        "services/services-grid-cards",
+        "services/services-icon-row",
+        "stats/stats-row",
+        "testimonials/testimonials-slider"
+      ],
+      "version": 1,
+      "path": "templates/roofing-pro"
+    },
+    {
+      "slug": "saas-landing",
+      "name": "SaaS Landing",
+      "vertical": "tech",
+      "description": "Six-page software marketing site: gradient hero with product shot, logo row, bento features, monthly/yearly pricing toggle and compare table, FAQ, changelog, getting-started docs and a sign-up form.",
+      "kit": "tailwind-shadcn",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "features.html",
+          "title": "Features",
+          "path": "/features"
+        },
+        {
+          "file": "pricing.html",
+          "title": "Pricing",
+          "path": "/pricing"
+        },
+        {
+          "file": "changelog.html",
+          "title": "Changelog",
+          "path": "/changelog"
+        },
+        {
+          "file": "docs.html",
+          "title": "Docs",
+          "path": "/docs"
+        },
+        {
+          "file": "signup.html",
+          "title": "Sign up",
+          "path": "/signup"
+        }
+      ],
+      "tags": [
+        "saas",
+        "software",
+        "startup",
+        "pricing",
+        "changelog",
+        "docs",
+        "signup"
+      ],
+      "components": [
+        "nav/nav-mega-menu",
+        "hero/hero-gradient-text",
+        "logos/logos-row",
+        "features/features-bento",
+        "pricing/pricing-toggle-monthly-yearly",
+        "faq/faq-accordion",
+        "cta/cta-band",
+        "features/features-tabs",
+        "features/features-alternating-rows",
+        "features/features-checklist",
+        "pricing/pricing-table-compare",
+        "faq/faq-two-column",
+        "blog/blog-list-horizontal",
+        "content/content-prose",
+        "content/content-accordion-text",
+        "forms/form-login-signup",
+        "footer/footer-mega",
+        "stats/stats-row"
+      ],
+      "version": 1,
+      "path": "templates/saas-landing"
+    },
+    {
+      "slug": "startup-one-pager",
+      "name": "Startup One-Pager",
+      "vertical": "tech",
+      "description": "A single long home page with anchor navigation (#product, #team, #investors, #contact) for an early-stage startup, plus a plain-language privacy page. Full-bleed hero, alternating product rows, traction stats, founder cards, investor logos and a contact form.",
+      "kit": "radix",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "privacy.html",
+          "title": "Privacy",
+          "path": "/privacy"
+        }
+      ],
+      "tags": [
+        "startup",
+        "one-page",
+        "anchors",
+        "investors",
+        "pitch",
+        "privacy"
+      ],
+      "components": [
+        "nav/nav-transparent-overlay",
+        "hero/hero-centered-bg-image",
+        "features/features-alternating-rows",
+        "stats/stats-row",
+        "team/team-cards-social",
+        "logos/logos-grid-bordered",
+        "forms/form-contact-basic",
+        "content/content-prose",
+        "content/content-accordion-text",
+        "cta/cta-band",
+        "footer/footer-simple"
+      ],
+      "version": 1,
+      "path": "templates/startup-one-pager"
+    },
+    {
+      "slug": "thank-you-pages",
+      "name": "Thank-You Pages",
+      "vertical": "utility",
+      "description": "Three post-action pages to drop into any site: thank-you after a quote request (with what-happens-next steps), appointment confirmation, and an unsubscribe page with a resubscribe box.",
+      "kit": "base",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Thank You",
+          "path": "/"
+        },
+        {
+          "file": "confirmation.html",
+          "title": "Confirmation",
+          "path": "/confirmation"
+        },
+        {
+          "file": "unsubscribe.html",
+          "title": "Unsubscribe",
+          "path": "/unsubscribe"
+        }
+      ],
+      "tags": [
+        "utility",
+        "thank-you",
+        "confirmation",
+        "unsubscribe",
+        "post-form"
+      ],
+      "components": [
+        "nav/nav-minimal-pill",
+        "elements/el-alert",
+        "content/content-prose",
+        "footer/footer-simple",
+        "process/process-steps-horizontal",
+        "forms/form-newsletter-inline"
+      ],
+      "version": 1,
+      "path": "templates/thank-you-pages"
+    },
+    {
+      "slug": "wedding-event",
+      "name": "Wedding",
+      "vertical": "personal",
+      "description": "Five-page wedding site: hero with countdown, the couple's story on a timeline with photos, day-of schedule and map, an RSVP form and a registry page.",
+      "kit": "paper-newsprint",
+      "pages": [
+        {
+          "file": "index.html",
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "file": "story.html",
+          "title": "Our Story",
+          "path": "/story"
+        },
+        {
+          "file": "details.html",
+          "title": "Details",
+          "path": "/details"
+        },
+        {
+          "file": "rsvp.html",
+          "title": "RSVP",
+          "path": "/rsvp"
+        },
+        {
+          "file": "registry.html",
+          "title": "Registry",
+          "path": "/registry"
+        }
+      ],
+      "tags": [
+        "personal",
+        "wedding",
+        "event",
+        "rsvp",
+        "countdown",
+        "registry"
+      ],
+      "components": [
+        "nav/nav-centered-logo",
+        "contact/contact-hours-table",
+        "media/media-map-embed",
+        "faq/faq-accordion",
+        "footer/footer-centered",
+        "hero/hero-centered-bg-image",
+        "elements/el-countdown",
+        "content/content-two-column-text",
+        "cta/cta-band",
+        "features/features-cards-hover",
+        "content/content-quote-block",
+        "forms/form-booking-appointment",
+        "about/about-timeline-history",
+        "gallery/gallery-grid"
+      ],
+      "version": 1,
+      "path": "templates/wedding-event"
     }
   ]
 }

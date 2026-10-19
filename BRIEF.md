@@ -12,11 +12,11 @@ A self-hosted web app on Alex where Jesse can open a complete site template or d
 
 ## Done when
 
-- [ ] `docker compose up` on Alex serves the app on a claimed port.
-- [ ] Catalog browses kits, components, and templates with live previews and kit switching.
-- [ ] 20+ kits across the four families, each reskinning the whole library.
-- [ ] 150+ components across the spec's categories, all passing `npm run validate`.
-- [ ] 30+ complete multi-page templates, including HS / GC / AM brand demos.
-- [ ] Editor: drag blocks, style panel, page manager, code panel with two-way HTML/CSS editing, save, export zip, publish to `/sites/<slug>/`.
-- [ ] Settings: Figma token (stored outside the repo) imports colors, type, and component names from a file into a new kit. Canva open-in links on image slots. Material Theme Builder JSON import.
+- [ ] (needs alex) `docker compose up` on Alex serves the app on a claimed port.
+- [x] Catalog browses kits, components, and templates with live previews and kit switching.
+- [x] 20+ kits across the four families, each reskinning the whole library.
+- [x] 150+ components across the spec's categories, all passing `npm run validate`.
+- [x] 30+ complete multi-page templates, including HS / GC / AM brand demos.
+- [x] Editor: drag blocks, style panel, page manager, code panel with two-way HTML/CSS editing, save, export zip, publish to `/sites/<slug>/`.
+- [~] Settings: Figma token (stored outside the repo) imports colors, type, and component names from a file into a new kit. Canva open-in links on image slots. Material Theme Builder JSON import.
 - [ ] `STATUS.md` has a verified entry for each of the above with the command or URL that proved it.
