@@ -20,11 +20,12 @@
 .c-form-multistep__done{color:var(--wf-success);font-weight:var(--wf-weight-medium);margin:0 0 var(--wf-space-4)}
 .c-form-multistep__error[hidden],.c-form-multistep__done[hidden],.c-form-multistep__nav [hidden]{display:none}
 .c-form-multistep__nav{display:flex;align-items:center;justify-content:space-between;gap:var(--wf-space-4);padding-top:var(--wf-space-5);border-top:var(--wf-border-w) solid var(--wf-border)}
-.c-form-multistep__count{font-size:var(--wf-text-sm);color:var(--wf-text-muted)}
+.c-form-multistep__count{font-size:var(--wf-text-sm);color:var(--wf-text-muted);white-space:nowrap}
 .c-form-multistep__nav .wf-btn[disabled]{opacity:.4;cursor:not-allowed}
 @media (max-width:600px){
   .c-form-multistep__form{padding:var(--wf-space-5)}
   .c-form-multistep__row{grid-template-columns:1fr}
   .c-form-multistep__step-label{display:none}
   .c-form-multistep__steps{display:flex;justify-content:space-between}
+  .c-form-multistep__nav{gap:var(--wf-space-2)}
 }

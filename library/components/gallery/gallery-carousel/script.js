@@ -15,7 +15,7 @@
     }
     function update() {
       var max = track.scrollWidth - track.clientWidth - 1;
-      prev.disabled = track.scrollLeft <= 1;
+      prev.disabled = track.scrollLeft <= 2;
       next.disabled = track.scrollLeft >= max;
     }
     var raf = null;

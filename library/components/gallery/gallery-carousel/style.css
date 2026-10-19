@@ -5,7 +5,7 @@
 .c-gallery-carousel__arrow:hover{background:var(--wf-primary);border-color:var(--wf-primary);color:var(--wf-on-primary)}
 .c-gallery-carousel__arrow[disabled]{opacity:.35;cursor:default;background:var(--wf-bg);border-color:var(--wf-border);color:var(--wf-text)}
 .c-gallery-carousel__viewport{width:100%}
-.c-gallery-carousel__track{list-style:none;margin:0;display:flex;gap:var(--wf-space-5);overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:var(--wf-space-1) max(var(--wf-gutter), calc((100% - var(--wf-container)) / 2 + var(--wf-gutter))) var(--wf-space-4);scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.c-gallery-carousel__track{--c-gallery-carousel-pad:max(var(--wf-gutter), calc((100% - var(--wf-container)) / 2 + var(--wf-gutter)));list-style:none;margin:0;display:flex;gap:var(--wf-space-5);overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:var(--wf-space-1) var(--c-gallery-carousel-pad) var(--wf-space-4);scroll-padding-inline:var(--c-gallery-carousel-pad);scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .c-gallery-carousel__track::-webkit-scrollbar{display:none}
 .c-gallery-carousel__slide{flex:0 0 min(22rem, 78vw);scroll-snap-align:start;background:var(--wf-bg);border:var(--wf-border-w) solid var(--wf-border);border-radius:var(--wf-card-radius);overflow:hidden;box-shadow:var(--wf-card-shadow)}
 .c-gallery-carousel__slide img{width:100%;aspect-ratio:3/2;object-fit:cover}
