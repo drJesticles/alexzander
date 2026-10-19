@@ -68,3 +68,8 @@ code,pre{font-family:var(--wf-font-mono)}
 .wf-avatar{width:3rem;height:3rem;border-radius:var(--wf-radius-full);object-fit:cover}
 .wf-img-cover{width:100%;height:100%;object-fit:cover}
 .wf-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+
+/* on inverted sections, muted/lead/eyebrow inherit the section color instead of the page-level muted token */
+.wf-section--dark .wf-lead,.wf-section--primary .wf-lead,.wf-section--dark .wf-muted,.wf-section--primary .wf-muted{color:inherit;opacity:.85}
+.wf-section--dark .wf-eyebrow,.wf-section--primary .wf-eyebrow{color:inherit;opacity:.8}
+.wf-section--dark .wf-btn--outline,.wf-section--primary .wf-btn--outline,.wf-section--dark .wf-btn--ghost,.wf-section--primary .wf-btn--ghost{color:inherit;border-color:currentColor}
